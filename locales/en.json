@@ -1,0 +1,21 @@
+{
+  "hierarchy": {
+    "easicloud": { "singular": "EASICloud", "plural": "EASICloud" },
+    "company":   { "singular": "Client",    "plural": "Clients" },
+    "building":  { "singular": "Building",  "plural": "Buildings" },
+    "floor":     { "singular": "Floor",     "plural": "Floors" },
+    "zone":      { "singular": "Zone",      "plural": "Zones" }
+  },
+  "entity": {
+    "asset":  { "singular": "Asset",  "plural": "Assets" },
+    "device": { "singular": "Device", "plural": "Devices" },
+    "user":   { "singular": "User",   "plural": "Users" },
+    "owner":  { "singular": "Owner",  "plural": "Owners" }
+  },
+  "permission": {
+    "none":   "None",
+    "read":   "Read",
+    "write":  "Write",
+    "manage": "Manage"
+  }
+}
