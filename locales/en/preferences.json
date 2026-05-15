@@ -1,0 +1,67 @@
+{
+  "title": "Preferences",
+  "user": {
+    "title": "My preferences",
+    "language": {
+      "title": "Language",
+      "description": "Choose the language used across the interface. Your choice is saved to your profile and applied the next time you log in."
+    },
+    "mapSplit": {
+      "title": "Map / Table split",
+      "description": "Adjust how much room the map gets on pages that show a map alongside an entity table. Drag the divider on those pages for a quick in-session change; use this slider to set the saved default.",
+      "mapLabel": "Map {{pct}}%",
+      "tableLabel": "Table {{pct}}%",
+      "reset": "Reset to {{pct}}%"
+    }
+  },
+  "owner": {
+    "inactivity": {
+      "title": "Session inactivity timeout",
+      "description": "Users of this company will be automatically signed out after this many minutes of inactivity. Disable to keep sessions open indefinitely. Defaults to {{default}} minutes when not set.",
+      "minutes": "Minutes"
+    },
+    "autoExpand": {
+      "title": "Auto-expand navigation",
+      "description": "When enabled, the tree opens with every owner expanded on load so users see the full hierarchy. Disable to start with the tree collapsed and let users expand owners as they need them."
+    },
+    "lowAccuracy": {
+      "title": "Low-accuracy threshold",
+      "description": "Hide asset and device locations less accurate than this many meters across every view (map, floor plan, and table). Users can opt to show low-accuracy points anyway. Children of this owner inherit the setting unless they set their own. Disabled by default — turn on and set a value to start filtering.",
+      "meters": "Meters"
+    },
+    "tableColumns": {
+      "title": "Table column defaults",
+      "description": "Set which columns are shown by default and in what order across every entity table in the app. Users can still toggle columns in-session via the column picker on each table.",
+      "columnsCount_one": "{{count}} column",
+      "columnsCount_other": "{{count}} columns",
+      "dragToReorder": "Drag to reorder",
+      "resetDefaults": "Reset to defaults"
+    }
+  },
+  "scope": {
+    "customizedByYou": "Customized by you",
+    "inheritedFrom": "Inheriting preferences from {{name}}",
+    "chainTitle": "Column scope",
+    "chainSubtitle": "The closest tier with a saved preference wins. You override everything.",
+    "defaults": "Defaults",
+    "you": "You",
+    "active": "active",
+    "notSet": "not set",
+    "set": "set",
+    "clearMyOverride": "Clear my override",
+    "openChain": "Show scope chain"
+  },
+  "inlineEditor": {
+    "title": "Customize columns",
+    "subtitle": "Drag to reorder · toggle to show or hide · pick a destination below to save",
+    "subtitleReorderOnly": "Drag to reorder · pick a destination below to save",
+    "required": "Required",
+    "alwaysVisible": "Always visible",
+    "unsavedChanges": "Unsaved changes",
+    "discard": "Discard",
+    "saveTo": "Save to",
+    "onlyMe": "Only me",
+    "yourOverride": "Personal",
+    "asDefault": "{{type}} default"
+  }
+}

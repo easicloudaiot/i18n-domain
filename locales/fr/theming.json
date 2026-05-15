@@ -1,0 +1,66 @@
+{
+  "whitelabel": {
+    "title": "Configuration de marque blanche",
+    "subtitle": "Configurer la marque pour {{owner}}",
+    "failedLoad": "Échec du chargement des paramètres",
+    "created": "Configuration de marque blanche créée",
+    "createFailed": "Échec de la création de la configuration",
+    "updated": "Configuration de marque blanche mise à jour",
+    "updateFailed": "Échec de la mise à jour de la configuration",
+    "logoTooBig": "Le logo doit faire moins de 10 Mo",
+    "faviconTooBig": "Le favicon doit faire moins de 2 Mo",
+    "sections": {
+      "domain": "Paramètres du domaine",
+      "brandAssets": "Éléments de marque",
+      "themeColors": "Couleurs du thème",
+      "primary": "Principale",
+      "secondary": "Secondaire",
+      "navigation": "Barre de navigation",
+      "preview": "Aperçu en direct",
+      "presets": "Thèmes rapides",
+      "hint": "Survolez les étiquettes de couleur pour plus de détails"
+    },
+    "fields": {
+      "dnsDomain": "Domaine DNS *",
+      "applicationTitle": "Titre de l'application *",
+      "platformBrandName": "Nom de marque de la plateforme",
+      "logo": "Logo",
+      "logoSize": "Recommandé : 200×60 px",
+      "favicon": "Favicon",
+      "faviconSize": "32×32 px",
+      "clickToUpload": "Cliquer pour téléverser",
+      "upload": "Téléverser",
+      "removeLogo": "Retirer le logo",
+      "remove": "Retirer"
+    },
+    "colors": {
+      "color": "Couleur",
+      "hover": "Survol",
+      "text": "Texte",
+      "background": "Arrière-plan",
+      "accent": "Accent",
+      "hoverBackground": "Arrière-plan au survol",
+      "activeBackground": "Arrière-plan actif",
+      "border": "Bordure"
+    },
+    "hints": {
+      "primary": "Votre couleur de marque principale. Utilisez un ton vif et saturé (p. ex. #7A2531). Évitez les couleurs très claires — elle sert aux boutons et aux liens.",
+      "primaryHover": "Devrait être légèrement plus foncée que la couleur principale (p. ex. 10 à 15 % plus foncée). Cela donne aux boutons un effet de survol visible.",
+      "primaryText": "Texte sur les boutons principaux. Utilisez du blanc (#FFFFFF) pour les couleurs principales foncées, ou du foncé (#1a1a2e) pour les couleurs principales claires.",
+      "secondary": "Utilisée pour les boutons d'annulation/retour. Un gris neutre clair fonctionne mieux (p. ex. #E8E8EA). Devrait contraster avec la couleur principale.",
+      "secondaryHover": "Légèrement plus foncée que la couleur secondaire (p. ex. #D9D9DB). Un assombrissement subtil offre la meilleure rétroaction au survol.",
+      "secondaryText": "Texte sur les boutons secondaires. Utilisez une couleur foncée (p. ex. #374151) puisque les arrière-plans secondaires sont généralement clairs.",
+      "navBackground": "Arrière-plan de la barre latérale. Les couleurs foncées fonctionnent mieux (p. ex. #1F1F1F). Utilisée aussi comme arrière-plan de la page de connexion.",
+      "navText": "Texte du menu latéral. Utilisez une couleur claire pour les arrière-plans foncés (p. ex. #E5E7EB) ou foncée pour les arrière-plans clairs.",
+      "navAccent": "Met en évidence l'élément de menu actif. Choisissez une couleur vive qui ressort sur l'arrière-plan de navigation (p. ex. #FF6B35).",
+      "navHoverBackground": "Légèrement plus claire que l'arrière-plan de navigation (p. ex. #2B2B2B pour les barres foncées). Devrait être un changement subtil.",
+      "navActiveBackground": "Un cran plus clair que l'arrière-plan au survol (p. ex. #333333). Respectez la progression : arrière-plan < survol < actif.",
+      "navBorder": "Lignes de séparation subtiles. Devraient être légèrement plus claires que l'arrière-plan de navigation (p. ex. #3D3D3D) — visibles mais discrètes."
+    },
+    "preview": {
+      "primary": "Bouton principal",
+      "secondary": "Bouton secondaire",
+      "hint": "Survolez les boutons pour voir l'effet"
+    }
+  }
+}

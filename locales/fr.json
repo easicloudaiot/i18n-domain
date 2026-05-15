@@ -17,5 +17,63 @@
     "read":   "Lecture",
     "write":  "Écriture",
     "manage": "Gestion"
+  },
+  "custody": {
+    "NEEDS_PROVISIONING": "Besoin d'un appareil",
+    "AWAITING_TELEMETRY": "En attente de télémétrie",
+    "AT_HOME":            "Sur place",
+    "LOANED_OUT":         "Prêté",
+    "IN_TRANSIT":         "En transit",
+    "MISSING":            "Manquant",
+    "MAINTENANCE":        "Maintenance"
+  },
+  "deviceStatus": {
+    "ACTIVE":         "Actif",
+    "INACTIVE":       "Inactif",
+    "MAINTENANCE":    "Maintenance",
+    "DECOMMISSIONED": "Mis hors service"
+  },
+  "deviceType": {
+    "TRACKER":  "Traceur",
+    "REPEATER": "Répéteur"
+  },
+  "role": {
+    "GLOBAL_ADMIN":   "Administrateur global",
+    "CUSTOMER_ADMIN": "Administrateur client",
+    "USER":           "Utilisateur"
+  },
+  "buildingType": {
+    "OFFICE":    "Bureau",
+    "WAREHOUSE": "Entrepôt",
+    "FACTORY":   "Usine",
+    "RETAIL":    "Commerce",
+    "MEDICAL":   "Médical",
+    "SCHOOL":    "École",
+    "OTHER":     "Autre"
+  },
+  "industry": {
+    "Technology":     "Technologie",
+    "Healthcare":     "Santé",
+    "Finance":        "Finance",
+    "Manufacturing":  "Fabrication",
+    "Retail":         "Commerce de détail",
+    "Education":      "Éducation",
+    "Construction":   "Construction",
+    "Transportation": "Transport",
+    "Energy":         "Énergie",
+    "Other":          "Autre"
+  },
+  "timeBucket": {
+    "LAST_DAY":      "Dernières 24 h",
+    "LAST_7_DAYS":   "7 derniers jours",
+    "LAST_30_DAYS":  "30 derniers jours",
+    "LAST_3_MONTHS": "3 derniers mois",
+    "LAST_YEAR":     "Dernière année"
+  },
+  "severity": {
+    "critical": "Critique",
+    "warning":  "Avertissement",
+    "info":     "Info",
+    "resolved": "Résolu"
   }
 }

@@ -1,0 +1,40 @@
+{
+  "items": {
+    "dashboard": "Tableau de bord",
+    "assets": "Actifs",
+    "devices": "Appareils",
+    "users": "Utilisateurs",
+    "settings": "Paramètres"
+  },
+  "sections": {
+    "main": "Principal",
+    "modules": "Modules",
+    "facility": "Site",
+    "system": "Système",
+    "tools": "Outils"
+  },
+  "menu": "Menu",
+  "notifications": "Notifications",
+  "profile": "Profil",
+  "logout": "Se déconnecter",
+  "view": "Vue",
+  "mode": {
+    "tree": "Arbre",
+    "drilldown": "Détail"
+  },
+  "search": {
+    "placeholder": "Rechercher...",
+    "resultCount_one": "{{count}} résultat trouvé",
+    "resultCount_other": "{{count}} résultats trouvés",
+    "resultsForQuery_one": "{{count}} résultat pour « {{query}} »",
+    "resultsForQuery_other": "{{count}} résultats pour « {{query}} »",
+    "noResults": "Aucun résultat pour « {{query}} »"
+  },
+  "title": "Navigation",
+  "collapseAll": "Tout réduire",
+  "allClients": "Tous les clients",
+  "noHierarchy": "Aucune donnée de hiérarchie disponible",
+  "noHierarchyHelp": "Demandez à un administrateur global de vous ajouter à une société.",
+  "loadingHierarchy": "Chargement de la hiérarchie",
+  "poweredBy": "Propulsé par {{brand}}"
+}

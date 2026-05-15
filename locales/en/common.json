@@ -1,0 +1,242 @@
+{
+  "app": {
+    "name": "EASIAioT"
+  },
+  "actions": {
+    "save": "Save",
+    "saveChanges": "Save changes",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "create": "Create",
+    "close": "Close",
+    "confirm": "Confirm",
+    "dismiss": "Dismiss",
+    "search": "Search",
+    "clear": "Clear",
+    "add": "Add",
+    "remove": "Remove",
+    "refresh": "Refresh",
+    "export": "Export",
+    "import": "Import",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "complete": "Complete",
+    "reset": "Reset",
+    "retry": "Retry",
+    "update": "Update"
+  },
+  "status": {
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "deleting": "Deleting...",
+    "processing": "Processing...",
+    "sending": "Sending...",
+    "pleaseWait": "Please wait...",
+    "empty": "No results",
+    "error": "Something went wrong",
+    "success": "Success",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending"
+  },
+  "fields": {
+    "name": "Name",
+    "description": "Description",
+    "type": "Type",
+    "status": "Status",
+    "email": "Email",
+    "created": "Created",
+    "updated": "Updated",
+    "lastSeen": "Last seen"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "assets": "Assets",
+    "devices": "Devices",
+    "users": "Users",
+    "owners": "Owners",
+    "settings": "Settings",
+    "logout": "Log out"
+  },
+  "yes": "Yes",
+  "no": "No",
+  "welcome": "Welcome",
+  "welcome_user": "Welcome, {{name}}",
+  "items_count_one": "{{count}} item",
+  "items_count_other": "{{count}} items",
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "french": "Français (Canada)"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "redirecting": "The page you're looking for doesn't exist. Redirecting to dashboard...",
+    "sorry": "Sorry, we couldn't find the page you're looking for.",
+    "goDashboard": "Go to dashboard",
+    "goLogin": "Go to login",
+    "goBack": "Go back"
+  },
+  "noPermissions": {
+    "title": "No permissions",
+    "description": "You don't have permissions to view this entity. Use the sidebar to navigate to an entity you have access to."
+  },
+  "delete": {
+    "entity": "Delete {{type}}",
+    "confirmPrompt": "Delete \"{{name}}\"?",
+    "confirmSimple": "Are you sure you want to delete \"{{name}}\"?",
+    "permanent": "This action is permanent and cannot be undone.",
+    "permanently": "Delete permanently",
+    "deleting": "Deleting...",
+    "cannotUndo": "This action cannot be undone",
+    "cannotUndoLong": "This action cannot be undone.",
+    "warningTitle": "Warning",
+    "noPermissionTitle": "Insufficient permissions",
+    "importantNotes": "Important notes"
+  },
+  "modal": {
+    "step": "Step {{current}} of {{total}}",
+    "next": "Next",
+    "back": "Back",
+    "complete": "Complete",
+    "processing": "Processing...",
+    "createAnother": "Create another",
+    "editingName": "Editing: {{name}}"
+  },
+  "sections": {
+    "basic": "Basic information",
+    "contact": "Contact information",
+    "address": "Address information",
+    "visual": "Visual configuration",
+    "additional": "Additional information",
+    "location": "Location",
+    "ownership": "Ownership"
+  },
+  "labels": {
+    "from": "From",
+    "to": "To"
+  },
+  "options": {
+    "none": "None",
+    "all": "All",
+    "unknown": "Unknown"
+  },
+  "validation": {
+    "fixErrors": "Please fix the following errors: {{errors}}"
+  },
+  "users": {
+    "activate": "Click to activate user",
+    "deactivate": "Click to deactivate user",
+    "resendInvite": "Resend invite"
+  },
+  "errors": {
+    "somethingWrong": "Something went wrong",
+    "tryAgain": "Please try again.",
+    "reload": "Reload page",
+    "rootMessage": "The application encountered an unexpected error. Please try reloading.",
+    "reloadApp": "Reload application",
+    "pageFailed": "This page failed to load",
+    "pageMessage": "An unexpected error occurred while rendering this page.",
+    "widgetFailed": "Failed to load"
+  },
+  "table": {
+    "title": "Data table",
+    "actions": "Actions",
+    "toggleColumns": "Toggle columns",
+    "firstPage": "First page",
+    "lastPage": "Last page",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "page": "Page {{page}}",
+    "range": "{{start}}-{{end}} / {{total}} items",
+    "items": "items",
+    "empty": "No data available",
+    "exportSuccess": "Exported {{count}} rows as {{format}}",
+    "exportFailed": "Failed to export data",
+    "exportUnsupported": "Export format \"{{format}}\" is not supported"
+  },
+  "emptyState": {
+    "title": "No data found"
+  },
+  "search": {
+    "placeholder": "Search...",
+    "allColumns": "Search across all columns...",
+    "vendors": "Search vendors...",
+    "owners": "Search owners...",
+    "roles": "Search roles...",
+    "devices": "Search devices by name...",
+    "assetTypes": "Search asset types...",
+    "properties": "Search properties...",
+    "select": "Select..."
+  },
+  "timeRange": "Time range",
+  "form": {
+    "email": "Email address",
+    "phone": "Phone number",
+    "description": "Description",
+    "streetAddress": "Street address *",
+    "addressLine2": "Address line 2",
+    "city": "City *",
+    "stateProvince": "State/Province *",
+    "postalCode": "Postal code *",
+    "country": "Country *",
+    "latitude": "Latitude *",
+    "longitude": "Longitude *"
+  },
+  "filters": {
+    "active": "Active filters:",
+    "clearAll": "Clear all ({{count}})",
+    "results_one": "{{count}} result",
+    "results_other": "{{count}} results",
+    "filteredOf": "{{filtered}} of {{total}} results"
+  },
+  "profile": {
+    "title": "My profile",
+    "tabs": {
+      "profile": "Profile",
+      "security": "Security",
+      "preferences": "Preferences"
+    },
+    "accountInfo": "Account information",
+    "email": "Email",
+    "role": "Role",
+    "permissions": "Current permissions",
+    "permissionsNote": "Permissions shown are for your currently selected owner level.",
+    "changePassword": "Change password",
+    "passwordInstructions": "To change your password, we'll send a password reset link to your email address.",
+    "sendReset": "Send password reset email",
+    "resetSent": "Password reset email sent! Check your inbox for instructions to reset your password.",
+    "resetSuccess": "Password reset email sent! Check your inbox.",
+    "resetFailed": "Failed to send password reset email.",
+    "standard": "Standard",
+    "defaultUser": "User"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "unacknowledged_one": "{{count}} unacknowledged",
+    "unacknowledged_other": "{{count}} unacknowledged",
+    "allCaughtUp": "All caught up",
+    "showAcknowledged": "Show acknowledged",
+    "noAlerts": "No alerts",
+    "noAlertsDescription": "All systems are running normally. You'll be notified when something needs attention.",
+    "new": "NEW",
+    "acknowledge": "Acknowledge",
+    "showing": "Showing {{shown}} of {{total}} notifications",
+    "severity": {
+      "all": "All"
+    },
+    "timeAgo": {
+      "minutes": "{{count}}m ago",
+      "hours": "{{count}}h ago"
+    },
+    "source": "Source",
+    "asset": "Asset",
+    "device": "Device",
+    "location": "Location"
+  }
+}

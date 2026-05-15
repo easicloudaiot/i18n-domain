@@ -1,0 +1,20 @@
+{
+  "controls": {
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "resetView": "Reset view",
+    "resetZoneView": "Reset zone view",
+    "showAccuracy": "Show accuracy",
+    "hideAccuracy": "Hide accuracy",
+    "showLabels": "Show labels",
+    "hideLabels": "Hide labels"
+  },
+  "info": {
+    "location": "Location",
+    "accuracy": "Accuracy",
+    "device": "Device",
+    "asset": "Asset",
+    "recordedAt": "Recorded at",
+    "history": "History"
+  }
+}

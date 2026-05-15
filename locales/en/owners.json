@@ -1,0 +1,142 @@
+{
+  "company": {
+    "refreshed": "{{plural}} refreshed",
+    "empty": "No {{plural}} found",
+    "loading": "Loading {{plural}}...",
+    "failed": "Failed to load {{plural}}"
+  },
+  "building": {
+    "empty": "No buildings found under this client",
+    "refreshed": "Buildings refreshed"
+  },
+  "floor": {
+    "empty": "No floors found under this building",
+    "refreshed": "Floors refreshed"
+  },
+  "zone": {
+    "empty": "No zones found under this floor",
+    "refreshed": "Zones refreshed"
+  },
+  "fields": {
+    "industry": "Industry",
+    "phone": "Phone",
+    "address": "Address",
+    "country": "Country",
+    "city": "City",
+    "buildings": "Buildings",
+    "floors": "Floors",
+    "zones": "Zones",
+    "label": "Label",
+    "floorNumber": "Floor #",
+    "area": "Area (sq ft)"
+  },
+  "count_one": "{{count}} {{label}}",
+  "count_other": "{{count}} {{label}}",
+  "buildingModal": {
+    "createTitle": "Create new building",
+    "editTitle": "Edit building",
+    "createSubtitle": "Add a building under the selected client",
+    "defaultName": "Building",
+    "selectClient": "Please select a client first",
+    "createdSuccess": "Building created successfully",
+    "createdAnother": "Building created! Ready to create another.",
+    "updatedSuccess": "Building updated successfully",
+    "deletedSuccess": "Building deleted successfully",
+    "createBtn": "Create building",
+    "sectionPerimeter": "Building perimeter corners",
+    "perimeterRequired": "4 required",
+    "nameLabel": "Building name *",
+    "typeLabel": "Building type *",
+    "pictureLabel": "Building picture URL",
+    "colorLabel": "Building color *",
+    "perimeterIntro": "Define the building's perimeter by specifying the coordinates of each corner. Points will be connected in order: Top Left → Top Right → Bottom Right → Bottom Left → back to Top Left.",
+    "corners": {
+      "topLeft": "Top Left (TL)",
+      "topRight": "Top Right (TR)",
+      "bottomRight": "Bottom Right (BR)",
+      "bottomLeft": "Bottom Left (BL)",
+      "point": "Point {{index}}"
+    },
+    "typeDescriptions": {
+      "OFFICE": "Office building or corporate headquarters",
+      "WAREHOUSE": "Storage and distribution facility",
+      "FACTORY": "Manufacturing or production facility",
+      "RETAIL": "Store or shopping center",
+      "MEDICAL": "Medical facility",
+      "SCHOOL": "Educational institution",
+      "OTHER": "Other type of building"
+    },
+    "deleteBlocked": "Cannot delete — has {{count}} floor. Remove it first.",
+    "deleteBlocked_plural": "Cannot delete — has {{count}} floors. Remove them first.",
+    "deleteWarning": "This will permanently delete {{name}} and all assets, devices, and users it owns. This action cannot be undone."
+  },
+  "floorModal": {
+    "createTitle": "Create new floor",
+    "editTitle": "Edit floor",
+    "createSubtitle": "Add a floor to the selected building",
+    "defaultName": "Floor",
+    "createdSuccess": "Floor created successfully",
+    "createdAnother": "Floor created! Ready to create another.",
+    "updatedSuccess": "Floor updated successfully",
+    "deletedSuccess": "Floor deleted successfully",
+    "createBtn": "Create floor",
+    "sectionFloorPlan": "Floor plan"
+  },
+  "zoneModal": {
+    "createTitle": "Create new zone",
+    "editTitle": "Edit zone",
+    "createSubtitle": "Add a zone to the selected floor",
+    "defaultName": "Zone",
+    "createdSuccess": "Zone created successfully",
+    "createdAnother": "Zone created! Ready to create another.",
+    "updatedSuccess": "Zone updated successfully",
+    "deletedSuccess": "Zone deleted successfully",
+    "createBtn": "Create zone",
+    "sectionBounds": "Zone bounds"
+  },
+  "vendorAssignment": "Vendor assignment *",
+  "vendorAssignmentHint": "Root clients must be assigned to a vendor for access control.",
+  "vendorIdentifications": {
+    "title": "Vendor identifications",
+    "optional": "optional",
+    "description": "Associate vendors with this owner and specify the owner's vendor-specific ID.",
+    "noVendors": "No vendors available. Create vendors first to associate them with owners.",
+    "allAdded": "All available vendors have been added.",
+    "vendorLabel": "Vendor",
+    "ownerVendorIdLabel": "Owner vendor ID"
+  },
+  "companyModal": {
+    "createTitle": "Create new company",
+    "editTitle": "Edit company",
+    "createLabelTitle": "Create new {{label}}",
+    "editLabelTitle": "Edit {{label}}",
+    "createSubtitle": "Add a new company to the platform",
+    "createLabelSubtitle": "Add a new {{label}}",
+    "defaultName": "Company",
+    "selectVendor": "Please select a vendor for the root client",
+    "createdSuccess": "Company created successfully",
+    "createdAnother": "Company created! Ready to create another.",
+    "createdWithVendor": "{{label}} created and vendor assigned successfully",
+    "createdWithVendorAnother": "{{label}} created and vendor assigned! Ready to create another.",
+    "vendorAssignFailed": "{{label}} created but vendor assignment failed",
+    "createdSuccessLabel": "{{label}} created successfully",
+    "createdAnotherLabel": "{{label}} created! Ready to create another.",
+    "updatedSuccess": "Company updated successfully",
+    "updatedLabel": "{{label}} updated successfully",
+    "deletedSuccess": "Company deleted successfully",
+    "deletedLabel": "{{label}} deleted successfully",
+    "createBtn": "Create company",
+    "createLabelBtn": "Create {{label}}",
+    "sectionLabel": "{{label}} information",
+    "industryLabel": "Industry *",
+    "deleteBlocked": "Cannot delete — has {{count}} child owner. Remove it first.",
+    "deleteBlocked_other": "Cannot delete — has {{count}} child owners. Remove them first.",
+    "deleteWarning": "This will permanently delete {{name}} and all assets, devices, and users it owns. This action cannot be undone."
+  },
+  "validation": {
+    "industryRequired": "Industry must be specified",
+    "industryTooLong": "Industry must be 100 characters or less",
+    "logoTooLong": "Logo URL must be 500 characters or less",
+    "invalidUrl": "Invalid URL"
+  }
+}

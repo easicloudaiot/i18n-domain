@@ -1,0 +1,120 @@
+{
+  "title": "Tableau de bord",
+  "stats": {
+    "assets": "Actifs",
+    "devices": "Appareils",
+    "users": "Utilisateurs",
+    "totalRegistered": "Total inscrits"
+  },
+  "globalAdmin": {
+    "pageTitle": "Gestion des entreprises racines",
+    "pageSubtitle": "Gérer les entreprises de premier niveau et leurs hiérarchies",
+    "createRootCompany": "Créer une entreprise racine",
+    "metrics": {
+      "rootCompanies": "Entreprises racines",
+      "rootCompaniesSubtitle": "Entités de premier niveau",
+      "activeCompanies": "Entreprises actives",
+      "activeCompaniesSubtitle": "Actuellement en activité",
+      "totalCompanies": "Total des entreprises",
+      "totalCompaniesSubtitle": "Incluant les entreprises imbriquées",
+      "systemUsers": "Utilisateurs du système",
+      "systemUsersSubtitle": "Tous les niveaux de hiérarchie"
+    },
+    "hierarchy": {
+      "title": "Aperçu de la hiérarchie",
+      "subtitle": "Comprendre l'architecture du système",
+      "structureTitle": "Structure de la hiérarchie du système",
+      "companyRoot": "ENTREPRISE (Racine)",
+      "companyNested": "ENTREPRISE (Imbriquée)",
+      "building": "BÂTIMENT",
+      "floor": "ÉTAGE",
+      "zone": "ZONE",
+      "roles": {
+        "globalAdmin": "ADMINISTRATEUR_GLOBAL",
+        "globalAdminDesc": "Peut créer des propriétaires racines et gérer l'ensemble du système",
+        "customerAdmin": "ADMINISTRATEUR_CLIENT",
+        "customerAdminDesc": "Peut gérer son niveau de hiérarchie attribué et inférieur",
+        "user": "UTILISATEUR",
+        "userDesc": "Accès limité aux zones attribuées uniquement"
+      }
+    }
+  },
+  "customerAdmin": {
+    "headerTitle": "Indicateurs clients — tableau de bord client",
+    "headerSubtitle": "Vue administrative de votre organisation",
+    "metrics": {
+      "buildings": "Bâtiments",
+      "floors": "Étages",
+      "activeDevices": "Appareils actifs",
+      "teamMembers": "Membres de l'équipe"
+    },
+    "recentActivity": "Activité récente",
+    "managementActions": "Actions de gestion",
+    "actions": {
+      "manageUsers": "Gérer les utilisateurs",
+      "manageUsersDesc": "Ajouter, modifier ou retirer des membres de l'équipe",
+      "buildingSetup": "Configuration du bâtiment",
+      "buildingSetupDesc": "Configurer les bâtiments et les plans d'étage",
+      "deviceManagement": "Gestion des appareils",
+      "deviceManagementDesc": "Surveiller et configurer les appareils IoT"
+    }
+  },
+  "userDashboard": {
+    "headerTitle": "Tableau de bord de démonstration des widgets",
+    "headerSubtitle": "Affichage de tous les widgets et composants disponibles",
+    "statsHeading": "Widgets de statistiques",
+    "chartsHeading": "Widgets graphiques",
+    "entityTableHeading": "Widget de table d'entités",
+    "widgetOverview": "Aperçu des widgets",
+    "stats": {
+      "assetsTracked": "Actifs suivis",
+      "assetsTrackedSubtitle": "Actuellement surveillés",
+      "peoplePresent": "Personnes présentes",
+      "peoplePresentSubtitle": "Dans toutes les zones",
+      "activeDevices": "Appareils actifs",
+      "activeDevicesSubtitle": "Capteurs en ligne",
+      "systemHealth": "État du système",
+      "systemHealthSubtitle": "Temps de fonctionnement"
+    },
+    "charts": {
+      "monthlyPerformance": "Performance mensuelle",
+      "monthlyPerformanceSubtitle": "Tendances des revenus dans le temps",
+      "temperatureTrends": "Tendances de température",
+      "temperatureTrendsSubtitle": "Relevés mensuels de température",
+      "occupancyRate": "Taux d'occupation",
+      "occupancyRateSubtitle": "Occupation actuelle du site",
+      "deviceStatus": "Statut des appareils",
+      "deviceStatusSubtitle": "Informations en temps réel sur les appareils"
+    },
+    "table": {
+      "assetManagement": "Gestion des actifs",
+      "deviceName": "Nom de l'appareil",
+      "location": "Emplacement",
+      "battery": "Batterie",
+      "device": "Appareil",
+      "emptyAssets": "Aucun actif trouvé"
+    },
+    "overview": {
+      "totalWidgetTypes": "Types de widgets",
+      "widgetInstances": "Instances de widget",
+      "responsiveDesign": "Conception adaptative"
+    }
+  },
+  "contextRequired": {
+    "loading": "Chargement...",
+    "loadingDescription": "Vérification de vos permissions et recherche du meilleur emplacement de départ.",
+    "accessRequired": "Accès requis",
+    "accessMessage": "Vous n'avez actuellement accès à aucun site ou emplacement dans le système.",
+    "contactAdmin": "Veuillez contacter votre administrateur pour demander l'accès aux sites et emplacements dont vous avez besoin.",
+    "adminInfo": "Que peuvent faire les administrateurs?",
+    "adminCapabilities": [
+      "Vous attribuer à des sites ou emplacements spécifiques",
+      "Accorder les permissions appropriées pour votre rôle",
+      "Configurer vos niveaux d'accès"
+    ],
+    "welcome": "Bienvenue",
+    "welcomeUser": "Bienvenue, {{name}}",
+    "selectLocation": "Sélectionnez un emplacement dans le panneau de navigation pour voir son tableau de bord et gérer vos ressources.",
+    "hint": "👈 Utilisez le panneau de navigation à gauche pour parcourir vos emplacements attribués."
+  }
+}

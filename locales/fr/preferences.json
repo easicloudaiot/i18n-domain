@@ -1,0 +1,67 @@
+{
+  "title": "Préférences",
+  "user": {
+    "title": "Mes préférences",
+    "language": {
+      "title": "Langue",
+      "description": "Choisissez la langue utilisée dans l'interface. Votre choix est enregistré dans votre profil et appliqué à votre prochaine connexion."
+    },
+    "mapSplit": {
+      "title": "Répartition carte / tableau",
+      "description": "Ajustez la place occupée par la carte dans les pages qui affichent une carte à côté d'un tableau. Déplacez le séparateur directement sur ces pages pour un ajustement temporaire ; utilisez ce curseur pour définir la valeur par défaut enregistrée.",
+      "mapLabel": "Carte {{pct}}%",
+      "tableLabel": "Tableau {{pct}}%",
+      "reset": "Réinitialiser à {{pct}}%"
+    }
+  },
+  "owner": {
+    "inactivity": {
+      "title": "Délai d'inactivité de la session",
+      "description": "Les utilisateurs de cette entreprise seront automatiquement déconnectés après ce nombre de minutes d'inactivité. Désactivez pour garder les sessions ouvertes indéfiniment. La valeur par défaut est de {{default}} minutes.",
+      "minutes": "Minutes"
+    },
+    "autoExpand": {
+      "title": "Déployer la navigation automatiquement",
+      "description": "Lorsque l'option est activée, l'arborescence s'ouvre avec chaque propriétaire déployé au chargement pour afficher la hiérarchie complète. Désactivez-la pour démarrer avec l'arborescence repliée et laisser les utilisateurs déployer les propriétaires au besoin."
+    },
+    "lowAccuracy": {
+      "title": "Seuil de faible précision",
+      "description": "Masquer les emplacements d'actifs et d'appareils moins précis que ce nombre de mètres sur toutes les vues (carte, plan d'étage et tableau). Les utilisateurs peuvent choisir d'afficher quand même les points peu précis. Les enfants de ce propriétaire héritent du paramètre sauf s'ils définissent le leur. Désactivé par défaut — activez et choisissez une valeur pour commencer à filtrer.",
+      "meters": "Mètres"
+    },
+    "tableColumns": {
+      "title": "Colonnes par défaut des tableaux",
+      "description": "Définissez quelles colonnes sont affichées par défaut et dans quel ordre dans les tableaux d'entités. Chaque utilisateur peut toujours basculer les colonnes temporairement depuis le sélecteur de chaque tableau.",
+      "columnsCount_one": "{{count}} colonne",
+      "columnsCount_other": "{{count}} colonnes",
+      "dragToReorder": "Glisser pour réorganiser",
+      "resetDefaults": "Réinitialiser aux valeurs par défaut"
+    }
+  },
+  "scope": {
+    "customizedByYou": "Personnalisé par vous",
+    "inheritedFrom": "Préférences héritées de {{name}}",
+    "chainTitle": "Portée des colonnes",
+    "chainSubtitle": "Le niveau le plus proche avec une préférence enregistrée l'emporte. Vous surclassez tous les niveaux.",
+    "defaults": "Par défaut",
+    "you": "Vous",
+    "active": "actif",
+    "notSet": "non défini",
+    "set": "défini",
+    "clearMyOverride": "Effacer ma personnalisation",
+    "openChain": "Afficher la portée"
+  },
+  "inlineEditor": {
+    "title": "Personnaliser les colonnes",
+    "subtitle": "Glisser pour réorganiser · cocher pour afficher ou masquer · choisir une destination ci-dessous pour enregistrer",
+    "subtitleReorderOnly": "Glisser pour réorganiser · choisir une destination ci-dessous pour enregistrer",
+    "required": "Requis",
+    "alwaysVisible": "Toujours visible",
+    "unsavedChanges": "Modifications non enregistrées",
+    "discard": "Annuler",
+    "saveTo": "Enregistrer dans",
+    "onlyMe": "Seulement moi",
+    "yourOverride": "Personnel",
+    "asDefault": "Valeur par défaut · {{type}}"
+  }
+}

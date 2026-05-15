@@ -1,0 +1,120 @@
+{
+  "title": "Dashboard",
+  "stats": {
+    "assets": "Assets",
+    "devices": "Devices",
+    "users": "Users",
+    "totalRegistered": "Total registered"
+  },
+  "globalAdmin": {
+    "pageTitle": "Root company management",
+    "pageSubtitle": "Manage root-level companies and their hierarchies",
+    "createRootCompany": "Create root company",
+    "metrics": {
+      "rootCompanies": "Root companies",
+      "rootCompaniesSubtitle": "Top-level entities",
+      "activeCompanies": "Active companies",
+      "activeCompaniesSubtitle": "Currently operational",
+      "totalCompanies": "Total companies",
+      "totalCompaniesSubtitle": "Including nested companies",
+      "systemUsers": "System users",
+      "systemUsersSubtitle": "All hierarchy levels"
+    },
+    "hierarchy": {
+      "title": "Hierarchy overview",
+      "subtitle": "Understanding the system architecture",
+      "structureTitle": "System hierarchy structure",
+      "companyRoot": "COMPANY (Root)",
+      "companyNested": "COMPANY (Nested)",
+      "building": "BUILDING",
+      "floor": "FLOOR",
+      "zone": "ZONE",
+      "roles": {
+        "globalAdmin": "GLOBAL_ADMIN",
+        "globalAdminDesc": "Can create root owners and manage entire system",
+        "customerAdmin": "CUSTOMER_ADMIN",
+        "customerAdminDesc": "Can manage their assigned hierarchy level and below",
+        "user": "USER",
+        "userDesc": "Limited access to assigned areas only"
+      }
+    }
+  },
+  "customerAdmin": {
+    "headerTitle": "Customer metrics — customer dashboard",
+    "headerSubtitle": "Administrative overview for your organization",
+    "metrics": {
+      "buildings": "Buildings",
+      "floors": "Floors",
+      "activeDevices": "Active devices",
+      "teamMembers": "Team members"
+    },
+    "recentActivity": "Recent activity",
+    "managementActions": "Management actions",
+    "actions": {
+      "manageUsers": "Manage users",
+      "manageUsersDesc": "Add, edit, or remove team members",
+      "buildingSetup": "Building setup",
+      "buildingSetupDesc": "Configure buildings and floor plans",
+      "deviceManagement": "Device management",
+      "deviceManagementDesc": "Monitor and configure IoT devices"
+    }
+  },
+  "userDashboard": {
+    "headerTitle": "Widget showcase dashboard",
+    "headerSubtitle": "Displaying all available widgets and components",
+    "statsHeading": "Stats widgets",
+    "chartsHeading": "Chart widgets",
+    "entityTableHeading": "Entity table widget",
+    "widgetOverview": "Widget overview",
+    "stats": {
+      "assetsTracked": "Assets tracked",
+      "assetsTrackedSubtitle": "Currently monitored",
+      "peoplePresent": "People present",
+      "peoplePresentSubtitle": "In all areas",
+      "activeDevices": "Active devices",
+      "activeDevicesSubtitle": "Online sensors",
+      "systemHealth": "System health",
+      "systemHealthSubtitle": "Uptime"
+    },
+    "charts": {
+      "monthlyPerformance": "Monthly performance",
+      "monthlyPerformanceSubtitle": "Revenue trends over time",
+      "temperatureTrends": "Temperature trends",
+      "temperatureTrendsSubtitle": "Monthly temperature readings",
+      "occupancyRate": "Occupancy rate",
+      "occupancyRateSubtitle": "Current facility occupancy",
+      "deviceStatus": "Device status",
+      "deviceStatusSubtitle": "Real-time device information"
+    },
+    "table": {
+      "assetManagement": "Asset management",
+      "deviceName": "Device name",
+      "location": "Location",
+      "battery": "Battery",
+      "device": "Device",
+      "emptyAssets": "No assets found"
+    },
+    "overview": {
+      "totalWidgetTypes": "Total widget types",
+      "widgetInstances": "Widget instances",
+      "responsiveDesign": "Responsive design"
+    }
+  },
+  "contextRequired": {
+    "loading": "Loading...",
+    "loadingDescription": "Checking your access permissions and finding the best location to start.",
+    "accessRequired": "Access required",
+    "accessMessage": "You don't currently have access to any facilities or locations in the system.",
+    "contactAdmin": "Please contact your administrator to request access to the facilities and locations you need to manage.",
+    "adminInfo": "What can administrators do?",
+    "adminCapabilities": [
+      "Assign you to specific facilities or locations",
+      "Grant appropriate permissions for your role",
+      "Configure your access levels"
+    ],
+    "welcome": "Welcome",
+    "welcomeUser": "Welcome, {{name}}",
+    "selectLocation": "Select a location from the navigation panel to view its dashboard and manage your resources.",
+    "hint": "👈 Use the navigation panel on the left to browse your assigned locations."
+  }
+}

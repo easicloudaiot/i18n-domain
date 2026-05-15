@@ -1,0 +1,242 @@
+{
+  "app": {
+    "name": "EASIAioT"
+  },
+  "actions": {
+    "save": "Enregistrer",
+    "saveChanges": "Enregistrer les modifications",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "create": "Créer",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "dismiss": "Ignorer",
+    "search": "Rechercher",
+    "clear": "Effacer",
+    "add": "Ajouter",
+    "remove": "Retirer",
+    "refresh": "Actualiser",
+    "export": "Exporter",
+    "import": "Importer",
+    "back": "Retour",
+    "next": "Suivant",
+    "submit": "Soumettre",
+    "complete": "Terminer",
+    "reset": "Réinitialiser",
+    "retry": "Réessayer",
+    "update": "Mettre à jour"
+  },
+  "status": {
+    "loading": "Chargement...",
+    "saving": "Enregistrement...",
+    "deleting": "Suppression...",
+    "processing": "Traitement...",
+    "sending": "Envoi...",
+    "pleaseWait": "Veuillez patienter...",
+    "empty": "Aucun résultat",
+    "error": "Une erreur est survenue",
+    "success": "Réussi",
+    "enabled": "Activée",
+    "disabled": "Désactivée",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "pending": "En attente"
+  },
+  "fields": {
+    "name": "Nom",
+    "description": "Description",
+    "type": "Type",
+    "status": "Statut",
+    "email": "Courriel",
+    "created": "Créé",
+    "updated": "Mis à jour",
+    "lastSeen": "Dernière activité"
+  },
+  "navigation": {
+    "dashboard": "Tableau de bord",
+    "assets": "Actifs",
+    "devices": "Appareils",
+    "users": "Utilisateurs",
+    "owners": "Propriétaires",
+    "settings": "Paramètres",
+    "logout": "Se déconnecter"
+  },
+  "yes": "Oui",
+  "no": "Non",
+  "welcome": "Bienvenue",
+  "welcome_user": "Bienvenue, {{name}}",
+  "items_count_one": "{{count}} élément",
+  "items_count_other": "{{count}} éléments",
+  "language": {
+    "label": "Langue",
+    "english": "English",
+    "french": "Français (Canada)"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "redirecting": "La page que vous cherchez n'existe pas. Redirection vers le tableau de bord...",
+    "sorry": "Désolé, nous n'avons pas trouvé la page demandée.",
+    "goDashboard": "Aller au tableau de bord",
+    "goLogin": "Aller à la connexion",
+    "goBack": "Retour"
+  },
+  "noPermissions": {
+    "title": "Aucune permission",
+    "description": "Vous n'avez pas les permissions pour voir cette entité. Utilisez la barre latérale pour naviguer vers une entité à laquelle vous avez accès."
+  },
+  "delete": {
+    "entity": "Supprimer {{type}}",
+    "confirmPrompt": "Supprimer « {{name}} »?",
+    "confirmSimple": "Voulez-vous vraiment supprimer « {{name}} »?",
+    "permanent": "Cette action est définitive et irréversible.",
+    "permanently": "Supprimer définitivement",
+    "deleting": "Suppression...",
+    "cannotUndo": "Cette action est irréversible",
+    "cannotUndoLong": "Cette action est irréversible.",
+    "warningTitle": "Avertissement",
+    "noPermissionTitle": "Permissions insuffisantes",
+    "importantNotes": "Notes importantes"
+  },
+  "modal": {
+    "step": "Étape {{current}} sur {{total}}",
+    "next": "Suivant",
+    "back": "Retour",
+    "complete": "Terminer",
+    "processing": "Traitement...",
+    "createAnother": "Créer un autre",
+    "editingName": "Modification : {{name}}"
+  },
+  "sections": {
+    "basic": "Informations de base",
+    "contact": "Coordonnées",
+    "address": "Adresse",
+    "visual": "Configuration visuelle",
+    "additional": "Informations supplémentaires",
+    "location": "Emplacement",
+    "ownership": "Propriété"
+  },
+  "labels": {
+    "from": "De",
+    "to": "À"
+  },
+  "options": {
+    "none": "Aucun",
+    "all": "Toutes",
+    "unknown": "Inconnu"
+  },
+  "validation": {
+    "fixErrors": "Veuillez corriger les erreurs suivantes : {{errors}}"
+  },
+  "users": {
+    "activate": "Cliquer pour activer l'utilisateur",
+    "deactivate": "Cliquer pour désactiver l'utilisateur",
+    "resendInvite": "Renvoyer l'invitation"
+  },
+  "errors": {
+    "somethingWrong": "Une erreur est survenue",
+    "tryAgain": "Veuillez réessayer.",
+    "reload": "Recharger la page",
+    "rootMessage": "L'application a rencontré une erreur inattendue. Veuillez recharger.",
+    "reloadApp": "Recharger l'application",
+    "pageFailed": "Le chargement de cette page a échoué",
+    "pageMessage": "Une erreur inattendue est survenue lors du rendu de cette page.",
+    "widgetFailed": "Échec du chargement"
+  },
+  "table": {
+    "title": "Tableau de données",
+    "actions": "Actions",
+    "toggleColumns": "Afficher/masquer les colonnes",
+    "firstPage": "Première page",
+    "lastPage": "Dernière page",
+    "previousPage": "Page précédente",
+    "nextPage": "Page suivante",
+    "page": "Page {{page}}",
+    "range": "{{start}}-{{end}} / {{total}} éléments",
+    "items": "éléments",
+    "empty": "Aucune donnée disponible",
+    "exportSuccess": "Exportation de {{count}} lignes au format {{format}}",
+    "exportFailed": "Échec de l'exportation des données",
+    "exportUnsupported": "Le format « {{format}} » n'est pas pris en charge"
+  },
+  "emptyState": {
+    "title": "Aucune donnée trouvée"
+  },
+  "search": {
+    "placeholder": "Rechercher...",
+    "allColumns": "Rechercher dans toutes les colonnes...",
+    "vendors": "Rechercher un fournisseur...",
+    "owners": "Rechercher un propriétaire...",
+    "roles": "Rechercher un rôle...",
+    "devices": "Rechercher un appareil par nom...",
+    "assetTypes": "Rechercher un type d'actif...",
+    "properties": "Rechercher une propriété...",
+    "select": "Sélectionner..."
+  },
+  "timeRange": "Plage de temps",
+  "form": {
+    "email": "Adresse courriel",
+    "phone": "Numéro de téléphone",
+    "description": "Description",
+    "streetAddress": "Adresse municipale *",
+    "addressLine2": "Complément d'adresse",
+    "city": "Ville *",
+    "stateProvince": "Province/État *",
+    "postalCode": "Code postal *",
+    "country": "Pays *",
+    "latitude": "Latitude *",
+    "longitude": "Longitude *"
+  },
+  "filters": {
+    "active": "Filtres actifs :",
+    "clearAll": "Tout effacer ({{count}})",
+    "results_one": "{{count}} résultat",
+    "results_other": "{{count}} résultats",
+    "filteredOf": "{{filtered}} sur {{total}} résultats"
+  },
+  "profile": {
+    "title": "Mon profil",
+    "tabs": {
+      "profile": "Profil",
+      "security": "Sécurité",
+      "preferences": "Préférences"
+    },
+    "accountInfo": "Informations du compte",
+    "email": "Courriel",
+    "role": "Rôle",
+    "permissions": "Permissions actuelles",
+    "permissionsNote": "Les permissions affichées correspondent au propriétaire actuellement sélectionné.",
+    "changePassword": "Changer le mot de passe",
+    "passwordInstructions": "Pour changer votre mot de passe, nous enverrons un lien de réinitialisation à votre adresse courriel.",
+    "sendReset": "Envoyer le courriel de réinitialisation",
+    "resetSent": "Courriel de réinitialisation envoyé! Consultez votre boîte de réception pour les instructions.",
+    "resetSuccess": "Courriel de réinitialisation envoyé! Consultez votre boîte de réception.",
+    "resetFailed": "Échec de l'envoi du courriel de réinitialisation.",
+    "standard": "Standard",
+    "defaultUser": "Utilisateur"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "unacknowledged_one": "{{count}} non confirmée",
+    "unacknowledged_other": "{{count}} non confirmées",
+    "allCaughtUp": "Tout est à jour",
+    "showAcknowledged": "Afficher les confirmées",
+    "noAlerts": "Aucune alerte",
+    "noAlertsDescription": "Tous les systèmes fonctionnent normalement. Vous serez averti lorsqu'une attention est requise.",
+    "new": "NOUVEAU",
+    "acknowledge": "Confirmer",
+    "showing": "Affichage de {{shown}} sur {{total}} notifications",
+    "severity": {
+      "all": "Toutes"
+    },
+    "timeAgo": {
+      "minutes": "il y a {{count}} min",
+      "hours": "il y a {{count}} h"
+    },
+    "source": "Source",
+    "asset": "Actif",
+    "device": "Appareil",
+    "location": "Emplacement"
+  }
+}

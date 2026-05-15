@@ -1,0 +1,29 @@
+{
+  "title": "Vendors",
+  "management": "Vendor management",
+  "create": "Create vendor",
+  "edit": "Edit vendor",
+  "delete": "Delete vendor",
+  "empty": "No vendors found",
+  "refreshed": "Vendors refreshed",
+  "failedToLoad": "Failed to load vendors",
+  "fields": {
+    "name": "Vendor name",
+    "nameRequired": "Vendor name *"
+  },
+  "modal": {
+    "createTitle": "Create vendor",
+    "createSubtitle": "Add a new vendor to the system",
+    "editTitle": "Edit vendor",
+    "update": "Update vendor",
+    "enterName": "Enter vendor name",
+    "deleteTitle": "Delete vendor",
+    "deleteWarning": "Warning: Deleting this vendor will permanently remove all associated data.",
+    "vendorName": "Vendor name:",
+    "confirmDelete": "Are you sure you want to delete this vendor? This action cannot be undone."
+  },
+  "validation": {
+    "nameRequired": "Vendor name is required",
+    "nameTooLong": "Name must be less than 255 characters"
+  }
+}

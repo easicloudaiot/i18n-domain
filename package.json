@@ -12,7 +12,37 @@
       "import": "./src/index.ts"
     },
     "./en.json": "./locales/en.json",
-    "./fr.json": "./locales/fr.json"
+    "./fr.json": "./locales/fr.json",
+    "./en/assets.json": "./locales/en/assets.json",
+    "./en/auth.json": "./locales/en/auth.json",
+    "./en/common.json": "./locales/en/common.json",
+    "./en/dashboard.json": "./locales/en/dashboard.json",
+    "./en/devices.json": "./locales/en/devices.json",
+    "./en/floorplan.json": "./locales/en/floorplan.json",
+    "./en/mapping.json": "./locales/en/mapping.json",
+    "./en/navigation.json": "./locales/en/navigation.json",
+    "./en/owners.json": "./locales/en/owners.json",
+    "./en/preferences.json": "./locales/en/preferences.json",
+    "./en/settings.json": "./locales/en/settings.json",
+    "./en/theming.json": "./locales/en/theming.json",
+    "./en/users.json": "./locales/en/users.json",
+    "./en/vendors.json": "./locales/en/vendors.json",
+    "./en/widgets.json": "./locales/en/widgets.json",
+    "./fr/assets.json": "./locales/fr/assets.json",
+    "./fr/auth.json": "./locales/fr/auth.json",
+    "./fr/common.json": "./locales/fr/common.json",
+    "./fr/dashboard.json": "./locales/fr/dashboard.json",
+    "./fr/devices.json": "./locales/fr/devices.json",
+    "./fr/floorplan.json": "./locales/fr/floorplan.json",
+    "./fr/mapping.json": "./locales/fr/mapping.json",
+    "./fr/navigation.json": "./locales/fr/navigation.json",
+    "./fr/owners.json": "./locales/fr/owners.json",
+    "./fr/preferences.json": "./locales/fr/preferences.json",
+    "./fr/settings.json": "./locales/fr/settings.json",
+    "./fr/theming.json": "./locales/fr/theming.json",
+    "./fr/users.json": "./locales/fr/users.json",
+    "./fr/vendors.json": "./locales/fr/vendors.json",
+    "./fr/widgets.json": "./locales/fr/widgets.json"
   },
   "files": [
     "src",
@@ -24,6 +54,10 @@
   },
   "devDependencies": {
     "typescript": "~5.8.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,19 @@
+{
+  "enterFullscreen": "Enter fullscreen",
+  "exitFullscreen": "Exit fullscreen",
+  "filterBy": "Filter by {{field}}...",
+  "exportAs": "Export as {{format}}",
+  "allOf": "All {{label}}",
+  "filtersActive_one": "{{count}} filter active",
+  "filtersActive_other": "{{count}} filters active",
+  "searchingFor": "searching for \"{{value}}\"",
+  "showingRows": "Showing {{shown}} of {{total}} rows",
+  "filters": {
+    "title": "Filters",
+    "close": "Close filters",
+    "showMore": "Show {{count}} more",
+    "showLess": "Show less",
+    "searchIn": "Search {{field}}...",
+    "enter": "Enter {{field}}..."
+  }
+}

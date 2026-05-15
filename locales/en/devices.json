@@ -1,0 +1,95 @@
+{
+  "title": "Devices",
+  "management": "Device management",
+  "create": "Create device",
+  "edit": "Edit device",
+  "delete": "Delete device",
+  "empty": "No devices found",
+  "refreshed": "Devices refreshed",
+  "fields": {
+    "name": "Device name",
+    "externalId": "External ID",
+    "attachedAsset": "Attached asset",
+    "client": "Client",
+    "location": "Location",
+    "floorPos": "Floor: ({{x}}, {{y}})"
+  },
+  "pageTitle": {
+    "easicloud": "EASICloud Platform Devices",
+    "company": "Company Devices",
+    "building": "Facility Devices",
+    "floor": "Floor Devices",
+    "zone": "Zone Devices",
+    "default": "All Devices"
+  },
+  "pageSubtitle": {
+    "easicloud": "Platform-wide device inventory across all resellers and facilities",
+    "company": "Manage devices across all facilities",
+    "building": "Devices located in this building and its floors/zones",
+    "floor": "Devices currently on this floor",
+    "zone": "Devices located in this zone",
+    "default": "Devices across your accessible locations"
+  },
+  "selectEntity": {
+    "title": "Select an entity",
+    "description": "Navigate to a company, building, floor, or zone to view and manage devices.",
+    "subtitle": "Select an entity to view devices"
+  },
+  "history": {
+    "title": "Device location history",
+    "empty": "No location history found"
+  },
+  "errorLoading": "Error loading devices",
+  "failedToLoad": "Failed to load devices",
+  "validation": {
+    "nameRequired": "Device name is required",
+    "typeRequired": "Device type is required"
+  },
+  "crudModal": {
+    "createSubtitle": "Add a new device to the floor",
+    "createSuccess": "Device created successfully",
+    "createAnotherSuccess": "Device created! Ready to create another.",
+    "createFailed": "Failed to create device",
+    "updateSuccess": "Device updated successfully",
+    "updateFailed": "Failed to update device",
+    "sectionDetails": "Device details",
+    "owner": "Owner",
+    "ownerHelp": "Device will be created under this {{type}}",
+    "defaultLocation": "location",
+    "nameLabel": "Device name *",
+    "typeLabel": "Device type *",
+    "vendorLabel": "Vendor",
+    "externalIdLabel": "External device ID",
+    "xCoord": "X coordinate",
+    "yCoord": "Y coordinate",
+    "createBtn": "Create device",
+    "updateBtn": "Update device"
+  },
+  "deleteModal": {
+    "loadingTitle": "Loading device",
+    "title": "Delete device",
+    "submit": "Delete device",
+    "noPermissionMessage": "You need MANAGE permission on the device owner to delete this device.",
+    "warningMessage": "This will permanently delete the device from the system. Historical telemetry data may be preserved based on retention policies.",
+    "deviceDetails": "Device details",
+    "deviceType": "Type:",
+    "deviceStatus": "Status:",
+    "externalId": "External device ID:",
+    "vendor": "Vendor:",
+    "pairedAsset": "Paired asset:",
+    "location": "Location:",
+    "gps": "GPS:",
+    "floorPosition": "Floor position:",
+    "lastSeen": "Last seen:",
+    "pairedNote": "• This device is paired to {{asset}} and will be automatically detached upon deletion"
+  },
+  "filters": {
+    "attached": "Asset attachment",
+    "attachedToAsset": "Attached to asset",
+    "unattached": "Unattached",
+    "vendor": "Vendor",
+    "accuracy": "Location accuracy",
+    "accuracyInclude": "Include low-accuracy devices",
+    "accuracyDescription": "These devices may be reported on another floor"
+  }
+}

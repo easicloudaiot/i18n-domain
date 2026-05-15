@@ -1,0 +1,66 @@
+{
+  "whitelabel": {
+    "title": "Whitelabel configuration",
+    "subtitle": "Configure branding for {{owner}}",
+    "failedLoad": "Failed to load settings",
+    "created": "Whitelabel configuration created",
+    "createFailed": "Failed to create configuration",
+    "updated": "Whitelabel configuration updated",
+    "updateFailed": "Failed to update configuration",
+    "logoTooBig": "Logo must be < 10MB",
+    "faviconTooBig": "Favicon must be < 2MB",
+    "sections": {
+      "domain": "Domain settings",
+      "brandAssets": "Brand assets",
+      "themeColors": "Theme colors",
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "navigation": "Navigation sidebar",
+      "preview": "Live preview",
+      "presets": "Quick themes",
+      "hint": "Hover color labels for details"
+    },
+    "fields": {
+      "dnsDomain": "DNS domain *",
+      "applicationTitle": "Application title *",
+      "platformBrandName": "Platform brand name",
+      "logo": "Logo",
+      "logoSize": "Recommended: 200×60px",
+      "favicon": "Favicon",
+      "faviconSize": "32×32px",
+      "clickToUpload": "Click to upload",
+      "upload": "Upload",
+      "removeLogo": "Remove logo",
+      "remove": "Remove"
+    },
+    "colors": {
+      "color": "Color",
+      "hover": "Hover",
+      "text": "Text",
+      "background": "Background",
+      "accent": "Accent",
+      "hoverBackground": "Hover background",
+      "activeBackground": "Active background",
+      "border": "Border"
+    },
+    "hints": {
+      "primary": "Your main brand color. Use a bold, saturated tone (e.g. #7A2531). Avoid very light colors — this is used for buttons and links.",
+      "primaryHover": "Should be slightly darker than the primary color (e.g. 10-15% darker). This gives buttons a visible pressed/hover effect.",
+      "primaryText": "Text on primary buttons. Use white (#FFFFFF) for dark primary colors, or dark (#1a1a2e) for light primary colors.",
+      "secondary": "Used for cancel/back buttons. A light neutral gray works best (e.g. #E8E8EA). Should contrast with the primary color.",
+      "secondaryHover": "Slightly darker than the secondary color (e.g. #D9D9DB). Subtle darkening gives the best hover feedback.",
+      "secondaryText": "Text on secondary buttons. Use a dark color (e.g. #374151) since secondary backgrounds are typically light.",
+      "navBackground": "Sidebar background. Dark colors work best (e.g. #1F1F1F). Also used as the login page hero background.",
+      "navText": "Sidebar menu text. Use a light color for dark backgrounds (e.g. #E5E7EB) or dark for light backgrounds.",
+      "navAccent": "Highlights the active menu item. Pick a vibrant color that pops against the nav background (e.g. #FF6B35).",
+      "navHoverBackground": "Slightly lighter than the nav background (e.g. #2B2B2B for dark navs). Should be a subtle shift, not a big contrast.",
+      "navActiveBackground": "A step lighter than the hover background (e.g. #333333). Keep the progression: background < hover < active.",
+      "navBorder": "Subtle divider lines. Should be slightly lighter than the nav background (e.g. #3D3D3D) — visible but not distracting."
+    },
+    "preview": {
+      "primary": "Primary button",
+      "secondary": "Secondary button",
+      "hint": "Hover buttons to preview effect"
+    }
+  }
+}

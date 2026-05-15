@@ -1,0 +1,95 @@
+{
+  "title": "Appareils",
+  "management": "Gestion des appareils",
+  "create": "Créer un appareil",
+  "edit": "Modifier l'appareil",
+  "delete": "Supprimer l'appareil",
+  "empty": "Aucun appareil trouvé",
+  "refreshed": "Appareils actualisés",
+  "fields": {
+    "name": "Nom de l'appareil",
+    "externalId": "ID externe",
+    "attachedAsset": "Actif rattaché",
+    "client": "Client",
+    "location": "Emplacement",
+    "floorPos": "Étage : ({{x}}, {{y}})"
+  },
+  "pageTitle": {
+    "easicloud": "Appareils de la plateforme EASICloud",
+    "company": "Appareils de l'entreprise",
+    "building": "Appareils du site",
+    "floor": "Appareils de l'étage",
+    "zone": "Appareils de la zone",
+    "default": "Tous les appareils"
+  },
+  "pageSubtitle": {
+    "easicloud": "Inventaire des appareils à l'échelle de la plateforme pour tous les revendeurs et sites",
+    "company": "Gérer les appareils dans tous les sites",
+    "building": "Appareils situés dans ce bâtiment et ses étages/zones",
+    "floor": "Appareils actuellement sur cet étage",
+    "zone": "Appareils situés dans cette zone",
+    "default": "Appareils de vos emplacements accessibles"
+  },
+  "selectEntity": {
+    "title": "Sélectionnez une entité",
+    "description": "Naviguez vers une entreprise, un bâtiment, un étage ou une zone pour voir et gérer les appareils.",
+    "subtitle": "Sélectionnez une entité pour voir les appareils"
+  },
+  "history": {
+    "title": "Historique d'emplacement de l'appareil",
+    "empty": "Aucun historique d'emplacement trouvé"
+  },
+  "errorLoading": "Erreur de chargement des appareils",
+  "failedToLoad": "Échec du chargement des appareils",
+  "validation": {
+    "nameRequired": "Le nom de l'appareil est requis",
+    "typeRequired": "Le type d'appareil est requis"
+  },
+  "crudModal": {
+    "createSubtitle": "Ajouter un nouvel appareil à l'étage",
+    "createSuccess": "Appareil créé avec succès",
+    "createAnotherSuccess": "Appareil créé! Prêt à en créer un autre.",
+    "createFailed": "Échec de la création de l'appareil",
+    "updateSuccess": "Appareil mis à jour avec succès",
+    "updateFailed": "Échec de la mise à jour de l'appareil",
+    "sectionDetails": "Détails de l'appareil",
+    "owner": "Propriétaire",
+    "ownerHelp": "L'appareil sera créé sous ce {{type}}",
+    "defaultLocation": "emplacement",
+    "nameLabel": "Nom de l'appareil *",
+    "typeLabel": "Type d'appareil *",
+    "vendorLabel": "Fournisseur",
+    "externalIdLabel": "ID externe de l'appareil",
+    "xCoord": "Coordonnée X",
+    "yCoord": "Coordonnée Y",
+    "createBtn": "Créer l'appareil",
+    "updateBtn": "Mettre à jour"
+  },
+  "deleteModal": {
+    "loadingTitle": "Chargement de l'appareil",
+    "title": "Supprimer l'appareil",
+    "submit": "Supprimer l'appareil",
+    "noPermissionMessage": "Vous avez besoin de la permission MANAGE sur le propriétaire de l'appareil pour supprimer cet appareil.",
+    "warningMessage": "Cela supprimera définitivement l'appareil du système. Les données de télémétrie historiques peuvent être conservées selon les politiques de rétention.",
+    "deviceDetails": "Détails de l'appareil",
+    "deviceType": "Type :",
+    "deviceStatus": "Statut :",
+    "externalId": "ID externe de l'appareil :",
+    "vendor": "Fournisseur :",
+    "pairedAsset": "Actif jumelé :",
+    "location": "Emplacement :",
+    "gps": "GPS :",
+    "floorPosition": "Position à l'étage :",
+    "lastSeen": "Dernière activité :",
+    "pairedNote": "• Cet appareil est jumelé à {{asset}} et sera automatiquement détaché à la suppression"
+  },
+  "filters": {
+    "attached": "Rattachement d'actif",
+    "attachedToAsset": "Rattaché à un actif",
+    "unattached": "Non rattaché",
+    "vendor": "Fournisseur",
+    "accuracy": "Précision d'emplacement",
+    "accuracyInclude": "Inclure les appareils peu précis",
+    "accuracyDescription": "Ces appareils peuvent être signalés à un autre étage"
+  }
+}

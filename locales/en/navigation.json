@@ -1,0 +1,40 @@
+{
+  "items": {
+    "dashboard": "Dashboard",
+    "assets": "Assets",
+    "devices": "Devices",
+    "users": "Users",
+    "settings": "Settings"
+  },
+  "sections": {
+    "main": "Main",
+    "modules": "Modules",
+    "facility": "Facility",
+    "system": "System",
+    "tools": "Tools"
+  },
+  "menu": "Menu",
+  "notifications": "Notifications",
+  "profile": "Profile",
+  "logout": "Log out",
+  "view": "View",
+  "mode": {
+    "tree": "Tree",
+    "drilldown": "Drill"
+  },
+  "search": {
+    "placeholder": "Search...",
+    "resultCount_one": "{{count}} result found",
+    "resultCount_other": "{{count}} results found",
+    "resultsForQuery_one": "{{count}} result for \"{{query}}\"",
+    "resultsForQuery_other": "{{count}} results for \"{{query}}\"",
+    "noResults": "No results found for \"{{query}}\""
+  },
+  "title": "Navigation",
+  "collapseAll": "Collapse all",
+  "allClients": "All clients",
+  "noHierarchy": "No hierarchy data available",
+  "noHierarchyHelp": "Ask a global admin to add you to a company.",
+  "loadingHierarchy": "Loading hierarchy",
+  "poweredBy": "Powered by {{brand}}"
+}

@@ -1,0 +1,57 @@
+{
+  "controls": {
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "resetView": "Reset view",
+    "resetZoneView": "Reset zone view",
+    "showAccuracy": "Show accuracy",
+    "hideAccuracy": "Hide accuracy",
+    "showLabels": "Show labels",
+    "hideLabels": "Hide labels"
+  },
+  "markers": {
+    "building": "Building",
+    "asset": "Asset",
+    "device": "Device",
+    "online": "Online",
+    "offline": "Offline",
+    "warning": "Warning",
+    "error": "Error"
+  },
+  "info": {
+    "home": "Home",
+    "location": "Location",
+    "dwellTime": "Dwell time",
+    "accuracy": "Accuracy",
+    "tracker": "Tracker",
+    "lastUpdated": "Last updated",
+    "vendor": "Vendor",
+    "pairedAsset": "Paired asset",
+    "gps": "GPS",
+    "device": "Device",
+    "asset": "Asset",
+    "recordedAt": "Recorded at",
+    "floors": "Floors",
+    "area": "Area",
+    "areaSqFt": "{{value}} sq ft",
+    "built": "Built",
+    "perimeter": "Perimeter",
+    "perimeterPoints": "{{count}} pts"
+  },
+  "building": {
+    "details": "Building details",
+    "typeDetails": "{{type}} building",
+    "location": "Location",
+    "contact": "Contact"
+  },
+  "search": {
+    "placeholder": "Search...",
+    "failed": "Failed to load map data"
+  },
+  "movement": {
+    "legend": "Legend",
+    "start": "Start",
+    "end": "End",
+    "direction": "Direction"
+  }
+}

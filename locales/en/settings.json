@@ -1,0 +1,37 @@
+{
+  "title": "Settings",
+  "noSettings": "No settings available",
+  "noSettingsDescription": "You don't have permission to configure settings at this level.",
+  "branding": {
+    "title": "Branding & appearance",
+    "description": "Customize how this company appears across the platform"
+  },
+  "asset": {
+    "title": "Asset management",
+    "description": "Configure asset types, property schemas, and monitoring rules",
+    "configuration": "Asset configuration",
+    "configurationDescription": "Define property schemas and asset type templates for this client.",
+    "propertyDefinitions": "Property definitions",
+    "propertyDefinitionsDescription": "Manage typed property field schemas",
+    "assetTypes": "Asset types",
+    "assetTypesDescription": "Configure templates with mandatory fields"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "description": "Company-wide defaults for navigation and table behavior"
+  },
+  "security": {
+    "title": "Security",
+    "description": "Session policy, sign-in rules, and audit controls"
+  },
+  "inactivity": {
+    "title": "Inactivity thresholds",
+    "description": "Set how long users can remain idle before being signed out"
+  },
+  "tabs": {
+    "branding": "Branding",
+    "assets": "Assets",
+    "preferences": "Preferences",
+    "security": "Security"
+  }
+}

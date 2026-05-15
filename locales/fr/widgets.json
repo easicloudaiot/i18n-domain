@@ -1,0 +1,19 @@
+{
+  "enterFullscreen": "Plein écran",
+  "exitFullscreen": "Quitter le plein écran",
+  "filterBy": "Filtrer par {{field}}...",
+  "exportAs": "Exporter en {{format}}",
+  "allOf": "Tous les {{label}}",
+  "filtersActive_one": "{{count}} filtre actif",
+  "filtersActive_other": "{{count}} filtres actifs",
+  "searchingFor": "recherche de « {{value}} »",
+  "showingRows": "Affichage de {{shown}} sur {{total}} lignes",
+  "filters": {
+    "title": "Filtres",
+    "close": "Fermer les filtres",
+    "showMore": "Afficher {{count}} de plus",
+    "showLess": "Afficher moins",
+    "searchIn": "Rechercher {{field}}...",
+    "enter": "Saisir {{field}}..."
+  }
+}

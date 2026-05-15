@@ -1,0 +1,20 @@
+{
+  "controls": {
+    "zoomIn": "Zoom avant",
+    "zoomOut": "Zoom arrière",
+    "resetView": "Réinitialiser la vue",
+    "resetZoneView": "Réinitialiser la vue de zone",
+    "showAccuracy": "Afficher la précision",
+    "hideAccuracy": "Masquer la précision",
+    "showLabels": "Afficher les étiquettes",
+    "hideLabels": "Masquer les étiquettes"
+  },
+  "info": {
+    "location": "Emplacement",
+    "accuracy": "Précision",
+    "device": "Appareil",
+    "asset": "Actif",
+    "recordedAt": "Enregistré le",
+    "history": "Historique"
+  }
+}

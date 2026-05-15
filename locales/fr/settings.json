@@ -1,0 +1,37 @@
+{
+  "title": "Paramètres",
+  "noSettings": "Aucun paramètre disponible",
+  "noSettingsDescription": "Vous n'avez pas les permissions pour configurer les paramètres à ce niveau.",
+  "branding": {
+    "title": "Marque et apparence",
+    "description": "Personnalisez l'apparence de cette entreprise sur la plateforme"
+  },
+  "asset": {
+    "title": "Gestion des actifs",
+    "description": "Configurez les types d'actifs, les schémas de propriétés et les règles de surveillance",
+    "configuration": "Configuration des actifs",
+    "configurationDescription": "Définissez les schémas de propriétés et les modèles de types d'actifs pour ce client.",
+    "propertyDefinitions": "Définitions de propriétés",
+    "propertyDefinitionsDescription": "Gérer les schémas de champs typés",
+    "assetTypes": "Types d'actifs",
+    "assetTypesDescription": "Configurer les modèles avec les champs obligatoires"
+  },
+  "preferences": {
+    "title": "Préférences",
+    "description": "Valeurs par défaut à l'échelle de l'entreprise pour la navigation et le comportement des tableaux"
+  },
+  "security": {
+    "title": "Sécurité",
+    "description": "Politique de session, règles de connexion et contrôles d'audit"
+  },
+  "inactivity": {
+    "title": "Seuils d'inactivité",
+    "description": "Définir la durée maximale d'inactivité avant la déconnexion des utilisateurs"
+  },
+  "tabs": {
+    "branding": "Marque",
+    "assets": "Actifs",
+    "preferences": "Préférences",
+    "security": "Sécurité"
+  }
+}

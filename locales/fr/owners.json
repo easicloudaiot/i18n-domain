@@ -1,0 +1,142 @@
+{
+  "company": {
+    "refreshed": "{{plural}} actualisés",
+    "empty": "Aucun {{plural}} trouvé",
+    "loading": "Chargement des {{plural}}...",
+    "failed": "Échec du chargement des {{plural}}"
+  },
+  "building": {
+    "empty": "Aucun bâtiment trouvé pour ce client",
+    "refreshed": "Bâtiments actualisés"
+  },
+  "floor": {
+    "empty": "Aucun étage trouvé pour ce bâtiment",
+    "refreshed": "Étages actualisés"
+  },
+  "zone": {
+    "empty": "Aucune zone trouvée pour cet étage",
+    "refreshed": "Zones actualisées"
+  },
+  "fields": {
+    "industry": "Secteur",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "country": "Pays",
+    "city": "Ville",
+    "buildings": "Bâtiments",
+    "floors": "Étages",
+    "zones": "Zones",
+    "label": "Étiquette",
+    "floorNumber": "N° d'étage",
+    "area": "Superficie (pi²)"
+  },
+  "count_one": "{{count}} {{label}}",
+  "count_other": "{{count}} {{label}}",
+  "buildingModal": {
+    "createTitle": "Créer un nouveau bâtiment",
+    "editTitle": "Modifier le bâtiment",
+    "createSubtitle": "Ajouter un bâtiment sous le client sélectionné",
+    "defaultName": "Bâtiment",
+    "selectClient": "Veuillez d'abord sélectionner un client",
+    "createdSuccess": "Bâtiment créé avec succès",
+    "createdAnother": "Bâtiment créé! Prêt à en créer un autre.",
+    "updatedSuccess": "Bâtiment mis à jour avec succès",
+    "deletedSuccess": "Bâtiment supprimé avec succès",
+    "createBtn": "Créer le bâtiment",
+    "sectionPerimeter": "Coins du périmètre du bâtiment",
+    "perimeterRequired": "4 requis",
+    "nameLabel": "Nom du bâtiment *",
+    "typeLabel": "Type de bâtiment *",
+    "pictureLabel": "URL de l'image du bâtiment",
+    "colorLabel": "Couleur du bâtiment *",
+    "perimeterIntro": "Définissez le périmètre du bâtiment en précisant les coordonnées de chaque coin. Les points seront reliés dans l'ordre : Haut gauche → Haut droit → Bas droit → Bas gauche → retour au Haut gauche.",
+    "corners": {
+      "topLeft": "Haut gauche (HG)",
+      "topRight": "Haut droit (HD)",
+      "bottomRight": "Bas droit (BD)",
+      "bottomLeft": "Bas gauche (BG)",
+      "point": "Point {{index}}"
+    },
+    "typeDescriptions": {
+      "OFFICE": "Immeuble de bureaux ou siège social",
+      "WAREHOUSE": "Installation de stockage et de distribution",
+      "FACTORY": "Installation de fabrication ou de production",
+      "RETAIL": "Magasin ou centre commercial",
+      "MEDICAL": "Établissement de santé",
+      "SCHOOL": "Établissement d'enseignement",
+      "OTHER": "Autre type de bâtiment"
+    },
+    "deleteBlocked": "Suppression impossible — comporte {{count}} étage. Retirez-le d'abord.",
+    "deleteBlocked_plural": "Suppression impossible — comporte {{count}} étages. Retirez-les d'abord.",
+    "deleteWarning": "Cette action supprimera définitivement {{name}} ainsi que tous les actifs, appareils et utilisateurs qu'il possède. Cette action est irréversible."
+  },
+  "floorModal": {
+    "createTitle": "Créer un nouvel étage",
+    "editTitle": "Modifier l'étage",
+    "createSubtitle": "Ajouter un étage au bâtiment sélectionné",
+    "defaultName": "Étage",
+    "createdSuccess": "Étage créé avec succès",
+    "createdAnother": "Étage créé! Prêt à en créer un autre.",
+    "updatedSuccess": "Étage mis à jour avec succès",
+    "deletedSuccess": "Étage supprimé avec succès",
+    "createBtn": "Créer l'étage",
+    "sectionFloorPlan": "Plan d'étage"
+  },
+  "zoneModal": {
+    "createTitle": "Créer une nouvelle zone",
+    "editTitle": "Modifier la zone",
+    "createSubtitle": "Ajouter une zone à l'étage sélectionné",
+    "defaultName": "Zone",
+    "createdSuccess": "Zone créée avec succès",
+    "createdAnother": "Zone créée! Prête à en créer une autre.",
+    "updatedSuccess": "Zone mise à jour avec succès",
+    "deletedSuccess": "Zone supprimée avec succès",
+    "createBtn": "Créer la zone",
+    "sectionBounds": "Limites de la zone"
+  },
+  "vendorAssignment": "Attribution du fournisseur *",
+  "vendorAssignmentHint": "Les clients racines doivent être attribués à un fournisseur pour le contrôle d'accès.",
+  "vendorIdentifications": {
+    "title": "Identifications des fournisseurs",
+    "optional": "optionnel",
+    "description": "Associez des fournisseurs à ce propriétaire et précisez l'identifiant du propriétaire chez le fournisseur.",
+    "noVendors": "Aucun fournisseur disponible. Créez d'abord des fournisseurs pour les associer aux propriétaires.",
+    "allAdded": "Tous les fournisseurs disponibles ont été ajoutés.",
+    "vendorLabel": "Fournisseur",
+    "ownerVendorIdLabel": "ID du propriétaire chez le fournisseur"
+  },
+  "companyModal": {
+    "createTitle": "Créer une nouvelle entreprise",
+    "editTitle": "Modifier l'entreprise",
+    "createSubtitle": "Ajouter une nouvelle entreprise à la plateforme",
+    "defaultName": "Entreprise",
+    "createdSuccess": "Entreprise créée avec succès",
+    "createdAnother": "Entreprise créée! Prête à en créer une autre.",
+    "updatedSuccess": "Entreprise mise à jour avec succès",
+    "deletedSuccess": "Entreprise supprimée avec succès",
+    "createBtn": "Créer l'entreprise",
+    "industryLabel": "Industrie *",
+    "deleteBlocked": "Impossible de supprimer — contient {{count}} entité enfant. Supprimez-la d'abord.",
+    "deleteBlocked_other": "Impossible de supprimer — contient {{count}} entités enfants. Supprimez-les d'abord.",
+    "deleteWarning": "Cette action supprimera définitivement {{name}} ainsi que tous les actifs, appareils et utilisateurs qui lui appartiennent. Cette action est irréversible.",
+    "createLabelTitle": "Créer un nouveau {{label}}",
+    "editLabelTitle": "Modifier le {{label}}",
+    "createLabelSubtitle": "Ajouter un nouveau {{label}}",
+    "selectVendor": "Veuillez sélectionner un fournisseur pour le client racine",
+    "createdWithVendor": "{{label}} créé et fournisseur attribué avec succès",
+    "createdWithVendorAnother": "{{label}} créé et fournisseur attribué! Prêt à en créer un autre.",
+    "vendorAssignFailed": "{{label}} créé mais l'attribution du fournisseur a échoué",
+    "createdSuccessLabel": "{{label}} créé avec succès",
+    "createdAnotherLabel": "{{label}} créé! Prêt à en créer un autre.",
+    "updatedLabel": "{{label}} mis à jour avec succès",
+    "deletedLabel": "{{label}} supprimé avec succès",
+    "createLabelBtn": "Créer {{label}}",
+    "sectionLabel": "Informations sur {{label}}"
+  },
+  "validation": {
+    "industryRequired": "L'industrie doit être spécifiée",
+    "industryTooLong": "L'industrie doit contenir 100 caractères ou moins",
+    "logoTooLong": "L'URL du logo doit contenir 500 caractères ou moins",
+    "invalidUrl": "URL invalide"
+  }
+}

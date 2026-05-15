@@ -17,5 +17,63 @@
     "read":   "Read",
     "write":  "Write",
     "manage": "Manage"
+  },
+  "custody": {
+    "NEEDS_PROVISIONING": "Needs device",
+    "AWAITING_TELEMETRY": "Awaiting telemetry",
+    "AT_HOME":            "At home",
+    "LOANED_OUT":         "Loaned out",
+    "IN_TRANSIT":         "In transit",
+    "MISSING":            "Missing",
+    "MAINTENANCE":        "Maintenance"
+  },
+  "deviceStatus": {
+    "ACTIVE":         "Active",
+    "INACTIVE":       "Inactive",
+    "MAINTENANCE":    "Maintenance",
+    "DECOMMISSIONED": "Decommissioned"
+  },
+  "deviceType": {
+    "TRACKER":  "Tracker",
+    "REPEATER": "Repeater"
+  },
+  "role": {
+    "GLOBAL_ADMIN":   "Global administrator",
+    "CUSTOMER_ADMIN": "Customer administrator",
+    "USER":           "User"
+  },
+  "buildingType": {
+    "OFFICE":    "Office",
+    "WAREHOUSE": "Warehouse",
+    "FACTORY":   "Factory",
+    "RETAIL":    "Retail",
+    "MEDICAL":   "Medical",
+    "SCHOOL":    "School",
+    "OTHER":     "Other"
+  },
+  "industry": {
+    "Technology":     "Technology",
+    "Healthcare":     "Healthcare",
+    "Finance":        "Finance",
+    "Manufacturing":  "Manufacturing",
+    "Retail":         "Retail",
+    "Education":      "Education",
+    "Construction":   "Construction",
+    "Transportation": "Transportation",
+    "Energy":         "Energy",
+    "Other":          "Other"
+  },
+  "timeBucket": {
+    "LAST_DAY":      "Last 24h",
+    "LAST_7_DAYS":   "Last 7 days",
+    "LAST_30_DAYS":  "Last 30 days",
+    "LAST_3_MONTHS": "Last 3 months",
+    "LAST_YEAR":     "Last year"
+  },
+  "severity": {
+    "critical": "Critical",
+    "warning":  "Warning",
+    "info":     "Info",
+    "resolved": "Resolved"
   }
 }

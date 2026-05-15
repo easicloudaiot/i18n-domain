@@ -1,0 +1,29 @@
+{
+  "title": "Fournisseurs",
+  "management": "Gestion des fournisseurs",
+  "create": "Créer un fournisseur",
+  "edit": "Modifier le fournisseur",
+  "delete": "Supprimer le fournisseur",
+  "empty": "Aucun fournisseur trouvé",
+  "refreshed": "Fournisseurs actualisés",
+  "failedToLoad": "Échec du chargement des fournisseurs",
+  "fields": {
+    "name": "Nom du fournisseur",
+    "nameRequired": "Nom du fournisseur *"
+  },
+  "modal": {
+    "createTitle": "Créer un fournisseur",
+    "createSubtitle": "Ajouter un nouveau fournisseur au système",
+    "editTitle": "Modifier le fournisseur",
+    "update": "Mettre à jour",
+    "enterName": "Saisissez le nom du fournisseur",
+    "deleteTitle": "Supprimer le fournisseur",
+    "deleteWarning": "Attention : La suppression de ce fournisseur supprimera définitivement toutes les données associées.",
+    "vendorName": "Nom du fournisseur :",
+    "confirmDelete": "Voulez-vous vraiment supprimer ce fournisseur? Cette action est irréversible."
+  },
+  "validation": {
+    "nameRequired": "Le nom du fournisseur est requis",
+    "nameTooLong": "Le nom doit contenir moins de 255 caractères"
+  }
+}

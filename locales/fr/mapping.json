@@ -1,0 +1,57 @@
+{
+  "controls": {
+    "zoomIn": "Zoom avant",
+    "zoomOut": "Zoom arrière",
+    "resetView": "Réinitialiser la vue",
+    "resetZoneView": "Réinitialiser la vue de zone",
+    "showAccuracy": "Afficher la précision",
+    "hideAccuracy": "Masquer la précision",
+    "showLabels": "Afficher les étiquettes",
+    "hideLabels": "Masquer les étiquettes"
+  },
+  "markers": {
+    "building": "Bâtiment",
+    "asset": "Actif",
+    "device": "Appareil",
+    "online": "En ligne",
+    "offline": "Hors ligne",
+    "warning": "Avertissement",
+    "error": "Erreur"
+  },
+  "info": {
+    "home": "Domicile",
+    "location": "Emplacement",
+    "dwellTime": "Durée de présence",
+    "accuracy": "Précision",
+    "tracker": "Traceur",
+    "lastUpdated": "Dernière mise à jour",
+    "vendor": "Fournisseur",
+    "pairedAsset": "Actif jumelé",
+    "gps": "GPS",
+    "device": "Appareil",
+    "asset": "Actif",
+    "recordedAt": "Enregistré le",
+    "floors": "Étages",
+    "area": "Superficie",
+    "areaSqFt": "{{value}} pi²",
+    "built": "Construit",
+    "perimeter": "Périmètre",
+    "perimeterPoints": "{{count}} pts"
+  },
+  "building": {
+    "details": "Détails du bâtiment",
+    "typeDetails": "Bâtiment {{type}}",
+    "location": "Emplacement",
+    "contact": "Contact"
+  },
+  "search": {
+    "placeholder": "Rechercher...",
+    "failed": "Échec du chargement des données"
+  },
+  "movement": {
+    "legend": "Légende",
+    "start": "Départ",
+    "end": "Fin",
+    "direction": "Direction"
+  }
+}
