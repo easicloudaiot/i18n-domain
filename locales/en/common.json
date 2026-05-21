@@ -26,7 +26,8 @@
     "complete": "Complete",
     "reset": "Reset",
     "retry": "Retry",
-    "update": "Update"
+    "update": "Update",
+    "seeAll": "See all"
   },
   "status": {
     "loading": "Loading...",
@@ -119,7 +120,9 @@
   },
   "labels": {
     "from": "From",
-    "to": "To"
+    "to": "To",
+    "createdAt": "Created {{when}}",
+    "updatedAt": "Updated {{when}}"
   },
   "options": {
     "none": "None",

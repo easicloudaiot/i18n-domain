@@ -5,6 +5,18 @@
   "edit": "Edit asset",
   "delete": "Delete asset",
   "createAnother": "Create another asset",
+  "tabs": {
+    "map": "Map",
+    "details": "Details",
+    "history": "History"
+  },
+  "actions": {
+    "shareLocation": "Share location"
+  },
+  "map": {
+    "emptyNoLocation": "No location for this asset",
+    "emptyHint": "Switch to Details or History"
+  },
   "modal": {
     "createSubtitle": "Update asset information",
     "editSubtitle": "Update asset information",
@@ -73,7 +85,8 @@
     "noteDevicesDetached": "• All attached devices will be automatically detached",
     "noteAwayFromHome": "• Asset is currently away from home location",
     "confirmPrompt": "Type the asset name \"{{name}}\" to confirm deletion.",
-    "confirmHelp": "This ensures you're deleting the correct asset."
+    "confirmHelp": "This ensures you're deleting the correct asset.",
+    "noOwnerError": "Cannot delete: asset has no home owner"
   },
   "typeModal": {
     "deleteTitle": "Delete asset type",
@@ -169,6 +182,8 @@
   "history": {
     "title": "Location history",
     "empty": "No location history found",
+    "emptyTitle": "No location records",
+    "emptyHint": "No history in this range. Try a longer window.",
     "time": "Time",
     "location": "Location",
     "device": "Device",
@@ -196,7 +211,8 @@
     "permanent": "Permanent",
     "atHome": "At Home",
     "visiting": "Visiting",
-    "attached": "Attached: {{date}}"
+    "attached": "Attached: {{date}}",
+    "lastSeenAt": "Last seen {{when}}"
   },
   "viewModal": {
     "loadingTitle": "Loading Asset",

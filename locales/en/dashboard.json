@@ -1,10 +1,16 @@
 {
   "title": "Dashboard",
+  "noOwnerPrompt": "Pick a location to see its stats",
+  "donutCountLabel_one": "asset",
+  "donutCountLabel_other": "assets",
   "stats": {
     "assets": "Assets",
     "devices": "Devices",
     "users": "Users",
     "totalRegistered": "Total registered"
+  },
+  "devices": {
+    "empty": "No devices in scope."
   },
   "globalAdmin": {
     "pageTitle": "Root company management",

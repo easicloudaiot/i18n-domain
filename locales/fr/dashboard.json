@@ -1,10 +1,16 @@
 {
   "title": "Tableau de bord",
+  "noOwnerPrompt": "Choisissez un emplacement pour voir ses statistiques",
+  "donutCountLabel_one": "actif",
+  "donutCountLabel_other": "actifs",
   "stats": {
     "assets": "Actifs",
     "devices": "Appareils",
     "users": "Utilisateurs",
     "totalRegistered": "Total inscrits"
+  },
+  "devices": {
+    "empty": "Aucun appareil dans ce périmètre."
   },
   "globalAdmin": {
     "pageTitle": "Gestion des entreprises racines",

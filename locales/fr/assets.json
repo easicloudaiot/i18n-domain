@@ -5,6 +5,18 @@
   "edit": "Modifier l'actif",
   "delete": "Supprimer l'actif",
   "createAnother": "Créer un autre actif",
+  "tabs": {
+    "map": "Carte",
+    "details": "Détails",
+    "history": "Historique"
+  },
+  "actions": {
+    "shareLocation": "Partager la position"
+  },
+  "map": {
+    "emptyNoLocation": "Aucune position pour cet actif",
+    "emptyHint": "Allez à Détails ou Historique"
+  },
   "modal": {
     "createSubtitle": "Mettre à jour les informations de l'actif",
     "editSubtitle": "Mettre à jour les informations de l'actif",
@@ -73,7 +85,8 @@
     "noteDevicesDetached": "• Tous les appareils rattachés seront automatiquement détachés",
     "noteAwayFromHome": "• L'actif se trouve actuellement loin de son emplacement d'origine",
     "confirmPrompt": "Tapez le nom de l'actif « {{name}} » pour confirmer la suppression.",
-    "confirmHelp": "Cela garantit que vous supprimez le bon actif."
+    "confirmHelp": "Cela garantit que vous supprimez le bon actif.",
+    "noOwnerError": "Suppression impossible : aucun propriétaire d'origine"
   },
   "typeModal": {
     "deleteTitle": "Supprimer le type d'actif",
@@ -169,6 +182,8 @@
   "history": {
     "title": "Historique d'emplacement",
     "empty": "Aucun historique d'emplacement trouvé",
+    "emptyTitle": "Aucun enregistrement de position",
+    "emptyHint": "Aucun historique dans cette plage. Essayez une période plus longue.",
     "time": "Heure",
     "location": "Emplacement",
     "device": "Appareil",
@@ -196,7 +211,8 @@
     "permanent": "Permanent",
     "atHome": "Sur place",
     "visiting": "En visite",
-    "attached": "Rattaché : {{date}}"
+    "attached": "Rattaché : {{date}}",
+    "lastSeenAt": "Vu pour la dernière fois {{when}}"
   },
   "viewModal": {
     "loadingTitle": "Chargement de l'actif",
