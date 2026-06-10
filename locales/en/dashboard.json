@@ -122,5 +122,37 @@
     "welcomeUser": "Welcome, {{name}}",
     "selectLocation": "Select a location from the navigation panel to view its dashboard and manage your resources.",
     "hint": "👈 Use the navigation panel on the left to browse your assigned locations."
+  },
+  "analytics": {
+    "usageTitle": "Telemetry Usage",
+    "metricMessages": "Messages",
+    "metricVolume": "Data volume",
+    "noUsageData": "No telemetry usage in this period",
+    "total": "Total",
+    "inventoryTitle": "Inventory",
+    "inventorySubtitle": "Now: {{devices}} devices · {{assets}} assets",
+    "noInventoryData": "No inventory data in this period",
+    "devices": "Devices",
+    "assets": "Assets"
+  },
+  "billing": {
+    "title": "Billing",
+    "tabs": {
+      "invoices": "Invoices",
+      "bills": "Billing",
+      "analytics": "Analytics"
+    },
+    "invoices": {
+      "emptyTitle": "No invoices yet",
+      "emptyDescription": "Invoices you issue to clients below you will appear here."
+    },
+    "bills": {
+      "emptyTitle": "No billing yet",
+      "emptyDescription": "Billing you receive from the client above you will appear here."
+    },
+    "analytics": {
+      "noClientTitle": "Select a client",
+      "noClientDescription": "Billing analytics are available at the client level."
+    }
   }
 }

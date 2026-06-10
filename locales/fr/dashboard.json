@@ -122,5 +122,37 @@
     "welcomeUser": "Bienvenue, {{name}}",
     "selectLocation": "Sélectionnez un emplacement dans le panneau de navigation pour voir son tableau de bord et gérer vos ressources.",
     "hint": "👈 Utilisez le panneau de navigation à gauche pour parcourir vos emplacements attribués."
+  },
+  "analytics": {
+    "usageTitle": "Utilisation télémétrique",
+    "metricMessages": "Messages",
+    "metricVolume": "Volume de données",
+    "noUsageData": "Aucune utilisation télémétrique sur cette période",
+    "total": "Total",
+    "inventoryTitle": "Inventaire",
+    "inventorySubtitle": "Maintenant : {{devices}} appareils · {{assets}} actifs",
+    "noInventoryData": "Aucune donnée d'inventaire sur cette période",
+    "devices": "Appareils",
+    "assets": "Actifs"
+  },
+  "billing": {
+    "title": "Facturation",
+    "tabs": {
+      "invoices": "Factures",
+      "bills": "Facturation",
+      "analytics": "Analytique"
+    },
+    "invoices": {
+      "emptyTitle": "Aucune facture pour le moment",
+      "emptyDescription": "Les factures que vous émettez aux clients sous votre responsabilité apparaîtront ici."
+    },
+    "bills": {
+      "emptyTitle": "Aucune facturation pour le moment",
+      "emptyDescription": "La facturation que vous recevez du client supérieur apparaîtra ici."
+    },
+    "analytics": {
+      "noClientTitle": "Sélectionnez un client",
+      "noClientDescription": "Les analyses de facturation sont disponibles au niveau du client."
+    }
   }
 }
