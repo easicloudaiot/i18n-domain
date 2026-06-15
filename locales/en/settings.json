@@ -16,6 +16,16 @@
     "assetTypes": "Asset types",
     "assetTypesDescription": "Configure templates with mandatory fields"
   },
+  "assetInactivity": {
+    "title": "Asset inactivity thresholds",
+    "description": "Flag an asset as {{inTransit}} or {{missing}} after it has been inactive for the configured time.",
+    "thresholdLabel": "{{label}} after (minutes)",
+    "errors": {
+      "minMinutes": "Must be at least 1 minute",
+      "atLeastOneThreshold": "Set at least one threshold",
+      "missingGreaterThanTransit": "The missing threshold must be greater than the in-transit threshold"
+    }
+  },
   "preferences": {
     "title": "Preferences",
     "description": "Company-wide defaults for navigation and table behavior"

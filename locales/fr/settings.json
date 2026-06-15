@@ -16,6 +16,16 @@
     "assetTypes": "Types d'actifs",
     "assetTypesDescription": "Configurer les modèles avec les champs obligatoires"
   },
+  "assetInactivity": {
+    "title": "Seuils d'inactivité des actifs",
+    "description": "Marquer un actif comme {{inTransit}} ou {{missing}} après qu'il soit resté inactif pendant la durée configurée.",
+    "thresholdLabel": "{{label}} après (minutes)",
+    "errors": {
+      "minMinutes": "Doit être d'au moins 1 minute",
+      "atLeastOneThreshold": "Définissez au moins un seuil",
+      "missingGreaterThanTransit": "Le seuil « manquant » doit être supérieur au seuil « en transit »"
+    }
+  },
   "preferences": {
     "title": "Préférences",
     "description": "Valeurs par défaut à l'échelle de l'entreprise pour la navigation et le comportement des tableaux"
