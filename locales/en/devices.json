@@ -39,6 +39,50 @@
     "title": "Device location history",
     "empty": "No location history found"
   },
+  "tabs": {
+    "details": "Details",
+    "history": "History",
+    "health": "Health"
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "idle": "Idle",
+    "maintenance": "Maintenance"
+  },
+  "details": {
+    "allDevices": "All Devices",
+    "editDevice": "Edit device",
+    "lastSeen": "Last seen",
+    "location": "Location",
+    "currentLocation": "Current Location",
+    "attachedAsset": "Attached Asset",
+    "externalId": "External ID",
+    "vendor": "Vendor",
+    "position": "Position",
+    "gps": "GPS",
+    "floorPosition": "Floor (x, y)",
+    "accuracy": "Accuracy",
+    "created": "Created",
+    "updated": "Updated"
+  },
+  "health": {
+    "batterySeries": "Battery",
+    "battery": "Battery",
+    "estLifeLeft": "Est. Life Left",
+    "lastReboot": "Last Reboot",
+    "none": "None",
+    "softwareVer": "Software Ver.",
+    "rebootCode": "Reboot Code",
+    "rebootReason": "Reboot Reason",
+    "showingRecent": "Showing most recent samples",
+    "loadError": "Failed to load health data",
+    "noData": "No health data in this period",
+    "events": "Events",
+    "firmware": "Firmware",
+    "reboot": "Reboot",
+    "code": "code"
+  },
   "errorLoading": "Error loading devices",
   "failedToLoad": "Failed to load devices",
   "validation": {

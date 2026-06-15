@@ -39,6 +39,50 @@
     "title": "Historique d'emplacement de l'appareil",
     "empty": "Aucun historique d'emplacement trouvé"
   },
+  "tabs": {
+    "details": "Détails",
+    "history": "Historique",
+    "health": "État"
+  },
+  "status": {
+    "online": "En ligne",
+    "offline": "Hors ligne",
+    "idle": "Inactif",
+    "maintenance": "Maintenance"
+  },
+  "details": {
+    "allDevices": "Tous les appareils",
+    "editDevice": "Modifier l'appareil",
+    "lastSeen": "Vu",
+    "location": "Emplacement",
+    "currentLocation": "Emplacement actuel",
+    "attachedAsset": "Actif rattaché",
+    "externalId": "ID externe",
+    "vendor": "Fournisseur",
+    "position": "Position",
+    "gps": "GPS",
+    "floorPosition": "Étage (x, y)",
+    "accuracy": "Précision",
+    "created": "Créé",
+    "updated": "Mis à jour"
+  },
+  "health": {
+    "batterySeries": "Batterie",
+    "battery": "Batterie",
+    "estLifeLeft": "Autonomie est.",
+    "lastReboot": "Dernier redémarrage",
+    "none": "Aucun",
+    "softwareVer": "Version logicielle",
+    "rebootCode": "Code de redémarrage",
+    "rebootReason": "Motif du redémarrage",
+    "showingRecent": "Affichage des échantillons les plus récents",
+    "loadError": "Échec du chargement des données d'état",
+    "noData": "Aucune donnée d'état pour cette période",
+    "events": "Événements",
+    "firmware": "Micrologiciel",
+    "reboot": "Redémarrage",
+    "code": "code"
+  },
   "errorLoading": "Erreur de chargement des appareils",
   "failedToLoad": "Échec du chargement des appareils",
   "validation": {
