@@ -154,5 +154,19 @@
       "noClientTitle": "Select a client",
       "noClientDescription": "Billing analytics are available at the client level."
     }
+  },
+  "insights": {
+    "title": "Quick Insights",
+    "generatedAt": "Generated",
+    "close": "Close",
+    "failed": "Could not generate insights",
+    "empty": "No insights available yet.",
+    "poweredBy": "Powered by EASI Intelligence",
+    "askPlaceholder": "Ask about your assets and devices…",
+    "send": "Send",
+    "conversationExpired": "This conversation expired. Send your question again to start a new one.",
+    "rateLimited": "The assistant is busy right now — please try again in a moment.",
+    "answerFailed": "Something went wrong generating a response.",
+    "retry": "Retry"
   }
 }

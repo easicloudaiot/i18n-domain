@@ -154,5 +154,19 @@
       "noClientTitle": "Sélectionnez un client",
       "noClientDescription": "Les analyses de facturation sont disponibles au niveau du client."
     }
+  },
+  "insights": {
+    "title": "Aperçus rapides",
+    "generatedAt": "Généré",
+    "close": "Fermer",
+    "failed": "Impossible de générer les aperçus",
+    "empty": "Aucun aperçu disponible pour le moment.",
+    "poweredBy": "Propulsé par EASI Intelligence",
+    "askPlaceholder": "Posez une question sur vos actifs et appareils…",
+    "send": "Envoyer",
+    "conversationExpired": "Cette conversation a expiré. Renvoyez votre question pour en commencer une nouvelle.",
+    "rateLimited": "L'assistant est occupé pour le moment — veuillez réessayer dans un instant.",
+    "answerFailed": "Une erreur est survenue lors de la génération de la réponse.",
+    "retry": "Réessayer"
   }
 }
