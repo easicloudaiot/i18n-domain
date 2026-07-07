@@ -68,6 +68,7 @@
   },
   "health": {
     "batterySeries": "Batterie",
+    "temperatureSeries": "Température",
     "battery": "Batterie",
     "estLifeLeft": "Autonomie est.",
     "lastReboot": "Dernier redémarrage",
