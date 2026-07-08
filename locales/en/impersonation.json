@@ -1,0 +1,23 @@
+{
+  "action": {
+    "viewAs": "View as user"
+  },
+  "banner": {
+    "viewingAs": "Viewing as {{name}}",
+    "readOnly": "Read-only",
+    "expiresIn": "Expires in {{time}}",
+    "stop": "Stop",
+    "stopAria": "Stop impersonating"
+  },
+  "transition": {
+    "starting": "Switching to {{name}}…",
+    "stopping": "Returning to your account…"
+  },
+  "toast": {
+    "started": "Now viewing as {{name}}",
+    "stopped": "Stopped impersonating",
+    "errorForbidden": "This user cannot be impersonated.",
+    "errorNotFound": "User not found or outside your administrative scope.",
+    "errorGeneric": "Could not start impersonation. Please try again."
+  }
+}

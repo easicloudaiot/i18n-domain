@@ -1,0 +1,23 @@
+{
+  "action": {
+    "viewAs": "Voir en tant qu'utilisateur"
+  },
+  "banner": {
+    "viewingAs": "Affichage en tant que {{name}}",
+    "readOnly": "Lecture seule",
+    "expiresIn": "Expire dans {{time}}",
+    "stop": "Arrêter",
+    "stopAria": "Arrêter l'affichage en tant qu'utilisateur"
+  },
+  "transition": {
+    "starting": "Passage à {{name}}…",
+    "stopping": "Retour à votre compte…"
+  },
+  "toast": {
+    "started": "Affichage en tant que {{name}}",
+    "stopped": "Affichage en tant qu'utilisateur arrêté",
+    "errorForbidden": "Impossible d'afficher en tant que cet utilisateur.",
+    "errorNotFound": "Utilisateur introuvable ou hors de votre périmètre d'administration.",
+    "errorGeneric": "Impossible de démarrer l'affichage en tant qu'utilisateur. Veuillez réessayer."
+  }
+}
