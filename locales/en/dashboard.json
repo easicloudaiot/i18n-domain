@@ -140,19 +140,313 @@
     "tabs": {
       "invoices": "Invoices",
       "bills": "Billing",
-      "analytics": "Analytics"
+      "analytics": "Analytics",
+      "plans": "Price Plans",
+      "assignments": "Assignments",
+      "addons": "Add-ons",
+      "slas": "SLAs",
+      "catalog": "Catalog"
     },
     "invoices": {
       "emptyTitle": "No invoices yet",
-      "emptyDescription": "Invoices you issue to clients below you will appear here."
+      "emptyDescription": "Invoices you issue to clients below you will appear here.",
+      "emptyMessage": "No invoices yet. Invoices you issue to clients below you will appear here."
     },
     "bills": {
       "emptyTitle": "No billing yet",
-      "emptyDescription": "Billing you receive from the client above you will appear here."
+      "emptyDescription": "Billing you receive from the client above you will appear here.",
+      "emptyMessage": "No billing yet. Bills you receive from the client above you will appear here."
     },
     "analytics": {
       "noClientTitle": "Select a client",
       "noClientDescription": "Billing analytics are available at the client level."
+    },
+    "selectClient": {
+      "title": "Select a client",
+      "description": "Billing is managed at the client level. Pick a client to view its billing."
+    },
+    "sections": {
+      "catalog": "Catalog",
+      "enabledForClient": "Enabled for this client"
+    },
+    "documentStatus": {
+      "DRAFT": "Draft",
+      "ISSUED": "Issued",
+      "PARTIALLY_PAID": "Partially paid",
+      "PAID": "Paid",
+      "OVERDUE": "Overdue",
+      "VOID": "Void"
+    },
+    "slaStatus": {
+      "DRAFT": "Draft",
+      "PENDING_SIGNATURE": "Pending signature",
+      "SIGNED": "Signed",
+      "EXPIRED": "Expired",
+      "TERMINATED": "Terminated"
+    },
+    "planStatus": {
+      "DRAFT": "Draft",
+      "ACTIVE": "Active",
+      "ARCHIVED": "Archived"
+    },
+    "addOnStatus": {
+      "ACTIVE": "Active",
+      "ARCHIVED": "Archived"
+    },
+    "lineType": {
+      "TIER": "Tier",
+      "USAGE": "Usage",
+      "ADD_ON": "Add-on",
+      "ADJUSTMENT": "Adjustment"
+    },
+    "paymentMethod": {
+      "CARD": "Card",
+      "BANK_TRANSFER": "Bank transfer",
+      "CASH": "Cash",
+      "CHEQUE": "Cheque",
+      "CREDIT": "Credit",
+      "MANUAL": "Manual",
+      "OTHER": "Other"
+    },
+    "recurrence": {
+      "MONTHLY": "Monthly",
+      "ONE_TIME": "One-time"
+    },
+    "common": {
+      "create": "Create",
+      "edit": "Edit",
+      "delete": "Delete",
+      "archive": "Archive",
+      "issue": "Issue",
+      "void": "Void",
+      "sign": "Sign",
+      "save": "Save",
+      "cancel": "Cancel",
+      "loading": "Loading…",
+      "none": "—",
+      "actions": "Actions",
+      "status": "Status",
+      "currency": "Currency",
+      "notes": "Notes",
+      "createdAt": "Created",
+      "updatedAt": "Updated",
+      "close": "Close",
+      "platform": "Platform",
+      "description": "Description",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "documents": {
+      "columns": {
+        "documentNumber": "Number",
+        "type": "Type",
+        "period": "Period",
+        "payer": "Payer",
+        "issuer": "Issuer",
+        "status": "Status",
+        "total": "Total",
+        "amountPaid": "Paid",
+        "dueDate": "Due",
+        "issuedAt": "Issued",
+        "client": "Client"
+      },
+      "actions": {
+        "create": "Create document",
+        "issue": "Issue",
+        "void": "Void",
+        "recordPayment": "Record payment"
+      },
+      "lineItems": "Line items",
+      "payments": "Payments",
+      "title": "Document",
+      "unavailable": "Document details are unavailable.",
+      "invoice": "Invoice",
+      "bill": "Bill",
+      "overview": "Overview",
+      "amounts": "Amounts",
+      "noLineItems": "No line items.",
+      "noPayments": "No payments recorded.",
+      "draftDocument": "Draft document",
+      "editHint": "Line items and issuing are managed by the billing service and become available once the backend endpoints ship.",
+      "fields": {
+        "documentNumber": "Document #",
+        "payerClient": "Payer (client)",
+        "dueDate": "Due date",
+        "subtotal": "Subtotal",
+        "tax": "Tax",
+        "balance": "Balance",
+        "taxAmount": "Tax amount"
+      },
+      "lineColumns": {
+        "number": "#",
+        "qty": "Qty",
+        "unit": "Unit",
+        "amount": "Amount"
+      },
+      "paymentColumns": {
+        "date": "Date",
+        "method": "Method",
+        "reference": "Reference"
+      }
+    },
+    "plans": {
+      "empty": "No price plans yet",
+      "columns": {
+        "name": "Name",
+        "currency": "Currency",
+        "tierCalculation": "Calculation",
+        "tiers": "Tiers",
+        "status": "Status",
+        "default": "Default",
+        "plan": "Plan",
+        "model": "Model"
+      },
+      "actions": {
+        "create": "Create plan",
+        "edit": "Edit plan",
+        "archive": "Archive",
+        "new": "New plan",
+        "addTier": "Add tier",
+        "removeTier": "Remove tier"
+      },
+      "tiers": "Tiers",
+      "usageRates": "Usage rates",
+      "title": "Price plan",
+      "unavailable": "Plan details are unavailable.",
+      "emptyMessage": "No price plans yet. Create a plan to bill the clients below you.",
+      "deviceTiers": "Device tiers",
+      "noTiers": "No tiers defined.",
+      "noUsageRates": "No usage-based rates.",
+      "noTiersHint": "No tiers. Each tier is either a flat price or a per-device price.",
+      "newPlan": "New price plan",
+      "editHint": "Usage-based rates are managed by the billing service and become editable once the backend endpoints ship.",
+      "usageRateValue": "{{included}} included, then {{rate}} per {{size}}",
+      "fields": {
+        "pricingModel": "Pricing model",
+        "defaultPlan": "Default plan",
+        "planName": "Plan name",
+        "defaultForOwner": "Default plan for this owner",
+        "toBlankInfinity": "To (blank=∞)"
+      },
+      "tierColumns": {
+        "tier": "Tier",
+        "from": "From",
+        "to": "To",
+        "flat": "Flat",
+        "perDevice": "Per device"
+      },
+      "tierCalculationOptions": {
+        "GRADUATED": "Graduated",
+        "VOLUME": "Volume",
+        "FLAT": "Flat"
+      }
+    },
+    "assignments": {
+      "empty": "No plan assignments yet",
+      "columns": {
+        "plan": "Plan",
+        "payer": "Payer",
+        "effectiveFrom": "From",
+        "effectiveTo": "To",
+        "notes": "Notes"
+      },
+      "actions": {
+        "create": "Assign plan",
+        "edit": "Edit",
+        "delete": "Remove",
+        "assign": "Assign"
+      },
+      "emptyMessage": "No custom plan assignments. Payers without an assignment are billed on your default plan.",
+      "current": "Current",
+      "assignPlan": "Assign a plan",
+      "editAssignment": "Edit assignment",
+      "selectPlan": "Select a plan…",
+      "noPlansHint": "No price plans available yet — the plan list populates once the billing endpoints ship.",
+      "fields": {
+        "payerCompanyId": "Payer company ID",
+        "payerPlaceholder": "Company UUID of the payer",
+        "effectiveFrom": "Effective from",
+        "effectiveTo": "Effective to (blank = current)"
+      }
+    },
+    "addOns": {
+      "empty": "No add-ons in the catalog",
+      "columns": {
+        "code": "Code",
+        "name": "Name",
+        "price": "Price",
+        "recurrence": "Recurrence",
+        "status": "Status",
+        "addOn": "Add-on",
+        "billing": "Billing"
+      },
+      "actions": {
+        "create": "Create add-on",
+        "edit": "Edit",
+        "archive": "Archive",
+        "new": "New add-on"
+      },
+      "title": "Add-on",
+      "unavailable": "Add-on details are unavailable.",
+      "emptyMessage": "No add-ons in your catalog yet."
+    },
+    "subscriptions": {
+      "empty": "No add-ons enabled for this client",
+      "columns": {
+        "addOn": "Add-on",
+        "price": "Price",
+        "enabledFrom": "From",
+        "enabledTo": "To",
+        "since": "Since"
+      },
+      "actions": {
+        "enable": "Enable add-on",
+        "disable": "Disable",
+        "enableShort": "Enable"
+      },
+      "emptyMessage": "No add-ons enabled for this company.",
+      "ended": "Ended {{date}}",
+      "active": "Active",
+      "selectAddOn": "Select an add-on…",
+      "noAddOnsHint": "No add-ons available yet — the catalog populates once the billing endpoints ship.",
+      "fields": {
+        "enabledFrom": "Enabled from"
+      }
+    },
+    "slas": {
+      "empty": "No service level agreements yet",
+      "columns": {
+        "title": "Title",
+        "version": "Version",
+        "status": "Status",
+        "signedBy": "Signed by",
+        "effectiveFrom": "From",
+        "effectiveTo": "To",
+        "agreement": "Agreement"
+      },
+      "actions": {
+        "create": "Create SLA",
+        "edit": "Edit",
+        "sign": "Mark signed",
+        "new": "New SLA"
+      },
+      "title": "SLA",
+      "unavailable": "Agreement details are unavailable.",
+      "versionLabel": "Version {{version}}",
+      "openDocument": "Open document",
+      "fields": {
+        "effectiveFrom": "Effective from",
+        "effectiveTo": "Effective to",
+        "signed": "Signed",
+        "document": "Document",
+        "payerCompanyId": "Payer company ID",
+        "payerPlaceholder": "Company UUID this SLA is with",
+        "documentUrl": "Document URL"
+      }
+    },
+    "accessRestricted": {
+      "title": "Access restricted",
+      "description": "You need admin (Manage) access to this company to view its billing."
     }
   },
   "insights": {

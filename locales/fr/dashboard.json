@@ -140,19 +140,313 @@
     "tabs": {
       "invoices": "Factures",
       "bills": "Facturation",
-      "analytics": "Analytique"
+      "analytics": "Analytique",
+      "plans": "Forfaits",
+      "assignments": "Attributions",
+      "addons": "Modules",
+      "slas": "SLA",
+      "catalog": "Catalogue"
     },
     "invoices": {
       "emptyTitle": "Aucune facture pour le moment",
-      "emptyDescription": "Les factures que vous émettez aux clients sous votre responsabilité apparaîtront ici."
+      "emptyDescription": "Les factures que vous émettez aux clients sous votre responsabilité apparaîtront ici.",
+      "emptyMessage": "Aucune facture pour le moment. Les factures que vous émettez aux clients sous votre responsabilité apparaîtront ici."
     },
     "bills": {
       "emptyTitle": "Aucune facturation pour le moment",
-      "emptyDescription": "La facturation que vous recevez du client supérieur apparaîtra ici."
+      "emptyDescription": "La facturation que vous recevez du client supérieur apparaîtra ici.",
+      "emptyMessage": "Aucune facturation pour le moment. Les factures que vous recevez du client supérieur apparaîtront ici."
     },
     "analytics": {
       "noClientTitle": "Sélectionnez un client",
       "noClientDescription": "Les analyses de facturation sont disponibles au niveau du client."
+    },
+    "selectClient": {
+      "title": "Sélectionnez un client",
+      "description": "La facturation est gérée au niveau du client. Choisissez un client pour afficher sa facturation."
+    },
+    "sections": {
+      "catalog": "Catalogue",
+      "enabledForClient": "Activés pour ce client"
+    },
+    "documentStatus": {
+      "DRAFT": "Brouillon",
+      "ISSUED": "Émise",
+      "PARTIALLY_PAID": "Partiellement payée",
+      "PAID": "Payée",
+      "OVERDUE": "En retard",
+      "VOID": "Annulée"
+    },
+    "slaStatus": {
+      "DRAFT": "Brouillon",
+      "PENDING_SIGNATURE": "En attente de signature",
+      "SIGNED": "Signé",
+      "EXPIRED": "Expiré",
+      "TERMINATED": "Résilié"
+    },
+    "planStatus": {
+      "DRAFT": "Brouillon",
+      "ACTIVE": "Actif",
+      "ARCHIVED": "Archivé"
+    },
+    "addOnStatus": {
+      "ACTIVE": "Actif",
+      "ARCHIVED": "Archivé"
+    },
+    "lineType": {
+      "TIER": "Palier",
+      "USAGE": "Utilisation",
+      "ADD_ON": "Module",
+      "ADJUSTMENT": "Ajustement"
+    },
+    "paymentMethod": {
+      "CARD": "Carte",
+      "BANK_TRANSFER": "Virement bancaire",
+      "CASH": "Espèces",
+      "CHEQUE": "Chèque",
+      "CREDIT": "Crédit",
+      "MANUAL": "Manuel",
+      "OTHER": "Autre"
+    },
+    "recurrence": {
+      "MONTHLY": "Mensuel",
+      "ONE_TIME": "Unique"
+    },
+    "common": {
+      "create": "Créer",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "archive": "Archiver",
+      "issue": "Émettre",
+      "void": "Annuler",
+      "sign": "Signer",
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "loading": "Chargement…",
+      "none": "—",
+      "actions": "Actions",
+      "status": "Statut",
+      "currency": "Devise",
+      "notes": "Notes",
+      "createdAt": "Créé",
+      "updatedAt": "Mis à jour",
+      "close": "Fermer",
+      "platform": "Plateforme",
+      "description": "Description",
+      "yes": "Oui",
+      "no": "Non"
+    },
+    "documents": {
+      "columns": {
+        "documentNumber": "Numéro",
+        "type": "Type",
+        "period": "Période",
+        "payer": "Payeur",
+        "issuer": "Émetteur",
+        "status": "Statut",
+        "total": "Total",
+        "amountPaid": "Payé",
+        "dueDate": "Échéance",
+        "issuedAt": "Émise",
+        "client": "Client"
+      },
+      "actions": {
+        "create": "Créer un document",
+        "issue": "Émettre",
+        "void": "Annuler",
+        "recordPayment": "Enregistrer un paiement"
+      },
+      "lineItems": "Lignes",
+      "payments": "Paiements",
+      "title": "Document",
+      "unavailable": "Les détails du document sont indisponibles.",
+      "invoice": "Facture",
+      "bill": "Facture",
+      "overview": "Aperçu",
+      "amounts": "Montants",
+      "noLineItems": "Aucune ligne.",
+      "noPayments": "Aucun paiement enregistré.",
+      "draftDocument": "Document brouillon",
+      "editHint": "Les lignes et l'émission sont gérées par le service de facturation et deviendront disponibles une fois les points de terminaison backend livrés.",
+      "fields": {
+        "documentNumber": "N° de document",
+        "payerClient": "Payeur (client)",
+        "dueDate": "Date d'échéance",
+        "subtotal": "Sous-total",
+        "tax": "Taxe",
+        "balance": "Solde",
+        "taxAmount": "Montant de la taxe"
+      },
+      "lineColumns": {
+        "number": "#",
+        "qty": "Qté",
+        "unit": "Unité",
+        "amount": "Montant"
+      },
+      "paymentColumns": {
+        "date": "Date",
+        "method": "Méthode",
+        "reference": "Référence"
+      }
+    },
+    "plans": {
+      "empty": "Aucun forfait pour le moment",
+      "columns": {
+        "name": "Nom",
+        "currency": "Devise",
+        "tierCalculation": "Calcul",
+        "tiers": "Paliers",
+        "status": "Statut",
+        "default": "Par défaut",
+        "plan": "Forfait",
+        "model": "Modèle"
+      },
+      "actions": {
+        "create": "Créer un forfait",
+        "edit": "Modifier le forfait",
+        "archive": "Archiver",
+        "new": "Nouveau forfait",
+        "addTier": "Ajouter un palier",
+        "removeTier": "Retirer le palier"
+      },
+      "tiers": "Paliers",
+      "usageRates": "Tarifs d'utilisation",
+      "title": "Forfait",
+      "unavailable": "Les détails du forfait sont indisponibles.",
+      "emptyMessage": "Aucun forfait pour le moment. Créez un forfait pour facturer les clients sous votre responsabilité.",
+      "deviceTiers": "Paliers d'appareils",
+      "noTiers": "Aucun palier défini.",
+      "noUsageRates": "Aucun tarif à l'utilisation.",
+      "noTiersHint": "Aucun palier. Chaque palier est soit un prix forfaitaire, soit un prix par appareil.",
+      "newPlan": "Nouveau forfait",
+      "editHint": "Les tarifs à l'utilisation sont gérés par le service de facturation et deviendront modifiables une fois les points de terminaison backend livrés.",
+      "usageRateValue": "{{included}} inclus, puis {{rate}} par {{size}}",
+      "fields": {
+        "pricingModel": "Modèle de tarification",
+        "defaultPlan": "Forfait par défaut",
+        "planName": "Nom du forfait",
+        "defaultForOwner": "Forfait par défaut pour ce propriétaire",
+        "toBlankInfinity": "À (vide=∞)"
+      },
+      "tierColumns": {
+        "tier": "Palier",
+        "from": "De",
+        "to": "À",
+        "flat": "Forfait",
+        "perDevice": "Par appareil"
+      },
+      "tierCalculationOptions": {
+        "GRADUATED": "Progressif",
+        "VOLUME": "Volume",
+        "FLAT": "Forfaitaire"
+      }
+    },
+    "assignments": {
+      "empty": "Aucune attribution de forfait",
+      "columns": {
+        "plan": "Forfait",
+        "payer": "Payeur",
+        "effectiveFrom": "Du",
+        "effectiveTo": "Au",
+        "notes": "Notes"
+      },
+      "actions": {
+        "create": "Attribuer un forfait",
+        "edit": "Modifier",
+        "delete": "Retirer",
+        "assign": "Attribuer"
+      },
+      "emptyMessage": "Aucune attribution de forfait personnalisée. Les payeurs sans attribution sont facturés selon votre forfait par défaut.",
+      "current": "En cours",
+      "assignPlan": "Attribuer un forfait",
+      "editAssignment": "Modifier l'attribution",
+      "selectPlan": "Sélectionnez un forfait…",
+      "noPlansHint": "Aucun forfait disponible pour le moment — la liste des forfaits se remplira une fois les points de terminaison de facturation livrés.",
+      "fields": {
+        "payerCompanyId": "ID de l'entreprise payeuse",
+        "payerPlaceholder": "UUID de l'entreprise du payeur",
+        "effectiveFrom": "En vigueur à partir du",
+        "effectiveTo": "En vigueur jusqu'au (vide = en cours)"
+      }
+    },
+    "addOns": {
+      "empty": "Aucun module au catalogue",
+      "columns": {
+        "code": "Code",
+        "name": "Nom",
+        "price": "Prix",
+        "recurrence": "Récurrence",
+        "status": "Statut",
+        "addOn": "Module",
+        "billing": "Facturation"
+      },
+      "actions": {
+        "create": "Créer un module",
+        "edit": "Modifier",
+        "archive": "Archiver",
+        "new": "Nouveau module"
+      },
+      "title": "Module",
+      "unavailable": "Les détails du module sont indisponibles.",
+      "emptyMessage": "Aucun module dans votre catalogue pour le moment."
+    },
+    "subscriptions": {
+      "empty": "Aucun module activé pour ce client",
+      "columns": {
+        "addOn": "Module",
+        "price": "Prix",
+        "enabledFrom": "Du",
+        "enabledTo": "Au",
+        "since": "Depuis"
+      },
+      "actions": {
+        "enable": "Activer un module",
+        "disable": "Désactiver",
+        "enableShort": "Activer"
+      },
+      "emptyMessage": "Aucun module activé pour cette entreprise.",
+      "ended": "Terminé le {{date}}",
+      "active": "Actif",
+      "selectAddOn": "Sélectionnez un module…",
+      "noAddOnsHint": "Aucun module disponible pour le moment — le catalogue se remplira une fois les points de terminaison de facturation livrés.",
+      "fields": {
+        "enabledFrom": "Activé à partir du"
+      }
+    },
+    "slas": {
+      "empty": "Aucune entente de niveau de service",
+      "columns": {
+        "title": "Titre",
+        "version": "Version",
+        "status": "Statut",
+        "signedBy": "Signé par",
+        "effectiveFrom": "Du",
+        "effectiveTo": "Au",
+        "agreement": "Entente"
+      },
+      "actions": {
+        "create": "Créer une SLA",
+        "edit": "Modifier",
+        "sign": "Marquer comme signé",
+        "new": "Nouvelle SLA"
+      },
+      "title": "SLA",
+      "unavailable": "Les détails de l'entente sont indisponibles.",
+      "versionLabel": "Version {{version}}",
+      "openDocument": "Ouvrir le document",
+      "fields": {
+        "effectiveFrom": "En vigueur à partir du",
+        "effectiveTo": "En vigueur jusqu'au",
+        "signed": "Signé",
+        "document": "Document",
+        "payerCompanyId": "ID de l'entreprise payeuse",
+        "payerPlaceholder": "UUID de l'entreprise concernée par cette SLA",
+        "documentUrl": "URL du document"
+      }
+    },
+    "accessRestricted": {
+      "title": "Accès restreint",
+      "description": "Vous devez être administrateur (Gestion) de cette entreprise pour consulter sa facturation."
     }
   },
   "insights": {
