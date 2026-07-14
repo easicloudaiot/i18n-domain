@@ -1,8 +1,5 @@
 {
-  "launcher": {
-    "title": "Getting started",
-    "close": "Close"
-  },
+  "launcher": { "title": "Getting started", "close": "Close" },
   "nav": {
     "next": "Next",
     "back": "Back",
@@ -14,133 +11,63 @@
   "starter": {
     "title": "Get oriented",
     "summary": "Learn the layout and find an asset.",
-    "step1": {
-      "title": "The sidebar",
-      "description": "This is your hierarchy — companies, buildings, floors, zones. Click any level to focus on it."
-    },
-    "step2": {
-      "title": "The top bar",
-      "description": "Shows where you are. Everything on the page belongs to this owner and changes as you move around."
-    },
-    "step3": {
-      "title": "Find anything",
-      "description": "Search by name or any detail to find an asset fast."
-    },
-    "step4": {
-      "title": "See it on the map",
-      "description": "Click a result to show it on the map or floor plan."
-    }
+    "sidebar": { "title": "The sidebar", "description": "Your hierarchy — companies, buildings, floors, zones. Click a level to focus the whole app on it." },
+    "topbar": { "title": "The top bar", "description": "Shows where you are. Assets, devices, and people all belong to this owner and change as you move around." },
+    "openAssets": { "title": "Open Assets", "description": "Click the Assets tab to see them — we'll wait here until you do." },
+    "search": { "title": "Find anything", "description": "Search by name or any detail to find an asset fast." },
+    "locate": { "title": "See it on the map", "description": "Click a result to show it on the map or floor plan." }
   },
   "owner": {
     "title": "Set up your hierarchy",
     "summary": "Build Client → Building → Floor → Zone.",
-    "step1": {
-      "title": "Add a client",
-      "description": "Your space is a tree: Client → Building → Floor → Zone. Open this menu and choose 'Add Client'."
+    "openAssets": { "title": "Open Assets", "description": "The add menu lives on the Assets page. Click the Assets tab to start." },
+    "client": {
+      "open": { "title": "Add a client", "description": "Your space is a tree: Client → Building → Floor → Zone. Open this menu and choose 'Add Client'." },
+      "name": { "title": "Name it", "description": "Your company or tenant name. Required." },
+      "industry": { "title": "Industry", "description": "Optional — just a label you can change later." },
+      "save": { "title": "Save", "description": "Click Create to save your client." },
+      "sidebar": { "title": "It's in the sidebar", "description": "Your client now appears here. Select it — everything you add next goes inside it." }
     },
-    "step2": {
-      "title": "Name it",
-      "description": "Your company or tenant name. Required."
+    "building": {
+      "open": { "title": "Add a building", "description": "With the client selected, open this menu and choose 'Add Building'." },
+      "name": { "title": "Name it", "description": "Your building's name. Required." },
+      "save": { "title": "Save", "description": "Click Create to save." },
+      "sidebar": { "title": "The tree grows", "description": "The building now sits under your client — the hierarchy fills in as you go." },
+      "topbar": { "title": "Everything is per-owner", "description": "This bar shows your location. Whatever you select here scopes the assets, devices, and access you see." }
     },
-    "step3": {
-      "title": "Industry",
-      "description": "Optional — just a label you can change later."
+    "floor": {
+      "open": { "title": "Add a floor", "description": "Select the building, open this menu, and choose 'Add Floor'." },
+      "name": { "title": "Name it", "description": "Your floor's name. Required." },
+      "save": { "title": "Save", "description": "Click Create." }
     },
-    "step4": {
-      "title": "Save",
-      "description": "Click 'Create' to save your client."
-    },
-    "step5": {
-      "title": "It's in the sidebar",
-      "description": "Your client now appears here. Click it to work inside it."
-    },
-    "step6": {
-      "title": "Add a building",
-      "description": "With the client selected, open this menu and choose 'Add Building'."
-    },
-    "step7": {
-      "title": "Name it",
-      "description": "Your building's name. Required."
-    },
-    "step8": {
-      "title": "Save",
-      "description": "Click 'Create' to save."
-    },
-    "step9": {
-      "title": "The tree grows",
-      "description": "The building now sits under your client here — the hierarchy fills in as you go."
-    },
-    "step10": {
-      "title": "Everything is per-owner",
-      "description": "This bar shows your location. Assets, devices, and access all change with the owner you select."
-    },
-    "step11": {
-      "title": "Add a floor",
-      "description": "Select the building, open this menu, and choose 'Add Floor'."
-    },
-    "step12": {
-      "title": "Name it",
-      "description": "Your floor's name. Required."
-    },
-    "step13": {
-      "title": "Save",
-      "description": "Click 'Create'."
-    },
-    "step14": {
-      "title": "Add a zone",
-      "description": "Select the floor, open this menu, and choose 'Add Zone' — the smallest level."
-    },
-    "step15": {
-      "title": "Name it",
-      "description": "Your zone's name. Required."
-    },
-    "step16": {
-      "title": "Done!",
-      "description": "Click 'Create'. You've built a full Client → Building → Floor → Zone hierarchy."
+    "zone": {
+      "open": { "title": "Add a zone", "description": "Select the floor, open this menu, and choose 'Add Zone' — the smallest level." },
+      "name": { "title": "Name it", "description": "Your zone's name, then complete the form." },
+      "done": { "title": "Done!", "description": "You've built a full Client → Building → Floor → Zone hierarchy." }
     }
   },
   "assetType": {
     "title": "Create an asset type",
     "summary": "Make a reusable template for your assets.",
-    "step1": {
-      "title": "Asset types",
-      "description": "A type is a template for similar items, like 'Forklift'. Click 'Asset Types', then 'Create Type'."
-    },
-    "step2": {
-      "title": "Name it",
-      "description": "The category name, like 'Forklift'. Required."
-    },
-    "step3": {
-      "title": "Color",
-      "description": "A visual tag to spot this type. Optional."
-    },
-    "step4": {
-      "title": "Properties",
-      "description": "Fields every asset of this type should have, like Serial Number."
-    },
-    "step5": {
-      "title": "Save",
-      "description": "Click 'Create Type' to save."
-    }
+    "selectOwner": { "title": "Pick a company", "description": "Asset types belong to a company. Select a company — or anything inside it — in the sidebar first." },
+    "openAssets": { "title": "Open Assets", "description": "Asset types are managed on the Assets page. Click the Assets tab." },
+    "openManager": { "title": "Asset types", "description": "A type is a template for similar items, like 'Forklift'. Open the Asset Types manager here." },
+    "createType": { "title": "Create a type", "description": "Click 'Create Type' to start a new one." },
+    "name": { "title": "Name it", "description": "The category name, like 'Forklift'. Required." },
+    "color": { "title": "Color", "description": "A visual tag to spot this type. Optional." },
+    "properties": { "title": "Properties", "description": "Fields every asset of this type must have, like Serial Number. They become required when creating assets." },
+    "save": { "title": "Save", "description": "Click 'Create Type' to save." }
   },
   "createAsset": {
     "title": "Add an asset",
     "summary": "Create one real item you track.",
-    "step1": {
-      "title": "Add an asset",
-      "description": "An asset is one real thing you track. Click here to add one."
-    },
-    "step2": {
-      "title": "Name it",
-      "description": "This item's name or ID, like 'Forklift #3'. Required."
-    },
-    "step3": {
-      "title": "Its type",
-      "description": "Pick the type you made — it fills in the right fields."
-    },
-    "step4": {
-      "title": "Finish",
-      "description": "Click 'Next', add a device and location, then 'Create'."
-    }
+    "scoping": { "title": "Assets belong to an owner", "description": "An asset lives under whichever owner is selected in the sidebar — pick the right one before you create it." },
+    "selectOwner": { "title": "Pick where it lives", "description": "Select the company, building, floor, or zone this asset belongs to in the sidebar." },
+    "openAssets": { "title": "Open Assets", "description": "Click the Assets tab for the owner you picked." },
+    "create": { "title": "Add an asset", "description": "An asset is one real thing you track. Click here to open the form." },
+    "name": { "title": "Name it", "description": "This item's name or ID, like 'Forklift #3'. Required." },
+    "type": { "title": "Its type", "description": "Pick a type. If it has required fields they'll appear below — and Next stays locked until they're filled." },
+    "mandatory": { "title": "Required fields", "description": "Fields marked * are required by the type. Fill them all in; the Next button unlocks once they're complete." },
+    "finish": { "title": "Finish", "description": "Click Next, optionally add a device and location, then Create." }
   }
 }
