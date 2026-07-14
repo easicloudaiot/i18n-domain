@@ -1,0 +1,90 @@
+{
+  "launcher": {
+    "title": "Getting started",
+    "close": "Close"
+  },
+  "nav": {
+    "next": "Next",
+    "back": "Back",
+    "skip": "Skip",
+    "finish": "Finish",
+    "close": "Close",
+    "step": "{{current}} of {{total}}"
+  },
+  "owner": {
+    "title": "Set up your hierarchy",
+    "summary": "Create your Client, Buildings, Floors, and Zones.",
+    "step1": {
+      "title": "Your organization is a tree",
+      "description": "Everything you track lives inside a structure with four levels, from biggest to smallest: Client → Building → Floor → Zone. A Client is a company or tenant (the top). Inside a Client you add Buildings; inside a Building, Floors; inside a Floor, Zones (a room or area). You build it top-down. This \"⋮\" menu is where you add things, and what you can add depends on where you are right now. To begin, click this menu and choose \"Add Client\"."
+    },
+    "step2": {
+      "title": "Name your Client",
+      "description": "This is the create form. Type a name for your company or tenant here — usually your business name. A star (*) next to a field means it is required. This is the only field you must fill in."
+    },
+    "step3": {
+      "title": "Industry (optional)",
+      "description": "Pick the closest industry from this dropdown. It only helps label and organize your account — it does not change how anything works, and you can change it later. If none fit, choose \"Other\"."
+    },
+    "step4": {
+      "title": "Save, then go one level deeper",
+      "description": "Click the \"Create\" button at the bottom of the form to save your Client. Then select your new Client and open the \"⋮\" menu again — this time it will offer \"Add Building\". Keep repeating the pattern: add a Building, then Floors inside it, then Zones inside those. When you are done, your whole space is mapped out."
+    }
+  },
+  "assetType": {
+    "title": "Create an asset type",
+    "summary": "Make a reusable template for your assets.",
+    "step1": {
+      "title": "First, what is an \"asset type\"?",
+      "description": "Before adding real items, you create asset types. A type is a template or category — for example \"Forklift\", \"Laptop\", or \"Temperature Sensor\". Every asset you add later will be one of these types, which keeps similar items consistent. Click \"Asset Types\" here, then click \"Create Type\" in the window that opens."
+    },
+    "step2": {
+      "title": "Name the type",
+      "description": "Give the template a clear category name — like \"Forklift\" or \"Temperature Sensor\". This is the name you will pick from later when creating assets. Required (*)."
+    },
+    "step3": {
+      "title": "Pick a color",
+      "description": "This color is just a visual tag so assets of this type are easy to spot in lists and on the map. Click the colored square to change it, or leave the default — it has no other effect."
+    },
+    "step4": {
+      "title": "Required properties",
+      "description": "Properties are the details every asset of this type should carry — like Serial Number, Manufacturer, or Model. Add them with the \"+\" control here. Marking a property \"required\" means anyone creating an asset of this type must fill it in, so your records stay complete. Add the ones that matter for this category (you can add none if you are not sure yet)."
+    },
+    "step5": {
+      "title": "Save the type",
+      "description": "Click \"Create Type\" at the bottom to save. You can make as many types as you need — one per kind of thing you track. Next, you will create a real asset using one of these types."
+    }
+  },
+  "createAsset": {
+    "title": "Add an asset",
+    "summary": "Create a real item and place it in your space.",
+    "step1": {
+      "title": "Add your first asset",
+      "description": "An asset is a real, specific thing you want to track — one particular forklift, sensor, or machine. Click here to open the create form. It has two steps, and we will walk through both."
+    },
+    "step2": {
+      "title": "Name this specific item",
+      "description": "Give this exact item a name or ID — like \"Forklift #3\" or its serial tag. This is how you will recognize it in lists and search. Required (*)."
+    },
+    "step3": {
+      "title": "Choose its type",
+      "description": "Pick the type (the template) you created earlier. Choosing a type automatically pulls in that type's properties for you to fill in — so you never start from a blank page and every item of the same kind stays consistent."
+    },
+    "step4": {
+      "title": "Attach a device & set a location",
+      "description": "Click \"Next\" in the form to reach step 2. There you can optionally attach a tracking device and set the asset's location — either GPS coordinates or a point on a floor plan. Setting a location is what makes the asset appear on the map so you can find it later. When everything looks right, click \"Create\" to save."
+    }
+  },
+  "locate": {
+    "title": "Locate an asset",
+    "summary": "Find an asset and see exactly where it is.",
+    "step1": {
+      "title": "Search for it",
+      "description": "To find something, start typing here — a name, a serial number, or any property value. The list filters instantly as you type and searches across everything you have access to, so you do not need to know exactly where it lives."
+    },
+    "step2": {
+      "title": "See where it is",
+      "description": "Click any result to select it. If you are viewing a Client or Building, the asset appears as a pin on the GPS map; on a Floor or Zone, it appears on the floor plan. Use the \"GPS Map / Floor Map\" toggle in the asset's panel to switch between those two views. Now you can always find your assets."
+    }
+  }
+}

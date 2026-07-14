@@ -29,6 +29,7 @@
     "./en/users.json": "./locales/en/users.json",
     "./en/vendors.json": "./locales/en/vendors.json",
     "./en/widgets.json": "./locales/en/widgets.json",
+    "./en/walkthrough.json": "./locales/en/walkthrough.json",
     "./fr/assets.json": "./locales/fr/assets.json",
     "./fr/auth.json": "./locales/fr/auth.json",
     "./fr/common.json": "./locales/fr/common.json",
@@ -44,7 +45,8 @@
     "./fr/theming.json": "./locales/fr/theming.json",
     "./fr/users.json": "./locales/fr/users.json",
     "./fr/vendors.json": "./locales/fr/vendors.json",
-    "./fr/widgets.json": "./locales/fr/widgets.json"
+    "./fr/widgets.json": "./locales/fr/widgets.json",
+    "./fr/walkthrough.json": "./locales/fr/walkthrough.json"
   },
   "files": [
     "src",
