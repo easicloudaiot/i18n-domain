@@ -11,80 +11,136 @@
     "close": "Fermer",
     "step": "{{current}} sur {{total}}"
   },
-  "owner": {
-    "title": "Configurez votre hiérarchie",
-    "summary": "Créez votre client, vos bâtiments, étages et zones.",
+  "starter": {
+    "title": "Faites connaissance",
+    "summary": "Découvrez l'interface et trouvez un actif.",
     "step1": {
-      "title": "Votre organisation est une arborescence",
-      "description": "Tout ce que vous suivez se trouve dans une structure à quatre niveaux, du plus grand au plus petit : Client → Bâtiment → Étage → Zone. Un client est une entreprise ou un locataire (le sommet). Dans un client, vous ajoutez des bâtiments ; dans un bâtiment, des étages ; dans un étage, des zones (une pièce ou un espace). Vous la construisez de haut en bas. Ce menu « ⋮ » sert à ajouter des éléments, et ce que vous pouvez ajouter dépend de l'endroit où vous vous trouvez. Pour commencer, cliquez sur ce menu et choisissez « Ajouter un client »."
+      "title": "La barre latérale",
+      "description": "Voici votre hiérarchie — entreprises, bâtiments, étages, zones. Cliquez sur un niveau pour vous y concentrer."
     },
     "step2": {
-      "title": "Nommez votre client",
-      "description": "Ceci est le formulaire de création. Saisissez ici un nom pour votre entreprise ou votre locataire — généralement le nom de votre société. Un astérisque (*) à côté d'un champ signifie qu'il est obligatoire. C'est le seul champ que vous devez remplir."
+      "title": "La barre du haut",
+      "description": "Indique où vous êtes. Tout ce qui s'affiche appartient à ce propriétaire et change au fil de votre navigation."
     },
     "step3": {
-      "title": "Secteur d'activité (facultatif)",
-      "description": "Choisissez le secteur le plus proche dans cette liste déroulante. Cela sert uniquement à étiqueter et organiser votre compte — cela ne change rien au fonctionnement, et vous pourrez le modifier plus tard. Si aucun ne convient, choisissez « Autre »."
+      "title": "Trouvez tout",
+      "description": "Recherchez par nom ou tout autre détail pour trouver un actif rapidement."
     },
     "step4": {
-      "title": "Enregistrez, puis descendez d'un niveau",
-      "description": "Cliquez sur le bouton « Créer » au bas du formulaire pour enregistrer votre client. Sélectionnez ensuite votre nouveau client et rouvrez le menu « ⋮ » — cette fois il proposera « Ajouter un bâtiment ». Répétez le schéma : ajoutez un bâtiment, puis des étages à l'intérieur, puis des zones. Une fois terminé, tout votre espace est cartographié."
+      "title": "Voyez-le sur la carte",
+      "description": "Cliquez sur un résultat pour l'afficher sur la carte ou le plan d'étage."
+    }
+  },
+  "owner": {
+    "title": "Configurez votre hiérarchie",
+    "summary": "Construisez Client → Bâtiment → Étage → Zone.",
+    "step1": {
+      "title": "Ajoutez un client",
+      "description": "Votre espace est une arborescence : Client → Bâtiment → Étage → Zone. Ouvrez ce menu et choisissez « Ajouter un client »."
+    },
+    "step2": {
+      "title": "Nommez-le",
+      "description": "Le nom de votre entreprise ou locataire. Obligatoire."
+    },
+    "step3": {
+      "title": "Secteur",
+      "description": "Facultatif — juste une étiquette modifiable plus tard."
+    },
+    "step4": {
+      "title": "Enregistrez",
+      "description": "Cliquez sur « Créer » pour enregistrer votre client."
+    },
+    "step5": {
+      "title": "Il est dans la barre latérale",
+      "description": "Votre client apparaît maintenant ici. Cliquez dessus pour travailler à l'intérieur."
+    },
+    "step6": {
+      "title": "Ajoutez un bâtiment",
+      "description": "Le client sélectionné, ouvrez ce menu et choisissez « Ajouter un bâtiment »."
+    },
+    "step7": {
+      "title": "Nommez-le",
+      "description": "Le nom de votre bâtiment. Obligatoire."
+    },
+    "step8": {
+      "title": "Enregistrez",
+      "description": "Cliquez sur « Créer » pour enregistrer."
+    },
+    "step9": {
+      "title": "L'arbre s'agrandit",
+      "description": "Le bâtiment se place maintenant sous votre client ici — la hiérarchie se remplit à mesure."
+    },
+    "step10": {
+      "title": "Tout est par propriétaire",
+      "description": "Cette barre indique votre emplacement. Les actifs, appareils et accès changent tous selon le propriétaire choisi."
+    },
+    "step11": {
+      "title": "Ajoutez un étage",
+      "description": "Sélectionnez le bâtiment, ouvrez ce menu et choisissez « Ajouter un étage »."
+    },
+    "step12": {
+      "title": "Nommez-le",
+      "description": "Le nom de votre étage. Obligatoire."
+    },
+    "step13": {
+      "title": "Enregistrez",
+      "description": "Cliquez sur « Créer »."
+    },
+    "step14": {
+      "title": "Ajoutez une zone",
+      "description": "Sélectionnez l'étage, ouvrez ce menu et choisissez « Ajouter une zone » — le plus petit niveau."
+    },
+    "step15": {
+      "title": "Nommez-la",
+      "description": "Le nom de votre zone. Obligatoire."
+    },
+    "step16": {
+      "title": "Terminé !",
+      "description": "Cliquez sur « Créer ». Vous avez construit une hiérarchie complète Client → Bâtiment → Étage → Zone."
     }
   },
   "assetType": {
     "title": "Créer un type d'actif",
     "summary": "Créez un modèle réutilisable pour vos actifs.",
     "step1": {
-      "title": "D'abord, qu'est-ce qu'un « type d'actif » ?",
-      "description": "Avant d'ajouter des éléments réels, vous créez des types d'actifs. Un type est un modèle ou une catégorie — par exemple « Chariot élévateur », « Ordinateur portable » ou « Capteur de température ». Chaque actif que vous ajouterez ensuite sera de l'un de ces types, ce qui garde les éléments similaires cohérents. Cliquez sur « Types d'actifs » ici, puis sur « Créer un type » dans la fenêtre qui s'ouvre."
+      "title": "Types d'actifs",
+      "description": "Un type est un modèle pour des éléments similaires, comme « Chariot élévateur ». Cliquez sur « Types d'actifs », puis « Créer un type »."
     },
     "step2": {
-      "title": "Nommez le type",
-      "description": "Donnez au modèle un nom de catégorie clair — comme « Chariot élévateur » ou « Capteur de température ». C'est le nom que vous choisirez plus tard lors de la création d'actifs. Obligatoire (*)."
+      "title": "Nommez-le",
+      "description": "Le nom de la catégorie, comme « Chariot élévateur ». Obligatoire."
     },
     "step3": {
-      "title": "Choisissez une couleur",
-      "description": "Cette couleur n'est qu'un repère visuel pour repérer facilement les actifs de ce type dans les listes et sur la carte. Cliquez sur le carré coloré pour la changer, ou laissez la valeur par défaut — elle n'a aucun autre effet."
+      "title": "Couleur",
+      "description": "Un repère visuel pour repérer ce type. Facultatif."
     },
     "step4": {
-      "title": "Propriétés obligatoires",
-      "description": "Les propriétés sont les informations que chaque actif de ce type doit contenir — comme le numéro de série, le fabricant ou le modèle. Ajoutez-les avec le bouton « + » ici. Rendre une propriété « obligatoire » signifie que quiconque crée un actif de ce type devra la renseigner, afin que vos données restent complètes. Ajoutez celles qui comptent pour cette catégorie (vous pouvez n'en ajouter aucune si vous n'êtes pas encore sûr)."
+      "title": "Propriétés",
+      "description": "Les champs que chaque actif de ce type doit avoir, comme le numéro de série."
     },
     "step5": {
-      "title": "Enregistrez le type",
-      "description": "Cliquez sur « Créer un type » en bas pour enregistrer. Vous pouvez créer autant de types que nécessaire — un par sorte d'élément que vous suivez. Ensuite, vous créerez un actif réel à partir de l'un de ces types."
+      "title": "Enregistrez",
+      "description": "Cliquez sur « Créer un type » pour enregistrer."
     }
   },
   "createAsset": {
     "title": "Ajouter un actif",
-    "summary": "Créez un élément réel et placez-le dans votre espace.",
+    "summary": "Créez un élément réel à suivre.",
     "step1": {
-      "title": "Ajoutez votre premier actif",
-      "description": "Un actif est une chose réelle et précise que vous voulez suivre — un chariot élévateur, un capteur ou une machine en particulier. Cliquez ici pour ouvrir le formulaire de création. Il comporte deux étapes, que nous parcourrons ensemble."
+      "title": "Ajoutez un actif",
+      "description": "Un actif est une chose réelle que vous suivez. Cliquez ici pour en ajouter un."
     },
     "step2": {
-      "title": "Nommez cet élément précis",
-      "description": "Donnez à cet élément exact un nom ou un identifiant — comme « Chariot élévateur n° 3 » ou son numéro de série. C'est ainsi que vous le reconnaîtrez dans les listes et la recherche. Obligatoire (*)."
+      "title": "Nommez-le",
+      "description": "Le nom ou l'identifiant de cet élément, comme « Chariot élévateur n° 3 ». Obligatoire."
     },
     "step3": {
-      "title": "Choisissez son type",
-      "description": "Choisissez le type (le modèle) que vous avez créé précédemment. Le choix d'un type ajoute automatiquement les propriétés de ce type à remplir — vous ne partez donc jamais d'une page blanche et chaque élément du même genre reste cohérent."
+      "title": "Son type",
+      "description": "Choisissez le type que vous avez créé — il remplit les bons champs."
     },
     "step4": {
-      "title": "Associez un appareil et définissez un emplacement",
-      "description": "Cliquez sur « Suivant » dans le formulaire pour atteindre l'étape 2. Vous pouvez y associer, en option, un appareil de suivi et définir l'emplacement de l'actif — soit des coordonnées GPS, soit un point sur un plan d'étage. Définir un emplacement est ce qui fait apparaître l'actif sur la carte pour le retrouver plus tard. Quand tout est correct, cliquez sur « Créer » pour enregistrer."
-    }
-  },
-  "locate": {
-    "title": "Localiser un actif",
-    "summary": "Trouvez un actif et voyez exactement où il se trouve.",
-    "step1": {
-      "title": "Recherchez-le",
-      "description": "Pour trouver un élément, commencez à taper ici — un nom, un numéro de série ou la valeur d'une propriété. La liste se filtre instantanément à mesure que vous tapez et cherche dans tout ce à quoi vous avez accès, vous n'avez donc pas besoin de savoir exactement où il se trouve."
-    },
-    "step2": {
-      "title": "Voyez où il se trouve",
-      "description": "Cliquez sur un résultat pour le sélectionner. Si vous consultez un client ou un bâtiment, l'actif apparaît comme une épingle sur la carte GPS ; sur un étage ou une zone, il apparaît sur le plan d'étage. Utilisez le bouton « Carte GPS / Plan d'étage » dans le panneau de l'actif pour basculer entre ces deux vues. Vous pouvez désormais toujours retrouver vos actifs."
+      "title": "Terminez",
+      "description": "Cliquez sur « Suivant », ajoutez un appareil et un emplacement, puis « Créer »."
     }
   }
 }
