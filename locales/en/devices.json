@@ -135,6 +135,8 @@
     "vendor": "Vendor",
     "accuracy": "Location accuracy",
     "accuracyInclude": "Include low-accuracy devices",
-    "accuracyDescription": "These devices may be reported on another floor"
+    "accuracyDescription": "These devices may be reported on another floor",
+    "maxBattery": "Battery at or below (%)",
+    "maxBatteryPlaceholder": "e.g. 20"
   }
 }

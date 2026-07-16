@@ -135,6 +135,8 @@
     "vendor": "Fournisseur",
     "accuracy": "Précision d'emplacement",
     "accuracyInclude": "Inclure les appareils peu précis",
-    "accuracyDescription": "Ces appareils peuvent être signalés à un autre étage"
+    "accuracyDescription": "Ces appareils peuvent être signalés à un autre étage",
+    "maxBattery": "Batterie à ou sous (%)",
+    "maxBatteryPlaceholder": "p. ex. 20"
   }
 }
