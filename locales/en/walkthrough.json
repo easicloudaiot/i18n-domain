@@ -60,7 +60,7 @@
       "statusMeanings": {
         "NEEDS_PROVISIONING": "No tracker attached yet.",
         "AWAITING_TELEMETRY": "Paired with a tracker, but nothing received yet.",
-        "AT_HOME": "At its home location.",
+        "AT_HOME": "Sitting where it belongs.",
         "LOANED_OUT": "Checked out to another location.",
         "IN_TRANSIT": "On the move.",
         "MISSING": "Not seen where expected."

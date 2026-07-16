@@ -60,7 +60,7 @@
       "statusMeanings": {
         "NEEDS_PROVISIONING": "Aucun traceur rattaché pour l'instant.",
         "AWAITING_TELEMETRY": "Appairé à un traceur, mais rien reçu encore.",
-        "AT_HOME": "À son emplacement d'origine.",
+        "AT_HOME": "Là où il doit être.",
         "LOANED_OUT": "Sorti vers un autre emplacement.",
         "IN_TRANSIT": "En déplacement.",
         "MISSING": "Introuvable là où il était attendu."
