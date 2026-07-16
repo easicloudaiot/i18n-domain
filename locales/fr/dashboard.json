@@ -451,6 +451,8 @@
   },
   "insights": {
     "title": "Aperçus rapides",
+    "assistant": "Iris",
+    "tagline": "EASI Intelligence",
     "generatedAt": "Généré",
     "close": "Fermer",
     "failed": "Impossible de générer les aperçus",
@@ -458,9 +460,37 @@
     "poweredBy": "Propulsé par EASI Intelligence",
     "askPlaceholder": "Posez une question sur vos actifs et appareils…",
     "send": "Envoyer",
+    "introPrompt": "Posez une question sur vos actifs et appareils, ou demandez un aperçu rapide pour commencer.",
+    "giveQuickInsights": "Donnez-moi des aperçus rapides",
+    "newConversation": "Nouvelle conversation",
+    "conversations": "Conversations",
+    "backToChat": "Retour à la conversation",
+    "loadConversationFailed": "Impossible d'ouvrir cette conversation.",
+    "historyFailed": "Impossible de charger les conversations",
+    "historyEmpty": "Aucune conversation précédente pour le moment.",
+    "untitledConversation": "Conversation sans titre",
+    "loadMore": "Charger plus",
     "conversationExpired": "Cette conversation a expiré. Renvoyez votre question pour en commencer une nouvelle.",
     "rateLimited": "L'assistant est occupé pour le moment — veuillez réessayer dans un instant.",
     "answerFailed": "Une erreur est survenue lors de la génération de la réponse.",
-    "retry": "Réessayer"
+    "unsupportedTool": "Cette réponse nécessite une fonctionnalité de l'application qui n'est pas encore prise en charge — veuillez mettre à jour l'application.",
+    "retry": "Réessayer",
+    "selectCompany": {
+      "label": "Entreprise",
+      "placeholder": "Tapez pour rechercher…",
+      "notFound": "Cette entreprise n'a pas pu être utilisée — veuillez en choisir une autre.",
+      "truncated": "Affichage des 100 premiers résultats — précisez votre question pour les affiner.",
+      "cancel": "Annuler"
+    },
+    "action": {
+      "viewAssets": "Voir les actifs",
+      "viewAssetHistory": "Voir l'historique de l'actif",
+      "viewDevices": "Voir les appareils",
+      "viewDeviceHistory": "Voir l'historique de l'appareil",
+      "navUnavailable": "Impossible d'ouvrir cette vue — essayez de naviguer manuellement.",
+      "assetsPage": "Actifs",
+      "devicesPage": "Appareils",
+      "nowViewing": "Affichage de {{target}}"
+    }
   }
 }

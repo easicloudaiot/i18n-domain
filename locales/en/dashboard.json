@@ -451,6 +451,8 @@
   },
   "insights": {
     "title": "Quick Insights",
+    "assistant": "Iris",
+    "tagline": "EASI Intelligence",
     "generatedAt": "Generated",
     "close": "Close",
     "failed": "Could not generate insights",
@@ -458,9 +460,37 @@
     "poweredBy": "Powered by EASI Intelligence",
     "askPlaceholder": "Ask about your assets and devices…",
     "send": "Send",
+    "introPrompt": "Ask about your assets and devices, or get a quick overview to start.",
+    "giveQuickInsights": "Give me quick insights",
+    "newConversation": "New conversation",
+    "conversations": "Conversations",
+    "backToChat": "Back to chat",
+    "loadConversationFailed": "Could not open that conversation.",
+    "historyFailed": "Could not load conversations",
+    "historyEmpty": "No previous conversations yet.",
+    "untitledConversation": "Untitled conversation",
+    "loadMore": "Load more",
     "conversationExpired": "This conversation expired. Send your question again to start a new one.",
     "rateLimited": "The assistant is busy right now — please try again in a moment.",
     "answerFailed": "Something went wrong generating a response.",
-    "retry": "Retry"
+    "unsupportedTool": "This response needs an app feature that isn't supported yet — please update the app.",
+    "retry": "Retry",
+    "selectCompany": {
+      "label": "Company",
+      "placeholder": "Type to search…",
+      "notFound": "That company couldn't be used — please pick another.",
+      "truncated": "Showing the first 100 matches — refine your question to narrow them down.",
+      "cancel": "Cancel"
+    },
+    "action": {
+      "viewAssets": "View assets",
+      "viewAssetHistory": "View asset history",
+      "viewDevices": "View devices",
+      "viewDeviceHistory": "View device history",
+      "navUnavailable": "Can't open that view — try navigating manually.",
+      "assetsPage": "Assets",
+      "devicesPage": "Devices",
+      "nowViewing": "Now viewing {{target}}"
+    }
   }
 }
