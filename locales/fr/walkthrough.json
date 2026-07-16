@@ -1,5 +1,6 @@
 {
   "launcher": { "title": "Prise en main", "close": "Fermer" },
+  "groups": { "hierarchy": "Construire votre hiérarchie" },
   "nav": {
     "next": "Suivant",
     "back": "Précédent",
@@ -22,6 +23,9 @@
     "summary": "Construisez Client → Bâtiment → Étage → Zone.",
     "openAssets": { "title": "Ouvrez Actifs", "description": "Le menu d'ajout se trouve sur la page Actifs. Cliquez sur l'onglet Actifs pour commencer." },
     "client": {
+      "title": "Ajouter un client",
+      "summary": "Créez une entreprise cliente de premier niveau.",
+      "context": { "title": "Choisissez où l'ajouter", "description": "Sélectionnez le niveau global ou un client dans la barre latérale. Les clients y sont créés." },
       "open": { "title": "Ajoutez un client", "description": "Votre espace est une arborescence : Client → Bâtiment → Étage → Zone. Ouvrez ce menu et choisissez « Ajouter un client »." },
       "name": { "title": "Nommez-le", "description": "Le nom de votre entreprise ou locataire. Obligatoire." },
       "industry": { "title": "Secteur", "description": "Facultatif — juste une étiquette modifiable plus tard." },
@@ -29,6 +33,9 @@
       "sidebar": { "title": "Il est dans la barre latérale", "description": "Votre client apparaît maintenant ici. Sélectionnez-le — tout ce que vous ajoutez ensuite ira à l'intérieur." }
     },
     "building": {
+      "title": "Ajouter un bâtiment",
+      "summary": "Ajoutez un bâtiment sous un client.",
+      "context": { "title": "Sélectionnez un client", "description": "Choisissez d'abord un client dans la barre latérale. Les bâtiments sont créés dans un client." },
       "open": { "title": "Ajoutez un bâtiment", "description": "Le client sélectionné, ouvrez ce menu et choisissez « Ajouter un bâtiment »." },
       "name": { "title": "Nommez-le", "description": "Le nom de votre bâtiment. Obligatoire." },
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer pour enregistrer." },
@@ -36,11 +43,17 @@
       "topbar": { "title": "Tout est par propriétaire", "description": "Cette barre indique votre emplacement. Ce que vous sélectionnez ici détermine les actifs, appareils et accès affichés." }
     },
     "floor": {
+      "title": "Ajouter un étage",
+      "summary": "Ajoutez un étage à un bâtiment.",
+      "context": { "title": "Sélectionnez un bâtiment", "description": "Choisissez d'abord un bâtiment dans la barre latérale. Les étages sont créés dans un bâtiment." },
       "open": { "title": "Ajoutez un étage", "description": "Sélectionnez le bâtiment, ouvrez ce menu et choisissez « Ajouter un étage »." },
       "name": { "title": "Nommez-le", "description": "Le nom de votre étage. Obligatoire." },
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer." }
     },
     "zone": {
+      "title": "Ajouter une zone",
+      "summary": "Ajoutez une zone à un étage.",
+      "context": { "title": "Sélectionnez un étage", "description": "Choisissez d'abord un étage dans la barre latérale. Les zones sont créées dans un étage." },
       "open": { "title": "Ajoutez une zone", "description": "Sélectionnez l'étage, ouvrez ce menu et choisissez « Ajouter une zone » — le plus petit niveau." },
       "name": { "title": "Nommez-la", "description": "Le nom de votre zone, puis complétez le formulaire." },
       "done": { "title": "Terminé !", "description": "Vous avez construit une hiérarchie complète Client → Bâtiment → Étage → Zone." }

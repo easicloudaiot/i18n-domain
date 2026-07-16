@@ -1,5 +1,6 @@
 {
   "launcher": { "title": "Getting started", "close": "Close" },
+  "groups": { "hierarchy": "Build your hierarchy" },
   "nav": {
     "next": "Next",
     "back": "Back",
@@ -22,6 +23,9 @@
     "summary": "Build Client → Building → Floor → Zone.",
     "openAssets": { "title": "Open Assets", "description": "The add menu lives on the Assets page. Click the Assets tab to start." },
     "client": {
+      "title": "Add a client",
+      "summary": "Create a top-level client company.",
+      "context": { "title": "Pick where to add it", "description": "Select the global level or a client in the sidebar. Clients are created from there." },
       "open": { "title": "Add a client", "description": "Your space is a tree: Client → Building → Floor → Zone. Open this menu and choose 'Add Client'." },
       "name": { "title": "Name it", "description": "Your company or tenant name. Required." },
       "industry": { "title": "Industry", "description": "Optional — just a label you can change later." },
@@ -29,6 +33,9 @@
       "sidebar": { "title": "It's in the sidebar", "description": "Your client now appears here. Select it — everything you add next goes inside it." }
     },
     "building": {
+      "title": "Add a building",
+      "summary": "Add a building under a client.",
+      "context": { "title": "Select a client", "description": "Choose a client in the sidebar first. Buildings are created inside a client." },
       "open": { "title": "Add a building", "description": "With the client selected, open this menu and choose 'Add Building'." },
       "name": { "title": "Name it", "description": "Your building's name. Required." },
       "save": { "title": "Save", "description": "Click Create to save." },
@@ -36,11 +43,17 @@
       "topbar": { "title": "Everything is per-owner", "description": "This bar shows your location. Whatever you select here scopes the assets, devices, and access you see." }
     },
     "floor": {
+      "title": "Add a floor",
+      "summary": "Add a floor to a building.",
+      "context": { "title": "Select a building", "description": "Choose a building in the sidebar first. Floors are created inside a building." },
       "open": { "title": "Add a floor", "description": "Select the building, open this menu, and choose 'Add Floor'." },
       "name": { "title": "Name it", "description": "Your floor's name. Required." },
       "save": { "title": "Save", "description": "Click Create." }
     },
     "zone": {
+      "title": "Add a zone",
+      "summary": "Add a zone to a floor.",
+      "context": { "title": "Select a floor", "description": "Choose a floor in the sidebar first. Zones are created inside a floor." },
       "open": { "title": "Add a zone", "description": "Select the floor, open this menu, and choose 'Add Zone' — the smallest level." },
       "name": { "title": "Name it", "description": "Your zone's name, then complete the form." },
       "done": { "title": "Done!", "description": "You've built a full Client → Building → Floor → Zone hierarchy." }
