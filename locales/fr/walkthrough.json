@@ -26,7 +26,7 @@
     "summary": "Découvrez l'interface, les pages et chaque filtre d'actifs.",
     "concept": {
       "title": "Comment votre espace est organisé",
-      "description": "Tout vit dans une seule arborescence, ici dans la barre latérale. Cliquez sur un niveau pour y concentrer toute l'application :",
+      "description": "Tout vit dans une seule arborescence, ici dans la barre latérale. Chaque niveau s'appelle un propriétaire. Cliquez sur l'un d'eux et toute l'application, y compris les pages de la barre du haut, se concentre sur ce propriétaire :",
       "client": "Une entreprise ou un locataire. Le premier niveau ; tout le reste vit à l'intérieur.",
       "building": "Un site physique appartenant à un client : entrepôt, usine ou bureau.",
       "floor": "Un niveau dans un bâtiment. Un étage peut porter un plan qui montre chaque élément à sa position réelle.",

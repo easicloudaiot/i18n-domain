@@ -26,7 +26,7 @@
     "summary": "Learn the layout, the pages, and every asset filter.",
     "concept": {
       "title": "How your space is organized",
-      "description": "Everything lives in one tree, right here in the sidebar. Click any level to focus the whole app on it:",
+      "description": "Everything lives in one tree, right here in the sidebar. Each level is called an owner. Click one and the whole app, including the pages in the top bar, focuses on that owner:",
       "client": "A company or tenant. The top level; everything else lives inside it.",
       "building": "A physical site that belongs to a client: a warehouse, plant, or office.",
       "floor": "A level inside a building. A floor can carry a floor map that shows items at their real position.",
