@@ -24,10 +24,9 @@
   "starter": {
     "title": "Get oriented",
     "summary": "Learn the layout, the pages, and every asset filter.",
-    "sidebar": { "title": "The sidebar", "description": "Your hierarchy: clients, buildings, floors, and zones. Click a level to focus the whole app on it." },
     "concept": {
       "title": "How your space is organized",
-      "description": "Everything lives in one tree, exactly like the sidebar:",
+      "description": "Everything lives in one tree, right here in the sidebar. Click any level to focus the whole app on it:",
       "client": "A company or tenant. The top level; everything else lives inside it.",
       "building": "A physical site that belongs to a client: a warehouse, plant, or office.",
       "floor": "A level inside a building. A floor can carry a floor map that shows items at their real position.",
@@ -57,13 +56,28 @@
     },
     "filters": {
       "open": { "title": "Open the filters", "description": "Click Filters to open the filter panel. It narrows the asset list and map to exactly what you need." },
-      "status": { "title": "Status", "description": "Every asset carries a status. Needs device: no tracker attached yet. Awaiting telemetry: paired but nothing received yet. At home: at its home location. Loaned out: checked out to another location. In transit: on the move. Missing: not seen where expected." },
+      "status": { "title": "Status", "description": "Every asset carries one of these statuses:" },
+      "statusMeanings": {
+        "NEEDS_PROVISIONING": "No tracker attached yet.",
+        "AWAITING_TELEMETRY": "Paired with a tracker, but nothing received yet.",
+        "AT_HOME": "At its home location.",
+        "LOANED_OUT": "Checked out to another location.",
+        "IN_TRANSIT": "On the move.",
+        "MISSING": "Not seen where expected."
+      },
       "type": { "title": "Asset type", "description": "Show only one category of asset, like every forklift. Types come from the templates your team creates." },
-      "scope": { "title": "Location scope", "description": "All shows every asset connected to your current selection. Home shows the assets that belong here. Current shows the assets physically here right now, including visitors from elsewhere." },
+      "scope": { "title": "Location scope", "description": "Controls which assets appear here:" },
       "accuracy": { "title": "Accuracy", "description": "Location readings vary in precision. Low-accuracy readings are hidden from floor plans by default; turn this on to include them." },
       "device": { "title": "Device attachment", "description": "Filter by whether an asset has a tracker attached. Assets without a device cannot report their position." }
     },
-    "locate": { "title": "See it on the map", "description": "Click a result to show it on the map or floor plan." },
+    "table": {
+      "title": "The asset list",
+      "description": "Every asset in view is listed here. Click one to open it. If there are none yet, a Next button will appear shortly so you can skip ahead.",
+      "description_named": "Every asset in {{ownerLevel}} {{ownerName}} is listed here. Click one to open it. If there are none yet, a Next button will appear shortly so you can skip ahead."
+    },
+    "details": { "title": "Asset details", "description": "Everything about this asset: its current status and location, its properties, and any attached devices. Edit or manage it from here." },
+    "locate": { "title": "See it on the map", "description": "The selected asset is highlighted here, on the map or floor plan, at its last known position." },
+    "history": { "title": "Where it has been", "description": "The History tab lists this asset's past locations. Click a row to replay that moment on the map." },
     "done": { "title": "You're all set", "description": "That's the essentials. Replay this tour, or take the hands-on guides, any time from the ? menu in the top bar." }
   },
   "owner": {
@@ -151,9 +165,14 @@
     },
     "create": { "title": "Add a device", "description": "Click here to open the device form." },
     "name": { "title": "Name it", "description": "A recognizable name for this device. Required." },
-    "type": { "title": "Its type", "description": "Tracker: reports location and status. Repeater: relays signals from other devices to extend coverage." },
+    "type": { "title": "Its type", "description": "Choose what this device is:" },
+    "typeLegend": {
+      "tracker": "Reports location and status.",
+      "repeater": "Relays signals from other devices to extend coverage."
+    },
     "save": { "title": "Save", "description": "Click Create to register the device." },
-    "attach": { "title": "Attach it to an asset", "description": "A device on its own only reports raw data. Attach it to an asset and everything it sends, from location to status history, is associated with that asset. Open an asset and add the device from its details." }
+    "attach": { "title": "Attach it to an asset", "description": "A device on its own only reports raw data. Attach it to an asset and everything it sends is associated with that asset. Open an asset and add the device from its details." },
+    "attachData": "location, status, history"
   },
   "settings": {
     "context": { "title": "Select a client", "description": "Settings are configured per client. Select a client, the company level, in the sidebar first." },

@@ -24,10 +24,9 @@
   "starter": {
     "title": "Faites connaissance",
     "summary": "Découvrez l'interface, les pages et chaque filtre d'actifs.",
-    "sidebar": { "title": "La barre latérale", "description": "Votre hiérarchie : clients, bâtiments, étages et zones. Cliquez sur un niveau pour y concentrer toute l'application." },
     "concept": {
       "title": "Comment votre espace est organisé",
-      "description": "Tout vit dans une seule arborescence, exactement comme la barre latérale :",
+      "description": "Tout vit dans une seule arborescence, ici dans la barre latérale. Cliquez sur un niveau pour y concentrer toute l'application :",
       "client": "Une entreprise ou un locataire. Le premier niveau ; tout le reste vit à l'intérieur.",
       "building": "Un site physique appartenant à un client : entrepôt, usine ou bureau.",
       "floor": "Un niveau dans un bâtiment. Un étage peut porter un plan qui montre chaque élément à sa position réelle.",
@@ -57,13 +56,28 @@
     },
     "filters": {
       "open": { "title": "Ouvrez les filtres", "description": "Cliquez sur Filtres pour ouvrir le panneau. Il restreint la liste et la carte à exactement ce dont vous avez besoin." },
-      "status": { "title": "Statut", "description": "Chaque actif porte un statut. Appareil requis : aucun traceur rattaché. En attente de télémétrie : appairé mais rien reçu encore. À domicile : à son emplacement d'origine. Prêté : sorti vers un autre emplacement. En transit : en déplacement. Manquant : introuvable là où il était attendu." },
+      "status": { "title": "Statut", "description": "Chaque actif porte l'un de ces statuts :" },
+      "statusMeanings": {
+        "NEEDS_PROVISIONING": "Aucun traceur rattaché pour l'instant.",
+        "AWAITING_TELEMETRY": "Appairé à un traceur, mais rien reçu encore.",
+        "AT_HOME": "À son emplacement d'origine.",
+        "LOANED_OUT": "Sorti vers un autre emplacement.",
+        "IN_TRANSIT": "En déplacement.",
+        "MISSING": "Introuvable là où il était attendu."
+      },
       "type": { "title": "Type d'actif", "description": "N'affichez qu'une catégorie d'actifs, comme tous les chariots élévateurs. Les types viennent des modèles créés par votre équipe." },
-      "scope": { "title": "Portée de localisation", "description": "Tous affiche chaque actif lié à votre sélection actuelle. Domicile affiche les actifs qui appartiennent ici. Actuel affiche les actifs physiquement présents en ce moment, y compris les visiteurs venus d'ailleurs." },
+      "scope": { "title": "Portée de localisation", "description": "Détermine quels actifs s'affichent ici :" },
       "accuracy": { "title": "Précision", "description": "La précision des relevés de position varie. Les relevés peu précis sont masqués des plans d'étage par défaut ; activez ceci pour les inclure." },
       "device": { "title": "Rattachement d'appareil", "description": "Filtrez selon qu'un actif a un traceur rattaché ou non. Un actif sans appareil ne peut pas transmettre sa position." }
     },
-    "locate": { "title": "Voyez-le sur la carte", "description": "Cliquez sur un résultat pour l'afficher sur la carte ou le plan d'étage." },
+    "table": {
+      "title": "La liste des actifs",
+      "description": "Chaque actif visible est listé ici. Cliquez sur l'un d'eux pour l'ouvrir. S'il n'y en a aucun, un bouton Suivant apparaîtra sous peu pour passer à la suite.",
+      "description_named": "Chaque actif de « {{ownerName}} » ({{ownerLevel}}) est listé ici. Cliquez sur l'un d'eux pour l'ouvrir. S'il n'y en a aucun, un bouton Suivant apparaîtra sous peu pour passer à la suite."
+    },
+    "details": { "title": "Détails de l'actif", "description": "Tout sur cet actif : son statut et sa position actuels, ses propriétés et les appareils rattachés. Modifiez-le ou gérez-le d'ici." },
+    "locate": { "title": "Voyez-le sur la carte", "description": "L'actif sélectionné est mis en évidence ici, sur la carte ou le plan d'étage, à sa dernière position connue." },
+    "history": { "title": "Où il est passé", "description": "L'onglet Historique liste les positions passées de cet actif. Cliquez sur une ligne pour revoir ce moment sur la carte." },
     "done": { "title": "Vous êtes prêt", "description": "Voilà l'essentiel. Rejouez cette visite, ou suivez les guides pratiques, à tout moment depuis le menu ? de la barre du haut." }
   },
   "owner": {
@@ -151,9 +165,14 @@
     },
     "create": { "title": "Ajoutez un appareil", "description": "Cliquez ici pour ouvrir le formulaire d'appareil." },
     "name": { "title": "Nommez-le", "description": "Un nom reconnaissable pour cet appareil. Obligatoire." },
-    "type": { "title": "Son type", "description": "Traceur : transmet position et statut. Répéteur : relaie les signaux d'autres appareils pour étendre la couverture." },
+    "type": { "title": "Son type", "description": "Choisissez ce qu'est cet appareil :" },
+    "typeLegend": {
+      "tracker": "Transmet position et statut.",
+      "repeater": "Relaie les signaux d'autres appareils pour étendre la couverture."
+    },
     "save": { "title": "Enregistrez", "description": "Cliquez sur Créer pour enregistrer l'appareil." },
-    "attach": { "title": "Rattachez-le à un actif", "description": "Un appareil seul ne transmet que des données brutes. Rattachez-le à un actif et tout ce qu'il envoie, de la position à l'historique de statut, est associé à cet actif. Ouvrez un actif et ajoutez-y l'appareil depuis ses détails." }
+    "attach": { "title": "Rattachez-le à un actif", "description": "Un appareil seul ne transmet que des données brutes. Rattachez-le à un actif et tout ce qu'il envoie est associé à cet actif. Ouvrez un actif et ajoutez-y l'appareil depuis ses détails." },
+    "attachData": "position, statut, historique"
   },
   "settings": {
     "context": { "title": "Sélectionnez un client", "description": "Les paramètres se configurent par client. Sélectionnez d'abord un client, le niveau entreprise, dans la barre latérale." },
