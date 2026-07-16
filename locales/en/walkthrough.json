@@ -33,21 +33,33 @@
       "floor": "A level inside a building. A floor can carry a floor map that shows items at their real position.",
       "zone": "A named area on a floor, like 'Receiving'. The most precise place an asset can live."
     },
-    "topbar": { "title": "The top bar", "description": "Shows where you are and the pages available there. Assets, devices, and people all belong to the selected owner and change as you move around." },
+    "topbar": {
+      "title": "The top bar",
+      "description": "Shows where you are and the pages available there. What you see on every page follows your selection in the sidebar.",
+      "description_named": "Shows where you are and the pages available there. Right now you're in {{ownerLevel}} {{ownerName}}: the assets, devices, and people you see belong to it."
+    },
     "pages": {
-      "dashboard": { "title": "Dashboard", "description": "Your at-a-glance overview: asset counts by status and type, device activity, and user activity for the selected owner." },
+      "dashboard": { "title": "Dashboard", "description": "Your at-a-glance overview: asset counts by status and type, device activity, and user activity for whatever you've selected in the sidebar." },
       "assets": { "title": "Assets", "description": "The things you track. Search, filter, and locate them on the map or floor plan. Most day-to-day work happens here." },
       "devices": { "title": "Devices", "description": "The hardware that reports data: trackers and repeaters. Devices are attached to assets so their data counts toward the right item." },
       "users": { "title": "Users", "description": "The people with access. Invite users, assign roles, and control what each person can see and do at every level." },
-      "settings": { "title": "Settings", "description": "Configuration for the selected owner: branding, asset rules, preferences, and security." }
+      "settings": { "title": "Settings", "description": "Configuration for whatever you've selected in the sidebar: branding, asset rules, preferences, and security." }
     },
-    "openAssets": { "title": "Open Assets", "description": "Click the Assets tab to see them. We'll wait here until you do." },
-    "search": { "title": "Find anything", "description": "Search by name or any detail to find an asset fast." },
+    "openAssets": {
+      "title": "Open Assets",
+      "description": "Click the Assets tab to see them. We'll wait here until you do.",
+      "description_named": "Click the Assets tab to see the assets in {{ownerLevel}} {{ownerName}}. We'll wait here until you do."
+    },
+    "search": {
+      "title": "Find anything",
+      "description": "Search by name or any detail to find an asset fast.",
+      "description_named": "Search by name or any detail to quickly find an asset in {{ownerLevel}} {{ownerName}}."
+    },
     "filters": {
       "open": { "title": "Open the filters", "description": "Click Filters to open the filter panel. It narrows the asset list and map to exactly what you need." },
       "status": { "title": "Status", "description": "Every asset carries a status. Needs device: no tracker attached yet. Awaiting telemetry: paired but nothing received yet. At home: at its home location. Loaned out: checked out to another location. In transit: on the move. Missing: not seen where expected." },
       "type": { "title": "Asset type", "description": "Show only one category of asset, like every forklift. Types come from the templates your team creates." },
-      "scope": { "title": "Location scope", "description": "All shows every asset related to this owner. Home shows the assets that belong here. Current shows the assets physically here right now, including visitors from elsewhere." },
+      "scope": { "title": "Location scope", "description": "All shows every asset connected to your current selection. Home shows the assets that belong here. Current shows the assets physically here right now, including visitors from elsewhere." },
       "accuracy": { "title": "Accuracy", "description": "Location readings vary in precision. Low-accuracy readings are hidden from floor plans by default; turn this on to include them." },
       "device": { "title": "Device attachment", "description": "Filter by whether an asset has a tracker attached. Assets without a device cannot report their position." }
     },
@@ -78,7 +90,7 @@
       "save": { "title": "Save", "description": "Click Create to save." },
       "done": { "title": "Building created", "description": "Your building is saved. Select it to add floors inside it." },
       "sidebar": { "title": "The tree grows", "description": "The building now sits under your client. The hierarchy fills in as you go." },
-      "topbar": { "title": "Everything is per-owner", "description": "This bar shows your location. Whatever you select here scopes the assets, devices, and access you see." }
+      "topbar": { "title": "Everything follows your selection", "description": "This bar shows your location. Whatever you select in the sidebar decides the assets, devices, and access you see." }
     },
     "floor": {
       "title": "Add a floor",
@@ -114,9 +126,13 @@
   "createAsset": {
     "title": "Add an asset",
     "summary": "Create one real item you track.",
-    "scoping": { "title": "Assets belong to an owner", "description": "An asset lives under whichever owner is selected in the sidebar. Pick the right one before you create it." },
-    "selectOwner": { "title": "Pick where it lives", "description": "Select the company, building, floor, or zone this asset belongs to in the sidebar." },
-    "openAssets": { "title": "Open Assets", "description": "Click the Assets tab for the owner you picked." },
+    "scoping": { "title": "Assets have a home", "description": "An asset lives wherever you've selected in the sidebar: a client, building, floor, or zone. Pick the right place before you create it." },
+    "selectOwner": { "title": "Pick where it lives", "description": "Select the client, building, floor, or zone this asset belongs to in the sidebar." },
+    "openAssets": {
+      "title": "Open Assets",
+      "description": "Click the Assets tab for the place you picked.",
+      "description_named": "Click the Assets tab. Your new asset will be created in {{ownerLevel}} {{ownerName}}."
+    },
     "create": { "title": "Add an asset", "description": "An asset is one real thing you track. Click here to open the form." },
     "name": { "title": "Name it", "description": "This item's name or ID, like 'Forklift #3'. Required." },
     "type": { "title": "Its type", "description": "Pick a type. If it has required fields they'll appear below, and Next stays locked until they're filled." },
@@ -127,8 +143,12 @@
     "title": "Add a device",
     "summary": "Create a tracker and attach it to an asset.",
     "concept": { "title": "What is a device?", "description": "A device is the hardware that reports data: a tracker that sends location and status, or a repeater that extends coverage. Devices power everything you see about an asset." },
-    "selectOwner": { "title": "Pick where it lives", "description": "Devices belong to an owner, just like assets. Select the right client, building, floor, or zone in the sidebar." },
-    "openDevices": { "title": "Open Devices", "description": "Devices are managed on the Devices page. Click the Devices tab." },
+    "selectOwner": { "title": "Pick where it lives", "description": "Devices have a home, just like assets. Select the right client, building, floor, or zone in the sidebar." },
+    "openDevices": {
+      "title": "Open Devices",
+      "description": "Devices are managed on the Devices page. Click the Devices tab.",
+      "description_named": "Devices are managed on the Devices page. Click the Devices tab; your device will belong to {{ownerLevel}} {{ownerName}}."
+    },
     "create": { "title": "Add a device", "description": "Click here to open the device form." },
     "name": { "title": "Name it", "description": "A recognizable name for this device. Required." },
     "type": { "title": "Its type", "description": "Tracker: reports location and status. Repeater: relays signals from other devices to extend coverage." },

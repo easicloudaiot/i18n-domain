@@ -33,21 +33,33 @@
       "floor": "Un niveau dans un bâtiment. Un étage peut porter un plan qui montre chaque élément à sa position réelle.",
       "zone": "Une aire nommée sur un étage, comme « Réception ». L'emplacement le plus précis d'un actif."
     },
-    "topbar": { "title": "La barre du haut", "description": "Indique où vous êtes et les pages disponibles à cet endroit. Les actifs, appareils et personnes appartiennent au propriétaire sélectionné et changent au fil de votre navigation." },
+    "topbar": {
+      "title": "La barre du haut",
+      "description": "Indique où vous êtes et les pages disponibles à cet endroit. Ce que vous voyez sur chaque page suit votre sélection dans la barre latérale.",
+      "description_named": "Indique où vous êtes et les pages disponibles à cet endroit. Vous êtes dans « {{ownerName}} » ({{ownerLevel}}) : les actifs, appareils et personnes affichés lui appartiennent."
+    },
     "pages": {
-      "dashboard": { "title": "Tableau de bord", "description": "Votre vue d'ensemble : nombre d'actifs par statut et par type, activité des appareils et des utilisateurs pour le propriétaire sélectionné." },
+      "dashboard": { "title": "Tableau de bord", "description": "Votre vue d'ensemble : nombre d'actifs par statut et par type, activité des appareils et des utilisateurs pour votre sélection actuelle." },
       "assets": { "title": "Actifs", "description": "Les éléments que vous suivez. Recherchez, filtrez et localisez-les sur la carte ou le plan d'étage. L'essentiel du travail quotidien se passe ici." },
       "devices": { "title": "Appareils", "description": "Le matériel qui transmet les données : traceurs et répéteurs. Les appareils sont rattachés aux actifs pour que leurs données comptent pour le bon élément." },
       "users": { "title": "Utilisateurs", "description": "Les personnes qui ont accès. Invitez des utilisateurs, attribuez des rôles et contrôlez ce que chacun peut voir et faire à chaque niveau." },
-      "settings": { "title": "Paramètres", "description": "La configuration du propriétaire sélectionné : image de marque, règles des actifs, préférences et sécurité." }
+      "settings": { "title": "Paramètres", "description": "La configuration de votre sélection actuelle : image de marque, règles des actifs, préférences et sécurité." }
     },
-    "openAssets": { "title": "Ouvrez Actifs", "description": "Cliquez sur l'onglet Actifs pour les voir. Nous attendons ici que vous le fassiez." },
-    "search": { "title": "Trouvez tout", "description": "Recherchez par nom ou tout autre détail pour trouver un actif rapidement." },
+    "openAssets": {
+      "title": "Ouvrez Actifs",
+      "description": "Cliquez sur l'onglet Actifs pour les voir. Nous attendons ici que vous le fassiez.",
+      "description_named": "Cliquez sur l'onglet Actifs pour voir les actifs de « {{ownerName}} » ({{ownerLevel}}). Nous attendons ici que vous le fassiez."
+    },
+    "search": {
+      "title": "Trouvez tout",
+      "description": "Recherchez par nom ou tout autre détail pour trouver un actif rapidement.",
+      "description_named": "Recherchez par nom ou tout autre détail pour trouver rapidement un actif dans « {{ownerName}} » ({{ownerLevel}})."
+    },
     "filters": {
       "open": { "title": "Ouvrez les filtres", "description": "Cliquez sur Filtres pour ouvrir le panneau. Il restreint la liste et la carte à exactement ce dont vous avez besoin." },
       "status": { "title": "Statut", "description": "Chaque actif porte un statut. Appareil requis : aucun traceur rattaché. En attente de télémétrie : appairé mais rien reçu encore. À domicile : à son emplacement d'origine. Prêté : sorti vers un autre emplacement. En transit : en déplacement. Manquant : introuvable là où il était attendu." },
       "type": { "title": "Type d'actif", "description": "N'affichez qu'une catégorie d'actifs, comme tous les chariots élévateurs. Les types viennent des modèles créés par votre équipe." },
-      "scope": { "title": "Portée de localisation", "description": "Tous affiche chaque actif lié à ce propriétaire. Domicile affiche les actifs qui appartiennent ici. Actuel affiche les actifs physiquement présents en ce moment, y compris les visiteurs venus d'ailleurs." },
+      "scope": { "title": "Portée de localisation", "description": "Tous affiche chaque actif lié à votre sélection actuelle. Domicile affiche les actifs qui appartiennent ici. Actuel affiche les actifs physiquement présents en ce moment, y compris les visiteurs venus d'ailleurs." },
       "accuracy": { "title": "Précision", "description": "La précision des relevés de position varie. Les relevés peu précis sont masqués des plans d'étage par défaut ; activez ceci pour les inclure." },
       "device": { "title": "Rattachement d'appareil", "description": "Filtrez selon qu'un actif a un traceur rattaché ou non. Un actif sans appareil ne peut pas transmettre sa position." }
     },
@@ -78,7 +90,7 @@
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer pour enregistrer." },
       "done": { "title": "Bâtiment créé", "description": "Votre bâtiment est enregistré. Sélectionnez-le pour y ajouter des étages." },
       "sidebar": { "title": "L'arbre s'agrandit", "description": "Le bâtiment se place maintenant sous votre client. La hiérarchie se remplit à mesure." },
-      "topbar": { "title": "Tout est par propriétaire", "description": "Cette barre indique votre emplacement. Ce que vous sélectionnez ici détermine les actifs, appareils et accès affichés." }
+      "topbar": { "title": "Tout suit votre sélection", "description": "Cette barre indique votre emplacement. Ce que vous sélectionnez dans la barre latérale détermine les actifs, appareils et accès affichés." }
     },
     "floor": {
       "title": "Ajouter un étage",
@@ -114,9 +126,13 @@
   "createAsset": {
     "title": "Ajouter un actif",
     "summary": "Créez un élément réel à suivre.",
-    "scoping": { "title": "Les actifs appartiennent à un propriétaire", "description": "Un actif se trouve sous le propriétaire sélectionné dans la barre latérale. Choisissez le bon avant de le créer." },
-    "selectOwner": { "title": "Choisissez son emplacement", "description": "Sélectionnez l'entreprise, le bâtiment, l'étage ou la zone auquel cet actif appartient dans la barre latérale." },
-    "openAssets": { "title": "Ouvrez Actifs", "description": "Cliquez sur l'onglet Actifs pour le propriétaire choisi." },
+    "scoping": { "title": "Les actifs ont un emplacement", "description": "Un actif vit là où porte votre sélection dans la barre latérale : client, bâtiment, étage ou zone. Choisissez le bon endroit avant de le créer." },
+    "selectOwner": { "title": "Choisissez son emplacement", "description": "Sélectionnez le client, le bâtiment, l'étage ou la zone auquel cet actif appartient dans la barre latérale." },
+    "openAssets": {
+      "title": "Ouvrez Actifs",
+      "description": "Cliquez sur l'onglet Actifs pour l'endroit choisi.",
+      "description_named": "Cliquez sur l'onglet Actifs. Votre nouvel actif sera créé dans « {{ownerName}} » ({{ownerLevel}})."
+    },
     "create": { "title": "Ajoutez un actif", "description": "Un actif est une chose réelle que vous suivez. Cliquez ici pour ouvrir le formulaire." },
     "name": { "title": "Nommez-le", "description": "Le nom ou l'identifiant de cet élément, comme « Chariot élévateur n° 3 ». Obligatoire." },
     "type": { "title": "Son type", "description": "Choisissez un type. S'il a des champs obligatoires, ils apparaîtront ci-dessous, et Suivant reste verrouillé tant qu'ils ne sont pas remplis." },
@@ -127,8 +143,12 @@
     "title": "Ajouter un appareil",
     "summary": "Créez un traceur et rattachez-le à un actif.",
     "concept": { "title": "Qu'est-ce qu'un appareil ?", "description": "Un appareil est le matériel qui transmet les données : un traceur qui envoie position et statut, ou un répéteur qui étend la couverture. Les appareils alimentent tout ce que vous voyez sur un actif." },
-    "selectOwner": { "title": "Choisissez son emplacement", "description": "Les appareils appartiennent à un propriétaire, comme les actifs. Sélectionnez le bon client, bâtiment, étage ou zone dans la barre latérale." },
-    "openDevices": { "title": "Ouvrez Appareils", "description": "Les appareils se gèrent sur la page Appareils. Cliquez sur l'onglet Appareils." },
+    "selectOwner": { "title": "Choisissez son emplacement", "description": "Les appareils ont un emplacement, comme les actifs. Sélectionnez le bon client, bâtiment, étage ou zone dans la barre latérale." },
+    "openDevices": {
+      "title": "Ouvrez Appareils",
+      "description": "Les appareils se gèrent sur la page Appareils. Cliquez sur l'onglet Appareils.",
+      "description_named": "Les appareils se gèrent sur la page Appareils. Cliquez sur l'onglet Appareils ; votre appareil appartiendra à « {{ownerName}} » ({{ownerLevel}})."
+    },
     "create": { "title": "Ajoutez un appareil", "description": "Cliquez ici pour ouvrir le formulaire d'appareil." },
     "name": { "title": "Nommez-le", "description": "Un nom reconnaissable pour cet appareil. Obligatoire." },
     "type": { "title": "Son type", "description": "Traceur : transmet position et statut. Répéteur : relaie les signaux d'autres appareils pour étendre la couverture." },
