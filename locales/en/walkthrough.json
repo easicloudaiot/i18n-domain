@@ -26,10 +26,10 @@
       "ask": "Ask Iris anything"
     }
   },
-  "replay": {
-    "title": "Product tour",
-    "description": "Show the welcome tour again, just like your first sign-in. Your guide progress resets so you can take every walkthrough from the start.",
-    "button": "Replay the welcome tour"
+  "tour": {
+    "title": "Welcome tour",
+    "toggle": "Show the welcome tour when I sign in",
+    "description": "On until you finish the tour or choose to explore on your own. Turn it back on to be greeted again at your next sign-in, with your guide progress reset."
   },
   "starter": {
     "title": "Get oriented",

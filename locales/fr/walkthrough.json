@@ -26,10 +26,10 @@
       "ask": "Demandez tout à Iris"
     }
   },
-  "replay": {
-    "title": "Visite guidée",
-    "description": "Revoir la visite de bienvenue, comme à votre première connexion. Votre progression est réinitialisée pour reprendre chaque guide depuis le début.",
-    "button": "Revoir la visite de bienvenue"
+  "tour": {
+    "title": "Visite de bienvenue",
+    "toggle": "Afficher la visite de bienvenue à ma connexion",
+    "description": "Active jusqu'à ce que vous terminiez la visite ou choisissiez d'explorer par vous-même. Réactivez-la pour être accueilli de nouveau à votre prochaine connexion, avec votre progression réinitialisée."
   },
   "starter": {
     "title": "Faites connaissance",
