@@ -19,7 +19,12 @@
     "titleFallback": "Bienvenue",
     "description": "Laissez-nous vous faire visiter. Une courte visite guidée couvre votre hiérarchie, les pages à votre disposition et la façon de trouver et gérer vos actifs. Vous pourrez rejouer chaque visite plus tard depuis le menu ? de la barre du haut.",
     "begin": "Commencer la visite",
-    "skip": "Explorer par moi-même"
+    "skip": "Explorer par moi-même",
+    "highlights": {
+      "track": "Suivez vos actifs en temps réel",
+      "see": "Voyez-les sur cartes et plans d'étage",
+      "ask": "Demandez tout à Iris"
+    }
   },
   "replay": {
     "title": "Visite guidée",

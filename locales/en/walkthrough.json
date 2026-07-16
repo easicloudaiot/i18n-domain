@@ -19,7 +19,12 @@
     "titleFallback": "Welcome",
     "description": "Let us show you around. A short guided tour covers your hierarchy, the pages available to you, and how to find and manage your assets. You can replay any tour later from the ? menu in the top bar.",
     "begin": "Begin walkthrough",
-    "skip": "Explore on my own"
+    "skip": "Explore on my own",
+    "highlights": {
+      "track": "Track assets in real time",
+      "see": "See them on maps and floor plans",
+      "ask": "Ask Iris anything"
+    }
   },
   "replay": {
     "title": "Product tour",
