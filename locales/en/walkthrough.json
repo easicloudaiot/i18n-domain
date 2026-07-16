@@ -21,6 +21,11 @@
     "begin": "Begin walkthrough",
     "skip": "Explore on my own"
   },
+  "replay": {
+    "title": "Product tour",
+    "description": "Show the welcome tour again, just like your first sign-in. Your guide progress resets so you can take every walkthrough from the start.",
+    "button": "Replay the welcome tour"
+  },
   "starter": {
     "title": "Get oriented",
     "summary": "Learn the layout, the pages, and every asset filter.",

@@ -21,6 +21,11 @@
     "begin": "Commencer la visite",
     "skip": "Explorer par moi-même"
   },
+  "replay": {
+    "title": "Visite guidée",
+    "description": "Revoir la visite de bienvenue, comme à votre première connexion. Votre progression est réinitialisée pour reprendre chaque guide depuis le début.",
+    "button": "Revoir la visite de bienvenue"
+  },
   "starter": {
     "title": "Faites connaissance",
     "summary": "Découvrez l'interface, les pages et chaque filtre d'actifs.",
