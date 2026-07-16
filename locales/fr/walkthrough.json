@@ -1,6 +1,11 @@
 {
   "launcher": { "title": "Prise en main", "close": "Fermer" },
-  "groups": { "hierarchy": "Construire votre hiérarchie" },
+  "groups": {
+    "hierarchy": "Construire votre hiérarchie",
+    "assets": "Travailler avec les actifs",
+    "devices": "Appareils",
+    "settings": "Paramètres"
+  },
   "nav": {
     "next": "Suivant",
     "back": "Précédent",
@@ -9,14 +14,45 @@
     "close": "Fermer",
     "step": "{{current}} sur {{total}}"
   },
+  "welcome": {
+    "title": "Bienvenue sur {{product}}",
+    "titleFallback": "Bienvenue",
+    "description": "Laissez-nous vous faire visiter. Une courte visite guidée couvre votre hiérarchie, les pages à votre disposition et la façon de trouver et gérer vos actifs. Vous pourrez rejouer chaque visite plus tard depuis le menu ? de la barre du haut.",
+    "begin": "Commencer la visite",
+    "skip": "Explorer par moi-même"
+  },
   "starter": {
     "title": "Faites connaissance",
-    "summary": "Découvrez l'interface et trouvez un actif.",
-    "sidebar": { "title": "La barre latérale", "description": "Votre hiérarchie — entreprises, bâtiments, étages, zones. Cliquez sur un niveau pour y concentrer toute l'application." },
-    "topbar": { "title": "La barre du haut", "description": "Indique où vous êtes. Les actifs, appareils et personnes appartiennent à ce propriétaire et changent au fil de votre navigation." },
-    "openAssets": { "title": "Ouvrez Actifs", "description": "Cliquez sur l'onglet Actifs pour les voir — nous attendons ici que vous le fassiez." },
+    "summary": "Découvrez l'interface, les pages et chaque filtre d'actifs.",
+    "sidebar": { "title": "La barre latérale", "description": "Votre hiérarchie : clients, bâtiments, étages et zones. Cliquez sur un niveau pour y concentrer toute l'application." },
+    "concept": {
+      "title": "Comment votre espace est organisé",
+      "description": "Tout vit dans une seule arborescence, exactement comme la barre latérale :",
+      "client": "Une entreprise ou un locataire. Le premier niveau ; tout le reste vit à l'intérieur.",
+      "building": "Un site physique appartenant à un client : entrepôt, usine ou bureau.",
+      "floor": "Un niveau dans un bâtiment. Un étage peut porter un plan qui montre chaque élément à sa position réelle.",
+      "zone": "Une aire nommée sur un étage, comme « Réception ». L'emplacement le plus précis d'un actif."
+    },
+    "topbar": { "title": "La barre du haut", "description": "Indique où vous êtes et les pages disponibles à cet endroit. Les actifs, appareils et personnes appartiennent au propriétaire sélectionné et changent au fil de votre navigation." },
+    "pages": {
+      "dashboard": { "title": "Tableau de bord", "description": "Votre vue d'ensemble : nombre d'actifs par statut et par type, activité des appareils et des utilisateurs pour le propriétaire sélectionné." },
+      "assets": { "title": "Actifs", "description": "Les éléments que vous suivez. Recherchez, filtrez et localisez-les sur la carte ou le plan d'étage. L'essentiel du travail quotidien se passe ici." },
+      "devices": { "title": "Appareils", "description": "Le matériel qui transmet les données : traceurs et répéteurs. Les appareils sont rattachés aux actifs pour que leurs données comptent pour le bon élément." },
+      "users": { "title": "Utilisateurs", "description": "Les personnes qui ont accès. Invitez des utilisateurs, attribuez des rôles et contrôlez ce que chacun peut voir et faire à chaque niveau." },
+      "settings": { "title": "Paramètres", "description": "La configuration du propriétaire sélectionné : image de marque, règles des actifs, préférences et sécurité." }
+    },
+    "openAssets": { "title": "Ouvrez Actifs", "description": "Cliquez sur l'onglet Actifs pour les voir. Nous attendons ici que vous le fassiez." },
     "search": { "title": "Trouvez tout", "description": "Recherchez par nom ou tout autre détail pour trouver un actif rapidement." },
-    "locate": { "title": "Voyez-le sur la carte", "description": "Cliquez sur un résultat pour l'afficher sur la carte ou le plan d'étage." }
+    "filters": {
+      "open": { "title": "Ouvrez les filtres", "description": "Cliquez sur Filtres pour ouvrir le panneau. Il restreint la liste et la carte à exactement ce dont vous avez besoin." },
+      "status": { "title": "Statut", "description": "Chaque actif porte un statut. Appareil requis : aucun traceur rattaché. En attente de télémétrie : appairé mais rien reçu encore. À domicile : à son emplacement d'origine. Prêté : sorti vers un autre emplacement. En transit : en déplacement. Manquant : introuvable là où il était attendu." },
+      "type": { "title": "Type d'actif", "description": "N'affichez qu'une catégorie d'actifs, comme tous les chariots élévateurs. Les types viennent des modèles créés par votre équipe." },
+      "scope": { "title": "Portée de localisation", "description": "Tous affiche chaque actif lié à ce propriétaire. Domicile affiche les actifs qui appartiennent ici. Actuel affiche les actifs physiquement présents en ce moment, y compris les visiteurs venus d'ailleurs." },
+      "accuracy": { "title": "Précision", "description": "La précision des relevés de position varie. Les relevés peu précis sont masqués des plans d'étage par défaut ; activez ceci pour les inclure." },
+      "device": { "title": "Rattachement d'appareil", "description": "Filtrez selon qu'un actif a un traceur rattaché ou non. Un actif sans appareil ne peut pas transmettre sa position." }
+    },
+    "locate": { "title": "Voyez-le sur la carte", "description": "Cliquez sur un résultat pour l'afficher sur la carte ou le plan d'étage." },
+    "done": { "title": "Vous êtes prêt", "description": "Voilà l'essentiel. Rejouez cette visite, ou suivez les guides pratiques, à tout moment depuis le menu ? de la barre du haut." }
   },
   "owner": {
     "title": "Configurez votre hiérarchie",
@@ -28,10 +64,10 @@
       "context": { "title": "Choisissez où l'ajouter", "description": "Sélectionnez le niveau global ou un client dans la barre latérale. Les clients y sont créés." },
       "open": { "title": "Ajoutez un client", "description": "Votre espace est une arborescence : Client → Bâtiment → Étage → Zone. Ouvrez ce menu et choisissez « Ajouter un client »." },
       "name": { "title": "Nommez-le", "description": "Le nom de votre entreprise ou locataire. Obligatoire." },
-      "industry": { "title": "Secteur", "description": "Facultatif — juste une étiquette modifiable plus tard." },
+      "industry": { "title": "Secteur", "description": "Facultatif. Juste une étiquette modifiable plus tard." },
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer pour enregistrer votre client." },
       "done": { "title": "Client créé", "description": "Votre client est prêt. Sélectionnez-le dans la barre latérale, puis ajoutez-y un bâtiment." },
-      "sidebar": { "title": "Il est dans la barre latérale", "description": "Votre client apparaît maintenant ici. Sélectionnez-le — tout ce que vous ajoutez ensuite ira à l'intérieur." }
+      "sidebar": { "title": "Il est dans la barre latérale", "description": "Votre client apparaît maintenant ici. Sélectionnez-le, et tout ce que vous ajoutez ensuite ira à l'intérieur." }
     },
     "building": {
       "title": "Ajouter un bâtiment",
@@ -41,7 +77,7 @@
       "name": { "title": "Nommez-le", "description": "Le nom de votre bâtiment. Obligatoire." },
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer pour enregistrer." },
       "done": { "title": "Bâtiment créé", "description": "Votre bâtiment est enregistré. Sélectionnez-le pour y ajouter des étages." },
-      "sidebar": { "title": "L'arbre s'agrandit", "description": "Le bâtiment se place maintenant sous votre client — la hiérarchie se remplit à mesure." },
+      "sidebar": { "title": "L'arbre s'agrandit", "description": "Le bâtiment se place maintenant sous votre client. La hiérarchie se remplit à mesure." },
       "topbar": { "title": "Tout est par propriétaire", "description": "Cette barre indique votre emplacement. Ce que vous sélectionnez ici détermine les actifs, appareils et accès affichés." }
     },
     "floor": {
@@ -57,7 +93,7 @@
       "title": "Ajouter une zone",
       "summary": "Ajoutez une zone à un étage.",
       "context": { "title": "Sélectionnez un étage", "description": "Choisissez d'abord un étage dans la barre latérale. Les zones sont créées dans un étage." },
-      "open": { "title": "Ajoutez une zone", "description": "Sélectionnez l'étage, ouvrez ce menu et choisissez « Ajouter une zone » — le plus petit niveau." },
+      "open": { "title": "Ajoutez une zone", "description": "Sélectionnez l'étage, ouvrez ce menu et choisissez « Ajouter une zone ». Les zones sont le plus petit niveau." },
       "name": { "title": "Nommez-la", "description": "Le nom de votre zone, puis complétez le formulaire." },
       "done": { "title": "Terminé !", "description": "Vous avez construit une hiérarchie complète Client → Bâtiment → Étage → Zone." }
     }
@@ -65,25 +101,69 @@
   "assetType": {
     "title": "Créer un type d'actif",
     "summary": "Créez un modèle réutilisable pour vos actifs.",
-    "selectOwner": { "title": "Choisissez une entreprise", "description": "Les types d'actifs appartiennent à une entreprise. Sélectionnez d'abord une entreprise — ou un élément à l'intérieur — dans la barre latérale." },
+    "selectOwner": { "title": "Choisissez une entreprise", "description": "Les types d'actifs appartiennent à une entreprise. Sélectionnez d'abord une entreprise, ou un élément à l'intérieur, dans la barre latérale." },
     "openAssets": { "title": "Ouvrez Actifs", "description": "Les types d'actifs se gèrent sur la page Actifs. Cliquez sur l'onglet Actifs." },
     "openManager": { "title": "Types d'actifs", "description": "Un type est un modèle pour des éléments similaires, comme « Chariot élévateur ». Ouvrez le gestionnaire de types d'actifs ici." },
     "createType": { "title": "Créez un type", "description": "Cliquez sur « Créer un type » pour en commencer un nouveau." },
     "name": { "title": "Nommez-le", "description": "Le nom de la catégorie, comme « Chariot élévateur ». Obligatoire." },
     "color": { "title": "Couleur", "description": "Un repère visuel pour repérer ce type. Facultatif." },
     "properties": { "title": "Propriétés", "description": "Les champs que chaque actif de ce type doit avoir, comme le numéro de série. Ils deviennent obligatoires lors de la création d'actifs." },
-    "save": { "title": "Enregistrez", "description": "Cliquez sur « Créer un type » pour enregistrer." }
+    "save": { "title": "Enregistrez", "description": "Cliquez sur « Créer un type » pour enregistrer." },
+    "filter": { "title": "Les types servent aussi de filtres", "description": "Votre nouveau type sert aussi de filtre. Sur la page Actifs, ouvrez Filtres et utilisez Type d'actif pour ne voir qu'une seule catégorie." }
   },
   "createAsset": {
     "title": "Ajouter un actif",
     "summary": "Créez un élément réel à suivre.",
-    "scoping": { "title": "Les actifs appartiennent à un propriétaire", "description": "Un actif se trouve sous le propriétaire sélectionné dans la barre latérale — choisissez le bon avant de le créer." },
+    "scoping": { "title": "Les actifs appartiennent à un propriétaire", "description": "Un actif se trouve sous le propriétaire sélectionné dans la barre latérale. Choisissez le bon avant de le créer." },
     "selectOwner": { "title": "Choisissez son emplacement", "description": "Sélectionnez l'entreprise, le bâtiment, l'étage ou la zone auquel cet actif appartient dans la barre latérale." },
     "openAssets": { "title": "Ouvrez Actifs", "description": "Cliquez sur l'onglet Actifs pour le propriétaire choisi." },
     "create": { "title": "Ajoutez un actif", "description": "Un actif est une chose réelle que vous suivez. Cliquez ici pour ouvrir le formulaire." },
     "name": { "title": "Nommez-le", "description": "Le nom ou l'identifiant de cet élément, comme « Chariot élévateur n° 3 ». Obligatoire." },
-    "type": { "title": "Son type", "description": "Choisissez un type. S'il a des champs obligatoires, ils apparaîtront ci-dessous — et Suivant reste verrouillé tant qu'ils ne sont pas remplis." },
+    "type": { "title": "Son type", "description": "Choisissez un type. S'il a des champs obligatoires, ils apparaîtront ci-dessous, et Suivant reste verrouillé tant qu'ils ne sont pas remplis." },
     "mandatory": { "title": "Champs obligatoires", "description": "Les champs marqués d'un * sont exigés par le type. Remplissez-les tous ; le bouton Suivant se déverrouille une fois complétés." },
     "finish": { "title": "Terminez", "description": "Cliquez sur Suivant, ajoutez éventuellement un appareil et un emplacement, puis Créer." }
+  },
+  "device": {
+    "title": "Ajouter un appareil",
+    "summary": "Créez un traceur et rattachez-le à un actif.",
+    "concept": { "title": "Qu'est-ce qu'un appareil ?", "description": "Un appareil est le matériel qui transmet les données : un traceur qui envoie position et statut, ou un répéteur qui étend la couverture. Les appareils alimentent tout ce que vous voyez sur un actif." },
+    "selectOwner": { "title": "Choisissez son emplacement", "description": "Les appareils appartiennent à un propriétaire, comme les actifs. Sélectionnez le bon client, bâtiment, étage ou zone dans la barre latérale." },
+    "openDevices": { "title": "Ouvrez Appareils", "description": "Les appareils se gèrent sur la page Appareils. Cliquez sur l'onglet Appareils." },
+    "create": { "title": "Ajoutez un appareil", "description": "Cliquez ici pour ouvrir le formulaire d'appareil." },
+    "name": { "title": "Nommez-le", "description": "Un nom reconnaissable pour cet appareil. Obligatoire." },
+    "type": { "title": "Son type", "description": "Traceur : transmet position et statut. Répéteur : relaie les signaux d'autres appareils pour étendre la couverture." },
+    "save": { "title": "Enregistrez", "description": "Cliquez sur Créer pour enregistrer l'appareil." },
+    "attach": { "title": "Rattachez-le à un actif", "description": "Un appareil seul ne transmet que des données brutes. Rattachez-le à un actif et tout ce qu'il envoie, de la position à l'historique de statut, est associé à cet actif. Ouvrez un actif et ajoutez-y l'appareil depuis ses détails." }
+  },
+  "settings": {
+    "context": { "title": "Sélectionnez un client", "description": "Les paramètres se configurent par client. Sélectionnez d'abord un client, le niveau entreprise, dans la barre latérale." },
+    "open": { "title": "Ouvrez Paramètres", "description": "Cliquez sur l'onglet Paramètres. Nous attendons ici que vous le fassiez." },
+    "assets": {
+      "title": "Paramètres : Actifs",
+      "summary": "Modèles d'actifs, règles d'inactivité et précision.",
+      "tab": { "title": "L'onglet Actifs", "description": "Tout ce qui définit le comportement des actifs pour ce client. Cliquez sur l'onglet Actifs." },
+      "config": { "title": "Configuration des actifs", "description": "Les définitions de propriétés sont les champs réutilisables que vos types d'actifs peuvent exiger. Les types d'actifs sont les modèles eux-mêmes. Les deux se gèrent ici." },
+      "inactivity": { "title": "Règles d'inactivité", "description": "Décidez quand un actif silencieux doit être marqué en transit, puis manquant, selon le temps écoulé depuis sa dernière mise à jour." },
+      "accuracy": { "title": "Seuil de précision", "description": "Définissez la précision, en mètres, qu'un relevé de position doit atteindre pour apparaître sur les plans d'étage. Les relevés plus faibles sont masqués sauf si un utilisateur choisit de les voir." }
+    },
+    "branding": {
+      "title": "Paramètres : Image de marque",
+      "summary": "Personnalisez la plateforme en marque blanche pour ce client.",
+      "tab": { "title": "L'onglet Image de marque", "description": "Donnez à la plateforme l'apparence du produit de ce client. Cliquez sur l'onglet Image de marque." },
+      "whitelabel": { "title": "Marque blanche", "description": "Définissez le nom de la plateforme, le logo, le favicon et chaque couleur de l'interface. Les changements s'affichent en aperçu avant l'enregistrement." },
+      "done": { "title": "Leur marque, partout", "description": "Une fois enregistré, tous les utilisateurs de ce client voient la plateforme dans ces couleurs, avec ce nom et ce logo, jusqu'à la page de connexion de leur domaine." }
+    },
+    "preferences": {
+      "title": "Paramètres : Préférences",
+      "summary": "Comportements par défaut pour tous les utilisateurs de ce client.",
+      "tab": { "title": "L'onglet Préférences", "description": "Les valeurs par défaut qui s'appliquent à tous les utilisateurs de ce client. Cliquez sur l'onglet Préférences." },
+      "autoExpand": { "title": "Comportement de navigation", "description": "Choisissez si l'arborescence latérale démarre entièrement déployée pour les utilisateurs, ou repliée pour qu'ils l'explorent eux-mêmes." }
+    },
+    "security": {
+      "title": "Paramètres : Sécurité",
+      "summary": "Règles d'expiration de session pour ce client.",
+      "tab": { "title": "L'onglet Sécurité", "description": "Les règles d'accès et de session. Cliquez sur l'onglet Sécurité." },
+      "timeout": { "title": "Expiration de session", "description": "La durée d'inactivité avant qu'un utilisateur soit déconnecté automatiquement. Des délais plus courts sont plus sûrs sur les postes partagés." }
+    }
   }
 }

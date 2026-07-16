@@ -1,6 +1,11 @@
 {
   "launcher": { "title": "Getting started", "close": "Close" },
-  "groups": { "hierarchy": "Build your hierarchy" },
+  "groups": {
+    "hierarchy": "Build your hierarchy",
+    "assets": "Work with assets",
+    "devices": "Devices",
+    "settings": "Settings"
+  },
   "nav": {
     "next": "Next",
     "back": "Back",
@@ -9,14 +14,45 @@
     "close": "Close",
     "step": "{{current}} of {{total}}"
   },
+  "welcome": {
+    "title": "Welcome to {{product}}",
+    "titleFallback": "Welcome",
+    "description": "Let us show you around. A short guided tour covers your hierarchy, the pages available to you, and how to find and manage your assets. You can replay any tour later from the ? menu in the top bar.",
+    "begin": "Begin walkthrough",
+    "skip": "Explore on my own"
+  },
   "starter": {
     "title": "Get oriented",
-    "summary": "Learn the layout and find an asset.",
-    "sidebar": { "title": "The sidebar", "description": "Your hierarchy — companies, buildings, floors, zones. Click a level to focus the whole app on it." },
-    "topbar": { "title": "The top bar", "description": "Shows where you are. Assets, devices, and people all belong to this owner and change as you move around." },
-    "openAssets": { "title": "Open Assets", "description": "Click the Assets tab to see them — we'll wait here until you do." },
+    "summary": "Learn the layout, the pages, and every asset filter.",
+    "sidebar": { "title": "The sidebar", "description": "Your hierarchy: clients, buildings, floors, and zones. Click a level to focus the whole app on it." },
+    "concept": {
+      "title": "How your space is organized",
+      "description": "Everything lives in one tree, exactly like the sidebar:",
+      "client": "A company or tenant. The top level; everything else lives inside it.",
+      "building": "A physical site that belongs to a client: a warehouse, plant, or office.",
+      "floor": "A level inside a building. A floor can carry a floor map that shows items at their real position.",
+      "zone": "A named area on a floor, like 'Receiving'. The most precise place an asset can live."
+    },
+    "topbar": { "title": "The top bar", "description": "Shows where you are and the pages available there. Assets, devices, and people all belong to the selected owner and change as you move around." },
+    "pages": {
+      "dashboard": { "title": "Dashboard", "description": "Your at-a-glance overview: asset counts by status and type, device activity, and user activity for the selected owner." },
+      "assets": { "title": "Assets", "description": "The things you track. Search, filter, and locate them on the map or floor plan. Most day-to-day work happens here." },
+      "devices": { "title": "Devices", "description": "The hardware that reports data: trackers and repeaters. Devices are attached to assets so their data counts toward the right item." },
+      "users": { "title": "Users", "description": "The people with access. Invite users, assign roles, and control what each person can see and do at every level." },
+      "settings": { "title": "Settings", "description": "Configuration for the selected owner: branding, asset rules, preferences, and security." }
+    },
+    "openAssets": { "title": "Open Assets", "description": "Click the Assets tab to see them. We'll wait here until you do." },
     "search": { "title": "Find anything", "description": "Search by name or any detail to find an asset fast." },
-    "locate": { "title": "See it on the map", "description": "Click a result to show it on the map or floor plan." }
+    "filters": {
+      "open": { "title": "Open the filters", "description": "Click Filters to open the filter panel. It narrows the asset list and map to exactly what you need." },
+      "status": { "title": "Status", "description": "Every asset carries a status. Needs device: no tracker attached yet. Awaiting telemetry: paired but nothing received yet. At home: at its home location. Loaned out: checked out to another location. In transit: on the move. Missing: not seen where expected." },
+      "type": { "title": "Asset type", "description": "Show only one category of asset, like every forklift. Types come from the templates your team creates." },
+      "scope": { "title": "Location scope", "description": "All shows every asset related to this owner. Home shows the assets that belong here. Current shows the assets physically here right now, including visitors from elsewhere." },
+      "accuracy": { "title": "Accuracy", "description": "Location readings vary in precision. Low-accuracy readings are hidden from floor plans by default; turn this on to include them." },
+      "device": { "title": "Device attachment", "description": "Filter by whether an asset has a tracker attached. Assets without a device cannot report their position." }
+    },
+    "locate": { "title": "See it on the map", "description": "Click a result to show it on the map or floor plan." },
+    "done": { "title": "You're all set", "description": "That's the essentials. Replay this tour, or take the hands-on guides, any time from the ? menu in the top bar." }
   },
   "owner": {
     "title": "Set up your hierarchy",
@@ -28,10 +64,10 @@
       "context": { "title": "Pick where to add it", "description": "Select the global level or a client in the sidebar. Clients are created from there." },
       "open": { "title": "Add a client", "description": "Your space is a tree: Client → Building → Floor → Zone. Open this menu and choose 'Add Client'." },
       "name": { "title": "Name it", "description": "Your company or tenant name. Required." },
-      "industry": { "title": "Industry", "description": "Optional — just a label you can change later." },
+      "industry": { "title": "Industry", "description": "Optional. Just a label you can change later." },
       "save": { "title": "Save", "description": "Click Create to save your client." },
       "done": { "title": "Client created", "description": "Your client is ready. Select it in the sidebar, then add a building inside it." },
-      "sidebar": { "title": "It's in the sidebar", "description": "Your client now appears here. Select it — everything you add next goes inside it." }
+      "sidebar": { "title": "It's in the sidebar", "description": "Your client now appears here. Select it, and everything you add next goes inside it." }
     },
     "building": {
       "title": "Add a building",
@@ -41,7 +77,7 @@
       "name": { "title": "Name it", "description": "Your building's name. Required." },
       "save": { "title": "Save", "description": "Click Create to save." },
       "done": { "title": "Building created", "description": "Your building is saved. Select it to add floors inside it." },
-      "sidebar": { "title": "The tree grows", "description": "The building now sits under your client — the hierarchy fills in as you go." },
+      "sidebar": { "title": "The tree grows", "description": "The building now sits under your client. The hierarchy fills in as you go." },
       "topbar": { "title": "Everything is per-owner", "description": "This bar shows your location. Whatever you select here scopes the assets, devices, and access you see." }
     },
     "floor": {
@@ -57,7 +93,7 @@
       "title": "Add a zone",
       "summary": "Add a zone to a floor.",
       "context": { "title": "Select a floor", "description": "Choose a floor in the sidebar first. Zones are created inside a floor." },
-      "open": { "title": "Add a zone", "description": "Select the floor, open this menu, and choose 'Add Zone' — the smallest level." },
+      "open": { "title": "Add a zone", "description": "Select the floor, open this menu, and choose 'Add Zone'. Zones are the smallest level." },
       "name": { "title": "Name it", "description": "Your zone's name, then complete the form." },
       "done": { "title": "Done!", "description": "You've built a full Client → Building → Floor → Zone hierarchy." }
     }
@@ -65,25 +101,69 @@
   "assetType": {
     "title": "Create an asset type",
     "summary": "Make a reusable template for your assets.",
-    "selectOwner": { "title": "Pick a company", "description": "Asset types belong to a company. Select a company — or anything inside it — in the sidebar first." },
+    "selectOwner": { "title": "Pick a company", "description": "Asset types belong to a company. Select a company, or anything inside it, in the sidebar first." },
     "openAssets": { "title": "Open Assets", "description": "Asset types are managed on the Assets page. Click the Assets tab." },
     "openManager": { "title": "Asset types", "description": "A type is a template for similar items, like 'Forklift'. Open the Asset Types manager here." },
     "createType": { "title": "Create a type", "description": "Click 'Create Type' to start a new one." },
     "name": { "title": "Name it", "description": "The category name, like 'Forklift'. Required." },
     "color": { "title": "Color", "description": "A visual tag to spot this type. Optional." },
     "properties": { "title": "Properties", "description": "Fields every asset of this type must have, like Serial Number. They become required when creating assets." },
-    "save": { "title": "Save", "description": "Click 'Create Type' to save." }
+    "save": { "title": "Save", "description": "Click 'Create Type' to save." },
+    "filter": { "title": "Types are also filters", "description": "Your new type doubles as a filter. On the Assets page, open Filters and use Asset type to see only assets of one kind." }
   },
   "createAsset": {
     "title": "Add an asset",
     "summary": "Create one real item you track.",
-    "scoping": { "title": "Assets belong to an owner", "description": "An asset lives under whichever owner is selected in the sidebar — pick the right one before you create it." },
+    "scoping": { "title": "Assets belong to an owner", "description": "An asset lives under whichever owner is selected in the sidebar. Pick the right one before you create it." },
     "selectOwner": { "title": "Pick where it lives", "description": "Select the company, building, floor, or zone this asset belongs to in the sidebar." },
     "openAssets": { "title": "Open Assets", "description": "Click the Assets tab for the owner you picked." },
     "create": { "title": "Add an asset", "description": "An asset is one real thing you track. Click here to open the form." },
     "name": { "title": "Name it", "description": "This item's name or ID, like 'Forklift #3'. Required." },
-    "type": { "title": "Its type", "description": "Pick a type. If it has required fields they'll appear below — and Next stays locked until they're filled." },
+    "type": { "title": "Its type", "description": "Pick a type. If it has required fields they'll appear below, and Next stays locked until they're filled." },
     "mandatory": { "title": "Required fields", "description": "Fields marked * are required by the type. Fill them all in; the Next button unlocks once they're complete." },
     "finish": { "title": "Finish", "description": "Click Next, optionally add a device and location, then Create." }
+  },
+  "device": {
+    "title": "Add a device",
+    "summary": "Create a tracker and attach it to an asset.",
+    "concept": { "title": "What is a device?", "description": "A device is the hardware that reports data: a tracker that sends location and status, or a repeater that extends coverage. Devices power everything you see about an asset." },
+    "selectOwner": { "title": "Pick where it lives", "description": "Devices belong to an owner, just like assets. Select the right client, building, floor, or zone in the sidebar." },
+    "openDevices": { "title": "Open Devices", "description": "Devices are managed on the Devices page. Click the Devices tab." },
+    "create": { "title": "Add a device", "description": "Click here to open the device form." },
+    "name": { "title": "Name it", "description": "A recognizable name for this device. Required." },
+    "type": { "title": "Its type", "description": "Tracker: reports location and status. Repeater: relays signals from other devices to extend coverage." },
+    "save": { "title": "Save", "description": "Click Create to register the device." },
+    "attach": { "title": "Attach it to an asset", "description": "A device on its own only reports raw data. Attach it to an asset and everything it sends, from location to status history, is associated with that asset. Open an asset and add the device from its details." }
+  },
+  "settings": {
+    "context": { "title": "Select a client", "description": "Settings are configured per client. Select a client, the company level, in the sidebar first." },
+    "open": { "title": "Open Settings", "description": "Click the Settings tab. We'll wait here until you do." },
+    "assets": {
+      "title": "Settings: Assets",
+      "summary": "Asset templates, inactivity rules, and accuracy.",
+      "tab": { "title": "The Assets tab", "description": "Everything about how assets behave for this client. Click the Assets tab." },
+      "config": { "title": "Asset configuration", "description": "Property definitions are the reusable fields your asset types can require. Asset types are the templates themselves. Both are managed from here." },
+      "inactivity": { "title": "Inactivity rules", "description": "Decide when a silent asset should be marked in transit, and later missing, based on how long it has gone without an update." },
+      "accuracy": { "title": "Accuracy threshold", "description": "Set the accuracy, in meters, a location reading needs to appear on floor plans. Weaker readings are hidden unless a user opts in." }
+    },
+    "branding": {
+      "title": "Settings: Branding",
+      "summary": "White label the platform for this client.",
+      "tab": { "title": "The Branding tab", "description": "Make the platform look like this client's own product. Click the Branding tab." },
+      "whitelabel": { "title": "White labeling", "description": "Set the platform name, logo, favicon, and every color of the interface. Changes preview live before you save." },
+      "done": { "title": "Their brand, everywhere", "description": "Once saved, everyone under this client sees the platform in these colors, with this name and logo, even on the login page for their domain." }
+    },
+    "preferences": {
+      "title": "Settings: Preferences",
+      "summary": "Default behaviors for everyone under this client.",
+      "tab": { "title": "The Preferences tab", "description": "Defaults that apply to everyone under this client. Click the Preferences tab." },
+      "autoExpand": { "title": "Navigation behavior", "description": "Choose whether the sidebar tree starts fully expanded for users, or collapsed so they drill down themselves." }
+    },
+    "security": {
+      "title": "Settings: Security",
+      "summary": "Session timeout rules for this client.",
+      "tab": { "title": "The Security tab", "description": "Access and session rules. Click the Security tab." },
+      "timeout": { "title": "Session timeout", "description": "How long a user can stay inactive before being signed out automatically. Shorter timeouts are safer on shared computers." }
+    }
   }
 }
