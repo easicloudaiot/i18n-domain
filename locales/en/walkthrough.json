@@ -30,6 +30,7 @@
       "name": { "title": "Name it", "description": "Your company or tenant name. Required." },
       "industry": { "title": "Industry", "description": "Optional — just a label you can change later." },
       "save": { "title": "Save", "description": "Click Create to save your client." },
+      "done": { "title": "Client created", "description": "Your client is ready. Select it in the sidebar, then add a building inside it." },
       "sidebar": { "title": "It's in the sidebar", "description": "Your client now appears here. Select it — everything you add next goes inside it." }
     },
     "building": {
@@ -39,6 +40,7 @@
       "open": { "title": "Add a building", "description": "With the client selected, open this menu and choose 'Add Building'." },
       "name": { "title": "Name it", "description": "Your building's name. Required." },
       "save": { "title": "Save", "description": "Click Create to save." },
+      "done": { "title": "Building created", "description": "Your building is saved. Select it to add floors inside it." },
       "sidebar": { "title": "The tree grows", "description": "The building now sits under your client — the hierarchy fills in as you go." },
       "topbar": { "title": "Everything is per-owner", "description": "This bar shows your location. Whatever you select here scopes the assets, devices, and access you see." }
     },
@@ -48,7 +50,8 @@
       "context": { "title": "Select a building", "description": "Choose a building in the sidebar first. Floors are created inside a building." },
       "open": { "title": "Add a floor", "description": "Select the building, open this menu, and choose 'Add Floor'." },
       "name": { "title": "Name it", "description": "Your floor's name. Required." },
-      "save": { "title": "Save", "description": "Click Create." }
+      "save": { "title": "Save", "description": "Click Create." },
+      "done": { "title": "Floor created", "description": "Your floor is saved. Select it to add zones inside it." }
     },
     "zone": {
       "title": "Add a zone",

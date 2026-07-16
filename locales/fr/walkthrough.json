@@ -30,6 +30,7 @@
       "name": { "title": "Nommez-le", "description": "Le nom de votre entreprise ou locataire. Obligatoire." },
       "industry": { "title": "Secteur", "description": "Facultatif — juste une étiquette modifiable plus tard." },
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer pour enregistrer votre client." },
+      "done": { "title": "Client créé", "description": "Votre client est prêt. Sélectionnez-le dans la barre latérale, puis ajoutez-y un bâtiment." },
       "sidebar": { "title": "Il est dans la barre latérale", "description": "Votre client apparaît maintenant ici. Sélectionnez-le — tout ce que vous ajoutez ensuite ira à l'intérieur." }
     },
     "building": {
@@ -39,6 +40,7 @@
       "open": { "title": "Ajoutez un bâtiment", "description": "Le client sélectionné, ouvrez ce menu et choisissez « Ajouter un bâtiment »." },
       "name": { "title": "Nommez-le", "description": "Le nom de votre bâtiment. Obligatoire." },
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer pour enregistrer." },
+      "done": { "title": "Bâtiment créé", "description": "Votre bâtiment est enregistré. Sélectionnez-le pour y ajouter des étages." },
       "sidebar": { "title": "L'arbre s'agrandit", "description": "Le bâtiment se place maintenant sous votre client — la hiérarchie se remplit à mesure." },
       "topbar": { "title": "Tout est par propriétaire", "description": "Cette barre indique votre emplacement. Ce que vous sélectionnez ici détermine les actifs, appareils et accès affichés." }
     },
@@ -48,7 +50,8 @@
       "context": { "title": "Sélectionnez un bâtiment", "description": "Choisissez d'abord un bâtiment dans la barre latérale. Les étages sont créés dans un bâtiment." },
       "open": { "title": "Ajoutez un étage", "description": "Sélectionnez le bâtiment, ouvrez ce menu et choisissez « Ajouter un étage »." },
       "name": { "title": "Nommez-le", "description": "Le nom de votre étage. Obligatoire." },
-      "save": { "title": "Enregistrez", "description": "Cliquez sur Créer." }
+      "save": { "title": "Enregistrez", "description": "Cliquez sur Créer." },
+      "done": { "title": "Étage créé", "description": "Votre étage est enregistré. Sélectionnez-le pour y ajouter des zones." }
     },
     "zone": {
       "title": "Ajouter une zone",
