@@ -188,7 +188,7 @@
     "context": { "title": "Select a client", "description": "Settings are configured per client. Select a client, the company level, in the sidebar first." },
     "open": { "title": "Open Settings", "description": "Click the Settings tab. We'll wait here until you do." },
     "assets": {
-      "title": "Settings: Assets",
+      "title": "Assets",
       "summary": "Asset templates, inactivity rules, and accuracy.",
       "tab": { "title": "The Assets tab", "description": "Everything about how assets behave for this client. Click the Assets tab." },
       "config": { "title": "Asset configuration", "description": "Property definitions are the reusable fields your asset types can require. Asset types are the templates themselves. Both are managed from here." },
@@ -196,20 +196,20 @@
       "accuracy": { "title": "Accuracy threshold", "description": "Set the accuracy, in meters, a location reading needs to appear on floor plans. Weaker readings are hidden unless a user opts in." }
     },
     "branding": {
-      "title": "Settings: Branding",
+      "title": "Branding",
       "summary": "White label the platform for this client.",
       "tab": { "title": "The Branding tab", "description": "Make the platform look like this client's own product. Click the Branding tab." },
       "whitelabel": { "title": "White labeling", "description": "Set the platform name, logo, favicon, and every color of the interface. Changes preview live before you save." },
       "done": { "title": "Their brand, everywhere", "description": "Once saved, everyone under this client sees the platform in these colors, with this name and logo, even on the login page for their domain." }
     },
     "preferences": {
-      "title": "Settings: Preferences",
+      "title": "Preferences",
       "summary": "Default behaviors for everyone under this client.",
       "tab": { "title": "The Preferences tab", "description": "Defaults that apply to everyone under this client. Click the Preferences tab." },
       "autoExpand": { "title": "Navigation behavior", "description": "Choose whether the sidebar tree starts fully expanded for users, or collapsed so they drill down themselves." }
     },
     "security": {
-      "title": "Settings: Security",
+      "title": "Security",
       "summary": "Session timeout rules for this client.",
       "tab": { "title": "The Security tab", "description": "Access and session rules. Click the Security tab." },
       "timeout": { "title": "Session timeout", "description": "How long a user can stay inactive before being signed out automatically. Shorter timeouts are safer on shared computers." }

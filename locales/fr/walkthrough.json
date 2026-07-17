@@ -188,7 +188,7 @@
     "context": { "title": "Sélectionnez un client", "description": "Les paramètres se configurent par client. Sélectionnez d'abord un client, le niveau entreprise, dans la barre latérale." },
     "open": { "title": "Ouvrez Paramètres", "description": "Cliquez sur l'onglet Paramètres. Nous attendons ici que vous le fassiez." },
     "assets": {
-      "title": "Paramètres : Actifs",
+      "title": "Actifs",
       "summary": "Modèles d'actifs, règles d'inactivité et précision.",
       "tab": { "title": "L'onglet Actifs", "description": "Tout ce qui définit le comportement des actifs pour ce client. Cliquez sur l'onglet Actifs." },
       "config": { "title": "Configuration des actifs", "description": "Les définitions de propriétés sont les champs réutilisables que vos types d'actifs peuvent exiger. Les types d'actifs sont les modèles eux-mêmes. Les deux se gèrent ici." },
@@ -196,20 +196,20 @@
       "accuracy": { "title": "Seuil de précision", "description": "Définissez la précision, en mètres, qu'un relevé de position doit atteindre pour apparaître sur les plans d'étage. Les relevés plus faibles sont masqués sauf si un utilisateur choisit de les voir." }
     },
     "branding": {
-      "title": "Paramètres : Image de marque",
+      "title": "Image de marque",
       "summary": "Personnalisez la plateforme en marque blanche pour ce client.",
       "tab": { "title": "L'onglet Image de marque", "description": "Donnez à la plateforme l'apparence du produit de ce client. Cliquez sur l'onglet Image de marque." },
       "whitelabel": { "title": "Marque blanche", "description": "Définissez le nom de la plateforme, le logo, le favicon et chaque couleur de l'interface. Les changements s'affichent en aperçu avant l'enregistrement." },
       "done": { "title": "Leur marque, partout", "description": "Une fois enregistré, tous les utilisateurs de ce client voient la plateforme dans ces couleurs, avec ce nom et ce logo, jusqu'à la page de connexion de leur domaine." }
     },
     "preferences": {
-      "title": "Paramètres : Préférences",
+      "title": "Préférences",
       "summary": "Comportements par défaut pour tous les utilisateurs de ce client.",
       "tab": { "title": "L'onglet Préférences", "description": "Les valeurs par défaut qui s'appliquent à tous les utilisateurs de ce client. Cliquez sur l'onglet Préférences." },
       "autoExpand": { "title": "Comportement de navigation", "description": "Choisissez si l'arborescence latérale démarre entièrement déployée pour les utilisateurs, ou repliée pour qu'ils l'explorent eux-mêmes." }
     },
     "security": {
-      "title": "Paramètres : Sécurité",
+      "title": "Sécurité",
       "summary": "Règles d'expiration de session pour ce client.",
       "tab": { "title": "L'onglet Sécurité", "description": "Les règles d'accès et de session. Cliquez sur l'onglet Sécurité." },
       "timeout": { "title": "Expiration de session", "description": "La durée d'inactivité avant qu'un utilisateur soit déconnecté automatiquement. Des délais plus courts sont plus sûrs sur les postes partagés." }
