@@ -76,9 +76,9 @@
     "french": "Français (Canada)"
   },
   "notFound": {
-    "title": "Page introuvable",
-    "redirecting": "La page que vous cherchez n'existe pas. Redirection vers le tableau de bord...",
-    "sorry": "Désolé, nous n'avons pas trouvé la page demandée.",
+    "title": "Nous n'avons pas trouvé cette page",
+    "redirecting": "Cette adresse ne mène nulle part. Retour à votre tableau de bord.",
+    "sorry": "Cette adresse ne mène nulle part. Vérifiez le lien et réessayez.",
     "goDashboard": "Aller au tableau de bord",
     "goLogin": "Aller à la connexion",
     "goBack": "Retour"
