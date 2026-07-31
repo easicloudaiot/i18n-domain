@@ -15,7 +15,7 @@
     "floorPos": "Floor: ({{x}}, {{y}})"
   },
   "pageTitle": {
-    "easicloud": "EASICloud Platform Devices",
+    "easicloud": "Traceium Platform Devices",
     "company": "Company Devices",
     "building": "Facility Devices",
     "floor": "Floor Devices",

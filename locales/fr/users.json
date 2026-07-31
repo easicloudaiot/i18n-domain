@@ -57,7 +57,7 @@
     "assignedCount_one": "{{count}} assigné",
     "assignedCount_other": "{{count}} assignés",
     "optional": "facultatif",
-    "globalPlatform": "Plateforme EASICloud (globale)",
+    "globalPlatform": "Plateforme Traceium (globale)",
     "currentContext": "Contexte actuel",
     "primaryOwnerHelpCreate": "Les utilisateurs créés ici appartiendront automatiquement à cette entité",
     "primaryOwnerHelpEdit": "L'entité propriétaire principale de l'utilisateur",

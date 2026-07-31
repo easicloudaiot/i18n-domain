@@ -157,7 +157,7 @@
   "confirmDelete": "Supprimer l'actif « {{name}} »? Cette action est irréversible.",
   "refreshed": "Actifs actualisés",
   "pageTitle": {
-    "easicloud": "Actifs de la plateforme EASICloud",
+    "easicloud": "Actifs de la plateforme Traceium",
     "company": "Actifs de l'entreprise",
     "building": "Actifs du site",
     "floor": "Actifs de l'étage",

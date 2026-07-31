@@ -157,7 +157,7 @@
   "confirmDelete": "Delete asset \"{{name}}\"? This cannot be undone.",
   "refreshed": "Assets refreshed",
   "pageTitle": {
-    "easicloud": "EASICloud platform assets",
+    "easicloud": "Traceium platform assets",
     "company": "Company assets",
     "building": "Facility assets",
     "floor": "Floor assets",

@@ -1,6 +1,6 @@
 {
   "hierarchy": {
-    "easicloud": { "singular": "EASICloud", "plural": "EASICloud" },
+    "easicloud": { "singular": "Traceium", "plural": "Traceium" },
     "company":   { "singular": "Client",    "plural": "Clients" },
     "building":  { "singular": "Building",  "plural": "Buildings" },
     "floor":     { "singular": "Floor",     "plural": "Floors" },
