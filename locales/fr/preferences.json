@@ -16,7 +16,13 @@
     "alertSound": {
       "title": "Son des alertes",
       "toggle": "Jouer un son pour les nouvelles alertes",
-      "description": "Un court carillon lorsqu’une nouvelle alerte arrive. Les navigateurs restent silencieux tant que vous n’avez pas interagi avec la page."
+      "description": "Un court carillon lorsqu’une nouvelle alerte arrive. Les navigateurs restent silencieux tant que vous n’avez pas interagi avec la page.",
+      "pick": "Cliquez sur un son pour l’écouter",
+      "tones": {
+        "chime": "Carillon",
+        "ping": "Bip",
+        "alert": "Alerte"
+      }
     }
   },
   "owner": {
