@@ -19,9 +19,9 @@
       "description": "Un court carillon lorsqu’une nouvelle alerte arrive. Les navigateurs restent silencieux tant que vous n’avez pas interagi avec la page.",
       "pick": "Cliquez sur un son pour l’écouter",
       "tones": {
-        "chime": "Carillon",
-        "ping": "Bip",
-        "alert": "Alerte"
+        "CHIME": "Carillon",
+        "PING": "Bip",
+        "ALERT": "Alerte"
       }
     }
   },

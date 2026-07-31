@@ -19,9 +19,9 @@
       "description": "A short chime when a new alert arrives. Browsers stay silent until you have interacted with the page.",
       "pick": "Click a sound to hear it",
       "tones": {
-        "chime": "Chime",
-        "ping": "Ping",
-        "alert": "Alert"
+        "CHIME": "Chime",
+        "PING": "Ping",
+        "ALERT": "Alert"
       }
     }
   },
