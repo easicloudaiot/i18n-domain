@@ -240,6 +240,19 @@
     "source": "Source",
     "asset": "Actif",
     "device": "Appareil",
-    "location": "Emplacement"
+    "location": "Emplacement",
+    "showClosed": "Afficher les alertes résolues et rejetées",
+    "dismiss": "Rejeter",
+    "resolve": "Résoudre",
+    "category": "Catégorie",
+    "entity": "Entité",
+    "resolutionNote": "Note de résolution",
+    "loadFailed": "Impossible de charger les alertes",
+    "status": {
+      "open": "Ouverte",
+      "acknowledged": "Prise en compte",
+      "resolved": "Résolue",
+      "dismissed": "Rejetée"
+    }
   }
 }

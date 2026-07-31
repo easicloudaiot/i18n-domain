@@ -37,5 +37,10 @@
   "noHierarchy": "Aucune donnée de hiérarchie disponible",
   "noHierarchyHelp": "Demandez à un administrateur global de vous ajouter à une société.",
   "loadingHierarchy": "Chargement de la hiérarchie",
-  "poweredBy": "Propulsé par {{brand}}"
+  "poweredBy": "Propulsé par {{brand}}",
+  "actions": {
+    "notifications": "Notifications",
+    "notificationsWithCount_one": "Notifications, {{count}} nécessitant une attention",
+    "notificationsWithCount_other": "Notifications, {{count}} nécessitant une attention"
+  }
 }

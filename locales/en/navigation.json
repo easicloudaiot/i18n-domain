@@ -37,5 +37,10 @@
   "noHierarchy": "No hierarchy data available",
   "noHierarchyHelp": "Ask a global admin to add you to a company.",
   "loadingHierarchy": "Loading hierarchy",
-  "poweredBy": "Powered by {{brand}}"
+  "poweredBy": "Powered by {{brand}}",
+  "actions": {
+    "notifications": "Notifications",
+    "notificationsWithCount_one": "Notifications, {{count}} needing attention",
+    "notificationsWithCount_other": "Notifications, {{count}} needing attention"
+  }
 }

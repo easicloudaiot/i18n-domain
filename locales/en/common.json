@@ -240,6 +240,19 @@
     "source": "Source",
     "asset": "Asset",
     "device": "Device",
-    "location": "Location"
+    "location": "Location",
+    "showClosed": "Show resolved and dismissed",
+    "dismiss": "Dismiss",
+    "resolve": "Resolve",
+    "category": "Category",
+    "entity": "Entity",
+    "resolutionNote": "Resolution note",
+    "loadFailed": "Could not load alerts",
+    "status": {
+      "open": "Open",
+      "acknowledged": "Acknowledged",
+      "resolved": "Resolved",
+      "dismissed": "Dismissed"
+    }
   }
 }
