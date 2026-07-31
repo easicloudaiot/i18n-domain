@@ -253,6 +253,12 @@
       "acknowledged": "Prise en compte",
       "resolved": "Résolue",
       "dismissed": "Rejetée"
+    },
+    "scope": {
+      "label": "Portée des alertes",
+      "all": "Tous les propriétaires",
+      "thisOwner": "Ce propriétaire",
+      "noOwner": "Sélectionnez une entité pour filtrer les alertes"
     }
   }
 }

@@ -253,6 +253,12 @@
       "acknowledged": "Acknowledged",
       "resolved": "Resolved",
       "dismissed": "Dismissed"
+    },
+    "scope": {
+      "label": "Alert scope",
+      "all": "All owners",
+      "thisOwner": "This owner",
+      "noOwner": "Select an entity to scope alerts"
     }
   }
 }
