@@ -12,6 +12,11 @@
       "mapLabel": "Carte {{pct}}%",
       "tableLabel": "Tableau {{pct}}%",
       "reset": "Réinitialiser à {{pct}}%"
+    },
+    "alertSound": {
+      "title": "Son des alertes",
+      "toggle": "Jouer un son pour les nouvelles alertes",
+      "description": "Un court carillon lorsqu’une nouvelle alerte arrive. Les navigateurs restent silencieux tant que vous n’avez pas interagi avec la page."
     }
   },
   "owner": {

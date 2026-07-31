@@ -12,6 +12,11 @@
       "mapLabel": "Map {{pct}}%",
       "tableLabel": "Table {{pct}}%",
       "reset": "Reset to {{pct}}%"
+    },
+    "alertSound": {
+      "title": "Alert sound",
+      "toggle": "Play a sound for new alerts",
+      "description": "A short chime when a new alert arrives. Browsers stay silent until you have interacted with the page."
     }
   },
   "owner": {
