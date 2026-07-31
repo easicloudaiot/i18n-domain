@@ -31,7 +31,9 @@
       "clickToUpload": "Click to upload",
       "upload": "Upload",
       "removeLogo": "Remove logo",
-      "remove": "Remove"
+      "remove": "Remove",
+      "supportEmail": "Support email",
+      "supportEmailHelp": "Shown on the Support page. Leave blank to use {{email}}."
     },
     "colors": {
       "color": "Color",
