@@ -1,5 +1,6 @@
 {
   "launcher": { "title": "Getting started", "close": "Close" },
+  "support": { "contact": "Contact support" },
   "groups": {
     "hierarchy": "Build your hierarchy",
     "assets": "Work with assets",

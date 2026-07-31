@@ -32,8 +32,7 @@
       "upload": "Téléverser",
       "removeLogo": "Retirer le logo",
       "remove": "Retirer",
-      "supportEmail": "Courriel d’assistance",
-      "supportEmailHelp": "Affiché sur la page Assistance. Laissez vide pour utiliser {{email}}."
+      "supportEmail": "Courriel d’assistance"
     },
     "colors": {
       "color": "Couleur",

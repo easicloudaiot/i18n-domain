@@ -32,8 +32,7 @@
       "upload": "Upload",
       "removeLogo": "Remove logo",
       "remove": "Remove",
-      "supportEmail": "Support email",
-      "supportEmailHelp": "Shown on the Support page. Leave blank to use {{email}}."
+      "supportEmail": "Support email"
     },
     "colors": {
       "color": "Color",

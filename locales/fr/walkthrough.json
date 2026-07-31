@@ -1,5 +1,6 @@
 {
   "launcher": { "title": "Prise en main", "close": "Fermer" },
+  "support": { "contact": "Contacter l’assistance" },
   "groups": {
     "hierarchy": "Construire votre hiérarchie",
     "assets": "Travailler avec les actifs",
