@@ -191,6 +191,7 @@
     "name": { "title": "Nommez-le", "description": "Le nom ou l'identifiant de cet élément, comme « Chariot élévateur n° 3 ». Obligatoire." },
     "type": { "title": "Son type", "description": "Choisissez un type. S'il a des champs obligatoires, ils apparaîtront ci-dessous, et Suivant reste verrouillé tant qu'ils ne sont pas remplis." },
     "mandatory": { "title": "Champs obligatoires", "description": "Les champs marqués d'un * sont exigés par le type. Remplissez-les tous ; le bouton Suivant se déverrouille une fois complétés." },
+    "nextStep": { "title": "Passez à l'étape 2", "description": "Cliquez sur Suivant. L'étape 1 est conservée au fur et à mesure, et l'étape 2 sert à rattacher le matériel qui transmet pour cet actif." },
     "devicesStep": { "title": "Étape 2 : rattachez un appareil", "description": "Un appareil est le matériel qui transmet pour cet actif. Ce qu'il transmet devient la position et l'historique de cet actif. Vous pouvez laisser vide et en rattacher un plus tard." },
     "tracker": { "title": "Pour la localisation, rattachez un traceur", "description": "Un actif n'apparaît sur la carte que si un appareil de type Traceur lui est rattaché. Sans traceur, l'actif existe toujours et reste consultable, il n'a simplement aucune position en direct." },
     "finish": { "title": "Créez-le", "description": "Cliquez sur Créer. Votre actif rejoint le tableau, apparaît sur la carte dès que son traceur transmet, et est compté dans les graphiques du tableau de bord." }
