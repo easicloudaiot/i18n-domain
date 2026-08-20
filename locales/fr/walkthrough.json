@@ -138,19 +138,46 @@
   "assetType": {
     "title": "Créer un type d'actif",
     "summary": "Créez un modèle réutilisable pour vos actifs.",
-    "selectOwner": { "title": "Choisissez une entreprise", "description": "Les types d'actifs appartiennent à une entreprise. Sélectionnez d'abord une entreprise, ou un élément à l'intérieur, dans la barre latérale." },
+    "concept": { "title": "Comment tout s'articule", "description": "Trois éléments se superposent, et ce guide les met tous en place. Commencez par le haut :" },
+    "selectOwner": { "title": "Choisissez une entreprise", "description": "Les types d'actifs et leurs champs appartiennent à une entreprise. Sélectionnez d'abord une entreprise, ou un élément à l'intérieur, dans la barre latérale." },
+    "openSettings": { "title": "Les champs sont dans Paramètres", "description": "Les champs eux-mêmes se configurent dans Paramètres, pas sur la page Actifs. Ouvrez Paramètres." },
+    "settingsTab": { "title": "Paramètres des actifs", "description": "Cliquez sur l'onglet Actifs. Tout ce qui se configure une seule fois pour cette entreprise se trouve ici." },
+    "configCard": { "title": "Deux choses à configurer", "description": "Les définitions de propriétés sont les champs disponibles. Les types d'actifs sont les modèles qui les exigent. Les deux appartiennent à l'entreprise, donc chaque bâtiment, étage et zone à l'intérieur partage les mêmes." },
+    "openDefinitions": { "title": "Ouvrez les définitions de propriétés", "description": "Cliquez sur Définitions de propriétés. C'est la liste de tous les champs que cette entreprise peut placer sur un actif." },
+    "definitionsList": { "title": "Votre bibliothèque de champs", "description": "Chaque ligne est un champ réutilisable sur n'importe quel type d'actif, ainsi « Numéro de série » s'écrit et se stocke partout de la même façon. Cliquez sur Créer une définition pour en ajouter un." },
+    "definitionName": { "title": "Nommez le champ", "description": "Ce que les utilisateurs voient sur le formulaire, comme « Numéro de série ». La clé à côté se remplit automatiquement et correspond à ce que le système enregistre." },
+    "definitionValueType": { "title": "Quel genre de valeur", "description": "Ce choix détermine ce que le champ accepte et comment il pourra être représenté dans les graphiques. Dix types sont proposés ; ces cinq couvrent la plupart des cas :" },
+    "definitionSave": { "title": "Enregistrez le champ", "description": "Cliquez sur Créer une définition. Le champ est désormais disponible pour tous les types d'actifs de cette entreprise." },
+    "definitionsDone": { "title": "Champ prêt", "description": "Fermez cette fenêtre, puis Paramètres derrière elle, quand vous avez les champs voulus. Vous allez maintenant créer un type qui les utilise." },
     "openAssets": { "title": "Ouvrez Actifs", "description": "Les types d'actifs se gèrent sur la page Actifs. Cliquez sur l'onglet Actifs." },
     "openManager": { "title": "Types d'actifs", "description": "Un type est un modèle pour des éléments similaires, comme « Chariot élévateur ». Ouvrez le gestionnaire de types d'actifs ici." },
     "createType": { "title": "Créez un type", "description": "Cliquez sur « Créer un type » pour en commencer un nouveau." },
     "name": { "title": "Nommez-le", "description": "Le nom de la catégorie, comme « Chariot élévateur ». Obligatoire." },
     "color": { "title": "Couleur", "description": "Un repère visuel pour repérer ce type. Facultatif." },
-    "properties": { "title": "Propriétés", "description": "Les champs que chaque actif de ce type doit avoir, comme le numéro de série. Ils deviennent obligatoires lors de la création d'actifs." },
+    "properties": { "title": "Propriétés", "description": "Choisissez parmi les champs définis dans Paramètres. Chaque actif de ce type devra alors les remplir, si bien qu'un chariot élévateur porte toujours un numéro de série." },
     "save": { "title": "Enregistrez", "description": "Cliquez sur « Créer un type » pour enregistrer." },
-    "filter": { "title": "Les types servent aussi de filtres", "description": "Votre nouveau type sert aussi de filtre. Sur la page Actifs, ouvrez Filtres et utilisez Type d'actif pour ne voir qu'une seule catégorie." }
+    "filter": { "title": "Les types servent aussi de filtres", "description": "Votre nouveau type sert aussi de filtre. Sur la page Actifs, ouvrez Filtres et utilisez Type d'actif pour ne voir qu'une seule catégorie." },
+    "openDashboard": { "title": "Voyez à quoi cela sert", "description": "Ouvrez le Tableau de bord de cette entreprise. Le type et les champs que vous venez de créer sont ce qui structure ses graphiques." },
+    "widgetByType": { "title": "Actifs par type", "description": "Ce graphique compte vos actifs selon le type que vous leur avez donné, donc chaque type créé y apparaît séparément. Un type sans actif reste vide jusqu'à ce que vous en ajoutiez un." },
+    "widgetByProperty": { "title": "Actifs par propriété", "description": "Celui-ci regroupe les actifs selon une définition de propriété, si bien que les champs configurés dans Paramètres deviennent un graphique. C'est pourquoi il vaut la peine de bien les définir." },
+    "valueTypes": {
+      "text": { "label": "Texte", "description": "Texte libre court, comme un numéro de série." },
+      "number": { "label": "Nombre", "description": "Une valeur comparable ou représentable en graphique, avec une unité facultative." },
+      "date": { "label": "Date", "description": "Une date du calendrier, comme celle de l'achat." },
+      "dropdown": { "label": "Liste déroulante", "description": "Un choix unique dans une liste que vous rédigez." },
+      "checkbox": { "label": "Case à cocher", "description": "Un simple oui ou non." }
+    },
+    "flow": {
+      "definition": { "label": "Définition de propriété", "caption": "Un champ défini une seule fois pour l'entreprise, comme « Numéro de série »." },
+      "type": { "label": "Type d'actif", "caption": "Un modèle, comme « Chariot élévateur », qui exige certains de ces champs." },
+      "asset": { "label": "Actif", "caption": "Un élément réel de ce type, avec ses propres valeurs remplies." },
+      "widgets": { "label": "Widgets du tableau de bord", "caption": "Des graphiques qui regroupent vos actifs par type et par propriété." }
+    }
   },
   "createAsset": {
     "title": "Ajouter un actif",
     "summary": "Créez un élément réel à suivre.",
+    "concept": { "title": "Ce qu'est un actif", "description": "Un actif est un élément réel que vous suivez, comme un chariot élévateur précis. Son type détermine les champs qu'il doit porter, et c'est l'appareil qui lui est rattaché qui le place sur la carte." },
     "scoping": { "title": "Les actifs ont un emplacement", "description": "Un actif vit là où porte votre sélection dans la barre latérale : client, bâtiment, étage ou zone. Choisissez le bon endroit avant de le créer." },
     "selectOwner": { "title": "Choisissez son emplacement", "description": "Sélectionnez le client, le bâtiment, l'étage ou la zone auquel cet actif appartient dans la barre latérale." },
     "openAssets": {
@@ -159,10 +186,13 @@
       "description_named": "Cliquez sur l'onglet Actifs. Votre nouvel actif sera créé dans « {{ownerName}} » ({{ownerLevel}})."
     },
     "create": { "title": "Ajoutez un actif", "description": "Un actif est une chose réelle que vous suivez. Cliquez ici pour ouvrir le formulaire." },
+    "wizard": { "title": "Deux étapes", "description": "Ce formulaire compte deux étapes. L'étape 1 concerne l'élément lui-même, l'étape 2 l'appareil qui lui est rattaché. Le bouton Créer apparaît à la fin de l'étape 2." },
     "name": { "title": "Nommez-le", "description": "Le nom ou l'identifiant de cet élément, comme « Chariot élévateur n° 3 ». Obligatoire." },
     "type": { "title": "Son type", "description": "Choisissez un type. S'il a des champs obligatoires, ils apparaîtront ci-dessous, et Suivant reste verrouillé tant qu'ils ne sont pas remplis." },
     "mandatory": { "title": "Champs obligatoires", "description": "Les champs marqués d'un * sont exigés par le type. Remplissez-les tous ; le bouton Suivant se déverrouille une fois complétés." },
-    "finish": { "title": "Terminez", "description": "Cliquez sur Suivant, ajoutez éventuellement un appareil et un emplacement, puis Créer." }
+    "devicesStep": { "title": "Étape 2 : rattachez un appareil", "description": "Un appareil est le matériel qui transmet pour cet actif. Ce qu'il transmet devient la position et l'historique de cet actif. Vous pouvez laisser vide et en rattacher un plus tard." },
+    "tracker": { "title": "Pour la localisation, rattachez un traceur", "description": "Un actif n'apparaît sur la carte que si un appareil de type Traceur lui est rattaché. Sans traceur, l'actif existe toujours et reste consultable, il n'a simplement aucune position en direct." },
+    "finish": { "title": "Créez-le", "description": "Cliquez sur Créer. Votre actif rejoint le tableau, apparaît sur la carte dès que son traceur transmet, et est compté dans les graphiques du tableau de bord." }
   },
   "device": {
     "title": "Ajouter un appareil",
