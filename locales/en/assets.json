@@ -5,6 +5,7 @@
   "edit": "Edit asset",
   "delete": "Delete asset",
   "createAnother": "Create another asset",
+  "createSuccess": "Asset created successfully",
   "tabs": {
     "map": "Map",
     "details": "Details",
@@ -231,7 +232,9 @@
     "addOption": "Add Option"
   },
   "filters": {
+    "custodyStatus": "Custody status",
     "assetType": "Asset type",
+    "allTypes": "All types",
     "locationScope": "Location scope",
     "scopeAllDescription": "Show all assets regardless of location",
     "scopeHome": "Belongs here",
@@ -241,6 +244,7 @@
     "accuracy": "Location accuracy",
     "accuracyInclude": "Include low-accuracy assets",
     "accuracyDescription": "These assets may be reported on another floor",
+    "accuracyThreshold": "Hiding assets with accuracy worse than {{threshold}} m.",
     "deviceAttachment": "Device attachment",
     "hasDevice": "Has device",
     "noDevice": "No device",
