@@ -5,6 +5,7 @@
   "edit": "Modifier l'actif",
   "delete": "Supprimer l'actif",
   "createAnother": "Créer un autre actif",
+  "createSuccess": "Actif créé avec succès",
   "tabs": {
     "map": "Carte",
     "details": "Détails",
@@ -231,7 +232,9 @@
     "addOption": "Ajouter une option"
   },
   "filters": {
+    "custodyStatus": "Statut de garde",
     "assetType": "Type d'actif",
+    "allTypes": "Tous les types",
     "locationScope": "Portée d'emplacement",
     "scopeAllDescription": "Afficher tous les actifs, peu importe l'emplacement",
     "scopeHome": "Appartient ici",
@@ -241,6 +244,7 @@
     "accuracy": "Précision d'emplacement",
     "accuracyInclude": "Inclure les actifs peu précis",
     "accuracyDescription": "Ces actifs peuvent être signalés à un autre étage",
+    "accuracyThreshold": "Masque les actifs dont la précision dépasse {{threshold}} m.",
     "deviceAttachment": "Rattachement d'appareil",
     "hasDevice": "A un appareil",
     "noDevice": "Sans appareil",
