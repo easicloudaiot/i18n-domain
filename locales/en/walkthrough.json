@@ -251,5 +251,83 @@
       "tab": { "title": "The Security tab", "description": "Access and session rules. Click the Security tab." },
       "timeout": { "title": "Session timeout", "description": "How long a user can stay inactive before being signed out automatically. Shorter timeouts are safer on shared computers." }
     }
+  },
+  "user": {
+    "create": {
+      "title": "Add someone to the team",
+      "summary": "Create a user, and choose who hears from them.",
+      "open": {
+        "title": "Create a user",
+        "description": "Start here. The form is short: who they are, and what they may do."
+      },
+      "basic": {
+        "title": "Who they are",
+        "description": "Name and email. The email is the account, so it has to be one they can reach: their invitation goes there."
+      },
+      "role": {
+        "title": "What they may do",
+        "description": "A role is a bundle of permissions. Pick the smallest one that covers their job, and remember roles are defined by the client that owns them, so the list changes with where you are."
+      },
+      "level": {
+        "title": "Where they live in the hierarchy",
+        "description": "This is the part the form does not show. A user is created at the location you were standing in, and they stay there. Create someone on Floor 2 and Floor 2 is their home: they see it and everything beneath it, and nothing above it. Moving them later means editing the account, not switching a filter, so it is worth getting right the first time."
+      },
+      "external": {
+        "title": "Letting them see elsewhere",
+        "description": "External visibility is the exception to that rule. It grants a user a view into one specific location outside their home branch, with its own role, and nothing else comes with it. Use it for a contractor who works in one building, or a manager who needs to watch a single floor in another client. Each entry is separate, and removing one takes that access away immediately."
+      },
+      "done": {
+        "title": "That is the whole flow",
+        "description": "The invitation is on its way. Until they accept it the account shows as pending, and you can resend from the row menu."
+      }
+    },
+    "openUsers": {
+      "title": "Open Users",
+      "description": "Everyone you can administer at this location, and below it."
+    },
+    "groups": {
+      "open": {
+        "title": "Groups decide who is told",
+        "description": "A rule that raises an alert can address a group instead of everyone. Open this to see the groups at this location."
+      },
+      "new": {
+        "title": "Make a group",
+        "description": "Give it a name people will recognise on an alert, then add members. Membership is only intent: access is re-checked whenever anything is actually sent, so a group can never leak to someone who has since lost their access."
+      }
+    }
+  },
+  "rule": {
+    "openRules": {
+      "title": "Open Rules",
+      "description": "The rules governing this location. Rules made further up or further down the hierarchy are managed where they were created."
+    },
+    "chain": {
+      "title": "How a rule chain works",
+      "summary": "Read a chain, and see where custom properties fit.",
+      "list": {
+        "title": "One row, one chain",
+        "description": "Each rule is a short chain of steps that runs in order. The row shows what starts it and how loudly it shouts when it finishes."
+      },
+      "create": {
+        "title": "Starting one",
+        "description": "A new rule begins with its trigger, because everything after it depends on what kind of thing happened."
+      },
+      "canvas": {
+        "title": "The chain, left to right",
+        "description": "A chain always starts with one trigger and ends with one alert. In between you can fetch more detail about the asset or device, and add checks that decide whether the alert fires at all. Order matters: a step can only use what an earlier step has already fetched."
+      },
+      "inspector": {
+        "title": "Configuring a step",
+        "description": "Select any step to set it up here. Checks compare a field to a value, and the field list only offers what is actually available at that point in the chain, so you cannot write a check that could never run."
+      },
+      "custom": {
+        "title": "Your own properties are checkable too",
+        "description": "The fields you define on an asset type show up here alongside the built-in ones. They are not automatic: a check can only read them once an earlier step in the chain has fetched that asset. Add the fetch step first, and your properties appear in the field list below it. This is why the chain is drawn in order rather than as a list of settings."
+      },
+      "done": {
+        "title": "That is the model",
+        "description": "Trigger, optional detail, optional checks, one alert. Rules never save on their own, so nothing you have looked at has changed."
+      }
+    }
   }
 }

@@ -251,5 +251,83 @@
       "tab": { "title": "L'onglet Sécurité", "description": "Les règles d'accès et de session. Cliquez sur l'onglet Sécurité." },
       "timeout": { "title": "Expiration de session", "description": "La durée d'inactivité avant qu'un utilisateur soit déconnecté automatiquement. Des délais plus courts sont plus sûrs sur les postes partagés." }
     }
+  },
+  "user": {
+    "create": {
+      "title": "Ajouter une personne à l'équipe",
+      "summary": "Créez un utilisateur et choisissez qui sera prévenu.",
+      "open": {
+        "title": "Créer un utilisateur",
+        "description": "Commencez ici. Le formulaire est court : qui est cette personne, et ce qu'elle peut faire."
+      },
+      "basic": {
+        "title": "Qui est cette personne",
+        "description": "Nom et e-mail. L'e-mail constitue le compte : il doit donc être accessible, car l'invitation y est envoyée."
+      },
+      "role": {
+        "title": "Ce qu'elle peut faire",
+        "description": "Un rôle est un ensemble de permissions. Choisissez le plus restreint qui couvre son travail, et rappelez-vous que les rôles appartiennent au client qui les définit : la liste change donc selon l'endroit où vous vous trouvez."
+      },
+      "level": {
+        "title": "Sa place dans la hiérarchie",
+        "description": "C'est ce que le formulaire ne montre pas. Un utilisateur est créé à l'emplacement où vous vous trouviez, et il y reste. Créez quelqu'un à l'Étage 2 et l'Étage 2 devient son domicile : il voit cet étage et tout ce qui se trouve en dessous, mais rien au-dessus. Le déplacer ensuite demande de modifier le compte, pas de changer un filtre : autant le faire correctement du premier coup."
+      },
+      "external": {
+        "title": "Lui donner accès ailleurs",
+        "description": "La visibilité externe est l'exception à cette règle. Elle ouvre à un utilisateur une vue sur un emplacement précis en dehors de sa branche, avec son propre rôle, et rien d'autre ne l'accompagne. Utilisez-la pour un prestataire qui intervient dans un seul bâtiment, ou un responsable qui doit surveiller un étage chez un autre client. Chaque entrée est indépendante, et en retirer une supprime cet accès immédiatement."
+      },
+      "done": {
+        "title": "Voilà tout le parcours",
+        "description": "L'invitation est partie. Tant qu'elle n'est pas acceptée, le compte reste en attente, et vous pouvez la renvoyer depuis le menu de la ligne."
+      }
+    },
+    "openUsers": {
+      "title": "Ouvrir Utilisateurs",
+      "description": "Toutes les personnes que vous pouvez administrer à cet emplacement et en dessous."
+    },
+    "groups": {
+      "open": {
+        "title": "Les groupes déterminent qui est prévenu",
+        "description": "Une règle qui déclenche une alerte peut viser un groupe plutôt que tout le monde. Ouvrez ceci pour voir les groupes de cet emplacement."
+      },
+      "new": {
+        "title": "Créer un groupe",
+        "description": "Donnez-lui un nom reconnaissable dans une alerte, puis ajoutez des membres. L'appartenance n'exprime qu'une intention : les accès sont revérifiés à chaque envoi, si bien qu'un groupe ne peut jamais atteindre quelqu'un qui a perdu son accès entre-temps."
+      }
+    }
+  },
+  "rule": {
+    "openRules": {
+      "title": "Ouvrir Règles",
+      "description": "Les règles qui régissent cet emplacement. Les règles créées plus haut ou plus bas dans la hiérarchie se gèrent à leur niveau."
+    },
+    "chain": {
+      "title": "Le fonctionnement d'une chaîne de règles",
+      "summary": "Lisez une chaîne et voyez où s'insèrent les propriétés personnalisées.",
+      "list": {
+        "title": "Une ligne, une chaîne",
+        "description": "Chaque règle est une courte chaîne d'étapes exécutées dans l'ordre. La ligne indique ce qui la déclenche et avec quelle gravité elle se termine."
+      },
+      "create": {
+        "title": "En créer une",
+        "description": "Une nouvelle règle commence par son déclencheur, car tout ce qui suit dépend de la nature de l'événement."
+      },
+      "canvas": {
+        "title": "La chaîne, de gauche à droite",
+        "description": "Une chaîne commence toujours par un déclencheur et se termine par une alerte. Entre les deux, vous pouvez récupérer des informations sur l'actif ou l'appareil, et ajouter des vérifications qui décident si l'alerte se déclenche. L'ordre compte : une étape ne peut utiliser que ce qu'une étape précédente a déjà récupéré."
+      },
+      "inspector": {
+        "title": "Configurer une étape",
+        "description": "Sélectionnez une étape pour la configurer ici. Une vérification compare un champ à une valeur, et la liste des champs ne propose que ce qui est réellement disponible à ce point de la chaîne : vous ne pouvez donc pas écrire une vérification impossible à exécuter."
+      },
+      "custom": {
+        "title": "Vos propres propriétés sont aussi vérifiables",
+        "description": "Les champs que vous définissez sur un type d'actif apparaissent ici à côté des champs intégrés. Ce n'est pas automatique : une vérification ne peut les lire qu'une fois qu'une étape précédente a récupéré cet actif. Ajoutez d'abord l'étape de récupération, et vos propriétés apparaissent dans la liste des champs en dessous. C'est pour cela que la chaîne se dessine dans l'ordre plutôt que comme une liste de réglages."
+      },
+      "done": {
+        "title": "Voilà le modèle",
+        "description": "Déclencheur, détails facultatifs, vérifications facultatives, une alerte. Les règles ne s'enregistrent jamais toutes seules : rien de ce que vous avez consulté n'a été modifié."
+      }
+    }
   }
 }
