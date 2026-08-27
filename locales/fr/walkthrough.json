@@ -53,6 +53,10 @@
       "assets": { "title": "Actifs", "description": "Les éléments que vous suivez. Recherchez, filtrez et localisez-les sur la carte ou le plan d'étage. L'essentiel du travail quotidien se passe ici." },
       "devices": { "title": "Appareils", "description": "Le matériel qui transmet les données : traceurs et répéteurs. Les appareils sont rattachés aux actifs pour que leurs données comptent pour le bon élément." },
       "users": { "title": "Utilisateurs", "description": "Les personnes qui ont accès. Invitez des utilisateurs, attribuez des rôles et contrôlez ce que chacun peut voir et faire à chaque niveau." },
+      "rules": {
+        "title": "Règles",
+        "description": "Créez des règles qui surveillent un événement et déclenchent une alerte lorsqu'il se produit. Une règle appartient à l'emplacement où vous la créez."
+      },
       "settings": { "title": "Paramètres", "description": "La configuration de votre sélection actuelle : image de marque, règles des actifs, préférences et sécurité." }
     },
     "openAssets": {

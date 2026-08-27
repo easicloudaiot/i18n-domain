@@ -53,6 +53,10 @@
       "assets": { "title": "Assets", "description": "The things you track. Search, filter, and locate them on the map or floor plan. Most day-to-day work happens here." },
       "devices": { "title": "Devices", "description": "The hardware that reports data: trackers and repeaters. Devices are attached to assets so their data counts toward the right item." },
       "users": { "title": "Users", "description": "The people with access. Invite users, assign roles, and control what each person can see and do at every level." },
+      "rules": {
+        "title": "Rules",
+        "description": "Build rules that watch for something happening and raise an alert when it does. A rule belongs to the location you create it at."
+      },
       "settings": { "title": "Settings", "description": "Configuration for whatever you've selected in the sidebar: branding, asset rules, preferences, and security." }
     },
     "openAssets": {
