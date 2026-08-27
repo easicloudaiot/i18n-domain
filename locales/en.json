@@ -15,6 +15,7 @@
   "permission": {
     "none":   "None",
     "read":   "Read",
+    "create": "Create",
     "write":  "Write",
     "manage": "Manage"
   },

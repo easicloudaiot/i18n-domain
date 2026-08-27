@@ -154,7 +154,10 @@
     "catalogUnavailable": "You do not have access to this catalog.",
     "dimensionsUnavailable": "Permission dimensions could not be loaded.",
     "unknownDimensions": "Also grants (read-only):",
-    "confirmDeleteProfile": "Delete \"{{name}}\"? This cannot be undone."
+    "confirmDeleteProfile": "Delete \"{{name}}\"? This cannot be undone.",
+    "readOnly": "read-only",
+    "grantsNothing": "Grants no access anywhere.",
+    "noAccessTo": "No access:"
   },
   "filters": {
     "assignment": "Assignment",

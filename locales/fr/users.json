@@ -154,7 +154,10 @@
     "catalogUnavailable": "Vous n'avez pas accès à ce catalogue.",
     "dimensionsUnavailable": "Impossible de charger les axes de permissions.",
     "unknownDimensions": "Accorde également (lecture seule) :",
-    "confirmDeleteProfile": "Supprimer « {{name}} » ? Cette action est irréversible."
+    "confirmDeleteProfile": "Supprimer « {{name}} » ? Cette action est irréversible.",
+    "readOnly": "lecture seule",
+    "grantsNothing": "N'accorde aucun accès.",
+    "noAccessTo": "Aucun accès :"
   },
   "filters": {
     "assignment": "Attribution",

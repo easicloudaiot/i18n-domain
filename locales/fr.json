@@ -15,6 +15,7 @@
   "permission": {
     "none":   "Aucun",
     "read":   "Lecture",
+    "create": "Créer",
     "write":  "Écriture",
     "manage": "Gestion"
   },
