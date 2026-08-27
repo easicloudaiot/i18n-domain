@@ -249,5 +249,6 @@
     "hasDevice": "Has device",
     "noDevice": "No device",
     "rangeHint": "e.g. 10~50 for range"
-  }
+  },
+  "seedSelectFailed": "Couldn't open that asset — it may no longer be accessible."
 }

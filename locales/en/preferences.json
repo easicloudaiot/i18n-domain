@@ -23,6 +23,9 @@
         "PING": "Ping",
         "ALERT": "Alert"
       }
+    },
+    "alertEmail": {
+      "title": "Alert emails"
     }
   },
   "owner": {

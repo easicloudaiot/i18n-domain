@@ -23,6 +23,9 @@
         "PING": "Bip",
         "ALERT": "Alerte"
       }
+    },
+    "alertEmail": {
+      "title": "E-mails d'alerte"
     }
   },
   "owner": {

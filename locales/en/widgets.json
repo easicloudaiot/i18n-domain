@@ -15,5 +15,9 @@
     "showLess": "Show less",
     "searchIn": "Search {{field}}...",
     "enter": "Enter {{field}}..."
-  }
+  },
+  "noData": "No data available for chart",
+  "exportSuccess": "Exported as {{format}}",
+  "exportFailed": "Export failed",
+  "exportUnsupported": "Export format \"{{format}}\" not supported"
 }

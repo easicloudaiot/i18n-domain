@@ -138,5 +138,6 @@
     "accuracyDescription": "Ces appareils peuvent être signalés à un autre étage",
     "maxBattery": "Batterie à ou sous (%)",
     "maxBatteryPlaceholder": "p. ex. 20"
-  }
+  },
+  "seedSelectFailed": "Impossible d'ouvrir cet appareil : il n'est peut-être plus accessible."
 }

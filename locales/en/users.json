@@ -51,7 +51,10 @@
       "lastLogin": "Last Login",
       "accountStatus": "Account Status"
     },
-    "status": { "active": "Active", "inactive": "Inactive" },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
     "permissionsLabel": "Permissions",
     "permissionsSummary": "Assets ({{assets}}) · Devices ({{devices}}) · Owners ({{owners}}) · Users ({{users}})",
     "assignedCount_one": "{{count}} assigned",
@@ -141,7 +144,17 @@
     "confirmDeleteRole": "Are you sure you want to delete the role \"{{name}}\"? This cannot be undone.",
     "confirmDeleteContentProfile": "Are you sure you want to delete this content profile? Roles referencing it will be unlinked.",
     "keyExample": "e.g. default",
-    "nameExampleProfile": "e.g. Default Profile"
+    "nameExampleProfile": "e.g. Default Profile",
+    "modalTitle": "Roles",
+    "modalSubtitle": "What each role can do here. Managed by the company that owns it.",
+    "viewRoles": "Roles",
+    "thisCompany": "This company",
+    "platformProvided": "Provided by the platform",
+    "platformOnlyNotice": "Showing platform roles only — your access does not reach this company’s own catalog.",
+    "catalogUnavailable": "You do not have access to this catalog.",
+    "dimensionsUnavailable": "Permission dimensions could not be loaded.",
+    "unknownDimensions": "Also grants (read-only):",
+    "confirmDeleteProfile": "Delete \"{{name}}\"? This cannot be undone."
   },
   "filters": {
     "assignment": "Assignment",
@@ -151,5 +164,37 @@
   "stats": {
     "total": "Total users",
     "users": "Users"
+  },
+  "groups": {
+    "title": "User groups",
+    "subtitle": "Decide who gets told when an alert is raised here.",
+    "description": "Description",
+    "name": "Name",
+    "namePlaceholder": "Site leads",
+    "newGroup": "New group",
+    "editGroup": "Edit group",
+    "deleteGroup": "Delete group",
+    "confirmDelete": "Delete \"{{name}}\"? The people in it keep their accounts and access. Any alert rule still addressing this group will then reach nobody — deletion does not fall back to notifying everyone.",
+    "empty": "No groups here yet",
+    "emptyBody": "Without a group, notifications go to everyone entitled at this location. A group narrows that to a chosen few.",
+    "loadFailed": "Could not load groups",
+    "loadFailedBody": "Try again in a moment.",
+    "noOwner": "Select a location",
+    "noOwnerBody": "Groups belong to a company, building, floor or zone. Pick one to see its groups.",
+    "scopeNote": "Groups defined at {{owner}}. Groups made further down the hierarchy are managed there.",
+    "thisLocation": "this location",
+    "memberCount": "{{count}} members",
+    "membersSubtitle": "Who this group addresses. Membership is intent — access is re-checked whenever anything is sent.",
+    "currentMembers": "Current members",
+    "addPeople": "People",
+    "searchPeople": "Search by name or email",
+    "candidatesNote": "Anyone at this location or above it can be added. Type to search — the list is shortened.",
+    "noCandidates": "Nobody here can be added to this group.",
+    "noMembers": "Nobody yet. A group with no members addresses nobody, and nothing is sent on its behalf.",
+    "removeMember": "Remove member",
+    "removeOnSave": "Removed on save",
+    "pendingInvite": "Pending invitation",
+    "rejected": "Cannot be added here",
+    "unreachable": "No longer has access here"
   }
 }

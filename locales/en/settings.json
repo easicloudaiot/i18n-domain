@@ -43,5 +43,13 @@
     "assets": "Assets",
     "preferences": "Preferences",
     "security": "Security"
+  },
+  "alertEmails": {
+    "title": "Alert emails for people in this company",
+    "description": "Applies to people whose account belongs to this company or below it — not to alerts raised here. Turning email off is a cap: people below cannot switch it back on. A minimum severity is only a default, and each person may change theirs."
+  },
+  "roles": {
+    "title": "Roles",
+    "description": "Roles this company owns, plus the platform roles it inherits. A role defined here can be assigned anywhere beneath this company."
   }
 }

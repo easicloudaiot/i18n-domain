@@ -43,5 +43,13 @@
     "assets": "Actifs",
     "preferences": "Préférences",
     "security": "Sécurité"
+  },
+  "alertEmails": {
+    "title": "E-mails d'alerte pour les personnes de ce client",
+    "description": "S'applique aux personnes dont le compte relève de ce client ou d'un niveau inférieur, et non aux alertes déclenchées ici. Désactiver l'e-mail agit comme un plafond : les niveaux inférieurs ne peuvent pas le réactiver. La gravité minimale n'est qu'une valeur par défaut, que chacun peut modifier."
+  },
+  "roles": {
+    "title": "Rôles",
+    "description": "Les rôles appartenant à ce client, ainsi que les rôles de la plateforme dont il hérite. Un rôle défini ici peut être attribué partout sous ce client."
   }
 }

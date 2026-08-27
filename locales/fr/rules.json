@@ -103,7 +103,8 @@
     "noOwner": "Sélectionnez un emplacement",
     "noOwnerBody": "Les règles régissent un client, un bâtiment, un étage ou une zone. Choisissez-en un pour voir ses règles.",
     "scopeNote": "Règles définies à cet emplacement. Les règles créées ailleurs dans la hiérarchie s’y gèrent.",
-    "updated": "Mise à jour le {{date}}"
+    "updated": "Mise à jour le {{date}}",
+    "tableTitle": "Chaînes de règles"
   },
   "node": {
     "CONDITION": "Condition",

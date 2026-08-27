@@ -18,7 +18,8 @@
       "navigation": "Navigation sidebar",
       "preview": "Live preview",
       "presets": "Quick themes",
-      "hint": "Hover color labels for details"
+      "hint": "Hover color labels for details",
+      "emailBanner": "Email banner"
     },
     "fields": {
       "dnsDomain": "DNS domain *",
@@ -62,6 +63,10 @@
       "primary": "Primary button",
       "secondary": "Secondary button",
       "hint": "Hover buttons to preview effect"
-    }
+    },
+    "emailBannerHelp": "Shown at the top of transactional emails (password reset, invitations); falls back to the platform logo when unset. Recommended: a wide lockup (2:1–4:1), PNG with a transparent background, ~300–600px wide. Max 1MB. This image is publicly accessible — do not upload anything private.",
+    "emailBannerInvalidType": "Email banner must be an image",
+    "emailBannerTooBig": "Email banner must be < 1MB",
+    "emailBannerRemove": "Remove email banner"
   }
 }

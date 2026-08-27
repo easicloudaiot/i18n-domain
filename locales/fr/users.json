@@ -51,7 +51,10 @@
       "lastLogin": "Dernière connexion",
       "accountStatus": "Statut du compte"
     },
-    "status": { "active": "Actif", "inactive": "Inactif" },
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
     "permissionsLabel": "Permissions",
     "permissionsSummary": "Actifs ({{assets}}) · Appareils ({{devices}}) · Propriétaires ({{owners}}) · Utilisateurs ({{users}})",
     "assignedCount_one": "{{count}} assigné",
@@ -141,7 +144,17 @@
     "confirmDeleteRole": "Voulez-vous vraiment supprimer le rôle « {{name}} »? Cette action est irréversible.",
     "confirmDeleteContentProfile": "Voulez-vous vraiment supprimer ce profil de contenu? Les rôles qui y font référence seront dissociés.",
     "keyExample": "ex. defaut",
-    "nameExampleProfile": "ex. Profil par défaut"
+    "nameExampleProfile": "ex. Profil par défaut",
+    "modalTitle": "Rôles",
+    "modalSubtitle": "Ce que chaque rôle permet de faire ici. Géré par le client qui en est propriétaire.",
+    "viewRoles": "Rôles",
+    "thisCompany": "Ce client",
+    "platformProvided": "Fourni par la plateforme",
+    "platformOnlyNotice": "Seuls les rôles de la plateforme sont affichés : vos accès ne couvrent pas le catalogue propre à ce client.",
+    "catalogUnavailable": "Vous n'avez pas accès à ce catalogue.",
+    "dimensionsUnavailable": "Impossible de charger les axes de permissions.",
+    "unknownDimensions": "Accorde également (lecture seule) :",
+    "confirmDeleteProfile": "Supprimer « {{name}} » ? Cette action est irréversible."
   },
   "filters": {
     "assignment": "Attribution",
@@ -151,5 +164,37 @@
   "stats": {
     "total": "Utilisateurs totaux",
     "users": "Utilisateurs"
+  },
+  "groups": {
+    "title": "Groupes d'utilisateurs",
+    "subtitle": "Choisissez qui est prévenu lorsqu'une alerte est déclenchée ici.",
+    "description": "Description",
+    "name": "Nom",
+    "namePlaceholder": "Responsables de site",
+    "newGroup": "Nouveau groupe",
+    "editGroup": "Modifier le groupe",
+    "deleteGroup": "Supprimer le groupe",
+    "confirmDelete": "Supprimer « {{name}} » ? Les personnes qui en font partie conservent leur compte et leurs accès. Toute règle d'alerte visant encore ce groupe ne touchera alors plus personne : la suppression ne revient pas à prévenir tout le monde.",
+    "empty": "Aucun groupe ici pour l'instant",
+    "emptyBody": "Sans groupe, les notifications sont envoyées à toutes les personnes habilitées à cet emplacement. Un groupe restreint cet envoi à quelques personnes choisies.",
+    "loadFailed": "Impossible de charger les groupes",
+    "loadFailedBody": "Réessayez dans un instant.",
+    "noOwner": "Sélectionnez un emplacement",
+    "noOwnerBody": "Les groupes appartiennent à un client, un bâtiment, un étage ou une zone. Sélectionnez-en un pour voir ses groupes.",
+    "scopeNote": "Groupes définis à {{owner}}. Les groupes créés plus bas dans la hiérarchie sont gérés à leur niveau.",
+    "thisLocation": "cet emplacement",
+    "memberCount": "{{count}} membres",
+    "membersSubtitle": "Les personnes visées par ce groupe. L'appartenance exprime une intention : les accès sont revérifiés à chaque envoi.",
+    "currentMembers": "Membres actuels",
+    "addPeople": "Personnes",
+    "searchPeople": "Rechercher par nom ou e-mail",
+    "candidatesNote": "Toute personne à cet emplacement ou au-dessus peut être ajoutée. Saisissez du texte pour rechercher : la liste est abrégée.",
+    "noCandidates": "Personne ici ne peut être ajouté à ce groupe.",
+    "noMembers": "Personne pour l'instant. Un groupe sans membre ne vise personne, et rien n'est envoyé en son nom.",
+    "removeMember": "Retirer le membre",
+    "removeOnSave": "Retiré à l'enregistrement",
+    "pendingInvite": "Invitation en attente",
+    "rejected": "Ne peut pas être ajouté ici",
+    "unreachable": "N'a plus accès ici"
   }
 }

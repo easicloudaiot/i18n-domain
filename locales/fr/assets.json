@@ -249,5 +249,6 @@
     "hasDevice": "A un appareil",
     "noDevice": "Sans appareil",
     "rangeHint": "ex. 10~50 pour une plage"
-  }
+  },
+  "seedSelectFailed": "Impossible d'ouvrir cet actif : il n'est peut-être plus accessible."
 }

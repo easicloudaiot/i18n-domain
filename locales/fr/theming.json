@@ -18,7 +18,8 @@
       "navigation": "Barre de navigation",
       "preview": "Aperçu en direct",
       "presets": "Thèmes rapides",
-      "hint": "Survolez les étiquettes de couleur pour plus de détails"
+      "hint": "Survolez les étiquettes de couleur pour plus de détails",
+      "emailBanner": "Bannière d'e-mail"
     },
     "fields": {
       "dnsDomain": "Domaine DNS *",
@@ -62,6 +63,10 @@
       "primary": "Bouton principal",
       "secondary": "Bouton secondaire",
       "hint": "Survolez les boutons pour voir l'effet"
-    }
+    },
+    "emailBannerHelp": "Affichée en haut des e-mails transactionnels (réinitialisation de mot de passe, invitations) ; à défaut, le logo de la plateforme est utilisé. Recommandé : un visuel large (2:1 à 4:1), PNG sur fond transparent, d'environ 300 à 600 px de large. 1 Mo maximum. Cette image est accessible publiquement : n'y placez rien de confidentiel.",
+    "emailBannerInvalidType": "La bannière d'e-mail doit être une image",
+    "emailBannerTooBig": "La bannière d'e-mail doit faire moins de 1 Mo",
+    "emailBannerRemove": "Supprimer la bannière d'e-mail"
   }
 }

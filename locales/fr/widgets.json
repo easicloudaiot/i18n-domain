@@ -15,5 +15,9 @@
     "showLess": "Afficher moins",
     "searchIn": "Rechercher {{field}}...",
     "enter": "Saisir {{field}}..."
-  }
+  },
+  "noData": "Aucune donnée disponible pour ce graphique",
+  "exportSuccess": "Exporté au format {{format}}",
+  "exportFailed": "Échec de l'export",
+  "exportUnsupported": "Le format d'export « {{format}} » n'est pas pris en charge"
 }

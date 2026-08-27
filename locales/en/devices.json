@@ -138,5 +138,6 @@
     "accuracyDescription": "These devices may be reported on another floor",
     "maxBattery": "Battery at or below (%)",
     "maxBatteryPlaceholder": "e.g. 20"
-  }
+  },
+  "seedSelectFailed": "Couldn't open that device — it may no longer be accessible."
 }
