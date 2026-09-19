@@ -5,7 +5,8 @@
     "hierarchy": "Construire votre hiérarchie",
     "assets": "Travailler avec les actifs",
     "devices": "Appareils",
-    "settings": "Paramètres"
+    "settings": "Paramètres",
+    "rules": "Règles"
   },
   "nav": {
     "next": "Suivant",
@@ -300,6 +301,62 @@
     "openRules": {
       "title": "Ouvrir Règles",
       "description": "Les règles qui régissent cet emplacement. Les règles créées plus haut ou plus bas dans la hiérarchie se gèrent à leur niveau."
+    },
+    "create": {
+      "title": "Créer une règle",
+      "summary": "En construire une de zéro, puis l’activer.",
+      "concept": {
+        "title": "À quoi sert une règle",
+        "description": "Une règle surveille un type d’événement, vérifie s’il est important, puis lève une alerte. Elle se construit comme une courte chaîne d’étapes qui se lit de gauche à droite."
+      },
+      "selectOwner": {
+        "title": "Une règle appartient à un emplacement",
+        "description": "Choisissez le client, le bâtiment, l’étage ou la zone que cette règle doit régir. Elle ne voit que ce qui s’y passe."
+      },
+      "open": {
+        "title": "Commencer une règle",
+        "description": "Deux choses suffisent à la créer : un nom et l’événement qui la déclenche. Tout le reste se construit ensuite, sur le canevas."
+      },
+      "name": {
+        "title": "Nommez-la d’après ce qu’elle attrape",
+        "description": "Un nom que vous reconnaîtrez dans une liste d’alertes des semaines plus tard, comme « Pompe sortie du bâtiment »."
+      },
+      "trigger": {
+        "title": "Se déclenche quand",
+        "description": "L’événement qui démarre la chaîne. Seuls les déclencheurs pertinents à ce niveau de la hiérarchie sont proposés : le choix est donc plus restreint dans une zone que chez un client."
+      },
+      "submit": {
+        "title": "Créez-la",
+        "description": "La règle s’ouvre sur son propre canevas, où vous terminez de la construire."
+      },
+      "canvas": {
+        "title": "La chaîne pour l’instant",
+        "description": "Deux étapes : le déclencheur choisi et l’alerte qu’il lève. Faites glisser une carte pour la déplacer. Les boutons dans le coin servent à zoomer, à ajuster la chaîne à l’écran et à réorganiser la disposition."
+      },
+      "insert": {
+        "title": "Ajouter une étape au milieu",
+        "description": "Le plus sur le trait insère une étape à cet endroit : récupérer les données de l’actif ou de l’appareil, ou ajouter une vérification qui doit passer avant que l’alerte ne parte."
+      },
+      "select": {
+        "title": "Ouvrir une étape",
+        "description": "Cliquez sur une carte pour la configurer."
+      },
+      "inspector": {
+        "title": "Paramètres de l’étape",
+        "description": "Tout ce qui concerne l’étape sélectionnée se trouve ici. Fermez le panneau avec son X, ou avec Échap, pour retrouver tout le canevas."
+      },
+      "save": {
+        "title": "Rien ne s’enregistre tout seul",
+        "description": "Enregistrez quand la chaîne vous convient. Les changements prennent effet en une minute environ, et l’enregistrement réinitialise la mémoire de la règle : une condition déjà remplie peut donc lever une nouvelle alerte peu après."
+      },
+      "enable": {
+        "title": "Activez-la",
+        "description": "De retour dans la liste, l’interrupteur est ce qui rend une règle active. Désactivez-la à tout moment sans la supprimer."
+      },
+      "done": {
+        "title": "Voilà la boucle complète",
+        "description": "Déclencheur, détails optionnels, vérifications optionnelles, une alerte, puis activation. Rouvrez une règle en cliquant sur sa ligne."
+      }
     },
     "chain": {
       "title": "Le fonctionnement d'une chaîne de règles",

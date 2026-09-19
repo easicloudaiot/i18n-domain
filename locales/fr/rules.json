@@ -1,12 +1,15 @@
 {
   "canvas": {
+    "addStep": "Ajouter une étape",
     "conditionHint": "Ne continuer que si les vérifications passent",
     "conditionSummary_one": "{{count}} vérification",
     "conditionSummary_other": "{{count}} vérifications",
     "enrichHint": "Récupérer les données de l’actif ou de l’appareil pour les étapes suivantes",
     "fit": "Ajuster à la vue",
+    "insertStep": "Ajouter une étape ici",
     "nodeErrors": "Cette étape a des problèmes",
     "orphaned": "Non reliée à la chaîne",
+    "tidy": "Réorganiser la disposition",
     "unconfigured": "Non configurée",
     "zoomIn": "Zoom avant",
     "zoomOut": "Zoom arrière"
@@ -55,7 +58,8 @@
     "suppressionNote": "L’enregistrement réinitialise la mémoire de cette règle — des conditions déjà remplies peuvent déclencher une nouvelle alerte peu après.",
     "unsaved": "Modifications non enregistrées",
     "validationFailed_one": "Échec de la validation — {{count}} problème signalé.",
-    "validationFailed_other": "Échec de la validation — {{count}} problèmes signalés."
+    "validationFailed_other": "Échec de la validation — {{count}} problèmes signalés.",
+    "viewOnly": "Lecture seule"
   },
   "enrich": {
     "ASSET": "Actif",
@@ -83,6 +87,7 @@
     "scope": "Emplacement"
   },
   "inspector": {
+    "close": "Fermer les paramètres de l’étape",
     "empty": "Sélectionnez une étape sur le canevas pour la configurer.",
     "fixBeforeSaving": "À corriger avant d’enregistrer",
     "removeNode": "Supprimer l’étape"

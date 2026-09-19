@@ -1,12 +1,15 @@
 {
   "canvas": {
+    "addStep": "Add a step",
     "conditionHint": "Only continue when checks pass",
     "conditionSummary_one": "{{count}} check",
     "conditionSummary_other": "{{count}} checks",
     "enrichHint": "Fetch asset or device data for later steps",
     "fit": "Fit to view",
+    "insertStep": "Add a step here",
     "nodeErrors": "This step has problems",
     "orphaned": "Not connected to the chain",
+    "tidy": "Tidy up the layout",
     "unconfigured": "Not configured",
     "zoomIn": "Zoom in",
     "zoomOut": "Zoom out"
@@ -55,7 +58,8 @@
     "suppressionNote": "Saving restarts this rule’s memory — conditions that are already met may raise a fresh alert shortly after.",
     "unsaved": "Unsaved changes",
     "validationFailed_one": "Validation failed — {{count}} issue highlighted.",
-    "validationFailed_other": "Validation failed — {{count}} issues highlighted."
+    "validationFailed_other": "Validation failed — {{count}} issues highlighted.",
+    "viewOnly": "View only"
   },
   "enrich": {
     "ASSET": "Asset",
@@ -83,6 +87,7 @@
     "scope": "Location"
   },
   "inspector": {
+    "close": "Close step settings",
     "empty": "Select a step on the canvas to configure it.",
     "fixBeforeSaving": "Fix before saving",
     "removeNode": "Remove step"

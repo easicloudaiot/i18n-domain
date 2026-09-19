@@ -5,7 +5,8 @@
     "hierarchy": "Build your hierarchy",
     "assets": "Work with assets",
     "devices": "Devices",
-    "settings": "Settings"
+    "settings": "Settings",
+    "rules": "Rules"
   },
   "nav": {
     "next": "Next",
@@ -300,6 +301,62 @@
     "openRules": {
       "title": "Open Rules",
       "description": "The rules governing this location. Rules made further up or further down the hierarchy are managed where they were created."
+    },
+    "create": {
+      "title": "Build a rule",
+      "summary": "Create one from scratch, then switch it on.",
+      "concept": {
+        "title": "What a rule does",
+        "description": "A rule watches for one kind of event, checks whether it matters, and raises an alert. You build it as a short chain of steps that runs left to right."
+      },
+      "selectOwner": {
+        "title": "Rules belong to a location",
+        "description": "Pick the client, building, floor or zone this rule should govern. It only ever sees what happens there."
+      },
+      "open": {
+        "title": "Start a new rule",
+        "description": "Two things create one: a name, and the event it fires on. Everything else is built afterwards, on the canvas."
+      },
+      "name": {
+        "title": "Name it for what it catches",
+        "description": "Something you will recognise in a list of alerts weeks from now, like “Pump left the building”."
+      },
+      "trigger": {
+        "title": "Fires when",
+        "description": "The event that starts the chain. Only the triggers that make sense at this level of the hierarchy are listed, so the choice is narrower in a zone than at a client."
+      },
+      "submit": {
+        "title": "Create it",
+        "description": "The rule opens on its own canvas, where you finish building it."
+      },
+      "canvas": {
+        "title": "The chain so far",
+        "description": "Two steps: the trigger you picked, and the alert it raises. Drag a card to move it. The buttons in the corner zoom, fit the chain to the screen, and tidy the layout."
+      },
+      "insert": {
+        "title": "Add a step in between",
+        "description": "The plus on the line inserts a step there. Fetch details about the asset or device, or add a check that has to pass before the alert fires."
+      },
+      "select": {
+        "title": "Open a step",
+        "description": "Click any card to configure it."
+      },
+      "inspector": {
+        "title": "Step settings",
+        "description": "Everything about the selected step lives here. Close the panel with its X, or press Escape, to get the whole canvas back."
+      },
+      "save": {
+        "title": "Nothing saves on its own",
+        "description": "Save when the chain is right. Changes take effect within about a minute, and saving restarts the rule’s memory, so a condition that is already true can raise a fresh alert soon after."
+      },
+      "enable": {
+        "title": "Switch it on",
+        "description": "Back in the list, the toggle is what makes a rule live. Turn one off at any time without deleting it."
+      },
+      "done": {
+        "title": "That is the whole loop",
+        "description": "Trigger, optional detail, optional checks, one alert, then on. Open any rule again by clicking its row."
+      }
     },
     "chain": {
       "title": "How a rule chain works",
