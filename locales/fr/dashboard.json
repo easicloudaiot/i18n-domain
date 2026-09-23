@@ -367,7 +367,8 @@
         "payerPlaceholder": "UUID de l'entreprise du payeur",
         "effectiveFrom": "En vigueur à partir du",
         "effectiveTo": "En vigueur jusqu'au (vide = en cours)"
-      }
+      },
+      "deleteConsequence": "Le payeur est de nouveau facturé selon votre forfait par défaut."
     },
     "addOns": {
       "empty": "Aucun module au catalogue",

@@ -157,7 +157,8 @@
     "confirmDeleteProfile": "Delete \"{{name}}\"? This cannot be undone.",
     "readOnly": "read-only",
     "grantsNothing": "Grants no access anywhere.",
-    "noAccessTo": "No access:"
+    "noAccessTo": "No access:",
+    "modalSubtitleAuthoring": "Roles this company owns can be assigned anywhere beneath it."
   },
   "filters": {
     "assignment": "Assignment",
@@ -198,6 +199,7 @@
     "removeOnSave": "Removed on save",
     "pendingInvite": "Pending invitation",
     "rejected": "Cannot be added here",
-    "unreachable": "No longer has access here"
+    "unreachable": "No longer has access here",
+    "deleteConsequence": "The people in it keep their accounts and access. Any alert rule still addressing this group will reach nobody."
   }
 }

@@ -367,7 +367,8 @@
         "payerPlaceholder": "Company UUID of the payer",
         "effectiveFrom": "Effective from",
         "effectiveTo": "Effective to (blank = current)"
-      }
+      },
+      "deleteConsequence": "The payer goes back to being billed on your default plan."
     },
     "addOns": {
       "empty": "No add-ons in the catalog",

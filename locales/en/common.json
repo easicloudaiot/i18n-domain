@@ -27,7 +27,10 @@
     "reset": "Reset",
     "retry": "Retry",
     "update": "Update",
-    "seeAll": "See all"
+    "seeAll": "See all",
+    "showLess": "Show less",
+    "showAllCount_one": "Show {{count}} more",
+    "showAllCount_other": "Show {{count}} more"
   },
   "status": {
     "loading": "Loading...",
@@ -252,13 +255,40 @@
       "open": "Open",
       "acknowledged": "Acknowledged",
       "resolved": "Resolved",
-      "dismissed": "Dismissed"
+      "dismissed": "Dismissed by you"
     },
     "scope": {
       "label": "Alert scope",
       "all": "All owners",
       "thisOwner": "This owner",
       "noOwner": "Select an entity to scope alerts"
-    }
+    },
+    "categories": {
+      "all": "All",
+      "stock": "Stock",
+      "asset": "Assets",
+      "device": "Devices",
+      "owner": "Locations",
+      "user": "Users",
+      "system": "System"
+    },
+    "categoryTabs": "Alert category",
+    "severityFilter": "Filter by severity",
+    "showClosedShort": "Show closed",
+    "stock": {
+      "titleUnder": "Below target: {{item}}",
+      "titleOver": "Above target: {{item}}",
+      "summaryUnder": "{{count}} on hand, at least {{bound}} expected",
+      "summaryOver": "{{count}} on hand, at most {{bound}} expected",
+      "onHand": "On hand",
+      "minimum": "Minimum",
+      "maximum": "Maximum",
+      "short": "Short by",
+      "over": "Over by",
+      "since": "Out of range since {{time}}"
+    },
+    "viewStock": "View stock at this location",
+    "undismiss": "Restore to my alerts",
+    "linkedAlertNotListed": "The alert from your email is not in this list — it may be older than the alerts shown, or outside what you can see."
   }
 }

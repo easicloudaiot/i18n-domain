@@ -80,7 +80,9 @@
     "updatedSuccess": "Floor updated successfully",
     "deletedSuccess": "Floor deleted successfully",
     "createBtn": "Create floor",
-    "sectionFloorPlan": "Floor plan"
+    "sectionFloorPlan": "Floor plan",
+    "deleteFloorMapPrompt": "Delete the floor map?",
+    "deleteFloorMapConsequence": "Devices keep their floor positions, but there is no map to show them on until you upload another."
   },
   "zoneModal": {
     "createTitle": "Create new zone",

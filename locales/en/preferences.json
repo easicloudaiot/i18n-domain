@@ -25,7 +25,18 @@
       }
     },
     "alertEmail": {
-      "title": "Alert emails"
+      "title": "Alert emails",
+      "intro": "Which alerts reach you by email. \"Inherit\" takes the answer from your role, then from your organisation.",
+      "alertsColumn": "Alerts",
+      "allCategories": "All alerts",
+      "allCategoriesHint": "Applies to any category you leave on Inherit",
+      "delivery": "Email",
+      "minSeverity": "Minimum severity",
+      "inherit": "Inherit",
+      "on": "Email me",
+      "off": "Do not email",
+      "effectiveOn": "You receive {{severity}} and above",
+      "effectiveOff": "You receive nothing"
     }
   },
   "owner": {

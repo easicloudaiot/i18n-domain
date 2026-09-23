@@ -157,7 +157,8 @@
     "confirmDeleteProfile": "Supprimer « {{name}} » ? Cette action est irréversible.",
     "readOnly": "lecture seule",
     "grantsNothing": "N'accorde aucun accès.",
-    "noAccessTo": "Aucun accès :"
+    "noAccessTo": "Aucun accès :",
+    "modalSubtitleAuthoring": "Les rôles de cette entreprise peuvent être attribués n'importe où sous celle-ci."
   },
   "filters": {
     "assignment": "Attribution",
@@ -198,6 +199,7 @@
     "removeOnSave": "Retiré à l'enregistrement",
     "pendingInvite": "Invitation en attente",
     "rejected": "Ne peut pas être ajouté ici",
-    "unreachable": "N'a plus accès ici"
+    "unreachable": "N'a plus accès ici",
+    "deleteConsequence": "Ses membres conservent leur compte et leurs accès. Toute règle d'alerte qui vise encore ce groupe n'atteindra personne."
   }
 }

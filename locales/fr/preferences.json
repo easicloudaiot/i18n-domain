@@ -25,7 +25,18 @@
       }
     },
     "alertEmail": {
-      "title": "E-mails d'alerte"
+      "title": "E-mails d'alerte",
+      "intro": "Les alertes qui vous parviennent par e-mail. « Hériter » reprend le réglage de votre rôle, puis celui de votre organisation.",
+      "alertsColumn": "Alertes",
+      "allCategories": "Toutes les alertes",
+      "allCategoriesHint": "S'applique à toute catégorie laissée sur « Hériter »",
+      "delivery": "E-mail",
+      "minSeverity": "Gravité minimale",
+      "inherit": "Hériter",
+      "on": "M'envoyer un e-mail",
+      "off": "Ne pas m'envoyer d'e-mail",
+      "effectiveOn": "Vous recevez {{severity}} et plus",
+      "effectiveOff": "Vous ne recevez rien"
     }
   },
   "owner": {

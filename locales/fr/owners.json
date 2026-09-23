@@ -80,7 +80,9 @@
     "updatedSuccess": "Étage mis à jour avec succès",
     "deletedSuccess": "Étage supprimé avec succès",
     "createBtn": "Créer l'étage",
-    "sectionFloorPlan": "Plan d'étage"
+    "sectionFloorPlan": "Plan d'étage",
+    "deleteFloorMapPrompt": "Supprimer le plan d'étage ?",
+    "deleteFloorMapConsequence": "Les appareils conservent leur position sur l'étage, mais aucun plan ne les affiche tant que vous n'en téléversez pas un autre."
   },
   "zoneModal": {
     "createTitle": "Créer une nouvelle zone",

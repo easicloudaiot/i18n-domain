@@ -64,7 +64,8 @@
     "floorPosition": "Étage (x, y)",
     "accuracy": "Précision",
     "created": "Créé",
-    "updated": "Mis à jour"
+    "updated": "Mis à jour",
+    "noLocation": "Aucun emplacement signalé"
   },
   "health": {
     "batterySeries": "Batterie",
@@ -139,5 +140,9 @@
     "maxBattery": "Batterie à ou sous (%)",
     "maxBatteryPlaceholder": "p. ex. 20"
   },
-  "seedSelectFailed": "Impossible d'ouvrir cet appareil : il n'est peut-être plus accessible."
+  "seedSelectFailed": "Impossible d'ouvrir cet appareil : il n'est peut-être plus accessible.",
+  "sections": {
+    "identification": "Identification",
+    "coordinates": "Coordonnées"
+  }
 }

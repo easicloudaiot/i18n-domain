@@ -213,7 +213,14 @@
     "atHome": "Sur place",
     "visiting": "En visite",
     "attached": "Rattaché : {{date}}",
-    "lastSeenAt": "Vu pour la dernière fois {{when}}"
+    "lastSeenAt": "Vu pour la dernière fois {{when}}",
+    "tracker": "Traceur",
+    "reason": "Motif",
+    "away": "Absent",
+    "atHomeLocation": "À son emplacement d'origine",
+    "homeIs": "Origine : {{home}}",
+    "properties": "Propriétés",
+    "accuracy": "Précision"
   },
   "viewModal": {
     "loadingTitle": "Chargement de l'actif",
@@ -250,5 +257,18 @@
     "noDevice": "Sans appareil",
     "rangeHint": "ex. 10~50 pour une plage"
   },
-  "seedSelectFailed": "Impossible d'ouvrir cet actif : il n'est peut-être plus accessible."
+  "seedSelectFailed": "Impossible d'ouvrir cet actif : il n'est peut-être plus accessible.",
+  "details": {
+    "allAssets": "Tous les actifs",
+    "showGpsMap": "Carte GPS",
+    "showFloorMap": "Plan d'étage",
+    "viewOnFloorMap": "Voir sur le plan d'étage",
+    "viewOnGpsMap": "Voir sur la carte GPS"
+  },
+  "sections": {
+    "custody": "Garde",
+    "dwell": "Temps sur place",
+    "devices": "Appareils",
+    "coordinates": "Coordonnées"
+  }
 }

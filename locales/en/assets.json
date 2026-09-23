@@ -213,7 +213,14 @@
     "atHome": "At Home",
     "visiting": "Visiting",
     "attached": "Attached: {{date}}",
-    "lastSeenAt": "Last seen {{when}}"
+    "lastSeenAt": "Last seen {{when}}",
+    "tracker": "Tracker",
+    "reason": "Reason",
+    "away": "Away",
+    "atHomeLocation": "At its home location",
+    "homeIs": "Home: {{home}}",
+    "properties": "Properties",
+    "accuracy": "Accuracy"
   },
   "viewModal": {
     "loadingTitle": "Loading Asset",
@@ -250,5 +257,18 @@
     "noDevice": "No device",
     "rangeHint": "e.g. 10~50 for range"
   },
-  "seedSelectFailed": "Couldn't open that asset — it may no longer be accessible."
+  "seedSelectFailed": "Couldn't open that asset — it may no longer be accessible.",
+  "details": {
+    "allAssets": "All assets",
+    "showGpsMap": "GPS map",
+    "showFloorMap": "Floor map",
+    "viewOnFloorMap": "View on floor map",
+    "viewOnGpsMap": "View on GPS map"
+  },
+  "sections": {
+    "custody": "Custody",
+    "dwell": "Time in place",
+    "devices": "Devices",
+    "coordinates": "Coordinates"
+  }
 }

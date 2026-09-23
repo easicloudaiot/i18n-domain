@@ -27,7 +27,10 @@
     "reset": "Réinitialiser",
     "retry": "Réessayer",
     "update": "Mettre à jour",
-    "seeAll": "Voir tout"
+    "seeAll": "Voir tout",
+    "showLess": "Afficher moins",
+    "showAllCount_one": "Afficher {{count}} de plus",
+    "showAllCount_other": "Afficher {{count}} de plus"
   },
   "status": {
     "loading": "Chargement...",
@@ -252,13 +255,40 @@
       "open": "Ouverte",
       "acknowledged": "Prise en compte",
       "resolved": "Résolue",
-      "dismissed": "Rejetée"
+      "dismissed": "Rejetée par vous"
     },
     "scope": {
       "label": "Portée des alertes",
       "all": "Tous les propriétaires",
       "thisOwner": "Ce propriétaire",
       "noOwner": "Sélectionnez une entité pour filtrer les alertes"
-    }
+    },
+    "categories": {
+      "all": "Toutes",
+      "stock": "Stock",
+      "asset": "Actifs",
+      "device": "Appareils",
+      "owner": "Emplacements",
+      "user": "Utilisateurs",
+      "system": "Système"
+    },
+    "categoryTabs": "Catégorie d'alerte",
+    "severityFilter": "Filtrer par gravité",
+    "showClosedShort": "Afficher les fermées",
+    "stock": {
+      "titleUnder": "Sous la cible : {{item}}",
+      "titleOver": "Au-dessus de la cible : {{item}}",
+      "summaryUnder": "{{count}} en stock, au moins {{bound}} attendus",
+      "summaryOver": "{{count}} en stock, au plus {{bound}} attendus",
+      "onHand": "En stock",
+      "minimum": "Minimum",
+      "maximum": "Maximum",
+      "short": "Manque",
+      "over": "Excédent",
+      "since": "Hors plage depuis {{time}}"
+    },
+    "viewStock": "Voir le stock à cet emplacement",
+    "undismiss": "Remettre dans mes alertes",
+    "linkedAlertNotListed": "L'alerte de votre courriel ne figure pas dans cette liste — elle est peut-être plus ancienne que les alertes affichées, ou hors de votre portée."
   }
 }

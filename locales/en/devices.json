@@ -64,7 +64,8 @@
     "floorPosition": "Floor (x, y)",
     "accuracy": "Accuracy",
     "created": "Created",
-    "updated": "Updated"
+    "updated": "Updated",
+    "noLocation": "No location reported"
   },
   "health": {
     "batterySeries": "Battery",
@@ -139,5 +140,9 @@
     "maxBattery": "Battery at or below (%)",
     "maxBatteryPlaceholder": "e.g. 20"
   },
-  "seedSelectFailed": "Couldn't open that device — it may no longer be accessible."
+  "seedSelectFailed": "Couldn't open that device — it may no longer be accessible.",
+  "sections": {
+    "identification": "Identification",
+    "coordinates": "Coordinates"
+  }
 }
