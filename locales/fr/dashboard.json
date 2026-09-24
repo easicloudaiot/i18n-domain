@@ -491,7 +491,64 @@
       "navUnavailable": "Impossible d'ouvrir cette vue — essayez de naviguer manuellement.",
       "assetsPage": "Actifs",
       "devicesPage": "Appareils",
-      "nowViewing": "Affichage de {{target}}"
+      "nowViewing": "Affichage de {{target}}",
+      "downloadReport": "Télécharger le rapport",
+      "nowReviewingRule": "Révision d’une règle dans {{target}}",
+      "reportNotReady": "Ce rapport n’est pas encore prêt — il apparaîtra sous Rapports ci-dessous dès qu’il le sera.",
+      "reviewNamedRule": "Réviser « {{name}} » — désactivée",
+      "reviewRule": "Réviser la nouvelle règle — désactivée",
+      "ruleOwnerUnavailable": "Impossible d’ouvrir cette règle automatiquement — retrouvez-la dans la page Règles du client pour lequel elle a été créée.",
+      "ruleOwnerUnavailableNamed": "Impossible d’ouvrir cette règle — elle appartient à {{company}}. Basculez vers ce client et consultez sa page Règles."
+    },
+    "selectEntity": {
+      "cancel": "Annuler",
+      "label": "Élément",
+      "placeholder": "Tapez pour rechercher…",
+      "truncated": "Affichage des 100 premiers résultats — précisez votre question pour les restreindre."
+    },
+    "selectOption": {
+      "cancel": "Annuler",
+      "label": "Choix",
+      "placeholder": "Tapez pour rechercher…",
+      "truncated": "Affichage des premiers résultats — précisez lequel vous voulez dire pour les restreindre."
+    }
+  },
+  "reports": {
+    "currentOwner": "Emplacement actuel",
+    "currentPage": "Page actuelle",
+    "download": "Télécharger",
+    "loadFailed": "Impossible de charger les rapports, réessayez",
+    "loading": "Chargement…",
+    "needOwner": "Choisissez un client ou un emplacement dans la hiérarchie pour générer des rapports.",
+    "noOwner": "Aucun emplacement sélectionné",
+    "noRuns": "Aucun rapport pour l’instant.",
+    "recentRuns": "Rapports récents",
+    "rows_one": "{{count}} ligne",
+    "rows_other": "{{count}} lignes",
+    "status": {
+      "expired": "Expiré",
+      "failed": "Échec",
+      "ready": "Prêt",
+      "running": "Génération…",
+      "starting": "Démarrage…"
+    },
+    "title": "Rapports",
+    "toast": {
+      "downloadFailed": "Impossible de télécharger ce rapport.",
+      "failed": "Impossible de lancer le rapport.",
+      "ready": "Rapport prêt à télécharger.",
+      "reused": "Ce rapport a déjà été généré — ouverture de l’exécution existante.",
+      "started": "Rapport lancé — il apparaîtra ci-dessous dès qu’il sera prêt."
+    },
+    "page": {
+      "dashboard": "Tableau de bord",
+      "assets": "Actifs",
+      "devices": "Appareils",
+      "users": "Utilisateurs",
+      "rules": "Règles",
+      "stock": "Stock",
+      "billing": "Facturation",
+      "settings": "Paramètres"
     }
   }
 }

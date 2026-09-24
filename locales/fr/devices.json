@@ -37,7 +37,8 @@
   },
   "history": {
     "title": "Historique d'emplacement de l'appareil",
-    "empty": "Aucun historique d'emplacement trouvé"
+    "empty": "Aucun historique d'emplacement trouvé",
+    "showOnMap": "Afficher sur la carte"
   },
   "tabs": {
     "details": "Détails",
@@ -84,7 +85,8 @@
     "events": "Événements",
     "firmware": "Micrologiciel",
     "reboot": "Redémarrage",
-    "code": "code"
+    "code": "code",
+    "firmwareTo": "Micrologiciel {{version}}"
   },
   "errorLoading": "Erreur de chargement des appareils",
   "failedToLoad": "Échec du chargement des appareils",

@@ -37,7 +37,8 @@
   },
   "history": {
     "title": "Device location history",
-    "empty": "No location history found"
+    "empty": "No location history found",
+    "showOnMap": "Show on Map"
   },
   "tabs": {
     "details": "Details",
@@ -84,7 +85,8 @@
     "events": "Events",
     "firmware": "Firmware",
     "reboot": "Reboot",
-    "code": "code"
+    "code": "code",
+    "firmwareTo": "Firmware {{version}}"
   },
   "errorLoading": "Error loading devices",
   "failedToLoad": "Failed to load devices",

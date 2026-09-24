@@ -74,7 +74,9 @@
     "hiddenHelp": "Masqué : un accès d'observateur en lecture seule et invisible. L'utilisateur peut voir ce propriétaire mais n'est pas visible pour les autres dans le locataire.",
     "activeCheckbox": "Le compte utilisateur est actif",
     "activeHelp": "L'utilisateur peut se connecter et accéder à la plateforme.",
-    "inactiveHelp": "L'utilisateur ne peut pas se connecter. Désactivez les comptes au lieu de les supprimer pour préserver l'historique d'audit."
+    "inactiveHelp": "L'utilisateur ne peut pas se connecter. Désactivez les comptes au lieu de les supprimer pour préserver l'historique d'audit.",
+    "permissionsNone": "Aucune permission",
+    "rolesPlatformOnly": "Seuls les rôles de la plateforme sont affichés : vos accès ne couvrent pas le catalogue propre à ce client."
   },
   "fields": {
     "phone": "Téléphone",
@@ -158,7 +160,10 @@
     "readOnly": "lecture seule",
     "grantsNothing": "N'accorde aucun accès.",
     "noAccessTo": "Aucun accès :",
-    "modalSubtitleAuthoring": "Les rôles de ce client peuvent être attribués n'importe où sous celui-ci."
+    "modalSubtitleAuthoring": "Les rôles de ce client peuvent être attribués n'importe où sous celui-ci.",
+    "notDeletableByYou": "Vous ne pouvez pas supprimer ce rôle.",
+    "userCountInScope_one": "{{count}} utilisateur dans votre organisation",
+    "userCountInScope_other": "{{count}} utilisateurs dans votre organisation"
   },
   "filters": {
     "assignment": "Attribution",
@@ -200,6 +205,8 @@
     "pendingInvite": "Invitation en attente",
     "rejected": "Ne peut pas être ajouté ici",
     "unreachable": "N'a plus accès ici",
-    "deleteConsequence": "Ses membres conservent leur compte et leurs accès. Toute règle d'alerte qui vise encore ce groupe n'atteindra personne."
+    "deleteConsequence": "Ses membres conservent leur compte et leurs accès. Toute règle d'alerte qui vise encore ce groupe n'atteindra personne.",
+    "addPeopleAction": "Ajouter des personnes",
+    "addedOnSave": "Ajouté à l’enregistrement"
   }
 }

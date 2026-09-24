@@ -491,7 +491,64 @@
       "navUnavailable": "Can't open that view — try navigating manually.",
       "assetsPage": "Assets",
       "devicesPage": "Devices",
-      "nowViewing": "Now viewing {{target}}"
+      "nowViewing": "Now viewing {{target}}",
+      "downloadReport": "Download report",
+      "nowReviewingRule": "Now reviewing a rule in {{target}}",
+      "reportNotReady": "That report isn't ready to download yet — it'll appear under Reports below when it is.",
+      "reviewNamedRule": "Review \"{{name}}\" — off",
+      "reviewRule": "Review new rule — off",
+      "ruleOwnerUnavailable": "Can't open that rule automatically — find it on the Rules page of the company it was created for.",
+      "ruleOwnerUnavailableNamed": "Can't open that rule — it belongs to {{company}}. Switch to it and check its Rules page."
+    },
+    "selectEntity": {
+      "cancel": "Cancel",
+      "label": "Item",
+      "placeholder": "Type to search…",
+      "truncated": "Showing the first 100 matches — refine your question to narrow them down."
+    },
+    "selectOption": {
+      "cancel": "Cancel",
+      "label": "Choice",
+      "placeholder": "Type to search…",
+      "truncated": "Showing the first matches — say more about which one you mean to narrow them down."
+    }
+  },
+  "reports": {
+    "currentOwner": "Current owner",
+    "currentPage": "Current page",
+    "download": "Download",
+    "loadFailed": "Couldn't load reports, retry",
+    "loading": "Loading…",
+    "needOwner": "Choose a company or location in the hierarchy to generate reports.",
+    "noOwner": "No owner selected",
+    "noRuns": "No reports yet.",
+    "recentRuns": "Recent reports",
+    "rows_one": "{{count}} row",
+    "rows_other": "{{count}} rows",
+    "status": {
+      "expired": "Expired",
+      "failed": "Failed",
+      "ready": "Ready",
+      "running": "Generating…",
+      "starting": "Starting…"
+    },
+    "title": "Reports",
+    "toast": {
+      "downloadFailed": "Could not download that report.",
+      "failed": "Could not start the report.",
+      "ready": "Report ready to download.",
+      "reused": "That report was already generated — opening the existing run.",
+      "started": "Report started — it'll appear below when ready."
+    },
+    "page": {
+      "dashboard": "Dashboard",
+      "assets": "Assets",
+      "devices": "Devices",
+      "users": "Users",
+      "rules": "Rules",
+      "stock": "Stock",
+      "billing": "Billing",
+      "settings": "Settings"
     }
   }
 }

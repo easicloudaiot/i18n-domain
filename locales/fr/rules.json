@@ -111,7 +111,8 @@
     "noOwnerBody": "Les règles régissent un client, un bâtiment, un étage ou une zone. Choisissez-en un pour voir ses règles.",
     "scopeNote": "Règles définies à cet emplacement. Les règles créées ailleurs dans la hiérarchie s’y gèrent.",
     "updated": "Mise à jour le {{date}}",
-    "tableTitle": "Chaînes de règles"
+    "tableTitle": "Chaînes de règles",
+    "deleteConsequence": "Elle cesse d’être évaluée immédiatement. Les alertes déjà émises restent dans le fil."
   },
   "node": {
     "CONDITION": "Condition",

@@ -74,7 +74,9 @@
     "hiddenHelp": "Hidden: a read-only, invisible observer grant. The user can view this owner but is not visible to others in the tenant.",
     "activeCheckbox": "User account is active",
     "activeHelp": "User can log in and access the platform.",
-    "inactiveHelp": "User cannot log in. Deactivate accounts instead of deleting to preserve audit history."
+    "inactiveHelp": "User cannot log in. Deactivate accounts instead of deleting to preserve audit history.",
+    "permissionsNone": "No permissions",
+    "rolesPlatformOnly": "Showing platform roles only — your access does not reach this client’s own catalog."
   },
   "fields": {
     "phone": "Phone",
@@ -158,7 +160,10 @@
     "readOnly": "read-only",
     "grantsNothing": "Grants no access anywhere.",
     "noAccessTo": "No access:",
-    "modalSubtitleAuthoring": "Roles this client owns can be assigned anywhere beneath it."
+    "modalSubtitleAuthoring": "Roles this client owns can be assigned anywhere beneath it.",
+    "notDeletableByYou": "You cannot delete this role.",
+    "userCountInScope_one": "{{count}} user in your organization",
+    "userCountInScope_other": "{{count}} users in your organization"
   },
   "filters": {
     "assignment": "Assignment",
@@ -200,6 +205,8 @@
     "pendingInvite": "Pending invitation",
     "rejected": "Cannot be added here",
     "unreachable": "No longer has access here",
-    "deleteConsequence": "The people in it keep their accounts and access. Any alert rule still addressing this group will reach nobody."
+    "deleteConsequence": "The people in it keep their accounts and access. Any alert rule still addressing this group will reach nobody.",
+    "addPeopleAction": "Add people",
+    "addedOnSave": "Added on save"
   }
 }

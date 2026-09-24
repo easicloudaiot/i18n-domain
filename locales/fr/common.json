@@ -46,7 +46,10 @@
     "disabled": "Désactivée",
     "active": "Actif",
     "inactive": "Inactif",
-    "pending": "En attente"
+    "pending": "En attente",
+    "noData": "Aucune lecture",
+    "off": "Désactivé",
+    "on": "Activé"
   },
   "fields": {
     "name": "Nom",
@@ -164,7 +167,48 @@
     "empty": "Aucune donnée disponible",
     "exportSuccess": "Exportation de {{count}} lignes au format {{format}}",
     "exportFailed": "Échec de l'exportation des données",
-    "exportUnsupported": "Le format « {{format}} » n'est pas pris en charge"
+    "exportUnsupported": "Le format « {{format}} » n'est pas pris en charge",
+    "updated": "Mis à jour",
+    "enterFullscreen": "Plein écran",
+    "exitFullscreen": "Quitter le plein écran",
+    "exportAs": "Exporter en {{format}}",
+    "filter": {
+      "apply": "Appliquer",
+      "cancel": "Annuler",
+      "clear": "Effacer",
+      "filterX": "Filtrer {{label}}",
+      "operator": "Opérateur",
+      "operatorSymbols": {
+        "contains": "contient",
+        "endsWith": "se termine par",
+        "equals": "=",
+        "greaterThan": ">",
+        "lessThan": "<",
+        "startsWith": "commence par"
+      },
+      "operators": {
+        "contains": "Contient",
+        "endsWith": "Se termine par",
+        "equals": "Égal à",
+        "greaterThan": "Supérieur à",
+        "lessThan": "Inférieur à",
+        "startsWith": "Commence par"
+      },
+      "searchType": "Type de recherche",
+      "selectValues": "Sélectionner des valeurs :",
+      "timeRange": "Période :",
+      "timeRanges": {
+        "last_30_days": "30 derniers jours",
+        "last_7_days": "7 derniers jours",
+        "last_month": "Le mois dernier",
+        "last_week": "La semaine dernière",
+        "this_month": "Ce mois-ci",
+        "this_week": "Cette semaine",
+        "today": "Aujourd’hui",
+        "yesterday": "Hier"
+      },
+      "value": "Valeur"
+    }
   },
   "emptyState": {
     "title": "Aucune donnée trouvée"
@@ -199,7 +243,8 @@
     "clearAll": "Tout effacer ({{count}})",
     "results_one": "{{count}} résultat",
     "results_other": "{{count}} résultats",
-    "filteredOf": "{{filtered}} sur {{total}} résultats"
+    "filteredOf": "{{filtered}} sur {{total}} résultats",
+    "loading": "Chargement des filtres..."
   },
   "profile": {
     "title": "Mon profil",
@@ -400,5 +445,9 @@
       "someone": "Quelqu’un",
       "onBehalfOf": "{{who}} au nom de {{behalf}}"
     }
+  },
+  "sort": {
+    "none": "Aucun tri",
+    "placeholder": "Trier par..."
   }
 }

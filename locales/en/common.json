@@ -46,7 +46,10 @@
     "disabled": "Disabled",
     "active": "Active",
     "inactive": "Inactive",
-    "pending": "Pending"
+    "pending": "Pending",
+    "noData": "No reading",
+    "off": "Off",
+    "on": "On"
   },
   "fields": {
     "name": "Name",
@@ -164,7 +167,48 @@
     "empty": "No data available",
     "exportSuccess": "Exported {{count}} rows as {{format}}",
     "exportFailed": "Failed to export data",
-    "exportUnsupported": "Export format \"{{format}}\" is not supported"
+    "exportUnsupported": "Export format \"{{format}}\" is not supported",
+    "updated": "Updated",
+    "enterFullscreen": "Enter fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "exportAs": "Export as {{format}}",
+    "filter": {
+      "apply": "Apply",
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "filterX": "Filter {{label}}",
+      "operator": "Operator",
+      "operatorSymbols": {
+        "contains": "contains",
+        "endsWith": "ends with",
+        "equals": "=",
+        "greaterThan": ">",
+        "lessThan": "<",
+        "startsWith": "starts with"
+      },
+      "operators": {
+        "contains": "Contains",
+        "endsWith": "Ends with",
+        "equals": "Equals",
+        "greaterThan": "Greater than",
+        "lessThan": "Less than",
+        "startsWith": "Starts with"
+      },
+      "searchType": "Search type",
+      "selectValues": "Select values:",
+      "timeRange": "Time range:",
+      "timeRanges": {
+        "last_30_days": "Last 30 days",
+        "last_7_days": "Last 7 days",
+        "last_month": "Last month",
+        "last_week": "Last week",
+        "this_month": "This month",
+        "this_week": "This week",
+        "today": "Today",
+        "yesterday": "Yesterday"
+      },
+      "value": "Value"
+    }
   },
   "emptyState": {
     "title": "No data found"
@@ -199,7 +243,8 @@
     "clearAll": "Clear all ({{count}})",
     "results_one": "{{count}} result",
     "results_other": "{{count}} results",
-    "filteredOf": "{{filtered}} of {{total}} results"
+    "filteredOf": "{{filtered}} of {{total}} results",
+    "loading": "Loading filters..."
   },
   "profile": {
     "title": "My profile",
@@ -400,5 +445,9 @@
       "someone": "Someone",
       "onBehalfOf": "{{who}} on behalf of {{behalf}}"
     }
+  },
+  "sort": {
+    "none": "No sort",
+    "placeholder": "Sort by..."
   }
 }

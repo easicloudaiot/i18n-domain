@@ -111,7 +111,8 @@
     "noOwnerBody": "Rules govern a company, building, floor or zone. Pick one to see its rules.",
     "scopeNote": "Rules defined at this location. Rules made elsewhere in the hierarchy are managed there.",
     "updated": "Updated {{date}}",
-    "tableTitle": "Rule Chains"
+    "tableTitle": "Rule Chains",
+    "deleteConsequence": "It stops evaluating immediately. Alerts it already raised stay in the feed."
   },
   "node": {
     "CONDITION": "Condition",
