@@ -9,7 +9,8 @@
   "tabs": {
     "map": "Map",
     "details": "Details",
-    "history": "History"
+    "history": "History",
+    "activity": "Activity"
   },
   "actions": {
     "shareLocation": "Share location"

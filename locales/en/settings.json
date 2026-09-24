@@ -42,7 +42,8 @@
     "branding": "Branding",
     "assets": "Assets",
     "preferences": "Preferences",
-    "security": "Security"
+    "security": "Security",
+    "activity": "Activity"
   },
   "alertEmails": {
     "title": "Alert emails for people in this company",
@@ -51,5 +52,9 @@
   "roles": {
     "title": "Roles",
     "description": "Roles this company owns, plus the platform roles it inherits. A role defined here can be assigned anywhere beneath this company."
+  },
+  "activity": {
+    "title": "Activity",
+    "description": "What has changed here and in everything inside it: renames, edits, custody, devices attached, and moves between sites."
   }
 }

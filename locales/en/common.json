@@ -290,5 +290,115 @@
     "viewStock": "View stock at this location",
     "undismiss": "Restore to my alerts",
     "linkedAlertNotListed": "The alert from your email is not in this list — it may be older than the alerts shown, or outside what you can see."
+  },
+  "changelog": {
+    "title": "Activity",
+    "tab": {
+      "details": "Details",
+      "activity": "Activity"
+    },
+    "ownerTabs": "Location details",
+    "error": "Couldn’t load activity",
+    "column": {
+      "when": "When",
+      "item": "Item",
+      "what": "What",
+      "change": "Change",
+      "by": "By"
+    },
+    "filter": {
+      "allCategories": "All activity",
+      "category": "Change",
+      "kind": "Kind",
+      "entityType": "Type",
+      "date": "Date",
+      "siteMoves": "Include moves within a site"
+    },
+    "window": {
+      "all": "All time",
+      "7d": "Last 7 days",
+      "30d": "Last 30 days",
+      "90d": "Last 90 days",
+      "365d": "Last year"
+    },
+    "empty": {
+      "filtered": "No activity matches these filters",
+      "recorded": "No activity recorded yet",
+      "feed": "No activity here yet",
+      "nothingReadable": "You can see changes to locations here, but your role here grants no access to assets or devices, so their changes are not shown."
+    },
+    "note": {
+      "recordStart": "Activity is recorded from {{date}}. Nothing earlier was kept.",
+      "assetBackfill": "Before {{date}} only creation, moves and custody were recorded.",
+      "deviceMovement": "Day-to-day movement belongs to the asset the device is attached to. A device records a move only when it changes clients.",
+      "feedScope": "Moves between floors and zones inside a site are not listed here. Counts cover every match, not only what is loaded."
+    },
+    "category": {
+      "PROFILE": "Details",
+      "PROPERTY": "Properties",
+      "OWNERSHIP": "Location",
+      "CUSTODY": "Custody",
+      "DEVICE": "Devices",
+      "LIFECYCLE": "Created / deleted"
+    },
+    "entityType": {
+      "ASSET": "Asset",
+      "DEVICE": "Device",
+      "OWNER": "Location"
+    },
+    "kind": {
+      "CREATED": "Created",
+      "DELETED": "Deleted",
+      "RENAMED": "Renamed",
+      "DESCRIPTION_CHANGED": "Description",
+      "TYPE_CHANGED": "Asset type",
+      "HOME_OWNER_CHANGED": "Home location",
+      "MOVED": "Moved",
+      "ARRIVED": "Arrived",
+      "DEPARTED": "Left",
+      "CUSTODY_CHANGED": "Custody",
+      "DEVICE_ATTACHED": "Device attached",
+      "DEVICE_DETACHED": "Device detached",
+      "ATTACHED_TO_ASSET": "Attached to asset",
+      "DETACHED_FROM_ASSET": "Detached from asset",
+      "STATUS_CHANGED": "Status",
+      "FIRMWARE_CHANGED": "Firmware",
+      "PERIMETER_CHANGED": "Perimeter",
+      "REPARENTED": "Parent client",
+      "PROPERTY_SET": "Property set",
+      "PROPERTY_CHANGED": "Property changed",
+      "PROPERTY_REMOVED": "Property removed",
+      "PROFILE_CHANGED": "Details changed",
+      "LIMIT_CHANGED": "Limit changed",
+      "PROPERTY_FIELD_DELETED": "Property deleted",
+      "FLOOR_MAP_CHANGED": "Floor map"
+    },
+    "line": {
+      "propertyDeleted": "Property “{{name}}” deleted",
+      "affectedAssets_one": "{{count}} asset had a value for it",
+      "affectedAssets_other": "{{count}} assets had a value for it",
+      "floorMapUploaded": "Floor map uploaded",
+      "floorMapRemoved": "Floor map removed",
+      "perimeterMoved": "Perimeter moved",
+      "removedWas": "removed, was"
+    },
+    "value": {
+      "redacted": "another location",
+      "gone": "something since deleted",
+      "yes": "Yes",
+      "no": "No",
+      "noLimit": "no limit",
+      "topLevel": "none (top level)",
+      "aProperty": "a property"
+    },
+    "actor": {
+      "system": "Automatic",
+      "admin": "An administrator",
+      "namedAdmin": "{{name}} (administrator)",
+      "vendor": "An integration",
+      "deletedUser": "A deleted user",
+      "someone": "Someone",
+      "onBehalfOf": "{{who}} on behalf of {{behalf}}"
+    }
   }
 }

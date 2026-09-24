@@ -42,7 +42,8 @@
     "branding": "Marque",
     "assets": "Actifs",
     "preferences": "Préférences",
-    "security": "Sécurité"
+    "security": "Sécurité",
+    "activity": "Activité"
   },
   "alertEmails": {
     "title": "E-mails d'alerte pour les personnes de ce client",
@@ -51,5 +52,9 @@
   "roles": {
     "title": "Rôles",
     "description": "Les rôles appartenant à ce client, ainsi que les rôles de la plateforme dont il hérite. Un rôle défini ici peut être attribué partout sous ce client."
+  },
+  "activity": {
+    "title": "Activité",
+    "description": "Ce qui a changé ici et dans tout ce qu’il contient : renommages, modifications, garde, appareils rattachés et déplacements entre sites."
   }
 }

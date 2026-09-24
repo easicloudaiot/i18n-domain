@@ -9,7 +9,8 @@
   "tabs": {
     "map": "Carte",
     "details": "Détails",
-    "history": "Historique"
+    "history": "Historique",
+    "activity": "Activité"
   },
   "actions": {
     "shareLocation": "Partager la position"

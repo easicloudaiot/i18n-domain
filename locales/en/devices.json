@@ -42,7 +42,8 @@
   "tabs": {
     "details": "Details",
     "history": "History",
-    "health": "Health"
+    "health": "Health",
+    "activity": "Activity"
   },
   "status": {
     "online": "Online",

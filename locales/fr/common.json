@@ -290,5 +290,115 @@
     "viewStock": "Voir le stock à cet emplacement",
     "undismiss": "Remettre dans mes alertes",
     "linkedAlertNotListed": "L'alerte de votre courriel ne figure pas dans cette liste — elle est peut-être plus ancienne que les alertes affichées, ou hors de votre portée."
+  },
+  "changelog": {
+    "title": "Activité",
+    "tab": {
+      "details": "Détails",
+      "activity": "Activité"
+    },
+    "ownerTabs": "Détails de l’emplacement",
+    "error": "Impossible de charger l’activité",
+    "column": {
+      "when": "Quand",
+      "item": "Élément",
+      "what": "Quoi",
+      "change": "Modification",
+      "by": "Par"
+    },
+    "filter": {
+      "allCategories": "Toute l’activité",
+      "category": "Modification",
+      "kind": "Genre",
+      "entityType": "Type",
+      "date": "Date",
+      "siteMoves": "Inclure les déplacements au sein d’un site"
+    },
+    "window": {
+      "all": "Depuis le début",
+      "7d": "7 derniers jours",
+      "30d": "30 derniers jours",
+      "90d": "90 derniers jours",
+      "365d": "Dernière année"
+    },
+    "empty": {
+      "filtered": "Aucune activité ne correspond à ces filtres",
+      "recorded": "Aucune activité enregistrée pour l’instant",
+      "feed": "Aucune activité ici pour l’instant",
+      "nothingReadable": "Vous voyez ici les modifications des emplacements, mais votre rôle ne donne accès ni aux actifs ni aux appareils : leurs modifications ne sont donc pas affichées."
+    },
+    "note": {
+      "recordStart": "L’activité est enregistrée depuis le {{date}}. Rien d’antérieur n’a été conservé.",
+      "assetBackfill": "Avant le {{date}}, seuls la création, les déplacements et la garde étaient enregistrés.",
+      "deviceMovement": "Les déplacements au quotidien relèvent de l’actif auquel l’appareil est rattaché. Un appareil n’enregistre un déplacement que lorsqu’il change de client.",
+      "feedScope": "Les déplacements entre étages et zones d’un même site ne sont pas listés ici. Les totaux couvrent tous les résultats, pas seulement ceux chargés."
+    },
+    "category": {
+      "PROFILE": "Détails",
+      "PROPERTY": "Propriétés",
+      "OWNERSHIP": "Emplacement",
+      "CUSTODY": "Garde",
+      "DEVICE": "Appareils",
+      "LIFECYCLE": "Création / suppression"
+    },
+    "entityType": {
+      "ASSET": "Actif",
+      "DEVICE": "Appareil",
+      "OWNER": "Emplacement"
+    },
+    "kind": {
+      "CREATED": "Créé",
+      "DELETED": "Supprimé",
+      "RENAMED": "Renommé",
+      "DESCRIPTION_CHANGED": "Description",
+      "TYPE_CHANGED": "Type d’actif",
+      "HOME_OWNER_CHANGED": "Emplacement d’attache",
+      "MOVED": "Déplacé",
+      "ARRIVED": "Arrivé",
+      "DEPARTED": "Parti",
+      "CUSTODY_CHANGED": "Garde",
+      "DEVICE_ATTACHED": "Appareil rattaché",
+      "DEVICE_DETACHED": "Appareil détaché",
+      "ATTACHED_TO_ASSET": "Rattaché à un actif",
+      "DETACHED_FROM_ASSET": "Détaché d’un actif",
+      "STATUS_CHANGED": "Statut",
+      "FIRMWARE_CHANGED": "Micrologiciel",
+      "PERIMETER_CHANGED": "Périmètre",
+      "REPARENTED": "Client parent",
+      "PROPERTY_SET": "Propriété définie",
+      "PROPERTY_CHANGED": "Propriété modifiée",
+      "PROPERTY_REMOVED": "Propriété retirée",
+      "PROFILE_CHANGED": "Détails modifiés",
+      "LIMIT_CHANGED": "Limite modifiée",
+      "PROPERTY_FIELD_DELETED": "Propriété supprimée",
+      "FLOOR_MAP_CHANGED": "Plan d’étage"
+    },
+    "line": {
+      "propertyDeleted": "Propriété « {{name}} » supprimée",
+      "affectedAssets_one": "{{count}} actif avait une valeur",
+      "affectedAssets_other": "{{count}} actifs avaient une valeur",
+      "floorMapUploaded": "Plan d’étage téléversé",
+      "floorMapRemoved": "Plan d’étage retiré",
+      "perimeterMoved": "Périmètre déplacé",
+      "removedWas": "retiré, était"
+    },
+    "value": {
+      "redacted": "un autre emplacement",
+      "gone": "un élément supprimé depuis",
+      "yes": "Oui",
+      "no": "Non",
+      "noLimit": "aucune limite",
+      "topLevel": "aucun (niveau supérieur)",
+      "aProperty": "une propriété"
+    },
+    "actor": {
+      "system": "Automatique",
+      "admin": "Un administrateur",
+      "namedAdmin": "{{name}} (administrateur)",
+      "vendor": "Une intégration",
+      "deletedUser": "Un utilisateur supprimé",
+      "someone": "Quelqu’un",
+      "onBehalfOf": "{{who}} au nom de {{behalf}}"
+    }
   }
 }
