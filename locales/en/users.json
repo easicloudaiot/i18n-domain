@@ -14,12 +14,9 @@
     "titleEditNamed": "Edit User - {{name}}",
     "titleView": "View User",
     "titleViewNamed": "View User - {{name}}",
-    "titleDelete": "Delete User",
-    "titleDeleteNamed": "Delete User - {{name}}",
     "titleFallback": "User",
     "submitCreate": "Create User",
     "submitEdit": "Save Changes",
-    "submitDelete": "Delete User",
     "submitClose": "Close",
     "created": "User created successfully",
     "updated": "User updated successfully",
@@ -29,9 +26,6 @@
     "deleteFailed": "Failed to delete user",
     "selectOwnerRole": "Please select both owner and role",
     "hiddenRequiresReadOnly": "Hidden visibilities require a read-only role",
-    "confirmDeleteTitle": "Confirm Deletion",
-    "confirmDeleteBody": "Are you sure you want to delete this user?",
-    "confirmDeleteWarning": "This action cannot be undone.",
     "sections": {
       "basic": "Basic Information",
       "rolePermissions": "Role & Permissions",
@@ -76,7 +70,8 @@
     "activeHelp": "User can log in and access the platform.",
     "inactiveHelp": "User cannot log in. Deactivate accounts instead of deleting to preserve audit history.",
     "permissionsNone": "No permissions",
-    "rolesPlatformOnly": "Showing platform roles only — your access does not reach this client’s own catalog."
+    "rolesPlatformOnly": "Showing platform roles only — your access does not reach this client’s own catalog.",
+    "deleteNotAllowed": "You need manage access to users here to delete this user."
   },
   "fields": {
     "phone": "Phone",

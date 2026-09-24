@@ -14,12 +14,9 @@
     "titleEditNamed": "Modifier l'utilisateur - {{name}}",
     "titleView": "Voir l'utilisateur",
     "titleViewNamed": "Voir l'utilisateur - {{name}}",
-    "titleDelete": "Supprimer l'utilisateur",
-    "titleDeleteNamed": "Supprimer l'utilisateur - {{name}}",
     "titleFallback": "Utilisateur",
     "submitCreate": "Créer l'utilisateur",
     "submitEdit": "Enregistrer les modifications",
-    "submitDelete": "Supprimer l'utilisateur",
     "submitClose": "Fermer",
     "created": "Utilisateur créé avec succès",
     "updated": "Utilisateur mis à jour avec succès",
@@ -29,9 +26,6 @@
     "deleteFailed": "Échec de la suppression de l'utilisateur",
     "selectOwnerRole": "Veuillez sélectionner un propriétaire et un rôle",
     "hiddenRequiresReadOnly": "Les visibilités masquées exigent un rôle en lecture seule",
-    "confirmDeleteTitle": "Confirmer la suppression",
-    "confirmDeleteBody": "Voulez-vous vraiment supprimer cet utilisateur ?",
-    "confirmDeleteWarning": "Cette action est irréversible.",
     "sections": {
       "basic": "Informations de base",
       "rolePermissions": "Rôle et permissions",
@@ -76,7 +70,8 @@
     "activeHelp": "L'utilisateur peut se connecter et accéder à la plateforme.",
     "inactiveHelp": "L'utilisateur ne peut pas se connecter. Désactivez les comptes au lieu de les supprimer pour préserver l'historique d'audit.",
     "permissionsNone": "Aucune permission",
-    "rolesPlatformOnly": "Seuls les rôles de la plateforme sont affichés : vos accès ne couvrent pas le catalogue propre à ce client."
+    "rolesPlatformOnly": "Seuls les rôles de la plateforme sont affichés : vos accès ne couvrent pas le catalogue propre à ce client.",
+    "deleteNotAllowed": "Vous devez pouvoir gérer les utilisateurs ici pour supprimer cet utilisateur."
   },
   "fields": {
     "phone": "Téléphone",
