@@ -128,7 +128,8 @@
     "from": "From",
     "to": "To",
     "createdAt": "Created {{when}}",
-    "updatedAt": "Updated {{when}}"
+    "updatedAt": "Updated {{when}}",
+    "date": "Date"
   },
   "options": {
     "none": "None",
@@ -281,10 +282,6 @@
     "severity": {
       "all": "All"
     },
-    "timeAgo": {
-      "minutes": "{{count}}m ago",
-      "hours": "{{count}}h ago"
-    },
     "source": "Source",
     "asset": "Asset",
     "device": "Device",
@@ -358,13 +355,6 @@
       "entityType": "Type",
       "date": "Date",
       "siteMoves": "Include moves within a site"
-    },
-    "window": {
-      "all": "All time",
-      "7d": "Last 7 days",
-      "30d": "Last 30 days",
-      "90d": "Last 90 days",
-      "365d": "Last year"
     },
     "empty": {
       "filtered": "No activity matches these filters",
@@ -449,5 +439,18 @@
   "sort": {
     "none": "No sort",
     "placeholder": "Sort by..."
+  },
+  "time": {
+    "window": {
+      "1h": "Last hour",
+      "3h": "Last 3 hours",
+      "24h": "Last 24 hours",
+      "7d": "Last 7 days",
+      "30d": "Last 30 days",
+      "90d": "Last 90 days",
+      "1y": "Last year",
+      "all": "All time",
+      "custom": "Custom range"
+    }
   }
 }

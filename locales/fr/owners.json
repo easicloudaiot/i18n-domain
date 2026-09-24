@@ -172,8 +172,6 @@
         "minShort": "Min.",
         "worst": "Pire décompte"
       },
-      "days_one": "{{count}} jour",
-      "days_other": "{{count}} jours",
       "didAlert": "Alerte émise",
       "didNotAlert": "Rétabli avant l’alerte",
       "empty": "Aucune pénurie sur cette période.",

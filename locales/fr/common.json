@@ -128,7 +128,8 @@
     "from": "De",
     "to": "À",
     "createdAt": "Créé {{when}}",
-    "updatedAt": "Modifié {{when}}"
+    "updatedAt": "Modifié {{when}}",
+    "date": "Date"
   },
   "options": {
     "none": "Aucun",
@@ -281,10 +282,6 @@
     "severity": {
       "all": "Toutes"
     },
-    "timeAgo": {
-      "minutes": "il y a {{count}} min",
-      "hours": "il y a {{count}} h"
-    },
     "source": "Source",
     "asset": "Actif",
     "device": "Appareil",
@@ -358,13 +355,6 @@
       "entityType": "Type",
       "date": "Date",
       "siteMoves": "Inclure les déplacements au sein d’un site"
-    },
-    "window": {
-      "all": "Depuis le début",
-      "7d": "7 derniers jours",
-      "30d": "30 derniers jours",
-      "90d": "90 derniers jours",
-      "365d": "Dernière année"
     },
     "empty": {
       "filtered": "Aucune activité ne correspond à ces filtres",
@@ -449,5 +439,18 @@
   "sort": {
     "none": "Aucun tri",
     "placeholder": "Trier par..."
+  },
+  "time": {
+    "window": {
+      "1h": "Dernière heure",
+      "3h": "3 dernières heures",
+      "24h": "Dernières 24 heures",
+      "7d": "7 derniers jours",
+      "30d": "30 derniers jours",
+      "90d": "90 derniers jours",
+      "1y": "Dernière année",
+      "all": "Depuis le début",
+      "custom": "Période personnalisée"
+    }
   }
 }

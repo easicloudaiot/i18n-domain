@@ -172,8 +172,6 @@
         "minShort": "Min",
         "worst": "Worst count"
       },
-      "days_one": "{{count}} day",
-      "days_other": "{{count}} days",
       "didAlert": "Alerted",
       "didNotAlert": "Recovered before alerting",
       "empty": "No shortages in this window.",
