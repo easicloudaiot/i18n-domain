@@ -146,11 +146,11 @@
     "keyExample": "e.g. default",
     "nameExampleProfile": "e.g. Default Profile",
     "modalTitle": "Roles",
-    "modalSubtitle": "What each role can do here. Managed by the company that owns it.",
+    "modalSubtitle": "What each role can do here. Managed by the client that owns it.",
     "viewRoles": "Roles",
-    "thisCompany": "This company",
+    "thisCompany": "This client",
     "platformProvided": "Provided by the platform",
-    "platformOnlyNotice": "Showing platform roles only — your access does not reach this company’s own catalog.",
+    "platformOnlyNotice": "Showing platform roles only — your access does not reach this client’s own catalog.",
     "catalogUnavailable": "You do not have access to this catalog.",
     "dimensionsUnavailable": "Permission dimensions could not be loaded.",
     "unknownDimensions": "Also grants (read-only):",
@@ -158,7 +158,7 @@
     "readOnly": "read-only",
     "grantsNothing": "Grants no access anywhere.",
     "noAccessTo": "No access:",
-    "modalSubtitleAuthoring": "Roles this company owns can be assigned anywhere beneath it."
+    "modalSubtitleAuthoring": "Roles this client owns can be assigned anywhere beneath it."
   },
   "filters": {
     "assignment": "Assignment",

@@ -158,7 +158,7 @@
     "readOnly": "lecture seule",
     "grantsNothing": "N'accorde aucun accès.",
     "noAccessTo": "Aucun accès :",
-    "modalSubtitleAuthoring": "Les rôles de cette entreprise peuvent être attribués n'importe où sous celle-ci."
+    "modalSubtitleAuthoring": "Les rôles de ce client peuvent être attribués n'importe où sous celui-ci."
   },
   "filters": {
     "assignment": "Attribution",
