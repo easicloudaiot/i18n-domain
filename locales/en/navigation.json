@@ -46,6 +46,8 @@
     "notificationsWithCount_one": "Notifications, {{count}} needing attention",
     "notificationsWithCount_other": "Notifications, {{count}} needing attention",
     "manage": "Manage",
-    "more": "More"
+    "more": "More",
+    "modules": "Modules",
+    "groupActive": "{{group}}: {{page}}"
   }
 }
