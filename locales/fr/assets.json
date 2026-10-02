@@ -10,7 +10,8 @@
     "map": "Carte",
     "details": "Détails",
     "history": "Historique",
-    "activity": "Activité"
+    "activity": "Activité",
+    "journeys": "Parcours"
   },
   "actions": {
     "shareLocation": "Partager la position"

@@ -10,7 +10,8 @@
     "map": "Map",
     "details": "Details",
     "history": "History",
-    "activity": "Activity"
+    "activity": "Activity",
+    "journeys": "Journeys"
   },
   "actions": {
     "shareLocation": "Share location"
