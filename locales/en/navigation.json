@@ -6,6 +6,7 @@
     "users": "Users",
     "rules": "Rules",
     "journeys": "Journeys",
+    "stock": "Stock",
     "billing": "Billing",
     "settings": "Settings"
   },
@@ -43,6 +44,8 @@
   "actions": {
     "notifications": "Notifications",
     "notificationsWithCount_one": "Notifications, {{count}} needing attention",
-    "notificationsWithCount_other": "Notifications, {{count}} needing attention"
+    "notificationsWithCount_other": "Notifications, {{count}} needing attention",
+    "manage": "Manage",
+    "more": "More"
   }
 }

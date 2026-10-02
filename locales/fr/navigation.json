@@ -6,6 +6,7 @@
     "users": "Utilisateurs",
     "rules": "Règles",
     "journeys": "Parcours",
+    "stock": "Stock",
     "billing": "Facturation",
     "settings": "Paramètres"
   },
@@ -43,6 +44,8 @@
   "actions": {
     "notifications": "Notifications",
     "notificationsWithCount_one": "Notifications, {{count}} nécessitant une attention",
-    "notificationsWithCount_other": "Notifications, {{count}} nécessitant une attention"
+    "notificationsWithCount_other": "Notifications, {{count}} nécessitant une attention",
+    "manage": "Gérer",
+    "more": "Plus"
   }
 }
