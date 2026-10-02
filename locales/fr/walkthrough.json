@@ -1,5 +1,5 @@
 {
-  "launcher": { "title": "Prise en main", "close": "Fermer" },
+  "launcher": { "title": "Prise en main", "close": "Fermer", "none": "Aucune visite guidée n’est encore disponible pour votre rôle." },
   "support": { "contact": "Contacter l’assistance" },
   "groups": {
     "hierarchy": "Construire votre hiérarchie",
@@ -19,7 +19,7 @@
   "welcome": {
     "title": "Bienvenue sur {{product}}",
     "titleFallback": "Bienvenue",
-    "description": "Laissez-nous vous faire visiter. Une courte visite guidée couvre votre hiérarchie, les pages à votre disposition et la façon de trouver et gérer vos actifs. Vous pourrez rejouer chaque visite plus tard depuis le menu ? de la barre du haut.",
+    "description": "Laissez-nous vous faire visiter. Une courte visite guidée couvre votre hiérarchie, les pages à votre disposition et la façon de trouver et gérer vos actifs. Vous pourrez rejouer chaque visite plus tard depuis l’onglet Aide de votre profil.",
     "begin": "Commencer la visite",
     "skip": "Explorer par moi-même",
     "highlights": {
@@ -94,7 +94,7 @@
     "details": { "title": "Détails de l'actif", "description": "Tout sur cet actif : son statut et sa position actuels, ses propriétés et les appareils rattachés. Modifiez-le ou gérez-le d'ici." },
     "locate": { "title": "Voyez-le sur la carte", "description": "L'actif sélectionné est mis en évidence ici, sur la carte ou le plan d'étage, à sa dernière position connue." },
     "history": { "title": "Où il est passé", "description": "L'onglet Historique liste les positions passées de cet actif. Cliquez sur une ligne pour revoir ce moment sur la carte." },
-    "done": { "title": "Vous êtes prêt", "description": "Voilà l'essentiel. Rejouez cette visite, ou suivez les guides pratiques, à tout moment depuis le menu ? de la barre du haut." }
+    "done": { "title": "Vous êtes prêt", "description": "Voilà l'essentiel. Rejouez cette visite, ou suivez les guides pratiques, à tout moment depuis l’onglet Aide de votre profil." }
   },
   "owner": {
     "title": "Configurez votre hiérarchie",

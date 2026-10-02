@@ -252,7 +252,12 @@
     "tabs": {
       "profile": "Profil",
       "security": "Sécurité",
-      "preferences": "Préférences"
+      "preferences": "Préférences",
+      "help": "Aide"
+    },
+    "help": {
+      "support": "Contacter l’assistance",
+      "walkthroughs": "Visites guidées"
     },
     "accountInfo": "Informations du compte",
     "email": "Courriel",

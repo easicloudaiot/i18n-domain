@@ -1,5 +1,5 @@
 {
-  "launcher": { "title": "Getting started", "close": "Close" },
+  "launcher": { "title": "Getting started", "close": "Close", "none": "There are no walkthroughs for your role yet." },
   "support": { "contact": "Contact support" },
   "groups": {
     "hierarchy": "Build your hierarchy",
@@ -19,7 +19,7 @@
   "welcome": {
     "title": "Welcome to {{product}}",
     "titleFallback": "Welcome",
-    "description": "Let us show you around. A short guided tour covers your hierarchy, the pages available to you, and how to find and manage your assets. You can replay any tour later from the ? menu in the top bar.",
+    "description": "Let us show you around. A short guided tour covers your hierarchy, the pages available to you, and how to find and manage your assets. You can replay any tour later from Help in your profile.",
     "begin": "Begin walkthrough",
     "skip": "Explore on my own",
     "highlights": {
@@ -94,7 +94,7 @@
     "details": { "title": "Asset details", "description": "Everything about this asset: its current status and location, its properties, and any attached devices. Edit or manage it from here." },
     "locate": { "title": "See it on the map", "description": "The selected asset is highlighted here, on the map or floor plan, at its last known position." },
     "history": { "title": "Where it has been", "description": "The History tab lists this asset's past locations. Click a row to replay that moment on the map." },
-    "done": { "title": "You're all set", "description": "That's the essentials. Replay this tour, or take the hands-on guides, any time from the ? menu in the top bar." }
+    "done": { "title": "You're all set", "description": "That's the essentials. Replay this tour, or take the hands-on guides, any time from Help in your profile." }
   },
   "owner": {
     "title": "Set up your hierarchy",

@@ -198,6 +198,9 @@
   "canvas": {
     "missingNode": "Lieu introuvable",
     "pickPlace": "Choisir un lieu",
+    "addStopBetween": "Ajouter un arrêt entre {{from}} et {{to}}",
+    "addStopFirst": "Ajouter un arrêt au début",
+    "addStopLast": "Ajouter un arrêt à la fin",
     "stopAria": "Arrêt {{number}} : {{name}}",
     "stopErrors": "Cet arrêt présente des problèmes"
   },
@@ -213,7 +216,7 @@
   "detail": {
     "backToList": "Retour aux parcours",
     "discard": "Abandonner",
-    "discardBody": "Le nouveau nom, la description ou la disposition n’a pas été enregistré. Quitter maintenant le supprime.",
+    "discardBody": "Le nouveau nom ou la description n’a pas été enregistré. Quitter maintenant le supprime.",
     "discardTitle": "Abandonner les modifications ?",
     "duplicate": "Dupliquer en nouveau",
     "enabledHelp": "Désactiver arrête le suivi et conserve l’historique ; activer reprend le suivi à zéro.",

@@ -196,6 +196,9 @@
   "canvas": {
     "missingNode": "Place not found",
     "pickPlace": "Pick a place",
+    "addStopBetween": "Add a stop between {{from}} and {{to}}",
+    "addStopFirst": "Add a stop at the start",
+    "addStopLast": "Add a stop at the end",
     "stopAria": "Stop {{number}}: {{name}}",
     "stopErrors": "This stop has problems"
   },
@@ -211,7 +214,7 @@
   "detail": {
     "backToList": "Back to journeys",
     "discard": "Discard",
-    "discardBody": "The new name, description or layout hasn’t been saved. Leaving now throws it away.",
+    "discardBody": "The new name or description hasn’t been saved. Leaving now throws it away.",
     "discardTitle": "Discard changes?",
     "duplicate": "Duplicate as new",
     "enabledHelp": "Disabling stops tracking and keeps history; enabling starts tracking afresh.",
