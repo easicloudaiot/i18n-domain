@@ -67,6 +67,10 @@
     "emailBannerHelp": "Shown at the top of transactional emails (password reset, invitations); falls back to the platform logo when unset. Recommended: a wide lockup (2:1–4:1), PNG with a transparent background, ~300–600px wide. Max 1MB. This image is publicly accessible — do not upload anything private.",
     "emailBannerInvalidType": "Email banner must be an image",
     "emailBannerTooBig": "Email banner must be < 1MB",
-    "emailBannerRemove": "Remove email banner"
+    "emailBannerRemove": "Remove email banner",
+    "remove": "Remove whitelabel",
+    "removeConfirmBody": "This domain goes back to the default branding, and the saved logo and email banner are deleted. This cannot be undone.",
+    "removeFailed": "Failed to remove whitelabel",
+    "removed": "Whitelabel removed"
   }
 }

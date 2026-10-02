@@ -54,7 +54,10 @@
     "turnaround": "Typical wait before a run",
     "typicalCycle": "Typical run",
     "unknownSegment": "Segment {{index}}",
-    "window": "Window"
+    "window": "Window",
+    "averageIs": "Average {{value}}",
+    "byAssets_one": "by {{count}} asset",
+    "byAssets_other": "by {{count}} assets"
   },
   "asset": {
     "assign": "Assign a journey",
@@ -133,7 +136,10 @@
     "unassigned": "Nothing assigned yet",
     "unassignedBody": "Assign assets or asset types to this journey; they appear here as they report.",
     "untrackable": "A stop is at a circle place, which isn’t tracked yet, so this journey won’t record runs or show assets here.",
-    "updated": "Updated {{when}}"
+    "updated": "Updated {{when}}",
+    "hereSince": "Here since {{when}}",
+    "legTitle": "{{from}} → {{to}}",
+    "stale": "Stale"
   },
   "breaks": {
     "OUT_OF_ORDER": {
@@ -164,6 +170,7 @@
     "discard": "Discard",
     "discardBody": "It hasn’t been saved. Leaving now throws the route away.",
     "discardTitle": "Discard this journey?",
+    "duplicateTitle": "Duplicate as a new journey",
     "hours": "Hours",
     "immutableNote": "The route and its timings are fixed once saved. To change them later, you duplicate the journey.",
     "keepEditing": "Keep editing",
@@ -187,8 +194,10 @@
     "shape": "Shape",
     "shapeLoop": "Loop — returns to the first stop",
     "shapeOneWay": "One way — ends at the last stop",
+    "stopActions": "Stop {{number}} actions",
     "stops": "Stops ({{count}})",
     "timings": "How runs are read",
+    "title": "New journey",
     "unit": "Unit",
     "validationFailed_one": "Validation failed — {{count}} issue highlighted.",
     "validationFailed_other": "Validation failed — {{count}} issues highlighted."
@@ -217,11 +226,17 @@
     "discardBody": "The new name or description hasn’t been saved. Leaving now throws it away.",
     "discardTitle": "Discard changes?",
     "duplicate": "Duplicate as new",
+    "edit": "Edit name and description",
+    "editSubtitle": "The route and its timings stay as they are. To change them, duplicate the journey.",
+    "editTitle": "Edit journey",
     "enabledHelp": "Disabling stops tracking and keeps history; enabling starts tracking afresh.",
     "immutableTitle": "The route can’t be changed",
     "loadFailed": "Could not load this journey.",
     "notFound": "This journey no longer exists, or you no longer have access to it.",
-    "saved": "Journey saved."
+    "openAnother": "Open another journey",
+    "saved": "Journey saved.",
+    "stopCount_one": "{{count}} stop",
+    "stopCount_other": "{{count}} stops"
   },
   "enableFailed": {
     "body": "Its route no longer checks out. A route can’t be edited, so duplicate the journey as a new one over places that still exist.",
@@ -278,7 +293,8 @@
     "tabJourneys": "Journeys",
     "tabPlaces": "Places ({{count}})",
     "tableTitle": "Journeys",
-    "updated": "Updated {{date}}"
+    "updated": "Updated {{date}}",
+    "firstTitle": "No journeys here yet"
   },
   "node": {
     "notTracked": "Not tracked yet",
@@ -328,14 +344,22 @@
     "inUseTitle": "“{{name}}” is in use",
     "inUseUnlisted": "Journeys still stop here.",
     "newPlace": "New place",
-    "tableTitle": "Places"
+    "subtitle": "The places journeys here stop at. Define each once; every journey here can use it.",
+    "tableTitle": "Places",
+    "title": "Places"
   },
   "route": {
+    "duplicateToChange": "Duplicate it to change the route.",
     "immutable": "A route and its timings never change once saved, so every run of this journey can be compared with every other. To change the route, duplicate it as a new journey, then disable this one to keep its history beside the new one.",
+    "immutableShort": "A route and its timings never change once saved, so every run can be compared with every other.",
     "noLimit": "No limit",
     "runs30d": "Runs, 30 days",
     "shape": "Shape",
-    "stops": "Stops"
+    "show": "Show on the route",
+    "stops": "Stops",
+    "timeHint": "Typical time at each stop and on each leg. The darker, the bigger its share of a run.",
+    "viewNow": "Assets now",
+    "viewTime": "Time spent"
   },
   "run": {
     "asset": "Asset",
@@ -387,8 +411,10 @@
   },
   "tabs": {
     "analytics": "Analytics",
+    "assigned": "Assigned",
     "assignments": "Assignments ({{count}})",
     "board": "Now",
+    "overview": "Overview",
     "route": "Route",
     "runs": "Runs"
   },
@@ -401,5 +427,15 @@
     "sameNode": "This stop is at the same place as the one before it.",
     "tooFewStops": "A journey needs at least 2 stops.",
     "tooManyStops": "A journey can have at most 20 stops."
+  },
+  "overview": {
+    "hereNow": "Here now",
+    "pick": "Pick a stop or a leg on the route to see how it is doing."
+  },
+  "switcher": {
+    "label": "Switch journey",
+    "none": "No journey matches",
+    "places": "Manage places",
+    "search": "Find a journey"
   }
 }

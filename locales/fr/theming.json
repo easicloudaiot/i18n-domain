@@ -67,6 +67,10 @@
     "emailBannerHelp": "Affichée en haut des e-mails transactionnels (réinitialisation de mot de passe, invitations) ; à défaut, le logo de la plateforme est utilisé. Recommandé : un visuel large (2:1 à 4:1), PNG sur fond transparent, d'environ 300 à 600 px de large. 1 Mo maximum. Cette image est accessible publiquement : n'y placez rien de confidentiel.",
     "emailBannerInvalidType": "La bannière d'e-mail doit être une image",
     "emailBannerTooBig": "La bannière d'e-mail doit faire moins de 1 Mo",
-    "emailBannerRemove": "Supprimer la bannière d'e-mail"
+    "emailBannerRemove": "Supprimer la bannière d'e-mail",
+    "remove": "Retirer la marque blanche",
+    "removeConfirmBody": "Ce domaine reprend l’image de marque par défaut, et le logo et la bannière d’e-mail enregistrés sont supprimés. Cette action est irréversible.",
+    "removeFailed": "Échec du retrait de la marque blanche",
+    "removed": "Marque blanche retirée"
   }
 }

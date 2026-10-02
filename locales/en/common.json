@@ -30,7 +30,8 @@
     "seeAll": "See all",
     "showLess": "Show less",
     "showAllCount_one": "Show {{count}} more",
-    "showAllCount_other": "Show {{count}} more"
+    "showAllCount_other": "Show {{count}} more",
+    "more": "More"
   },
   "status": {
     "loading": "Loading...",
