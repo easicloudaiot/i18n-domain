@@ -351,9 +351,11 @@
     "title": "Lieux"
   },
   "route": {
+    "countsUnfiltered": "Les nombres incluent tous les actifs",
     "duplicateToChange": "Dupliquez-le pour changer l’itinéraire.",
     "immutable": "Un itinéraire et ses durées ne changent jamais une fois enregistrés : chaque trajet de ce parcours est ainsi comparable à tous les autres. Pour changer l’itinéraire, dupliquez-le en un nouveau parcours, puis désactivez celui-ci pour garder son historique à côté du nouveau.",
     "immutableShort": "Un itinéraire et ses durées ne changent jamais une fois enregistrés : chaque trajet est ainsi comparable à tous les autres.",
+    "legend": "Temps habituels, plus foncés là où un trajet dure plus longtemps. Les nombres sont les actifs présents en ce moment.",
     "noLimit": "Aucune limite",
     "runs30d": "Trajets, 30 jours",
     "shape": "Forme",

@@ -349,9 +349,11 @@
     "title": "Places"
   },
   "route": {
+    "countsUnfiltered": "Counts include every asset",
     "duplicateToChange": "Duplicate it to change the route.",
     "immutable": "A route and its timings never change once saved, so every run of this journey can be compared with every other. To change the route, duplicate it as a new journey, then disable this one to keep its history beside the new one.",
     "immutableShort": "A route and its timings never change once saved, so every run can be compared with every other.",
+    "legend": "Typical times, darker where a run spends longer. Counts are the assets there now.",
     "noLimit": "No limit",
     "runs30d": "Runs, 30 days",
     "shape": "Shape",
