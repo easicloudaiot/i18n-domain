@@ -57,7 +57,13 @@
     "window": "Window",
     "averageIs": "Average {{value}}",
     "byAssets_one": "by {{count}} asset",
-    "byAssets_other": "by {{count}} assets"
+    "byAssets_other": "by {{count}} assets",
+    "averageRun": "Average run",
+    "breakTotal": "Total",
+    "breaksTrimmed": "Showing only the stops and legs with abandoned attempts.",
+    "noBreaksHere": "No abandoned attempts here",
+    "scope": "What the figures cover",
+    "typicalIs": "Typical (p50) {{value}}"
   },
   "asset": {
     "assign": "Assign a journey",
@@ -99,7 +105,8 @@
     "subtitle": "The journey is tracked for the assets it is assigned to, directly or through their asset type.",
     "targetType": "Assign to",
     "title": "Assign {{name}}",
-    "typeHelp": "An asset type follows each asset’s type as it is now: an asset that changes type moves to the new type’s journeys."
+    "typeHelp": "An asset type follows each asset’s type as it is now: an asset that changes type moves to the new type’s journeys.",
+    "assetsFailed": "Couldn’t load assets. Close and try again."
   },
   "assignments": {
     "asset": "Asset",
@@ -353,13 +360,13 @@
     "duplicateToChange": "Duplicate it to change the route.",
     "immutable": "A route and its timings never change once saved, so every run of this journey can be compared with every other. To change the route, duplicate it as a new journey, then disable this one to keep its history beside the new one.",
     "immutableShort": "A route and its timings never change once saved, so every run can be compared with every other.",
-    "legend": "Typical times, darker where a run spends longer. Counts are the assets there now.",
+    "legend": "Average times, darker where a run spends longer. Counts are the assets there now.",
     "noLimit": "No limit",
     "runs30d": "Runs, 30 days",
     "shape": "Shape",
     "show": "Show on the route",
     "stops": "Stops",
-    "timeHint": "Typical time at each stop and on each leg. The darker, the bigger its share of a run.",
+    "timeHint": "Average time at each stop and on each leg. The darker, the bigger its share of a run.",
     "viewNow": "Assets now",
     "viewTime": "Time spent"
   },
@@ -395,7 +402,7 @@
     "columnStarted": "Started",
     "empty": "No runs yet. Runs appear as assigned assets complete the route.",
     "emptyDisabled": "This journey is disabled, so it isn’t recording runs.",
-    "emptyUnassigned": "Nothing is assigned yet — assign assets or asset types to start recording runs.",
+    "emptyUnassigned": "Nothing assigned yet. Assign assets or asset types to record runs.",
     "emptyUntrackable": "This journey won’t record runs yet: a stop is at a circle place, which isn’t tracked yet.",
     "loadFailed": "Could not load runs",
     "oneAsset": "one asset",
@@ -418,7 +425,8 @@
     "board": "Now",
     "overview": "Overview",
     "route": "Route",
-    "runs": "Runs"
+    "runs": "Runs",
+    "assets": "Assets"
   },
   "title": "Journeys",
   "validation": {
@@ -432,12 +440,24 @@
   },
   "overview": {
     "hereNow": "Here now",
-    "pick": "Pick a stop or a leg on the route to see how it is doing."
+    "pick": "Pick a stop or a leg on the route to see how it is doing.",
+    "atThisStop": "At this stop",
+    "onThisLeg": "On this leg"
   },
   "switcher": {
     "label": "Switch journey",
     "none": "No journey matches",
     "places": "Manage places",
-    "search": "Find a journey"
+    "search": "Find a journey",
+    "caption_one": "Journey",
+    "caption_other": "Journey · {{count}} here"
+  },
+  "assetsTab": {
+    "columnAsset": "Asset",
+    "columnHere": "Here for"
+  },
+  "panel": {
+    "legOf": "Leg {{n}} of {{total}}",
+    "stopOf": "Stop {{n}} of {{total}}"
   }
 }

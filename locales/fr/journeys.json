@@ -57,7 +57,13 @@
     "window": "Période",
     "averageIs": "Moyenne {{value}}",
     "byAssets_one": "par {{count}} actif",
-    "byAssets_other": "par {{count}} actifs"
+    "byAssets_other": "par {{count}} actifs",
+    "averageRun": "Trajet moyen",
+    "breakTotal": "Total",
+    "breaksTrimmed": "Seuls les arrêts et tronçons avec des tentatives abandonnées sont affichés.",
+    "noBreaksHere": "Aucune tentative abandonnée ici",
+    "scope": "Ce que couvrent les chiffres",
+    "typicalIs": "Typique (p50) {{value}}"
   },
   "asset": {
     "assign": "Affecter un parcours",
@@ -99,7 +105,8 @@
     "subtitle": "Le parcours est suivi pour les actifs auxquels il est affecté, directement ou par leur type d’actif.",
     "targetType": "Affecter à",
     "title": "Affecter {{name}}",
-    "typeHelp": "Un type d’actif suit le type actuel de chaque actif : un actif qui change de type passe aux parcours de son nouveau type."
+    "typeHelp": "Un type d’actif suit le type actuel de chaque actif : un actif qui change de type passe aux parcours de son nouveau type.",
+    "assetsFailed": "Impossible de charger les actifs. Fermez et réessayez."
   },
   "assignments": {
     "asset": "Actif",
@@ -355,13 +362,13 @@
     "duplicateToChange": "Dupliquez-le pour changer l’itinéraire.",
     "immutable": "Un itinéraire et ses durées ne changent jamais une fois enregistrés : chaque trajet de ce parcours est ainsi comparable à tous les autres. Pour changer l’itinéraire, dupliquez-le en un nouveau parcours, puis désactivez celui-ci pour garder son historique à côté du nouveau.",
     "immutableShort": "Un itinéraire et ses durées ne changent jamais une fois enregistrés : chaque trajet est ainsi comparable à tous les autres.",
-    "legend": "Temps habituels, plus foncés là où un trajet dure plus longtemps. Les nombres sont les actifs présents en ce moment.",
+    "legend": "Temps moyens, plus foncés là où un trajet dure plus longtemps. Les nombres sont les actifs présents en ce moment.",
     "noLimit": "Aucune limite",
     "runs30d": "Trajets, 30 jours",
     "shape": "Forme",
     "show": "Afficher sur l’itinéraire",
     "stops": "Arrêts",
-    "timeHint": "Temps habituel à chaque arrêt et sur chaque tronçon. Plus c’est foncé, plus sa part du trajet est grande.",
+    "timeHint": "Temps moyen à chaque arrêt et sur chaque tronçon. Plus c’est foncé, plus sa part du trajet est grande.",
     "viewNow": "Actifs en ce moment",
     "viewTime": "Temps passé"
   },
@@ -397,7 +404,7 @@
     "columnStarted": "Commencé",
     "empty": "Aucun trajet pour l’instant. Les trajets apparaissent quand des actifs affectés parcourent l’itinéraire.",
     "emptyDisabled": "Ce parcours est désactivé : il n’enregistre pas de trajets.",
-    "emptyUnassigned": "Rien n’est encore affecté — affectez des actifs ou des types d’actif pour commencer à enregistrer des trajets.",
+    "emptyUnassigned": "Rien n’est encore affecté. Affectez des actifs ou des types d’actif pour enregistrer des trajets.",
     "emptyUntrackable": "Ce parcours n’enregistre pas encore de trajets : un arrêt est un lieu en cercle, qui n’est pas encore suivi.",
     "loadFailed": "Impossible de charger les trajets",
     "oneAsset": "un actif",
@@ -420,7 +427,8 @@
     "board": "Maintenant",
     "overview": "Aperçu",
     "route": "Itinéraire",
-    "runs": "Trajets"
+    "runs": "Trajets",
+    "assets": "Actifs"
   },
   "title": "Parcours",
   "validation": {
@@ -434,12 +442,24 @@
   },
   "overview": {
     "hereNow": "Ici maintenant",
-    "pick": "Sélectionnez un arrêt ou un tronçon sur l’itinéraire pour voir comment il se porte."
+    "pick": "Sélectionnez un arrêt ou un tronçon sur l’itinéraire pour voir comment il se porte.",
+    "atThisStop": "À cet arrêt",
+    "onThisLeg": "Sur ce tronçon"
   },
   "switcher": {
     "label": "Changer de parcours",
     "none": "Aucun parcours ne correspond",
     "places": "Gérer les lieux",
-    "search": "Trouver un parcours"
+    "search": "Trouver un parcours",
+    "caption_one": "Parcours",
+    "caption_other": "Parcours · {{count}} ici"
+  },
+  "assetsTab": {
+    "columnAsset": "Actif",
+    "columnHere": "Présent depuis"
+  },
+  "panel": {
+    "legOf": "Tronçon {{n}} sur {{total}}",
+    "stopOf": "Arrêt {{n}} sur {{total}}"
   }
 }
