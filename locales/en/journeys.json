@@ -459,5 +459,24 @@
   "panel": {
     "legOf": "Leg {{n}} of {{total}}",
     "stopOf": "Stop {{n}} of {{total}}"
+  },
+  "replay": {
+    "noRoute": "The route can’t be drawn, but the timeline below still plays.",
+    "floor": "Floor",
+    "headingTo": "Heading to",
+    "here": "Here",
+    "floorMapAlt": "Floor plan of {{floor}}",
+    "noFloorMap": "No floor plan uploaded for this floor.",
+    "modeSoon": "Needs this run’s location history. Coming soon.",
+    "modeRoute": "Route",
+    "modeMap": "Map",
+    "modeFloor": "Floor plan",
+    "mode": "Replay on",
+    "play": "Play",
+    "pause": "Pause",
+    "scrub": "Replay position",
+    "speed": "Speed",
+    "speedHint": "At 1× the whole run plays in a minute.",
+    "jumpTo": "Replay from {{place}}"
   }
 }

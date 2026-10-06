@@ -461,5 +461,24 @@
   "panel": {
     "legOf": "Tronçon {{n}} sur {{total}}",
     "stopOf": "Arrêt {{n}} sur {{total}}"
+  },
+  "replay": {
+    "noRoute": "Le parcours ne peut pas être dessiné, mais la chronologie ci-dessous se lit quand même.",
+    "floor": "Étage",
+    "headingTo": "En route vers",
+    "here": "Ici",
+    "floorMapAlt": "Plan de l’étage {{floor}}",
+    "noFloorMap": "Aucun plan téléversé pour cet étage.",
+    "modeSoon": "Nécessite l’historique de position de ce trajet. Bientôt disponible.",
+    "modeRoute": "Itinéraire",
+    "modeMap": "Carte",
+    "modeFloor": "Plan d’étage",
+    "mode": "Rejouer sur",
+    "play": "Lire",
+    "pause": "Pause",
+    "scrub": "Position de la relecture",
+    "speed": "Vitesse",
+    "speedHint": "À 1×, le trajet entier se lit en une minute.",
+    "jumpTo": "Rejouer à partir de {{place}}"
   }
 }
