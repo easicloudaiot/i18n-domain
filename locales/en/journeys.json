@@ -461,7 +461,6 @@
     "noRoute": "The route can’t be drawn, but the run still plays.",
     "floorMapAlt": "Floor plan of {{floor}}",
     "noFloorMap": "No floor plan uploaded for this floor.",
-    "estimated": "Positions are estimated from the stops until location history is available.",
     "betweenFloors": "{{from}} → {{to}}",
     "onTheWay": "On the way to {{place}}",
     "outside": "Outside",
@@ -475,6 +474,13 @@
     "scrub": "Replay position",
     "speed": "Speed",
     "speedHint": "At 1× the whole run plays in a minute.",
-    "jumpTo": "Replay from {{place}}"
+    "jumpTo": "Replay from {{place}}",
+    "trackLoading": "Loading recorded positions…",
+    "trackRecorded_one": "Recorded positions · {{count}} report",
+    "trackRecorded_other": "Recorded positions · {{count}} reports",
+    "trackTooMany": "Too many positions to replay here yet. Estimated from the stops.",
+    "trackForbidden": "You can’t see this asset’s location history. Estimated from the stops.",
+    "trackFailed": "Couldn’t load recorded positions. Estimated from the stops.",
+    "trackEmpty": "No positions were recorded during this run. Estimated from the stops."
   }
 }

@@ -463,7 +463,6 @@
     "noRoute": "Le parcours ne peut pas être dessiné, mais le trajet se lit quand même.",
     "floorMapAlt": "Plan de l’étage {{floor}}",
     "noFloorMap": "Aucun plan téléversé pour cet étage.",
-    "estimated": "Les positions sont estimées à partir des arrêts en attendant l’historique de position.",
     "betweenFloors": "{{from}} → {{to}}",
     "onTheWay": "En route vers {{place}}",
     "outside": "À l’extérieur",
@@ -477,6 +476,13 @@
     "scrub": "Position de la relecture",
     "speed": "Vitesse",
     "speedHint": "À 1×, le trajet entier se lit en une minute.",
-    "jumpTo": "Rejouer à partir de {{place}}"
+    "jumpTo": "Rejouer à partir de {{place}}",
+    "trackLoading": "Chargement des positions enregistrées…",
+    "trackRecorded_one": "Positions enregistrées · {{count}} relevé",
+    "trackRecorded_other": "Positions enregistrées · {{count}} relevés",
+    "trackTooMany": "Trop de positions pour rejouer ici pour l’instant. Estimé à partir des arrêts.",
+    "trackForbidden": "Vous n’avez pas accès à l’historique de position de cet actif. Estimé à partir des arrêts.",
+    "trackFailed": "Impossible de charger les positions enregistrées. Estimé à partir des arrêts.",
+    "trackEmpty": "Aucune position n’a été enregistrée pendant ce trajet. Estimé à partir des arrêts."
   }
 }
