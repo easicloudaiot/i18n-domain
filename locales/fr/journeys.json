@@ -466,11 +466,6 @@
     "betweenFloors": "{{from}} → {{to}}",
     "onTheWay": "En route vers {{place}}",
     "outside": "À l’extérieur",
-    "route": "Itinéraire",
-    "routeHint": "cliquez un arrêt ou un tronçon pour y aller",
-    "shrink": "Réduire l’itinéraire",
-    "enlarge": "Agrandir l’itinéraire",
-    "start": "Départ",
     "play": "Lire",
     "pause": "Pause",
     "scrub": "Position de la relecture",
@@ -483,6 +478,7 @@
     "trackTooMany": "Trop de positions pour rejouer ici pour l’instant. Estimé à partir des arrêts.",
     "trackForbidden": "Vous n’avez pas accès à l’historique de position de cet actif. Estimé à partir des arrêts.",
     "trackFailed": "Impossible de charger les positions enregistrées. Estimé à partir des arrêts.",
-    "trackEmpty": "Aucune position n’a été enregistrée pendant ce trajet. Estimé à partir des arrêts."
+    "trackEmpty": "Aucune position n’a été enregistrée pendant ce trajet. Estimé à partir des arrêts.",
+    "timeline": "Le trajet, dans le temps"
   }
 }

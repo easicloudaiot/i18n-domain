@@ -464,11 +464,6 @@
     "betweenFloors": "{{from}} → {{to}}",
     "onTheWay": "On the way to {{place}}",
     "outside": "Outside",
-    "route": "Route",
-    "routeHint": "click a stop or leg to jump",
-    "shrink": "Shrink the route",
-    "enlarge": "Enlarge the route",
-    "start": "Start",
     "play": "Play",
     "pause": "Pause",
     "scrub": "Replay position",
@@ -481,6 +476,7 @@
     "trackTooMany": "Too many positions to replay here yet. Estimated from the stops.",
     "trackForbidden": "You can’t see this asset’s location history. Estimated from the stops.",
     "trackFailed": "Couldn’t load recorded positions. Estimated from the stops.",
-    "trackEmpty": "No positions were recorded during this run. Estimated from the stops."
+    "trackEmpty": "No positions were recorded during this run. Estimated from the stops.",
+    "timeline": "The run, in time"
   }
 }
