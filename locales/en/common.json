@@ -272,7 +272,10 @@
     "resetSuccess": "Password reset email sent! Check your inbox.",
     "resetFailed": "Failed to send password reset email.",
     "standard": "Standard",
-    "defaultUser": "User"
+    "defaultUser": "User",
+    "deleteAccount": "Delete account",
+    "deleteAccountInstructions": "Permanently delete your account and your personal data. Your organization's assets, devices and data are not affected.",
+    "deleteAccountAction": "Delete my account…"
   },
   "notifications": {
     "title": "Notifications",

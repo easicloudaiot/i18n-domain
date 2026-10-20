@@ -272,7 +272,10 @@
     "resetSuccess": "Courriel de réinitialisation envoyé! Consultez votre boîte de réception.",
     "resetFailed": "Échec de l'envoi du courriel de réinitialisation.",
     "standard": "Standard",
-    "defaultUser": "Utilisateur"
+    "defaultUser": "Utilisateur",
+    "deleteAccount": "Supprimer le compte",
+    "deleteAccountInstructions": "Supprimez définitivement votre compte et vos données personnelles. Les actifs, appareils et données de votre organisation ne sont pas touchés.",
+    "deleteAccountAction": "Supprimer mon compte…"
   },
   "notifications": {
     "title": "Notifications",
