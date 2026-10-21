@@ -31,7 +31,9 @@
     "showLess": "Afficher moins",
     "showAllCount_one": "Afficher {{count}} de plus",
     "showAllCount_other": "Afficher {{count}} de plus",
-    "more": "Plus"
+    "more": "Plus",
+    "collapse": "Réduire",
+    "expand": "Développer"
   },
   "status": {
     "loading": "Chargement...",

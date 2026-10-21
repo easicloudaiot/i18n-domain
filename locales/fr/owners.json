@@ -296,5 +296,12 @@
       "NOT_IN": "ne fait pas partie de",
       "NOT_NULL": "est renseigné"
     }
+  },
+  "places": {
+    "title": "Lieux",
+    "subtitle": "Clients, bâtiments, étages et zones sous ce lieu. Modifiez une ligne pour la changer ou la supprimer.",
+    "add": "Ajouter : {{type}}",
+    "edit": "Modifier {{name}}",
+    "empty": "Aucun lieu ici pour l'instant."
   }
 }

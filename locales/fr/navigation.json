@@ -8,7 +8,8 @@
     "journeys": "Parcours",
     "stock": "Stock",
     "billing": "Facturation",
-    "settings": "Paramètres"
+    "settings": "Paramètres",
+    "places": "Lieux"
   },
   "sections": {
     "main": "Principal",
@@ -45,10 +46,61 @@
     "notifications": "Notifications",
     "notificationsWithCount_one": "Notifications, {{count}} nécessitant une attention",
     "notificationsWithCount_other": "Notifications, {{count}} nécessitant une attention",
-    "manage": "Gérer",
-    "more": "Plus",
-    "apps": "Applications",
-    "modules": "Modules",
-    "groupActive": "{{group}} : {{page}}"
+    "more": "Plus"
+  },
+  "groups": {
+    "operate": "Opérations",
+    "analyze": "Analyse",
+    "manage": "Gestion"
+  },
+  "shell": {
+    "main": "Principal",
+    "admin": "Administration",
+    "platform": "Plateforme",
+    "controlPlane": "Plan de contrôle",
+    "collapse": "Réduire le menu",
+    "expand": "Développer le menu",
+    "close": "Fermer",
+    "eva": "Demander à Eva",
+    "help": "Aide et visites guidées"
+  },
+  "scope": {
+    "change": "Changer de lieu",
+    "choose": "Choisir un lieu",
+    "pinHint": "Un lieu épinglé s'ouvre à la connexion",
+    "pin": "Épingler ce lieu",
+    "unpin": "Désépingler"
+  },
+  "find": {
+    "title": "Rechercher",
+    "placeholder": "Rechercher un actif, un appareil ou un lieu…",
+    "inputPlaceholder": "Nom, étiquette, type ou lieu…",
+    "places": "Lieux",
+    "assets": "Actifs",
+    "devices": "Appareils",
+    "ask": "Demander",
+    "askEva": "Demander à Eva : « {{query}} »",
+    "scopeToggle": "Rechercher ici ou dans tous vos lieux",
+    "everywhere": "Tous mes lieux",
+    "inPlace": "Dans {{place}}",
+    "hint": "Saisissez au moins deux lettres pour rechercher des actifs, des appareils et des lieux.",
+    "hintPlaces": "Saisissez du texte pour rechercher vos lieux.",
+    "searching": "Recherche…",
+    "failed": "La recherche n'est pas disponible pour le moment.",
+    "nothing": "Aucun résultat pour « {{query}} ».",
+    "keys": "↑↓ pour naviguer · Entrée pour ouvrir · Échap pour fermer"
+  },
+  "scan": {
+    "title": "Scanner une étiquette",
+    "short": "Scanner",
+    "placeholder": "Identifiant du code QR du traceur",
+    "lookUp": "Rechercher",
+    "useCamera": "Utiliser la caméra",
+    "cameraFailed": "La caméra n'a pas pu être ouverte. Saisissez plutôt l'identifiant.",
+    "notFound": "Aucun appareil n'a encore cette étiquette.",
+    "failed": "L'étiquette n'a pas pu être recherchée. Réessayez.",
+    "openAsset": "Ouvrir l'actif",
+    "openDevice": "Ouvrir l'appareil",
+    "outOfReach": "Cet appareil appartient à un lieu auquel vous n'avez pas accès."
   }
 }

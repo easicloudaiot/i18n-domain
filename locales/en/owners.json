@@ -296,5 +296,12 @@
       "NOT_IN": "is none of",
       "NOT_NULL": "is set"
     }
+  },
+  "places": {
+    "title": "Places",
+    "subtitle": "Clients, buildings, floors and zones beneath this place. Edit a row to change or delete it.",
+    "add": "Add {{type}}",
+    "edit": "Edit {{name}}",
+    "empty": "No places here yet."
   }
 }

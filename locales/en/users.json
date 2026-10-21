@@ -135,7 +135,7 @@
     "configKeyExamples": "e.g. dashboard, assets, devices",
     "configKeyHint": "Key: {{key}}",
     "hidePage": "Hide a page",
-    "allApps": "All {{apps}} (hides the {{apps}} tab)",
+    "allApps": "All apps ({{apps}})",
     "noHiddenPages": "Every page is visible.",
     "showPage": "Show {{page}} again",
     "creating": "Creating...",

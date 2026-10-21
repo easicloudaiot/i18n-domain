@@ -120,8 +120,8 @@
     ],
     "welcome": "Welcome",
     "welcomeUser": "Welcome, {{name}}",
-    "selectLocation": "Select a location from the navigation panel to view its dashboard and manage your resources.",
-    "hint": "👈 Use the navigation panel on the left to browse your assigned locations."
+    "selectLocation": "Choose a place with the place picker at the top to see its dashboard and manage your resources.",
+    "hint": "👆 The place picker at the top lists every location assigned to you."
   },
   "analytics": {
     "usageTitle": "Telemetry Usage",

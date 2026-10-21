@@ -38,19 +38,19 @@
     "summary": "Learn the layout, the pages, and every asset filter.",
     "concept": {
       "title": "How your space is organized",
-      "description": "Everything lives in one tree, right here in the sidebar. Each level is called an owner. Click one and the whole app, including the pages in the top bar, focuses on that owner:",
+      "description": "Everything lives in one tree, opened from this place picker. Each level is called an owner. Pick one and the whole app, including the pages in the menu, focuses on that owner:",
       "client": "A company or tenant. The top level; everything else lives inside it.",
       "building": "A physical site that belongs to a client: a warehouse, plant, or office.",
       "floor": "A level inside a building. A floor can carry a floor map that shows items at their real position.",
       "zone": "A named area on a floor, like 'Receiving'. The most precise place an asset can live."
     },
     "topbar": {
-      "title": "The top bar",
-      "description": "Shows where you are and the pages available there. What you see on every page follows your selection in the sidebar.",
-      "description_named": "Shows where you are and the pages available there. Right now you're in {{ownerLevel}} {{ownerName}}: the assets, devices, and people you see belong to it."
+      "title": "The header",
+      "description": "Shows where you are, with Find, Scan, alerts, Eva and your profile. What you see on every page follows the place you pick here.",
+      "description_named": "Shows where you are, with Find, Scan, alerts, Eva and your profile. Right now you're in {{ownerLevel}} {{ownerName}}: the assets, devices, and people you see belong to it."
     },
     "pages": {
-      "dashboard": { "title": "Dashboard", "description": "Your at-a-glance overview: asset counts by status and type, device activity, and user activity for whatever you've selected in the sidebar." },
+      "dashboard": { "title": "Dashboard", "description": "Your at-a-glance overview: asset counts by status and type, device activity, and user activity for the place you've picked." },
       "assets": { "title": "Assets", "description": "The things you track. Search, filter, and locate them on the map or floor plan. Most day-to-day work happens here." },
       "devices": { "title": "Devices", "description": "The hardware that reports data: trackers and repeaters. Devices are attached to assets so their data counts toward the right item." },
       "users": { "title": "Users", "description": "The people with access. Invite users, assign roles, and control what each person can see and do at every level." },
@@ -58,12 +58,12 @@
         "title": "Rules",
         "description": "Build rules that watch for something happening and raise an alert when it does. A rule belongs to the location you create it at."
       },
-      "settings": { "title": "Settings", "description": "Configuration for whatever you've selected in the sidebar: branding, asset rules, preferences, and security." }
+      "settings": { "title": "Settings", "description": "Configuration for the place you've picked: branding, asset rules, preferences, and security. It's under Admin." }
     },
     "openAssets": {
       "title": "Open Assets",
-      "description": "Click the Assets tab to see them. We'll wait here until you do.",
-      "description_named": "Click the Assets tab to see the assets in {{ownerLevel}} {{ownerName}}. We'll wait here until you do."
+      "description": "Click Assets in the menu to see them. We'll wait here until you do.",
+      "description_named": "Click Assets in the menu to see the assets in {{ownerLevel}} {{ownerName}}. We'll wait here until you do."
     },
     "search": {
       "title": "Find anything",
@@ -99,33 +99,33 @@
   "owner": {
     "title": "Set up your hierarchy",
     "summary": "Build Client → Building → Floor → Zone.",
-    "openAssets": { "title": "Open Assets", "description": "The add menu lives on the Assets page. Click the Assets tab to start." },
+    "openAssets": { "title": "Open Assets", "description": "The add menu lives on the Assets page. Click Assets in the menu to start." },
     "client": {
       "title": "Add a client",
       "summary": "Create a top-level client company.",
-      "context": { "title": "Pick where to add it", "description": "Select the global level or a client in the sidebar. Clients are created from there." },
+      "context": { "title": "Pick where to add it", "description": "Pick the global level or a client in the place picker. Clients are created from there." },
       "open": { "title": "Add a client", "description": "Your space is a tree: Client → Building → Floor → Zone. Open this menu and choose 'Add Client'." },
       "name": { "title": "Name it", "description": "Your company or tenant name. Required." },
       "industry": { "title": "Industry", "description": "Optional. Just a label you can change later." },
       "save": { "title": "Save", "description": "Click Create to save your client." },
-      "done": { "title": "Client created", "description": "Your client is ready. Select it in the sidebar, then add a building inside it." },
-      "sidebar": { "title": "It's in the sidebar", "description": "Your client now appears here. Select it, and everything you add next goes inside it." }
+      "done": { "title": "Client created", "description": "Your client is ready. Pick it in the place picker, then add a building inside it." },
+      "sidebar": { "title": "It's in the place picker", "description": "Your client now appears here. Select it, and everything you add next goes inside it." }
     },
     "building": {
       "title": "Add a building",
       "summary": "Add a building under a client.",
-      "context": { "title": "Select a client", "description": "Choose a client in the sidebar first. Buildings are created inside a client." },
+      "context": { "title": "Select a client", "description": "Choose a client in the place picker first. Buildings are created inside a client." },
       "open": { "title": "Add a building", "description": "With the client selected, open this menu and choose 'Add Building'." },
       "name": { "title": "Name it", "description": "Your building's name. Required." },
       "save": { "title": "Save", "description": "Click Create to save." },
       "done": { "title": "Building created", "description": "Your building is saved. Select it to add floors inside it." },
       "sidebar": { "title": "The tree grows", "description": "The building now sits under your client. The hierarchy fills in as you go." },
-      "topbar": { "title": "Everything follows your selection", "description": "This bar shows your location. Whatever you select in the sidebar decides the assets, devices, and access you see." }
+      "topbar": { "title": "Everything follows your selection", "description": "The header shows your location. Whatever you pick in the place picker decides the assets, devices, and access you see." }
     },
     "floor": {
       "title": "Add a floor",
       "summary": "Add a floor to a building.",
-      "context": { "title": "Select a building", "description": "Choose a building in the sidebar first. Floors are created inside a building." },
+      "context": { "title": "Select a building", "description": "Choose a building in the place picker first. Floors are created inside a building." },
       "open": { "title": "Add a floor", "description": "Select the building, open this menu, and choose 'Add Floor'." },
       "name": { "title": "Name it", "description": "Your floor's name. Required." },
       "save": { "title": "Save", "description": "Click Create." },
@@ -134,7 +134,7 @@
     "zone": {
       "title": "Add a zone",
       "summary": "Add a zone to a floor.",
-      "context": { "title": "Select a floor", "description": "Choose a floor in the sidebar first. Zones are created inside a floor." },
+      "context": { "title": "Select a floor", "description": "Choose a floor in the place picker first. Zones are created inside a floor." },
       "open": { "title": "Add a zone", "description": "Select the floor, open this menu, and choose 'Add Zone'. Zones are the smallest level." },
       "name": { "title": "Name it", "description": "Your zone's name, then complete the form." },
       "done": { "title": "Done!", "description": "You've built a full Client → Building → Floor → Zone hierarchy." }
@@ -144,7 +144,7 @@
     "title": "Create an asset type",
     "summary": "Make a reusable template for your assets.",
     "concept": { "title": "How it fits together", "description": "Three things stack up, and this guide sets up all of them. Start at the top:" },
-    "selectOwner": { "title": "Pick a company", "description": "Asset types and their fields belong to a company. Select a company, or anything inside it, in the sidebar first." },
+    "selectOwner": { "title": "Pick a company", "description": "Asset types and their fields belong to a company. Pick a company, or anything inside it, in the place picker first." },
     "openSettings": { "title": "Fields live in Settings", "description": "The fields themselves are set up in Settings, not on the Assets page. Open Settings." },
     "settingsTab": { "title": "Asset settings", "description": "Click the Assets tab. Everything you set up once for this company lives here." },
     "configCard": { "title": "Two things to set up", "description": "Property definitions are the fields you can use. Asset types are the templates that require them. Both belong to the company, so every building, floor and zone inside it shares the same ones." },
@@ -154,7 +154,7 @@
     "definitionValueType": { "title": "What kind of value", "description": "This decides what the field accepts and how it can be charted later. Ten types are offered; these five cover most cases:" },
     "definitionSave": { "title": "Save the field", "description": "Click Create Definition. The field is now available to every asset type in this company." },
     "definitionsDone": { "title": "Field ready", "description": "Click Close once you have the fields you need. Settings stays open behind it, and next you will build a type that uses them." },
-    "openAssets": { "title": "Open Assets", "description": "Asset types are managed on the Assets page. Click the Assets tab." },
+    "openAssets": { "title": "Open Assets", "description": "Asset types are managed on the Assets page. Click Assets in the menu." },
     "openManager": { "title": "Asset types", "description": "A type is a template for similar items, like 'Forklift'. Open the Asset Types manager here." },
     "createType": { "title": "Create a type", "description": "Click 'Create Type' to start a new one." },
     "name": { "title": "Name it", "description": "The category name, like 'Forklift'. Required." },
@@ -184,12 +184,12 @@
     "title": "Add an asset",
     "summary": "Create one real item you track.",
     "concept": { "title": "What an asset is", "description": "An asset is one real item you track, like a single forklift. Its type decides which fields it must have, and a device attached to it is what puts it on the map." },
-    "scoping": { "title": "Assets have a home", "description": "An asset lives wherever you've selected in the sidebar: a client, building, floor, or zone. Pick the right place before you create it." },
-    "selectOwner": { "title": "Pick where it lives", "description": "Select the client, building, floor, or zone this asset belongs to in the sidebar." },
+    "scoping": { "title": "Assets have a home", "description": "An asset lives wherever you've picked in the place picker: a client, building, floor, or zone. Pick the right place before you create it." },
+    "selectOwner": { "title": "Pick where it lives", "description": "Pick the client, building, floor, or zone this asset belongs to in the place picker." },
     "openAssets": {
       "title": "Open Assets",
-      "description": "Click the Assets tab for the place you picked.",
-      "description_named": "Click the Assets tab. Your new asset will be created in {{ownerLevel}} {{ownerName}}."
+      "description": "Click Assets in the menu for the place you picked.",
+      "description_named": "Click Assets in the menu. Your new asset will be created in {{ownerLevel}} {{ownerName}}."
     },
     "create": { "title": "Add an asset", "description": "An asset is one real thing you track. Click here to open the form." },
     "wizard": { "title": "Two steps", "description": "This form has two steps. Step 1 is the item itself, step 2 is the device attached to it. The Create button appears at the end of step 2." },
@@ -205,11 +205,11 @@
     "title": "Add a device",
     "summary": "Create a tracker and attach it to an asset.",
     "concept": { "title": "What is a device?", "description": "A device is the hardware that reports data: a tracker that sends location and status, or a repeater that extends coverage. Devices power everything you see about an asset." },
-    "selectOwner": { "title": "Pick where it lives", "description": "Devices have a home, just like assets. Select the right client, building, floor, or zone in the sidebar." },
+    "selectOwner": { "title": "Pick where it lives", "description": "Devices have a home, just like assets. Pick the right client, building, floor, or zone in the place picker." },
     "openDevices": {
       "title": "Open Devices",
-      "description": "Devices are managed on the Devices page. Click the Devices tab.",
-      "description_named": "Devices are managed on the Devices page. Click the Devices tab; your device will belong to {{ownerLevel}} {{ownerName}}."
+      "description": "Devices are managed on the Devices page. Click Devices in the menu.",
+      "description_named": "Devices are managed on the Devices page. Click Devices in the menu; your device will belong to {{ownerLevel}} {{ownerName}}."
     },
     "create": { "title": "Add a device", "description": "Click here to open the device form." },
     "name": { "title": "Name it", "description": "A recognizable name for this device. Required." },
@@ -223,8 +223,8 @@
     "attachData": "location, status, history"
   },
   "settings": {
-    "context": { "title": "Select a client", "description": "Settings are configured per client. Select a client, the company level, in the sidebar first." },
-    "open": { "title": "Open Settings", "description": "Click the Settings tab. We'll wait here until you do." },
+    "context": { "title": "Select a client", "description": "Settings are configured per client. Pick a client, the company level, in the place picker first." },
+    "open": { "title": "Open Settings", "description": "Open Admin in the menu, then Settings. We'll wait here until you do." },
     "assets": {
       "title": "Assets",
       "summary": "Asset templates, inactivity rules, and accuracy.",
@@ -244,7 +244,7 @@
       "title": "Preferences",
       "summary": "Default behaviors for everyone under this client.",
       "tab": { "title": "The Preferences tab", "description": "Defaults that apply to everyone under this client. Click the Preferences tab." },
-      "autoExpand": { "title": "Navigation behavior", "description": "Choose whether the sidebar tree starts fully expanded for users, or collapsed so they drill down themselves." }
+      "autoExpand": { "title": "Navigation behavior", "description": "Choose whether the place picker's tree starts fully expanded for users, or collapsed so they drill down themselves." }
     },
     "security": {
       "title": "Security",

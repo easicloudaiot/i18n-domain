@@ -120,8 +120,8 @@
     ],
     "welcome": "Bienvenue",
     "welcomeUser": "Bienvenue, {{name}}",
-    "selectLocation": "Sélectionnez un emplacement dans le panneau de navigation pour voir son tableau de bord et gérer vos ressources.",
-    "hint": "👈 Utilisez le panneau de navigation à gauche pour parcourir vos emplacements attribués."
+    "selectLocation": "Choisissez un lieu avec le sélecteur de lieu en haut pour voir son tableau de bord et gérer vos ressources.",
+    "hint": "👆 Le sélecteur de lieu en haut liste tous les emplacements qui vous sont attribués."
   },
   "analytics": {
     "usageTitle": "Utilisation télémétrique",

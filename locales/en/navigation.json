@@ -8,7 +8,8 @@
     "journeys": "Journeys",
     "stock": "Stock",
     "billing": "Billing",
-    "settings": "Settings"
+    "settings": "Settings",
+    "places": "Places"
   },
   "sections": {
     "main": "Main",
@@ -45,10 +46,61 @@
     "notifications": "Notifications",
     "notificationsWithCount_one": "Notifications, {{count}} needing attention",
     "notificationsWithCount_other": "Notifications, {{count}} needing attention",
-    "manage": "Manage",
-    "more": "More",
-    "apps": "Apps",
-    "modules": "Modules",
-    "groupActive": "{{group}}: {{page}}"
+    "more": "More"
+  },
+  "groups": {
+    "operate": "Operate",
+    "analyze": "Analyze",
+    "manage": "Manage"
+  },
+  "shell": {
+    "main": "Main",
+    "admin": "Admin",
+    "platform": "Platform",
+    "controlPlane": "Control Plane",
+    "collapse": "Collapse menu",
+    "expand": "Expand menu",
+    "close": "Close",
+    "eva": "Ask Eva",
+    "help": "Help and tours"
+  },
+  "scope": {
+    "change": "Change place",
+    "choose": "Choose a place",
+    "pinHint": "A pinned place opens when you sign in",
+    "pin": "Pin this place",
+    "unpin": "Unpin"
+  },
+  "find": {
+    "title": "Find",
+    "placeholder": "Find an asset, device or place…",
+    "inputPlaceholder": "Name, tag, type or place…",
+    "places": "Places",
+    "assets": "Assets",
+    "devices": "Devices",
+    "ask": "Ask",
+    "askEva": "Ask Eva: “{{query}}”",
+    "scopeToggle": "Search here or in all your places",
+    "everywhere": "All my places",
+    "inPlace": "In {{place}}",
+    "hint": "Type at least two letters to search assets, devices and places.",
+    "hintPlaces": "Type to search your places.",
+    "searching": "Searching…",
+    "failed": "Search is unavailable right now.",
+    "nothing": "Nothing matches “{{query}}”.",
+    "keys": "↑↓ to move · Enter to open · Esc to close"
+  },
+  "scan": {
+    "title": "Scan a tag",
+    "short": "Scan",
+    "placeholder": "Tag ID from the tracker's QR code",
+    "lookUp": "Look up",
+    "useCamera": "Use the camera",
+    "cameraFailed": "The camera could not be opened. Type the ID instead.",
+    "notFound": "No device has that tag yet.",
+    "failed": "The tag could not be looked up. Try again.",
+    "openAsset": "Open the asset",
+    "openDevice": "Open the device",
+    "outOfReach": "This device belongs to a place you don't have access to."
   }
 }

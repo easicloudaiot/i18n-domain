@@ -38,19 +38,19 @@
     "summary": "Découvrez l'interface, les pages et chaque filtre d'actifs.",
     "concept": {
       "title": "Comment votre espace est organisé",
-      "description": "Tout vit dans une seule arborescence, ici dans la barre latérale. Chaque niveau s'appelle un propriétaire. Cliquez sur l'un d'eux et toute l'application, y compris les pages de la barre du haut, se concentre sur ce propriétaire :",
+      "description": "Tout vit dans une seule arborescence, ouverte depuis ce sélecteur de lieu. Chaque niveau s'appelle un propriétaire. Choisissez-en un et toute l'application, y compris les pages du menu, se concentre sur ce propriétaire :",
       "client": "Une entreprise ou un locataire. Le premier niveau ; tout le reste vit à l'intérieur.",
       "building": "Un site physique appartenant à un client : entrepôt, usine ou bureau.",
       "floor": "Un niveau dans un bâtiment. Un étage peut porter un plan qui montre chaque élément à sa position réelle.",
       "zone": "Une aire nommée sur un étage, comme « Réception ». L'emplacement le plus précis d'un actif."
     },
     "topbar": {
-      "title": "La barre du haut",
-      "description": "Indique où vous êtes et les pages disponibles à cet endroit. Ce que vous voyez sur chaque page suit votre sélection dans la barre latérale.",
-      "description_named": "Indique où vous êtes et les pages disponibles à cet endroit. Vous êtes dans « {{ownerName}} » ({{ownerLevel}}) : les actifs, appareils et personnes affichés lui appartiennent."
+      "title": "L'en-tête",
+      "description": "Indique où vous êtes, avec la recherche, le scan, les alertes, Eva et votre profil. Ce que vous voyez sur chaque page suit le lieu choisi ici.",
+      "description_named": "Indique où vous êtes, avec la recherche, le scan, les alertes, Eva et votre profil. Vous êtes actuellement dans « {{ownerName}} » ({{ownerLevel}}) : les actifs, appareils et personnes affichés lui appartiennent."
     },
     "pages": {
-      "dashboard": { "title": "Tableau de bord", "description": "Votre vue d'ensemble : nombre d'actifs par statut et par type, activité des appareils et des utilisateurs pour votre sélection actuelle." },
+      "dashboard": { "title": "Tableau de bord", "description": "Votre vue d'ensemble : nombre d'actifs par statut et par type, activité des appareils et des utilisateurs pour le lieu choisi." },
       "assets": { "title": "Actifs", "description": "Les éléments que vous suivez. Recherchez, filtrez et localisez-les sur la carte ou le plan d'étage. L'essentiel du travail quotidien se passe ici." },
       "devices": { "title": "Appareils", "description": "Le matériel qui transmet les données : traceurs et répéteurs. Les appareils sont rattachés aux actifs pour que leurs données comptent pour le bon élément." },
       "users": { "title": "Utilisateurs", "description": "Les personnes qui ont accès. Invitez des utilisateurs, attribuez des rôles et contrôlez ce que chacun peut voir et faire à chaque niveau." },
@@ -58,12 +58,12 @@
         "title": "Règles",
         "description": "Créez des règles qui surveillent un événement et déclenchent une alerte lorsqu'il se produit. Une règle appartient à l'emplacement où vous la créez."
       },
-      "settings": { "title": "Paramètres", "description": "La configuration de votre sélection actuelle : image de marque, règles des actifs, préférences et sécurité." }
+      "settings": { "title": "Paramètres", "description": "La configuration du lieu choisi : image de marque, règles des actifs, préférences et sécurité. Elle se trouve sous Administration." }
     },
     "openAssets": {
       "title": "Ouvrez Actifs",
-      "description": "Cliquez sur l'onglet Actifs pour les voir. Nous attendons ici que vous le fassiez.",
-      "description_named": "Cliquez sur l'onglet Actifs pour voir les actifs de « {{ownerName}} » ({{ownerLevel}}). Nous attendons ici que vous le fassiez."
+      "description": "Cliquez sur Actifs dans le menu pour les voir. Nous attendons ici que vous le fassiez.",
+      "description_named": "Cliquez sur Actifs dans le menu pour voir les actifs de « {{ownerName}} » ({{ownerLevel}}). Nous attendons ici que vous le fassiez."
     },
     "search": {
       "title": "Trouvez tout",
@@ -99,33 +99,33 @@
   "owner": {
     "title": "Configurez votre hiérarchie",
     "summary": "Construisez Client → Bâtiment → Étage → Zone.",
-    "openAssets": { "title": "Ouvrez Actifs", "description": "Le menu d'ajout se trouve sur la page Actifs. Cliquez sur l'onglet Actifs pour commencer." },
+    "openAssets": { "title": "Ouvrez Actifs", "description": "Le menu d'ajout se trouve sur la page Actifs. Cliquez sur Actifs dans le menu pour commencer." },
     "client": {
       "title": "Ajouter un client",
       "summary": "Créez une entreprise cliente de premier niveau.",
-      "context": { "title": "Choisissez où l'ajouter", "description": "Sélectionnez le niveau global ou un client dans la barre latérale. Les clients y sont créés." },
+      "context": { "title": "Choisissez où l'ajouter", "description": "Choisissez le niveau global ou un client dans le sélecteur de lieu. Les clients y sont créés." },
       "open": { "title": "Ajoutez un client", "description": "Votre espace est une arborescence : Client → Bâtiment → Étage → Zone. Ouvrez ce menu et choisissez « Ajouter un client »." },
       "name": { "title": "Nommez-le", "description": "Le nom de votre entreprise ou locataire. Obligatoire." },
       "industry": { "title": "Secteur", "description": "Facultatif. Juste une étiquette modifiable plus tard." },
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer pour enregistrer votre client." },
-      "done": { "title": "Client créé", "description": "Votre client est prêt. Sélectionnez-le dans la barre latérale, puis ajoutez-y un bâtiment." },
-      "sidebar": { "title": "Il est dans la barre latérale", "description": "Votre client apparaît maintenant ici. Sélectionnez-le, et tout ce que vous ajoutez ensuite ira à l'intérieur." }
+      "done": { "title": "Client créé", "description": "Votre client est prêt. Choisissez-le dans le sélecteur de lieu, puis ajoutez-y un bâtiment." },
+      "sidebar": { "title": "Il est dans le sélecteur de lieu", "description": "Votre client apparaît maintenant ici. Sélectionnez-le, et tout ce que vous ajoutez ensuite ira à l'intérieur." }
     },
     "building": {
       "title": "Ajouter un bâtiment",
       "summary": "Ajoutez un bâtiment sous un client.",
-      "context": { "title": "Sélectionnez un client", "description": "Choisissez d'abord un client dans la barre latérale. Les bâtiments sont créés dans un client." },
+      "context": { "title": "Sélectionnez un client", "description": "Choisissez d'abord un client dans le sélecteur de lieu. Les bâtiments sont créés dans un client." },
       "open": { "title": "Ajoutez un bâtiment", "description": "Le client sélectionné, ouvrez ce menu et choisissez « Ajouter un bâtiment »." },
       "name": { "title": "Nommez-le", "description": "Le nom de votre bâtiment. Obligatoire." },
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer pour enregistrer." },
       "done": { "title": "Bâtiment créé", "description": "Votre bâtiment est enregistré. Sélectionnez-le pour y ajouter des étages." },
       "sidebar": { "title": "L'arbre s'agrandit", "description": "Le bâtiment se place maintenant sous votre client. La hiérarchie se remplit à mesure." },
-      "topbar": { "title": "Tout suit votre sélection", "description": "Cette barre indique votre emplacement. Ce que vous sélectionnez dans la barre latérale détermine les actifs, appareils et accès affichés." }
+      "topbar": { "title": "Tout suit votre sélection", "description": "L'en-tête indique votre emplacement. Ce que vous choisissez dans le sélecteur de lieu détermine les actifs, appareils et accès affichés." }
     },
     "floor": {
       "title": "Ajouter un étage",
       "summary": "Ajoutez un étage à un bâtiment.",
-      "context": { "title": "Sélectionnez un bâtiment", "description": "Choisissez d'abord un bâtiment dans la barre latérale. Les étages sont créés dans un bâtiment." },
+      "context": { "title": "Sélectionnez un bâtiment", "description": "Choisissez d'abord un bâtiment dans le sélecteur de lieu. Les étages sont créés dans un bâtiment." },
       "open": { "title": "Ajoutez un étage", "description": "Sélectionnez le bâtiment, ouvrez ce menu et choisissez « Ajouter un étage »." },
       "name": { "title": "Nommez-le", "description": "Le nom de votre étage. Obligatoire." },
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer." },
@@ -134,7 +134,7 @@
     "zone": {
       "title": "Ajouter une zone",
       "summary": "Ajoutez une zone à un étage.",
-      "context": { "title": "Sélectionnez un étage", "description": "Choisissez d'abord un étage dans la barre latérale. Les zones sont créées dans un étage." },
+      "context": { "title": "Sélectionnez un étage", "description": "Choisissez d'abord un étage dans le sélecteur de lieu. Les zones sont créées dans un étage." },
       "open": { "title": "Ajoutez une zone", "description": "Sélectionnez l'étage, ouvrez ce menu et choisissez « Ajouter une zone ». Les zones sont le plus petit niveau." },
       "name": { "title": "Nommez-la", "description": "Le nom de votre zone, puis complétez le formulaire." },
       "done": { "title": "Terminé !", "description": "Vous avez construit une hiérarchie complète Client → Bâtiment → Étage → Zone." }
@@ -144,7 +144,7 @@
     "title": "Créer un type d'actif",
     "summary": "Créez un modèle réutilisable pour vos actifs.",
     "concept": { "title": "Comment tout s'articule", "description": "Trois éléments se superposent, et ce guide les met tous en place. Commencez par le haut :" },
-    "selectOwner": { "title": "Choisissez une entreprise", "description": "Les types d'actifs et leurs champs appartiennent à une entreprise. Sélectionnez d'abord une entreprise, ou un élément à l'intérieur, dans la barre latérale." },
+    "selectOwner": { "title": "Choisissez une entreprise", "description": "Les types d'actifs et leurs champs appartiennent à une entreprise. Choisissez d'abord une entreprise, ou un élément à l'intérieur, dans le sélecteur de lieu." },
     "openSettings": { "title": "Les champs sont dans Paramètres", "description": "Les champs eux-mêmes se configurent dans Paramètres, pas sur la page Actifs. Ouvrez Paramètres." },
     "settingsTab": { "title": "Paramètres des actifs", "description": "Cliquez sur l'onglet Actifs. Tout ce qui se configure une seule fois pour cette entreprise se trouve ici." },
     "configCard": { "title": "Deux choses à configurer", "description": "Les définitions de propriétés sont les champs disponibles. Les types d'actifs sont les modèles qui les exigent. Les deux appartiennent à l'entreprise, donc chaque bâtiment, étage et zone à l'intérieur partage les mêmes." },
@@ -154,7 +154,7 @@
     "definitionValueType": { "title": "Quel genre de valeur", "description": "Ce choix détermine ce que le champ accepte et comment il pourra être représenté dans les graphiques. Dix types sont proposés ; ces cinq couvrent la plupart des cas :" },
     "definitionSave": { "title": "Enregistrez le champ", "description": "Cliquez sur Créer une définition. Le champ est désormais disponible pour tous les types d'actifs de cette entreprise." },
     "definitionsDone": { "title": "Champ prêt", "description": "Cliquez sur Fermer une fois que vous avez les champs voulus. Paramètres reste ouvert derrière, et vous allez maintenant créer un type qui les utilise." },
-    "openAssets": { "title": "Ouvrez Actifs", "description": "Les types d'actifs se gèrent sur la page Actifs. Cliquez sur l'onglet Actifs." },
+    "openAssets": { "title": "Ouvrez Actifs", "description": "Les types d'actifs se gèrent sur la page Actifs. Cliquez sur Actifs dans le menu." },
     "openManager": { "title": "Types d'actifs", "description": "Un type est un modèle pour des éléments similaires, comme « Chariot élévateur ». Ouvrez le gestionnaire de types d'actifs ici." },
     "createType": { "title": "Créez un type", "description": "Cliquez sur « Créer un type » pour en commencer un nouveau." },
     "name": { "title": "Nommez-le", "description": "Le nom de la catégorie, comme « Chariot élévateur ». Obligatoire." },
@@ -184,12 +184,12 @@
     "title": "Ajouter un actif",
     "summary": "Créez un élément réel à suivre.",
     "concept": { "title": "Ce qu'est un actif", "description": "Un actif est un élément réel que vous suivez, comme un chariot élévateur précis. Son type détermine les champs qu'il doit porter, et c'est l'appareil qui lui est rattaché qui le place sur la carte." },
-    "scoping": { "title": "Les actifs ont un emplacement", "description": "Un actif vit là où porte votre sélection dans la barre latérale : client, bâtiment, étage ou zone. Choisissez le bon endroit avant de le créer." },
-    "selectOwner": { "title": "Choisissez son emplacement", "description": "Sélectionnez le client, le bâtiment, l'étage ou la zone auquel cet actif appartient dans la barre latérale." },
+    "scoping": { "title": "Les actifs ont un emplacement", "description": "Un actif vit dans le lieu choisi dans le sélecteur de lieu : client, bâtiment, étage ou zone. Choisissez le bon endroit avant de le créer." },
+    "selectOwner": { "title": "Choisissez son emplacement", "description": "Choisissez dans le sélecteur de lieu le client, le bâtiment, l'étage ou la zone auquel cet actif appartient." },
     "openAssets": {
       "title": "Ouvrez Actifs",
-      "description": "Cliquez sur l'onglet Actifs pour l'endroit choisi.",
-      "description_named": "Cliquez sur l'onglet Actifs. Votre nouvel actif sera créé dans « {{ownerName}} » ({{ownerLevel}})."
+      "description": "Cliquez sur Actifs dans le menu pour l'endroit choisi.",
+      "description_named": "Cliquez sur Actifs dans le menu. Votre nouvel actif sera créé dans « {{ownerName}} » ({{ownerLevel}})."
     },
     "create": { "title": "Ajoutez un actif", "description": "Un actif est une chose réelle que vous suivez. Cliquez ici pour ouvrir le formulaire." },
     "wizard": { "title": "Deux étapes", "description": "Ce formulaire compte deux étapes. L'étape 1 concerne l'élément lui-même, l'étape 2 l'appareil qui lui est rattaché. Le bouton Créer apparaît à la fin de l'étape 2." },
@@ -205,11 +205,11 @@
     "title": "Ajouter un appareil",
     "summary": "Créez un traceur et rattachez-le à un actif.",
     "concept": { "title": "Qu'est-ce qu'un appareil ?", "description": "Un appareil est le matériel qui transmet les données : un traceur qui envoie position et statut, ou un répéteur qui étend la couverture. Les appareils alimentent tout ce que vous voyez sur un actif." },
-    "selectOwner": { "title": "Choisissez son emplacement", "description": "Les appareils ont un emplacement, comme les actifs. Sélectionnez le bon client, bâtiment, étage ou zone dans la barre latérale." },
+    "selectOwner": { "title": "Choisissez son emplacement", "description": "Les appareils ont un emplacement, comme les actifs. Choisissez le bon client, bâtiment, étage ou zone dans le sélecteur de lieu." },
     "openDevices": {
       "title": "Ouvrez Appareils",
-      "description": "Les appareils se gèrent sur la page Appareils. Cliquez sur l'onglet Appareils.",
-      "description_named": "Les appareils se gèrent sur la page Appareils. Cliquez sur l'onglet Appareils ; votre appareil appartiendra à « {{ownerName}} » ({{ownerLevel}})."
+      "description": "Les appareils se gèrent sur la page Appareils. Cliquez sur Appareils dans le menu.",
+      "description_named": "Les appareils se gèrent sur la page Appareils. Cliquez sur Appareils dans le menu ; votre appareil appartiendra à « {{ownerName}} » ({{ownerLevel}})."
     },
     "create": { "title": "Ajoutez un appareil", "description": "Cliquez ici pour ouvrir le formulaire d'appareil." },
     "name": { "title": "Nommez-le", "description": "Un nom reconnaissable pour cet appareil. Obligatoire." },
@@ -223,8 +223,8 @@
     "attachData": "position, statut, historique"
   },
   "settings": {
-    "context": { "title": "Sélectionnez un client", "description": "Les paramètres se configurent par client. Sélectionnez d'abord un client, le niveau entreprise, dans la barre latérale." },
-    "open": { "title": "Ouvrez Paramètres", "description": "Cliquez sur l'onglet Paramètres. Nous attendons ici que vous le fassiez." },
+    "context": { "title": "Sélectionnez un client", "description": "Les paramètres se configurent par client. Choisissez d'abord un client, le niveau entreprise, dans le sélecteur de lieu." },
+    "open": { "title": "Ouvrez Paramètres", "description": "Ouvrez Administration dans le menu, puis Paramètres. Nous attendons ici que vous le fassiez." },
     "assets": {
       "title": "Actifs",
       "summary": "Modèles d'actifs, règles d'inactivité et précision.",
@@ -244,7 +244,7 @@
       "title": "Préférences",
       "summary": "Comportements par défaut pour tous les utilisateurs de ce client.",
       "tab": { "title": "L'onglet Préférences", "description": "Les valeurs par défaut qui s'appliquent à tous les utilisateurs de ce client. Cliquez sur l'onglet Préférences." },
-      "autoExpand": { "title": "Comportement de navigation", "description": "Choisissez si l'arborescence latérale démarre entièrement déployée pour les utilisateurs, ou repliée pour qu'ils l'explorent eux-mêmes." }
+      "autoExpand": { "title": "Comportement de navigation", "description": "Choisissez si l'arborescence du sélecteur de lieu démarre entièrement déployée pour les utilisateurs, ou repliée pour qu'ils l'explorent eux-mêmes." }
     },
     "security": {
       "title": "Sécurité",
