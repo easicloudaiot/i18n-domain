@@ -25,7 +25,7 @@
     "highlights": {
       "track": "Suivez vos actifs en temps réel",
       "see": "Voyez-les sur cartes et plans d'étage",
-      "ask": "Demandez tout à Eva"
+      "ask": "Demandez tout à EVA"
     }
   },
   "tour": {
@@ -46,8 +46,8 @@
     },
     "topbar": {
       "title": "L'en-tête",
-      "description": "Indique où vous êtes, avec la recherche, le scan, les alertes, Eva et votre profil. Ce que vous voyez sur chaque page suit le lieu choisi ici.",
-      "description_named": "Indique où vous êtes, avec la recherche, le scan, les alertes, Eva et votre profil. Vous êtes actuellement dans « {{ownerName}} » ({{ownerLevel}}) : les actifs, appareils et personnes affichés lui appartiennent."
+      "description": "Indique où vous êtes, avec la recherche, les alertes, EVA et votre profil. Ce que vous voyez sur chaque page suit le lieu choisi ici.",
+      "description_named": "Indique où vous êtes, avec la recherche, les alertes, EVA et votre profil. Vous êtes actuellement dans « {{ownerName}} » ({{ownerLevel}}) : les actifs, appareils et personnes affichés lui appartiennent."
     },
     "pages": {
       "dashboard": { "title": "Tableau de bord", "description": "Votre vue d'ensemble : nombre d'actifs par statut et par type, activité des appareils et des utilisateurs pour le lieu choisi." },

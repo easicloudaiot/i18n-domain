@@ -25,7 +25,7 @@
     "highlights": {
       "track": "Track assets in real time",
       "see": "See them on maps and floor plans",
-      "ask": "Ask Eva anything"
+      "ask": "Ask EVA anything"
     }
   },
   "tour": {
@@ -46,8 +46,8 @@
     },
     "topbar": {
       "title": "The header",
-      "description": "Shows where you are, with Find, Scan, alerts, Eva and your profile. What you see on every page follows the place you pick here.",
-      "description_named": "Shows where you are, with Find, Scan, alerts, Eva and your profile. Right now you're in {{ownerLevel}} {{ownerName}}: the assets, devices, and people you see belong to it."
+      "description": "Shows where you are, with Find, alerts, EVA and your profile. What you see on every page follows the place you pick here.",
+      "description_named": "Shows where you are, with Find, alerts, EVA and your profile. Right now you're in {{ownerLevel}} {{ownerName}}: the assets, devices, and people you see belong to it."
     },
     "pages": {
       "dashboard": { "title": "Dashboard", "description": "Your at-a-glance overview: asset counts by status and type, device activity, and user activity for the place you've picked." },

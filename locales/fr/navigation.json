@@ -61,7 +61,7 @@
     "collapse": "Réduire le menu",
     "expand": "Développer le menu",
     "close": "Fermer",
-    "eva": "Demander à Eva",
+    "eva": "Demander à EVA",
     "help": "Aide et visites guidées"
   },
   "scope": {
@@ -79,7 +79,7 @@
     "assets": "Actifs",
     "devices": "Appareils",
     "ask": "Demander",
-    "askEva": "Demander à Eva : « {{query}} »",
+    "askEva": "Demander à EVA : « {{query}} »",
     "scopeToggle": "Rechercher ici ou dans tous vos lieux",
     "everywhere": "Tous mes lieux",
     "inPlace": "Dans {{place}}",

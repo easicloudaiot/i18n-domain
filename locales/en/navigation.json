@@ -61,7 +61,7 @@
     "collapse": "Collapse menu",
     "expand": "Expand menu",
     "close": "Close",
-    "eva": "Ask Eva",
+    "eva": "Ask EVA",
     "help": "Help and tours"
   },
   "scope": {
@@ -79,7 +79,7 @@
     "assets": "Assets",
     "devices": "Devices",
     "ask": "Ask",
-    "askEva": "Ask Eva: “{{query}}”",
+    "askEva": "Ask EVA: “{{query}}”",
     "scopeToggle": "Search here or in all your places",
     "everywhere": "All my places",
     "inPlace": "In {{place}}",
