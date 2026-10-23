@@ -69,7 +69,10 @@
     "choose": "Choose a place",
     "pinHint": "A pinned place opens when you sign in",
     "pin": "Pin this place",
-    "unpin": "Unpin"
+    "unpin": "Unpin",
+    "favorites": "Favorites",
+    "addFavorite": "Add to favorites",
+    "removeFavorite": "Remove from favorites"
   },
   "find": {
     "title": "Find",

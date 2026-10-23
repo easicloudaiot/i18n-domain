@@ -69,7 +69,10 @@
     "choose": "Choisir un lieu",
     "pinHint": "Un lieu épinglé s'ouvre à la connexion",
     "pin": "Épingler ce lieu",
-    "unpin": "Désépingler"
+    "unpin": "Désépingler",
+    "favorites": "Favoris",
+    "addFavorite": "Ajouter aux favoris",
+    "removeFavorite": "Retirer des favoris"
   },
   "find": {
     "title": "Rechercher",
