@@ -82,6 +82,7 @@
     "pinHint": "A pinned place opens when you sign in",
     "pin": "Pin this place",
     "unpin": "Unpin",
+    "pinned": "Pinned",
     "favorites": "Favorites",
     "addFavorite": "Add to favorites",
     "removeFavorite": "Remove from favorites"
