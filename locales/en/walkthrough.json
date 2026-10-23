@@ -22,6 +22,12 @@
     "description": "Let us show you around. A short guided tour covers your hierarchy, the pages available to you, and how to find and manage your assets. You can replay any tour later from Help in your profile.",
     "begin": "Begin walkthrough",
     "skip": "Explore on my own",
+    "moved": {
+      "title": "What's new in {{product}}",
+      "titleFallback": "What's new",
+      "description": "Things have moved. Pages now sit in a side rail, settings live under Admin, and the place you're in is at the top. Take the short tour to see where everything is.",
+      "begin": "Show me around"
+    },
     "highlights": {
       "track": "Track assets in real time",
       "see": "See them on maps and floor plans",

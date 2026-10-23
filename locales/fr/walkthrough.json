@@ -22,6 +22,12 @@
     "description": "Laissez-nous vous faire visiter. Une courte visite guidée couvre votre hiérarchie, les pages à votre disposition et la façon de trouver et gérer vos actifs. Vous pourrez rejouer chaque visite plus tard depuis l’onglet Aide de votre profil.",
     "begin": "Commencer la visite",
     "skip": "Explorer par moi-même",
+    "moved": {
+      "title": "Quoi de neuf dans {{product}}",
+      "titleFallback": "Quoi de neuf",
+      "description": "Certaines choses ont changé de place. Les pages sont maintenant dans un rail latéral, les paramètres sous Administration, et le lieu où vous êtes s'affiche en haut. Suivez la courte visite pour tout retrouver.",
+      "begin": "Faites-moi visiter"
+    },
     "highlights": {
       "track": "Suivez vos actifs en temps réel",
       "see": "Voyez-les sur cartes et plans d'étage",
