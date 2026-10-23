@@ -58,7 +58,7 @@
         "title": "Rules",
         "description": "Build rules that watch for something happening and raise an alert when it does. A rule belongs to the location you create it at."
       },
-      "settings": { "title": "Settings", "description": "Configuration for the place you've picked: branding, asset rules, preferences, and security. It's under Admin." }
+      "settings": { "title": "Admin", "description": "Setting up the place you've picked: owners, users, branding, asset setup, rules, preferences and security." }
     },
     "openAssets": {
       "title": "Open Assets",
@@ -99,12 +99,12 @@
   "owner": {
     "title": "Set up your hierarchy",
     "summary": "Build Client → Building → Floor → Zone.",
-    "openAssets": { "title": "Open Assets", "description": "The add menu lives on the Assets page. Click Assets in the menu to start." },
+    "openOwners": { "title": "Open Owners", "description": "Owners are added under Admin › Owners. Open Admin, then Owners." },
     "client": {
       "title": "Add a client",
       "summary": "Create a top-level client company.",
       "context": { "title": "Pick where to add it", "description": "Pick the global level or a client in the place picker. Clients are created from there." },
-      "open": { "title": "Add a client", "description": "Your space is a tree: Client → Building → Floor → Zone. Open this menu and choose 'Add Client'." },
+      "open": { "title": "Add a client", "description": "Your space is a tree: Client → Building → Floor → Zone. Click 'Add Client'." },
       "name": { "title": "Name it", "description": "Your company or tenant name. Required." },
       "industry": { "title": "Industry", "description": "Optional. Just a label you can change later." },
       "save": { "title": "Save", "description": "Click Create to save your client." },
@@ -115,7 +115,7 @@
       "title": "Add a building",
       "summary": "Add a building under a client.",
       "context": { "title": "Select a client", "description": "Choose a client in the place picker first. Buildings are created inside a client." },
-      "open": { "title": "Add a building", "description": "With the client selected, open this menu and choose 'Add Building'." },
+      "open": { "title": "Add a building", "description": "With the client selected, click 'Add Building' on its row." },
       "name": { "title": "Name it", "description": "Your building's name. Required." },
       "save": { "title": "Save", "description": "Click Create to save." },
       "done": { "title": "Building created", "description": "Your building is saved. Select it to add floors inside it." },
@@ -126,7 +126,7 @@
       "title": "Add a floor",
       "summary": "Add a floor to a building.",
       "context": { "title": "Select a building", "description": "Choose a building in the place picker first. Floors are created inside a building." },
-      "open": { "title": "Add a floor", "description": "Select the building, open this menu, and choose 'Add Floor'." },
+      "open": { "title": "Add a floor", "description": "With the building selected, click 'Add Floor' on its row." },
       "name": { "title": "Name it", "description": "Your floor's name. Required." },
       "save": { "title": "Save", "description": "Click Create." },
       "done": { "title": "Floor created", "description": "Your floor is saved. Select it to add zones inside it." }
@@ -135,7 +135,7 @@
       "title": "Add a zone",
       "summary": "Add a zone to a floor.",
       "context": { "title": "Select a floor", "description": "Choose a floor in the place picker first. Zones are created inside a floor." },
-      "open": { "title": "Add a zone", "description": "Select the floor, open this menu, and choose 'Add Zone'. Zones are the smallest level." },
+      "open": { "title": "Add a zone", "description": "With the floor selected, click 'Add Zone' on its row. Zones are the smallest level." },
       "name": { "title": "Name it", "description": "Your zone's name, then complete the form." },
       "done": { "title": "Done!", "description": "You've built a full Client → Building → Floor → Zone hierarchy." }
     }
@@ -145,7 +145,7 @@
     "summary": "Make a reusable template for your assets.",
     "concept": { "title": "How it fits together", "description": "Three things stack up, and this guide sets up all of them. Start at the top:" },
     "selectOwner": { "title": "Pick a company", "description": "Asset types and their fields belong to a company. Pick a company, or anything inside it, in the place picker first." },
-    "openSettings": { "title": "Fields live in Settings", "description": "The fields themselves are set up in Settings, not on the Assets page. Open Settings." },
+    "openSettings": { "title": "Fields live in Asset setup", "description": "The fields themselves are set up in Admin › Asset setup, not on the Assets page. Open Admin, then Asset setup." },
     "settingsTab": { "title": "Asset settings", "description": "Click the Assets tab. Everything you set up once for this company lives here." },
     "configCard": { "title": "Two things to set up", "description": "Property definitions are the fields you can use. Asset types are the templates that require them. Both belong to the company, so every building, floor and zone inside it shares the same ones." },
     "openDefinitions": { "title": "Open property definitions", "description": "Click Property Definitions. This is the list of every field this company can put on an asset." },
@@ -228,7 +228,7 @@
     "assets": {
       "title": "Assets",
       "summary": "Asset templates, inactivity rules, and accuracy.",
-      "tab": { "title": "The Assets tab", "description": "Everything about how assets behave for this client. Click the Assets tab." },
+      "tab": { "title": "Asset setup", "description": "Everything about how assets behave for this client. Open Admin, then Asset setup." },
       "config": { "title": "Asset configuration", "description": "Property definitions are the reusable fields your asset types can require. Asset types are the templates themselves. Both are managed from here." },
       "inactivity": { "title": "Inactivity rules", "description": "Decide when a silent asset should be marked in transit, and later missing, based on how long it has gone without an update." },
       "accuracy": { "title": "Accuracy threshold", "description": "Set the accuracy, in meters, a location reading needs to appear on floor plans. Weaker readings are hidden unless a user opts in." }
@@ -236,20 +236,20 @@
     "branding": {
       "title": "Branding",
       "summary": "White label the platform for this client.",
-      "tab": { "title": "The Branding tab", "description": "Make the platform look like this client's own product. Click the Branding tab." },
+      "tab": { "title": "Branding", "description": "Make the platform look like this client's own product. Open Admin, then Branding." },
       "whitelabel": { "title": "White labeling", "description": "Set the platform name, logo, favicon, and every color of the interface. Changes preview live before you save." },
       "done": { "title": "Their brand, everywhere", "description": "Once saved, everyone under this client sees the platform in these colors, with this name and logo, even on the login page for their domain." }
     },
     "preferences": {
       "title": "Preferences",
       "summary": "Default behaviors for everyone under this client.",
-      "tab": { "title": "The Preferences tab", "description": "Defaults that apply to everyone under this client. Click the Preferences tab." },
+      "tab": { "title": "Preferences", "description": "Defaults that apply to everyone under this client. Open Admin, then Preferences." },
       "autoExpand": { "title": "Navigation behavior", "description": "Choose whether the place picker's tree starts fully expanded for users, or collapsed so they drill down themselves." }
     },
     "security": {
       "title": "Security",
       "summary": "Session timeout rules for this client.",
-      "tab": { "title": "The Security tab", "description": "Access and session rules. Click the Security tab." },
+      "tab": { "title": "Security", "description": "Access and session rules. Open Admin, then Security." },
       "timeout": { "title": "Session timeout", "description": "How long a user can stay inactive before being signed out automatically. Shorter timeouts are safer on shared computers." }
     }
   },

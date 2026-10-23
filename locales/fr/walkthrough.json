@@ -58,7 +58,7 @@
         "title": "Règles",
         "description": "Créez des règles qui surveillent un événement et déclenchent une alerte lorsqu'il se produit. Une règle appartient à l'emplacement où vous la créez."
       },
-      "settings": { "title": "Paramètres", "description": "La configuration du lieu choisi : image de marque, règles des actifs, préférences et sécurité. Elle se trouve sous Administration." }
+      "settings": { "title": "Administration", "description": "La configuration du lieu choisi : propriétaires, utilisateurs, image de marque, configuration des actifs, règles, préférences et sécurité." }
     },
     "openAssets": {
       "title": "Ouvrez Actifs",
@@ -99,12 +99,12 @@
   "owner": {
     "title": "Configurez votre hiérarchie",
     "summary": "Construisez Client → Bâtiment → Étage → Zone.",
-    "openAssets": { "title": "Ouvrez Actifs", "description": "Le menu d'ajout se trouve sur la page Actifs. Cliquez sur Actifs dans le menu pour commencer." },
+    "openOwners": { "title": "Ouvrez Propriétaires", "description": "Les propriétaires s'ajoutent sous Administration › Propriétaires. Ouvrez Administration, puis Propriétaires." },
     "client": {
       "title": "Ajouter un client",
       "summary": "Créez une entreprise cliente de premier niveau.",
       "context": { "title": "Choisissez où l'ajouter", "description": "Choisissez le niveau global ou un client dans le sélecteur de lieu. Les clients y sont créés." },
-      "open": { "title": "Ajoutez un client", "description": "Votre espace est une arborescence : Client → Bâtiment → Étage → Zone. Ouvrez ce menu et choisissez « Ajouter un client »." },
+      "open": { "title": "Ajoutez un client", "description": "Votre espace est une arborescence : Client → Bâtiment → Étage → Zone. Cliquez sur « Ajouter : Client »." },
       "name": { "title": "Nommez-le", "description": "Le nom de votre entreprise ou locataire. Obligatoire." },
       "industry": { "title": "Secteur", "description": "Facultatif. Juste une étiquette modifiable plus tard." },
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer pour enregistrer votre client." },
@@ -115,7 +115,7 @@
       "title": "Ajouter un bâtiment",
       "summary": "Ajoutez un bâtiment sous un client.",
       "context": { "title": "Sélectionnez un client", "description": "Choisissez d'abord un client dans le sélecteur de lieu. Les bâtiments sont créés dans un client." },
-      "open": { "title": "Ajoutez un bâtiment", "description": "Le client sélectionné, ouvrez ce menu et choisissez « Ajouter un bâtiment »." },
+      "open": { "title": "Ajoutez un bâtiment", "description": "Le client sélectionné, cliquez sur « Ajouter : Bâtiment » sur sa ligne." },
       "name": { "title": "Nommez-le", "description": "Le nom de votre bâtiment. Obligatoire." },
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer pour enregistrer." },
       "done": { "title": "Bâtiment créé", "description": "Votre bâtiment est enregistré. Sélectionnez-le pour y ajouter des étages." },
@@ -126,7 +126,7 @@
       "title": "Ajouter un étage",
       "summary": "Ajoutez un étage à un bâtiment.",
       "context": { "title": "Sélectionnez un bâtiment", "description": "Choisissez d'abord un bâtiment dans le sélecteur de lieu. Les étages sont créés dans un bâtiment." },
-      "open": { "title": "Ajoutez un étage", "description": "Sélectionnez le bâtiment, ouvrez ce menu et choisissez « Ajouter un étage »." },
+      "open": { "title": "Ajoutez un étage", "description": "Le bâtiment sélectionné, cliquez sur « Ajouter : Étage » sur sa ligne." },
       "name": { "title": "Nommez-le", "description": "Le nom de votre étage. Obligatoire." },
       "save": { "title": "Enregistrez", "description": "Cliquez sur Créer." },
       "done": { "title": "Étage créé", "description": "Votre étage est enregistré. Sélectionnez-le pour y ajouter des zones." }
@@ -135,7 +135,7 @@
       "title": "Ajouter une zone",
       "summary": "Ajoutez une zone à un étage.",
       "context": { "title": "Sélectionnez un étage", "description": "Choisissez d'abord un étage dans le sélecteur de lieu. Les zones sont créées dans un étage." },
-      "open": { "title": "Ajoutez une zone", "description": "Sélectionnez l'étage, ouvrez ce menu et choisissez « Ajouter une zone ». Les zones sont le plus petit niveau." },
+      "open": { "title": "Ajoutez une zone", "description": "L'étage sélectionné, cliquez sur « Ajouter : Zone » sur sa ligne. Les zones sont le plus petit niveau." },
       "name": { "title": "Nommez-la", "description": "Le nom de votre zone, puis complétez le formulaire." },
       "done": { "title": "Terminé !", "description": "Vous avez construit une hiérarchie complète Client → Bâtiment → Étage → Zone." }
     }
@@ -145,7 +145,7 @@
     "summary": "Créez un modèle réutilisable pour vos actifs.",
     "concept": { "title": "Comment tout s'articule", "description": "Trois éléments se superposent, et ce guide les met tous en place. Commencez par le haut :" },
     "selectOwner": { "title": "Choisissez une entreprise", "description": "Les types d'actifs et leurs champs appartiennent à une entreprise. Choisissez d'abord une entreprise, ou un élément à l'intérieur, dans le sélecteur de lieu." },
-    "openSettings": { "title": "Les champs sont dans Paramètres", "description": "Les champs eux-mêmes se configurent dans Paramètres, pas sur la page Actifs. Ouvrez Paramètres." },
+    "openSettings": { "title": "Les champs sont dans Configuration des actifs", "description": "Les champs eux-mêmes se configurent dans Administration › Configuration des actifs, pas sur la page Actifs. Ouvrez Administration, puis Configuration des actifs." },
     "settingsTab": { "title": "Paramètres des actifs", "description": "Cliquez sur l'onglet Actifs. Tout ce qui se configure une seule fois pour cette entreprise se trouve ici." },
     "configCard": { "title": "Deux choses à configurer", "description": "Les définitions de propriétés sont les champs disponibles. Les types d'actifs sont les modèles qui les exigent. Les deux appartiennent à l'entreprise, donc chaque bâtiment, étage et zone à l'intérieur partage les mêmes." },
     "openDefinitions": { "title": "Ouvrez les définitions de propriétés", "description": "Cliquez sur Définitions de propriétés. C'est la liste de tous les champs que cette entreprise peut placer sur un actif." },
@@ -228,7 +228,7 @@
     "assets": {
       "title": "Actifs",
       "summary": "Modèles d'actifs, règles d'inactivité et précision.",
-      "tab": { "title": "L'onglet Actifs", "description": "Tout ce qui définit le comportement des actifs pour ce client. Cliquez sur l'onglet Actifs." },
+      "tab": { "title": "Configuration des actifs", "description": "Tout ce qui définit le comportement des actifs pour ce client. Ouvrez Administration, puis Configuration des actifs." },
       "config": { "title": "Configuration des actifs", "description": "Les définitions de propriétés sont les champs réutilisables que vos types d'actifs peuvent exiger. Les types d'actifs sont les modèles eux-mêmes. Les deux se gèrent ici." },
       "inactivity": { "title": "Règles d'inactivité", "description": "Décidez quand un actif silencieux doit être marqué en transit, puis manquant, selon le temps écoulé depuis sa dernière mise à jour." },
       "accuracy": { "title": "Seuil de précision", "description": "Définissez la précision, en mètres, qu'un relevé de position doit atteindre pour apparaître sur les plans d'étage. Les relevés plus faibles sont masqués sauf si un utilisateur choisit de les voir." }
@@ -236,20 +236,20 @@
     "branding": {
       "title": "Image de marque",
       "summary": "Personnalisez la plateforme en marque blanche pour ce client.",
-      "tab": { "title": "L'onglet Image de marque", "description": "Donnez à la plateforme l'apparence du produit de ce client. Cliquez sur l'onglet Image de marque." },
+      "tab": { "title": "Image de marque", "description": "Donnez à la plateforme l'apparence du produit de ce client. Ouvrez Administration, puis Image de marque." },
       "whitelabel": { "title": "Marque blanche", "description": "Définissez le nom de la plateforme, le logo, le favicon et chaque couleur de l'interface. Les changements s'affichent en aperçu avant l'enregistrement." },
       "done": { "title": "Leur marque, partout", "description": "Une fois enregistré, tous les utilisateurs de ce client voient la plateforme dans ces couleurs, avec ce nom et ce logo, jusqu'à la page de connexion de leur domaine." }
     },
     "preferences": {
       "title": "Préférences",
       "summary": "Comportements par défaut pour tous les utilisateurs de ce client.",
-      "tab": { "title": "L'onglet Préférences", "description": "Les valeurs par défaut qui s'appliquent à tous les utilisateurs de ce client. Cliquez sur l'onglet Préférences." },
+      "tab": { "title": "Préférences", "description": "Les valeurs par défaut qui s'appliquent à tous les utilisateurs de ce client. Ouvrez Administration, puis Préférences." },
       "autoExpand": { "title": "Comportement de navigation", "description": "Choisissez si l'arborescence du sélecteur de lieu démarre entièrement déployée pour les utilisateurs, ou repliée pour qu'ils l'explorent eux-mêmes." }
     },
     "security": {
       "title": "Sécurité",
       "summary": "Règles d'expiration de session pour ce client.",
-      "tab": { "title": "L'onglet Sécurité", "description": "Les règles d'accès et de session. Cliquez sur l'onglet Sécurité." },
+      "tab": { "title": "Sécurité", "description": "Les règles d'accès et de session. Ouvrez Administration, puis Sécurité." },
       "timeout": { "title": "Expiration de session", "description": "La durée d'inactivité avant qu'un utilisateur soit déconnecté automatiquement. Des délais plus courts sont plus sûrs sur les postes partagés." }
     }
   },

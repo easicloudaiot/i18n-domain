@@ -9,7 +9,12 @@
     "stock": "Stock",
     "billing": "Facturation",
     "settings": "Paramètres",
-    "places": "Lieux"
+    "places": "Propriétaires",
+    "branding": "Image de marque",
+    "asset-setup": "Configuration des actifs",
+    "preferences": "Préférences",
+    "security": "Sécurité",
+    "activity": "Activité"
   },
   "sections": {
     "main": "Principal",
@@ -51,7 +56,14 @@
   "groups": {
     "monitor": "Surveillance",
     "analyze": "Analyse",
-    "manage": "Gestion"
+    "manage": "Gestion",
+    "admin": "Administration",
+    "globalAdmin": "Administration globale"
+  },
+  "adminSections": {
+    "organization": "Organisation",
+    "configuration": "Configuration",
+    "security": "Sécurité"
   },
   "shell": {
     "main": "Principal",

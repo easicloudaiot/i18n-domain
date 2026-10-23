@@ -9,7 +9,12 @@
     "stock": "Stock",
     "billing": "Billing",
     "settings": "Settings",
-    "places": "Places"
+    "places": "Owners",
+    "branding": "Branding",
+    "asset-setup": "Asset setup",
+    "preferences": "Preferences",
+    "security": "Security",
+    "activity": "Activity"
   },
   "sections": {
     "main": "Main",
@@ -51,7 +56,14 @@
   "groups": {
     "monitor": "Monitor",
     "analyze": "Analyze",
-    "manage": "Manage"
+    "manage": "Manage",
+    "admin": "Admin",
+    "globalAdmin": "Global Admin"
+  },
+  "adminSections": {
+    "organization": "Organization",
+    "configuration": "Configuration",
+    "security": "Security"
   },
   "shell": {
     "main": "Main",

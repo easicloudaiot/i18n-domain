@@ -298,10 +298,10 @@
     }
   },
   "places": {
-    "title": "Lieux",
-    "subtitle": "Clients, bâtiments, étages et zones sous ce lieu. Modifiez une ligne pour la changer ou la supprimer.",
+    "title": "Propriétaires",
+    "subtitle": "Clients, bâtiments, étages et zones sous ce propriétaire. Modifiez une ligne pour la changer ou la supprimer.",
     "add": "Ajouter : {{type}}",
     "edit": "Modifier {{name}}",
-    "empty": "Aucun lieu ici pour l'instant."
+    "empty": "Aucun propriétaire ici pour l'instant."
   }
 }

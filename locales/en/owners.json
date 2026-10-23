@@ -298,10 +298,10 @@
     }
   },
   "places": {
-    "title": "Places",
-    "subtitle": "Clients, buildings, floors and zones beneath this place. Edit a row to change or delete it.",
+    "title": "Owners",
+    "subtitle": "Clients, buildings, floors and zones beneath this owner. Edit a row to change or delete it.",
     "add": "Add {{type}}",
     "edit": "Edit {{name}}",
-    "empty": "No places here yet."
+    "empty": "No owners here yet."
   }
 }
