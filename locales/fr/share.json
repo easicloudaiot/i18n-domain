@@ -30,5 +30,56 @@
   },
   "map": {
     "noFix": "Aucun de ces actifs n'a de position GPS pour le moment."
+  },
+  "create": {
+    "action": "Partager la position en direct",
+    "title": "Partager la position en direct",
+    "intro": "Toute personne qui a le lien peut voir où se trouve cet actif, sans se connecter.",
+    "shows": "Le lien montre sa position sur une carte, et :",
+    "fields": {
+      "NAME": "Nom",
+      "ASSET_TYPE": "Type",
+      "CUSTODY_STATUS": "Statut de garde",
+      "CURRENT_PLACE": "Site et zone",
+      "LAST_SEEN": "Dernier signal"
+    },
+    "custodyHint": "Certains traceurs indiquent « En transit » alors qu'ils sont sur place.",
+    "loanedOut": "Cet actif est prêté : le lien montre le site de l'emprunteur.",
+    "lasts": "Durée du lien",
+    "ttl": {
+      "1": "1 heure",
+      "24": "1 jour",
+      "72": "3 jours",
+      "168": "7 jours"
+    },
+    "submit": "Créer le lien",
+    "creating": "Création…",
+    "ready": "Lien prêt",
+    "once": "Copiez-le maintenant. Il ne pourra plus être affiché.",
+    "worksUntil": "Valide jusqu'au {{time}}",
+    "urlLabel": "Lien de partage",
+    "copy": "Copier le lien",
+    "copied": "Copié",
+    "shareVia": "Partager…",
+    "failed": "Impossible de créer le lien"
+  },
+  "active": {
+    "title": "Liens actifs",
+    "expiresIn": "Expire dans {{duration}}",
+    "mapOnly": "Carte seulement",
+    "withOthers_one": "Avec {{count}} autre actif",
+    "withOthers_other": "Avec {{count}} autres actifs",
+    "revoke": "Révoquer",
+    "confirm": "Désactiver ce lien pour tout le monde ?",
+    "confirmYes": "Révoquer",
+    "confirmNo": "Garder",
+    "revokeFailed": "Impossible de révoquer le lien",
+    "loadFailed": "Impossible de charger les liens de cet actif",
+    "views": {
+      "never": "Pas encore ouvert",
+      "opened_one": "1 ouverture",
+      "opened_other": "{{count}} ouvertures",
+      "lastOpened": "dernière ouverture {{time}}"
+    }
   }
 }

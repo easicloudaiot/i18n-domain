@@ -30,5 +30,56 @@
   },
   "map": {
     "noFix": "None of these assets has a GPS position right now."
+  },
+  "create": {
+    "action": "Share live location",
+    "title": "Share live location",
+    "intro": "Anyone with the link can see where this asset is, without signing in.",
+    "shows": "The link shows its position on a map, plus:",
+    "fields": {
+      "NAME": "Name",
+      "ASSET_TYPE": "Type",
+      "CUSTODY_STATUS": "Custody status",
+      "CURRENT_PLACE": "Site and zone",
+      "LAST_SEEN": "Last report"
+    },
+    "custodyHint": "Some trackers read \"In transit\" while at home.",
+    "loanedOut": "This asset is loaned out, so the link shows the borrower's site.",
+    "lasts": "Link lasts",
+    "ttl": {
+      "1": "1 hour",
+      "24": "1 day",
+      "72": "3 days",
+      "168": "7 days"
+    },
+    "submit": "Create link",
+    "creating": "Creating…",
+    "ready": "Link ready",
+    "once": "Copy it now. It can't be shown again.",
+    "worksUntil": "Works until {{time}}",
+    "urlLabel": "Share link",
+    "copy": "Copy link",
+    "copied": "Copied",
+    "shareVia": "Share…",
+    "failed": "Couldn't create the link"
+  },
+  "active": {
+    "title": "Active links",
+    "expiresIn": "Expires in {{duration}}",
+    "mapOnly": "Map only",
+    "withOthers_one": "With {{count}} other asset",
+    "withOthers_other": "With {{count}} other assets",
+    "revoke": "Revoke",
+    "confirm": "Stop this link for everyone?",
+    "confirmYes": "Revoke",
+    "confirmNo": "Keep",
+    "revokeFailed": "Couldn't revoke the link",
+    "loadFailed": "Couldn't load this asset's links",
+    "views": {
+      "never": "Not opened yet",
+      "opened_one": "Opened once",
+      "opened_other": "Opened {{count}} times",
+      "lastOpened": "last opened {{time}}"
+    }
   }
 }
