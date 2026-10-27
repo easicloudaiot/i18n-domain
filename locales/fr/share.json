@@ -1,0 +1,34 @@
+{
+  "page": {
+    "title": "Position partagée"
+  },
+  "expires": {
+    "in": "Le lien expire dans {{duration}}"
+  },
+  "state": {
+    "loading": "Chargement de la position partagée…",
+    "gone": {
+      "title": "Ce lien a expiré ou n'existe pas",
+      "body": "Demandez un nouveau lien à la personne qui l'a partagé."
+    },
+    "error": {
+      "title": "Impossible de charger ce lien",
+      "body": "Nouvel essai dans un instant."
+    },
+    "stale": "Échec de l'actualisation. Dernière mise à jour affichée."
+  },
+  "assets": {
+    "count_one": "{{count}} actif",
+    "count_other": "{{count}} actifs"
+  },
+  "asset": {
+    "unnamed": "Actif {{n}}",
+    "betweenSites": "Entre deux sites",
+    "positionAt": "Position du {{time}}",
+    "lastSeen": "Dernier signal {{time}}",
+    "locationUnavailable": "Position indisponible"
+  },
+  "map": {
+    "noFix": "Aucun de ces actifs n'a de position GPS pour le moment."
+  }
+}

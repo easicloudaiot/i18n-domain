@@ -1,0 +1,34 @@
+{
+  "page": {
+    "title": "Shared location"
+  },
+  "expires": {
+    "in": "Link expires in {{duration}}"
+  },
+  "state": {
+    "loading": "Loading the shared location…",
+    "gone": {
+      "title": "This link has expired or doesn't exist",
+      "body": "Ask the person who shared it for a new link."
+    },
+    "error": {
+      "title": "We couldn't load this link",
+      "body": "Trying again in a moment."
+    },
+    "stale": "Couldn't refresh. Showing the last update."
+  },
+  "assets": {
+    "count_one": "{{count}} asset",
+    "count_other": "{{count}} assets"
+  },
+  "asset": {
+    "unnamed": "Asset {{n}}",
+    "betweenSites": "Between sites",
+    "positionAt": "Position from {{time}}",
+    "lastSeen": "Last report {{time}}",
+    "locationUnavailable": "Location unavailable"
+  },
+  "map": {
+    "noFix": "None of these assets has a GPS position right now."
+  }
+}
