@@ -42,7 +42,15 @@
     "details": "Building details",
     "typeDetails": "{{type}} building",
     "location": "Location",
-    "contact": "Contact"
+    "contact": "Contact",
+    "open": "Open building",
+    "openFloor": "Open {{name}}",
+    "assets": "Assets",
+    "devices": "Devices",
+    "missingCount": "{{count}} missing",
+    "awayCount": "{{count}} away",
+    "inactiveCount": "{{count}} inactive",
+    "noFloors": "No floors in this building yet."
   },
   "search": {
     "placeholder": "Search...",
@@ -53,5 +61,6 @@
     "start": "Start",
     "end": "End",
     "direction": "Direction"
-  }
+  },
+  "buildingsFailed": "Buildings couldn’t load"
 }

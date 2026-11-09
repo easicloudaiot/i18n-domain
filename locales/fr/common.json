@@ -385,7 +385,8 @@
       "OWNERSHIP": "Emplacement",
       "CUSTODY": "Garde",
       "DEVICE": "Appareils",
-      "LIFECYCLE": "Création / suppression"
+      "LIFECYCLE": "Création / suppression",
+      "ALERT": "Alertes"
     },
     "entityType": {
       "ASSET": "Actif",
@@ -445,6 +446,29 @@
       "deletedUser": "Un utilisateur supprimé",
       "someone": "Quelqu’un",
       "onBehalfOf": "{{who}} au nom de {{behalf}}"
+    },
+    "timeline": {
+      "title": "Où il est passé",
+      "view": "Affichage",
+      "viewTimeline": "Chronologie",
+      "viewList": "Liste",
+      "notSeen": "Non détecté",
+      "earlier": "Plus tôt",
+      "now": "Maintenant",
+      "soFar": "{{duration}} jusqu’ici",
+      "sinceEarlier": "depuis plus tôt",
+      "loadEarlier": "Charger plus ancien",
+      "runLabel": "{{name}} · {{duration}}",
+      "runLabelOpen": "{{name}} · depuis plus tôt",
+      "today": "Aujourd’hui",
+      "unitHint": "Une ligne par {{level}} · choisissez une voie pour changer",
+      "showBy": "Une ligne par {{level}}",
+      "movedBy": "déplacé par {{name}}",
+      "inPlace": "à {{place}}",
+      "soFarShort": "jusqu’ici",
+      "timeColumn": "Heure",
+      "dwellColumn": "Temps de présence",
+      "loadingEarlier": "Chargement de l’historique…"
     }
   },
   "sort": {

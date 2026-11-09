@@ -385,7 +385,8 @@
       "OWNERSHIP": "Location",
       "CUSTODY": "Custody",
       "DEVICE": "Devices",
-      "LIFECYCLE": "Created / deleted"
+      "LIFECYCLE": "Created / deleted",
+      "ALERT": "Alerts"
     },
     "entityType": {
       "ASSET": "Asset",
@@ -445,6 +446,29 @@
       "deletedUser": "A deleted user",
       "someone": "Someone",
       "onBehalfOf": "{{who}} on behalf of {{behalf}}"
+    },
+    "timeline": {
+      "title": "Where it has been",
+      "view": "View",
+      "viewTimeline": "Timeline",
+      "viewList": "List",
+      "notSeen": "Not seen",
+      "earlier": "Earlier",
+      "now": "Now",
+      "soFar": "{{duration}} so far",
+      "sinceEarlier": "since earlier",
+      "loadEarlier": "Load earlier",
+      "runLabel": "{{name}} · {{duration}}",
+      "runLabelOpen": "{{name}} · since earlier",
+      "today": "Today",
+      "unitHint": "One row per {{level}} · pick a lane to change",
+      "showBy": "One row per {{level}}",
+      "movedBy": "moved by {{name}}",
+      "inPlace": "in {{place}}",
+      "soFarShort": "so far",
+      "timeColumn": "Time",
+      "dwellColumn": "Dwell time",
+      "loadingEarlier": "Loading earlier…"
     }
   },
   "sort": {

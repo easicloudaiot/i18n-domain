@@ -42,7 +42,18 @@
     "details": "Détails du bâtiment",
     "typeDetails": "Bâtiment {{type}}",
     "location": "Emplacement",
-    "contact": "Contact"
+    "contact": "Contact",
+    "open": "Ouvrir le bâtiment",
+    "openFloor": "Ouvrir {{name}}",
+    "assets": "Actifs",
+    "devices": "Appareils",
+    "missingCount_one": "{{count}} manquant",
+    "missingCount_other": "{{count}} manquants",
+    "awayCount_one": "{{count}} absent",
+    "awayCount_other": "{{count}} absents",
+    "inactiveCount_one": "{{count}} inactif",
+    "inactiveCount_other": "{{count}} inactifs",
+    "noFloors": "Aucun étage dans ce bâtiment pour l’instant."
   },
   "search": {
     "placeholder": "Rechercher...",
@@ -53,5 +64,6 @@
     "start": "Départ",
     "end": "Fin",
     "direction": "Direction"
-  }
+  },
+  "buildingsFailed": "Impossible de charger les bâtiments"
 }

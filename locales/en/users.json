@@ -174,7 +174,7 @@
     "users": "Users"
   },
   "groups": {
-    "title": "User groups",
+    "title": "Alert groups",
     "subtitle": "Decide who gets told when an alert is raised here.",
     "description": "Description",
     "name": "Name",

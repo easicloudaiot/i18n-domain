@@ -12,8 +12,9 @@
     "places": "Propriétaires",
     "branding": "Image de marque",
     "asset-setup": "Configuration des actifs",
-    "preferences": "Préférences",
-    "security": "Sécurité",
+    "preferences": "Valeurs par défaut du client",
+    "security": "Connexion et sessions",
+    "roles": "Rôles",
     "activity": "Activité"
   },
   "sections": {
@@ -89,6 +90,8 @@
   },
   "find": {
     "title": "Rechercher",
+    "quick": "Épinglés et favoris",
+    "pages": "Pages",
     "placeholder": "Rechercher un actif, un appareil ou un lieu…",
     "inputPlaceholder": "Nom, étiquette, type ou lieu…",
     "places": "Lieux",
@@ -101,9 +104,12 @@
     "inPlace": "Dans {{place}}",
     "hint": "Saisissez au moins deux lettres pour rechercher des actifs, des appareils et des lieux.",
     "hintPlaces": "Saisissez du texte pour rechercher vos lieux.",
+    "hintWithPages": "Saisissez au moins deux lettres pour rechercher des pages, des actifs, des appareils et des lieux.",
+    "hintPlacesPages": "Saisissez du texte pour rechercher des pages et vos lieux.",
     "searching": "Recherche…",
     "failed": "La recherche n'est pas disponible pour le moment.",
     "nothing": "Aucun résultat pour « {{query}} ».",
+    "capped": "Actifs et appareils recherchés dans {{searched}} lieux sur {{total}}. Choisissez un lieu pour y chercher.",
     "keys": "↑↓ pour naviguer · Entrée pour ouvrir · Échap pour fermer"
   },
   "scan": {

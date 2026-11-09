@@ -174,7 +174,7 @@
     "users": "Utilisateurs"
   },
   "groups": {
-    "title": "Groupes d'utilisateurs",
+    "title": "Groupes d’alerte",
     "subtitle": "Choisissez qui est prévenu lorsqu'une alerte est déclenchée ici.",
     "description": "Description",
     "name": "Nom",

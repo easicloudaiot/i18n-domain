@@ -12,8 +12,9 @@
     "places": "Owners",
     "branding": "Branding",
     "asset-setup": "Asset setup",
-    "preferences": "Preferences",
-    "security": "Security",
+    "preferences": "Client defaults",
+    "security": "Sign-in & sessions",
+    "roles": "Roles",
     "activity": "Activity"
   },
   "sections": {
@@ -89,6 +90,8 @@
   },
   "find": {
     "title": "Find",
+    "quick": "Pinned and favourites",
+    "pages": "Pages",
     "placeholder": "Find an asset, device or place…",
     "inputPlaceholder": "Name, tag, type or place…",
     "places": "Places",
@@ -101,9 +104,12 @@
     "inPlace": "In {{place}}",
     "hint": "Type at least two letters to search assets, devices and places.",
     "hintPlaces": "Type to search your places.",
+    "hintWithPages": "Type at least two letters to search pages, assets, devices and places.",
+    "hintPlacesPages": "Type to search pages and your places.",
     "searching": "Searching…",
     "failed": "Search is unavailable right now.",
     "nothing": "Nothing matches “{{query}}”.",
+    "capped": "Assets and devices searched in {{searched}} of {{total}} places. Pick a place to search inside it.",
     "keys": "↑↓ to move · Enter to open · Esc to close"
   },
   "scan": {
