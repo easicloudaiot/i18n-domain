@@ -226,7 +226,10 @@
     "devices": "Rechercher un appareil par nom...",
     "assetTypes": "Rechercher un type d'actif...",
     "properties": "Rechercher une propriété...",
-    "select": "Sélectionner..."
+    "select": "Sélectionner...",
+    "clear": "Effacer la recherche",
+    "resultCount_one": "{{formatted}} résultat",
+    "resultCount_other": "{{formatted}} résultats"
   },
   "timeRange": "Plage de temps",
   "form": {
@@ -248,7 +251,11 @@
     "results_one": "{{count}} résultat",
     "results_other": "{{count}} résultats",
     "filteredOf": "{{filtered}} sur {{total}} résultats",
-    "loading": "Chargement des filtres..."
+    "loading": "Chargement des filtres...",
+    "button": "Filtres",
+    "remove": "Retirer {{label}}",
+    "clearAllShort": "Tout effacer",
+    "chipSelected": "{{label}} : {{count}} sélectionnés"
   },
   "profile": {
     "title": "Mon profil",

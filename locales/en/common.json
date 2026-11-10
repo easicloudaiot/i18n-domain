@@ -226,7 +226,10 @@
     "devices": "Search devices by name...",
     "assetTypes": "Search asset types...",
     "properties": "Search properties...",
-    "select": "Select..."
+    "select": "Select...",
+    "clear": "Clear search",
+    "resultCount_one": "{{formatted}} result",
+    "resultCount_other": "{{formatted}} results"
   },
   "timeRange": "Time range",
   "form": {
@@ -248,7 +251,11 @@
     "results_one": "{{count}} result",
     "results_other": "{{count}} results",
     "filteredOf": "{{filtered}} of {{total}} results",
-    "loading": "Loading filters..."
+    "loading": "Loading filters...",
+    "button": "Filters",
+    "remove": "Remove {{label}}",
+    "clearAllShort": "Clear all",
+    "chipSelected": "{{label}}: {{count}} selected"
   },
   "profile": {
     "title": "My profile",

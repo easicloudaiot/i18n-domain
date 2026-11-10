@@ -478,5 +478,75 @@
     "trackFailed": "Couldn’t load recorded positions. Estimated from the stops.",
     "trackEmpty": "No positions were recorded during this run. Estimated from the stops.",
     "timeline": "The run, in time"
+  },
+  "report": {
+    "export": "Export PDF",
+    "preparing": "Preparing PDF…",
+    "slow": "Some map images are still loading. The PDF may be missing them.",
+    "eyebrow": "Journey run",
+    "generated": "Generated {{date}} {{zone}}",
+    "asset": "Asset",
+    "site": "Location",
+    "window": "Run",
+    "windowValue": "{{from}} – {{to}} {{zone}}",
+    "stops": "Stops",
+    "legs": "Legs",
+    "floors": "Floors",
+    "positions": "Positions",
+    "positionsEstimated": "Estimated",
+    "map": {
+      "title": "Route taken",
+      "none": "None of this run’s places has a position on the street map.",
+      "noRoute": "The journey’s route couldn’t be loaded, so it isn’t drawn.",
+      "start": "Start",
+      "end": "End",
+      "legendTaken": "Path taken (recorded)",
+      "legendRoute": "Route between stops, in order",
+      "legendGap": "Not recorded (indoors, or no position)",
+      "legendEnds": "First and last recorded position"
+    },
+    "floor": {
+      "title": "Floors visited",
+      "unnamed": "Floor",
+      "stops_one": "Stop {{numbers}}",
+      "stops_other": "Stops {{numbers}}",
+      "loading": "Loading the floor plan…",
+      "estimated": "No recorded positions: the asset is known to have been on this floor, not where.",
+      "noPositions": "Reports named this floor but no position on its plan.",
+      "noSize": "This floor has no size set, so its positions can’t be placed on the plan."
+    },
+    "table": {
+      "title": "Stops and legs",
+      "segment": "Stop or leg",
+      "start": "Arrived / departed",
+      "end": "Left / arrived",
+      "duration": "Time",
+      "rank": "Slower than",
+      "rankValue": "{{percent}}%",
+      "stop": "Stop",
+      "leg": "Leg",
+      "total": "Total (cycle time)",
+      "highlightRanked": "Highlighted: slower than {{percent}}% of runs at that stop or on that leg.",
+      "highlightLongest": "Highlighted: this run’s longest stop and longest leg (too few runs to compare)."
+    },
+    "changes": {
+      "title": "Status changes during the run",
+      "none": "No custody, location or alert changes were recorded for this asset during the run.",
+      "forbidden": "You can’t see this asset’s history.",
+      "failed": "The asset’s history couldn’t be loaded."
+    },
+    "notes": {
+      "title": "Notes",
+      "zone": "All times are in {{zone}}.",
+      "recorded_one": "The path is the asset’s recorded positions: {{count}} report.",
+      "recorded_other": "The path is the asset’s recorded positions: {{count}} reports.",
+      "tooMany": "This run has {{total}} recorded positions, more than the {{max}} an export can load yet, so the map shows the route between stops, not the path taken.",
+      "forbidden": "You can’t see this asset’s location history, so the map shows the route between stops, not the path taken.",
+      "trackFailed": "The recorded positions couldn’t be loaded, so the map shows the route between stops, not the path taken.",
+      "noTrack": "No positions were recorded during this run, so the map shows the route between stops.",
+      "unplaced_one": "At {{from}} the asset reported only its client, with no position. The map leaves that stretch dashed.",
+      "unplaced_other": "From {{from}} to {{to}}, {{count}} reports gave only the asset’s client, with no position. The map leaves that stretch dashed.",
+      "changesCapped": "Only the latest {{count}} status changes are listed."
+    }
   }
 }

@@ -480,5 +480,75 @@
     "trackFailed": "Impossible de charger les positions enregistrées. Estimé à partir des arrêts.",
     "trackEmpty": "Aucune position n’a été enregistrée pendant ce trajet. Estimé à partir des arrêts.",
     "timeline": "Le trajet, dans le temps"
+  },
+  "report": {
+    "export": "Exporter en PDF",
+    "preparing": "Préparation du PDF…",
+    "slow": "Certaines images de carte sont encore en chargement. Elles pourraient manquer dans le PDF.",
+    "eyebrow": "Trajet",
+    "generated": "Généré le {{date}} {{zone}}",
+    "asset": "Actif",
+    "site": "Emplacement",
+    "window": "Trajet",
+    "windowValue": "{{from}} – {{to}} {{zone}}",
+    "stops": "Arrêts",
+    "legs": "Tronçons",
+    "floors": "Étages",
+    "positions": "Positions",
+    "positionsEstimated": "Estimées",
+    "map": {
+      "title": "Parcours effectué",
+      "none": "Aucun des lieux de ce trajet n’a de position sur la carte.",
+      "noRoute": "L’itinéraire n’a pas pu être chargé ; il n’est donc pas tracé.",
+      "start": "Départ",
+      "end": "Arrivée",
+      "legendTaken": "Parcours effectué (enregistré)",
+      "legendRoute": "Itinéraire entre les arrêts, dans l’ordre",
+      "legendGap": "Non enregistré (à l’intérieur, ou sans position)",
+      "legendEnds": "Première et dernière position enregistrées"
+    },
+    "floor": {
+      "title": "Étages visités",
+      "unnamed": "Étage",
+      "stops_one": "Arrêt {{numbers}}",
+      "stops_other": "Arrêts {{numbers}}",
+      "loading": "Chargement du plan d’étage…",
+      "estimated": "Aucune position enregistrée : on sait que l’actif était à cet étage, pas où.",
+      "noPositions": "Les relevés indiquent cet étage, mais aucune position sur son plan.",
+      "noSize": "Cet étage n’a pas de dimensions ; ses positions ne peuvent pas être placées sur le plan."
+    },
+    "table": {
+      "title": "Arrêts et tronçons",
+      "segment": "Arrêt ou tronçon",
+      "start": "Arrivée / départ",
+      "end": "Départ / arrivée",
+      "duration": "Durée",
+      "rank": "Plus lent que",
+      "rankValue": "{{percent}} %",
+      "stop": "Arrêt",
+      "leg": "Tronçon",
+      "total": "Total (durée du cycle)",
+      "highlightRanked": "En surbrillance : plus lent que {{percent}} % des trajets à cet arrêt ou sur ce tronçon.",
+      "highlightLongest": "En surbrillance : l’arrêt et le tronçon les plus longs de ce trajet (trop peu de trajets pour comparer)."
+    },
+    "changes": {
+      "title": "Changements d’état pendant le trajet",
+      "none": "Aucun changement de garde, d’emplacement ou d’alerte n’a été enregistré pour cet actif pendant le trajet.",
+      "forbidden": "Vous ne pouvez pas voir l’historique de cet actif.",
+      "failed": "L’historique de l’actif n’a pas pu être chargé."
+    },
+    "notes": {
+      "title": "Remarques",
+      "zone": "Toutes les heures sont en {{zone}}.",
+      "recorded_one": "Le parcours correspond aux positions enregistrées de l’actif : {{count}} relevé.",
+      "recorded_other": "Le parcours correspond aux positions enregistrées de l’actif : {{count}} relevés.",
+      "tooMany": "Ce trajet compte {{total}} positions enregistrées, plus que les {{max}} qu’un export peut charger pour l’instant ; la carte montre donc l’itinéraire entre les arrêts, et non le parcours effectué.",
+      "forbidden": "Vous ne pouvez pas voir l’historique des positions de cet actif ; la carte montre donc l’itinéraire entre les arrêts, et non le parcours effectué.",
+      "trackFailed": "Les positions enregistrées n’ont pas pu être chargées ; la carte montre donc l’itinéraire entre les arrêts, et non le parcours effectué.",
+      "noTrack": "Aucune position n’a été enregistrée pendant ce trajet ; la carte montre donc l’itinéraire entre les arrêts.",
+      "unplaced_one": "À {{from}}, l’actif n’a indiqué que son client, sans position. La carte laisse ce passage en pointillé.",
+      "unplaced_other": "De {{from}} à {{to}}, {{count}} relevés n’ont indiqué que le client de l’actif, sans position. La carte laisse ce passage en pointillé.",
+      "changesCapped": "Seuls les {{count}} changements d’état les plus récents sont listés."
+    }
   }
 }
