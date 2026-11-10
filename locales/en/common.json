@@ -255,7 +255,9 @@
     "button": "Filters",
     "remove": "Remove {{label}}",
     "clearAllShort": "Clear all",
-    "chipSelected": "{{label}}: {{count}} selected"
+    "chipSelected": "{{label}}: {{count}} selected",
+    "showResults_one": "Show {{formatted}} result",
+    "showResults_other": "Show {{formatted}} results"
   },
   "profile": {
     "title": "My profile",
