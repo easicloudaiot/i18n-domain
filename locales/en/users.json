@@ -58,6 +58,8 @@
     "currentContext": "Current Context",
     "primaryOwnerHelpCreate": "Users created here will automatically belong to this entity",
     "primaryOwnerHelpEdit": "The user's primary owner entity",
+    "primaryOwnerHelpPick": "Where the user belongs. They see this owner and everything beneath it.",
+    "primaryOwnerHelpMove": "Moving the user to another owner means choosing their role again.",
     "noRolesTitle": "No roles available to assign",
     "noRolesHelp": "You can only assign roles with permissions equal to or less than your own.",
     "rolesHint": "Roles define what actions users can perform on assets, devices, owners, and other users. You can only assign roles with permissions equal to or less than your own.",

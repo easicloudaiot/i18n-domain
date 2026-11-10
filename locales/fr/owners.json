@@ -301,6 +301,7 @@
     "title": "Propriétaires",
     "subtitle": "Clients, bâtiments, étages et zones sous ce propriétaire. Modifiez une ligne pour la changer ou la supprimer.",
     "add": "Ajouter : {{type}}",
+    "addUser": "Ajouter un utilisateur",
     "edit": "Modifier {{name}}",
     "empty": "Aucun propriétaire ici pour l'instant."
   }

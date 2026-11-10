@@ -58,6 +58,8 @@
     "currentContext": "Contexte actuel",
     "primaryOwnerHelpCreate": "Les utilisateurs créés ici appartiendront automatiquement à cette entité",
     "primaryOwnerHelpEdit": "L'entité propriétaire principale de l'utilisateur",
+    "primaryOwnerHelpPick": "L'endroit où l'utilisateur est rattaché. Il voit ce propriétaire et tout ce qui se trouve en dessous.",
+    "primaryOwnerHelpMove": "Déplacer l'utilisateur vers un autre propriétaire oblige à choisir de nouveau son rôle.",
     "noRolesTitle": "Aucun rôle disponible à assigner",
     "noRolesHelp": "Vous ne pouvez assigner que des rôles dont les permissions sont égales ou inférieures aux vôtres.",
     "rolesHint": "Les rôles définissent les actions possibles sur les actifs, appareils, propriétaires et autres utilisateurs. Vous ne pouvez assigner que des rôles dont les permissions sont égales ou inférieures aux vôtres.",
