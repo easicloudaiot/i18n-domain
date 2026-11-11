@@ -480,7 +480,7 @@
     "timeline": "The run, in time"
   },
   "report": {
-    "export": "Export PDF",
+    "export": "Download PDF",
     "preparing": "Preparing PDF…",
     "slow": "Some map images are still loading. The PDF may be missing them.",
     "eyebrow": "Journey run",
@@ -513,7 +513,8 @@
       "loading": "Loading the floor plan…",
       "estimated": "No recorded positions: the asset is known to have been on this floor, not where.",
       "noPositions": "Reports named this floor but no position on its plan.",
-      "noSize": "This floor has no size set, so its positions can’t be placed on the plan."
+      "noSize": "This floor has no size set, so its positions can’t be placed on the plan.",
+      "planFailed": "The floor plan couldn’t be included."
     },
     "table": {
       "title": "Stops and legs",
@@ -547,6 +548,24 @@
       "unplaced_one": "At {{from}} the asset reported only its client, with no position. The map leaves that stretch dashed.",
       "unplaced_other": "From {{from}} to {{to}}, {{count}} reports gave only the asset’s client, with no position. The map leaves that stretch dashed.",
       "changesCapped": "Only the latest {{count}} status changes are listed."
+    },
+    "waitDetail": "Not part of the cycle",
+    "route": "Route",
+    "routeValue": "{{stops}} stops · {{legs}} legs",
+    "floorsDetail_one": "{{count}} floor visited",
+    "floorsDetail_other": "{{count}} floors visited",
+    "positionsDetail_one": "{{formatted}} position",
+    "positionsDetail_other": "{{formatted}} positions",
+    "pageOf": "Page {{page}} of {{total}}",
+    "downloaded": "PDF downloaded.",
+    "failed": "The PDF couldn’t be created. Try again.",
+    "breakdown": {
+      "title": "Where the time went",
+      "share": "{{percent}}% of the run",
+      "slowRanked": "Slower than {{percent}}% of runs",
+      "slowLongest": "Longest stop and leg",
+      "longest": "Longest",
+      "caption": "Each block is a stop or leg, in order, as wide as its share of the run."
     }
   }
 }

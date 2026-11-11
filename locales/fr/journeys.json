@@ -482,7 +482,7 @@
     "timeline": "Le trajet, dans le temps"
   },
   "report": {
-    "export": "Exporter en PDF",
+    "export": "Télécharger le PDF",
     "preparing": "Préparation du PDF…",
     "slow": "Certaines images de carte sont encore en chargement. Elles pourraient manquer dans le PDF.",
     "eyebrow": "Trajet",
@@ -515,7 +515,8 @@
       "loading": "Chargement du plan d’étage…",
       "estimated": "Aucune position enregistrée : on sait que l’actif était à cet étage, pas où.",
       "noPositions": "Les relevés indiquent cet étage, mais aucune position sur son plan.",
-      "noSize": "Cet étage n’a pas de dimensions ; ses positions ne peuvent pas être placées sur le plan."
+      "noSize": "Cet étage n’a pas de dimensions ; ses positions ne peuvent pas être placées sur le plan.",
+      "planFailed": "Le plan de l’étage n’a pas pu être inclus."
     },
     "table": {
       "title": "Arrêts et tronçons",
@@ -549,6 +550,24 @@
       "unplaced_one": "À {{from}}, l’actif n’a indiqué que son client, sans position. La carte laisse ce passage en pointillé.",
       "unplaced_other": "De {{from}} à {{to}}, {{count}} relevés n’ont indiqué que le client de l’actif, sans position. La carte laisse ce passage en pointillé.",
       "changesCapped": "Seuls les {{count}} changements d’état les plus récents sont listés."
+    },
+    "waitDetail": "Hors du cycle",
+    "route": "Parcours",
+    "routeValue": "{{stops}} arrêts · {{legs}} tronçons",
+    "floorsDetail_one": "{{count}} étage visité",
+    "floorsDetail_other": "{{count}} étages visités",
+    "positionsDetail_one": "{{formatted}} position",
+    "positionsDetail_other": "{{formatted}} positions",
+    "pageOf": "Page {{page}} sur {{total}}",
+    "downloaded": "PDF téléchargé.",
+    "failed": "Le PDF n’a pas pu être créé. Réessayez.",
+    "breakdown": {
+      "title": "Où le temps a été passé",
+      "share": "{{percent}} % du trajet",
+      "slowRanked": "Plus lent que {{percent}} % des trajets",
+      "slowLongest": "Arrêt et tronçon les plus longs",
+      "longest": "Les plus longs",
+      "caption": "Chaque bloc est un arrêt ou un tronçon, dans l’ordre, aussi large que sa part du trajet."
     }
   }
 }
