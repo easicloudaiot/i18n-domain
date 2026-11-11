@@ -47,11 +47,11 @@
     },
     "autoExpand": {
       "title": "Auto-expand navigation",
-      "description": "When enabled, the tree opens with every owner expanded on load so users see the full hierarchy. Disable to start with the tree collapsed and let users expand owners as they need them."
+      "description": "When enabled, the tree opens with every location expanded on load so users see the full hierarchy. Disable to start with the tree collapsed and let users expand locations as they need them."
     },
     "lowAccuracy": {
       "title": "Low-accuracy threshold",
-      "description": "Hide asset and device locations less accurate than this many meters across every view (map, floor plan, and table). Users can opt to show low-accuracy points anyway. Children of this owner inherit the setting unless they set their own. Disabled by default — turn on and set a value to start filtering.",
+      "description": "Hide asset and device locations less accurate than this many meters across every view (map, floor plan, and table). Users can opt to show low-accuracy points anyway. Locations beneath this one inherit the setting unless they set their own. Disabled by default — turn on and set a value to start filtering.",
       "meters": "Meters"
     },
     "tableColumns": {

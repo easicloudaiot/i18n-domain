@@ -47,11 +47,11 @@
     },
     "autoExpand": {
       "title": "Déployer la navigation automatiquement",
-      "description": "Lorsque l'option est activée, l'arborescence s'ouvre avec chaque propriétaire déployé au chargement pour afficher la hiérarchie complète. Désactivez-la pour démarrer avec l'arborescence repliée et laisser les utilisateurs déployer les propriétaires au besoin."
+      "description": "Lorsque l'option est activée, l'arborescence s'ouvre avec chaque emplacement déployé au chargement pour afficher la hiérarchie complète. Désactivez-la pour démarrer avec l'arborescence repliée et laisser les utilisateurs déployer les emplacements au besoin."
     },
     "lowAccuracy": {
       "title": "Seuil de faible précision",
-      "description": "Masquer les emplacements d'actifs et d'appareils moins précis que ce nombre de mètres sur toutes les vues (carte, plan d'étage et tableau). Les utilisateurs peuvent choisir d'afficher quand même les points peu précis. Les enfants de ce propriétaire héritent du paramètre sauf s'ils définissent le leur. Désactivé par défaut — activez et choisissez une valeur pour commencer à filtrer.",
+      "description": "Masquer les emplacements d'actifs et d'appareils moins précis que ce nombre de mètres sur toutes les vues (carte, plan d'étage et tableau). Les utilisateurs peuvent choisir d'afficher quand même les points peu précis. Les emplacements sous celui-ci héritent du paramètre sauf s'ils définissent le leur. Désactivé par défaut — activez et choisissez une valeur pour commencer à filtrer.",
       "meters": "Mètres"
     },
     "tableColumns": {

@@ -10,7 +10,7 @@
     "asset":  { "singular": "Asset",  "plural": "Assets" },
     "device": { "singular": "Device", "plural": "Devices" },
     "user":   { "singular": "User",   "plural": "Users" },
-    "owner":  { "singular": "Owner",  "plural": "Owners" }
+    "owner":  { "singular": "Location", "plural": "Locations" }
   },
   "permission": {
     "none":   "None",

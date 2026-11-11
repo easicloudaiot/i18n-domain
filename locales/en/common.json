@@ -69,7 +69,7 @@
     "assets": "Assets",
     "devices": "Devices",
     "users": "Users",
-    "owners": "Owners",
+    "owners": "Locations",
     "settings": "Settings",
     "logout": "Log out"
   },
@@ -221,7 +221,7 @@
     "placeholder": "Search...",
     "allColumns": "Search across all columns...",
     "vendors": "Search vendors...",
-    "owners": "Search owners...",
+    "owners": "Search locations...",
     "roles": "Search roles...",
     "devices": "Search devices by name...",
     "assetTypes": "Search asset types...",
@@ -275,7 +275,7 @@
     "email": "Email",
     "role": "Role",
     "permissions": "Current permissions",
-    "permissionsNote": "Permissions shown are for your currently selected owner level.",
+    "permissionsNote": "Permissions shown are for your currently selected location.",
     "changePassword": "Change password",
     "passwordInstructions": "To change your password, we'll send a password reset link to your email address.",
     "sendReset": "Send password reset email",
@@ -321,8 +321,8 @@
     },
     "scope": {
       "label": "Alert scope",
-      "all": "All owners",
-      "thisOwner": "This owner",
+      "all": "All locations",
+      "thisOwner": "This location",
       "noOwner": "Select an entity to scope alerts"
     },
     "categories": {

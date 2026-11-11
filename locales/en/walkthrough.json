@@ -44,7 +44,7 @@
     "summary": "Learn the layout, the pages, and every asset filter.",
     "concept": {
       "title": "How your space is organized",
-      "description": "Everything lives in one tree, opened from this place picker. Each level is called an owner. Pick one and the whole app, including the pages in the menu, focuses on that owner:",
+      "description": "Everything lives in one tree, opened from this place picker. Each level is called a location. Pick one and the whole app, including the pages in the menu, focuses on that location:",
       "client": "A company or tenant. The top level; everything else lives inside it.",
       "building": "A physical site that belongs to a client: a warehouse, plant, or office.",
       "floor": "A level inside a building. A floor can carry a floor map that shows items at their real position.",
@@ -64,7 +64,7 @@
         "title": "Rules",
         "description": "Build rules that watch for something happening and raise an alert when it does. A rule belongs to the location you create it at."
       },
-      "settings": { "title": "Admin", "description": "Setting up the place you've picked: owners, users, branding, asset setup, rules, preferences and security." }
+      "settings": { "title": "Admin", "description": "Setting up the place you've picked: locations, users, branding, asset setup, rules, preferences and security." }
     },
     "openAssets": {
       "title": "Open Assets",
@@ -105,7 +105,7 @@
   "owner": {
     "title": "Set up your hierarchy",
     "summary": "Build Client → Building → Floor → Zone.",
-    "openOwners": { "title": "Open Owners", "description": "Owners are added under Admin › Owners. Open Admin, then Owners." },
+    "openOwners": { "title": "Open Locations", "description": "Locations are added under Admin › Locations. Open Admin, then Locations." },
     "client": {
       "title": "Add a client",
       "summary": "Create a top-level client company.",

@@ -101,11 +101,11 @@
   "vendorIdentifications": {
     "title": "Identifications des fournisseurs",
     "optional": "optionnel",
-    "description": "Associez des fournisseurs à ce propriétaire et précisez l'identifiant du propriétaire chez le fournisseur.",
-    "noVendors": "Aucun fournisseur disponible. Créez d'abord des fournisseurs pour les associer aux propriétaires.",
+    "description": "Associez des fournisseurs à cet emplacement et précisez son identifiant chez le fournisseur.",
+    "noVendors": "Aucun fournisseur disponible. Créez d'abord des fournisseurs pour les associer aux emplacements.",
     "allAdded": "Tous les fournisseurs disponibles ont été ajoutés.",
     "vendorLabel": "Fournisseur",
-    "ownerVendorIdLabel": "ID du propriétaire chez le fournisseur"
+    "ownerVendorIdLabel": "ID de l'emplacement chez le fournisseur"
   },
   "companyModal": {
     "createTitle": "Créer une nouvelle entreprise",
@@ -118,8 +118,8 @@
     "deletedSuccess": "Entreprise supprimée avec succès",
     "createBtn": "Créer l'entreprise",
     "industryLabel": "Industrie *",
-    "deleteBlocked": "Impossible de supprimer — contient {{count}} entité enfant. Supprimez-la d'abord.",
-    "deleteBlocked_other": "Impossible de supprimer — contient {{count}} entités enfants. Supprimez-les d'abord.",
+    "deleteBlocked": "Impossible de supprimer — {{count}} emplacement s'y trouve. Supprimez-le d'abord.",
+    "deleteBlocked_other": "Impossible de supprimer — {{count}} emplacements s'y trouvent. Supprimez-les d'abord.",
     "deleteWarning": "Cette action supprimera définitivement {{name}} ainsi que tous les actifs, appareils et utilisateurs qui lui appartiennent. Cette action est irréversible.",
     "createLabelTitle": "Créer un nouveau {{label}}",
     "editLabelTitle": "Modifier le {{label}}",
@@ -298,11 +298,10 @@
     }
   },
   "places": {
-    "title": "Propriétaires",
-    "subtitle": "Clients, bâtiments, étages et zones sous ce propriétaire. Modifiez une ligne pour la changer ou la supprimer.",
+    "title": "Emplacements",
+    "subtitle": "Clients, bâtiments, étages et zones sous cet emplacement. Modifiez une ligne pour la changer ou la supprimer.",
     "add": "Ajouter : {{type}}",
-    "addUser": "Ajouter un utilisateur",
     "edit": "Modifier {{name}}",
-    "empty": "Aucun propriétaire ici pour l'instant."
+    "empty": "Aucun emplacement ici pour l'instant."
   }
 }

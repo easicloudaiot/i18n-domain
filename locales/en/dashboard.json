@@ -37,7 +37,7 @@
       "zone": "ZONE",
       "roles": {
         "globalAdmin": "GLOBAL_ADMIN",
-        "globalAdminDesc": "Can create root owners and manage entire system",
+        "globalAdminDesc": "Can create clients and manage the entire system",
         "customerAdmin": "CUSTOMER_ADMIN",
         "customerAdminDesc": "Can manage their assigned hierarchy level and below",
         "user": "USER",
@@ -325,7 +325,7 @@
         "pricingModel": "Pricing model",
         "defaultPlan": "Default plan",
         "planName": "Plan name",
-        "defaultForOwner": "Default plan for this owner",
+        "defaultForOwner": "Default plan for this client",
         "toBlankInfinity": "To (blank=∞)"
       },
       "tierColumns": {
@@ -514,13 +514,13 @@
     }
   },
   "reports": {
-    "currentOwner": "Current owner",
+    "currentOwner": "Current location",
     "currentPage": "Current page",
     "download": "Download",
     "loadFailed": "Couldn't load reports, retry",
     "loading": "Loading…",
     "needOwner": "Choose a company or location in the hierarchy to generate reports.",
-    "noOwner": "No owner selected",
+    "noOwner": "No location selected",
     "noRuns": "No reports yet.",
     "recentRuns": "Recent reports",
     "rows_one": "{{count}} row",

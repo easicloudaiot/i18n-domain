@@ -69,7 +69,7 @@
     "assets": "Actifs",
     "devices": "Appareils",
     "users": "Utilisateurs",
-    "owners": "Propriétaires",
+    "owners": "Emplacements",
     "settings": "Paramètres",
     "logout": "Se déconnecter"
   },
@@ -221,7 +221,7 @@
     "placeholder": "Rechercher...",
     "allColumns": "Rechercher dans toutes les colonnes...",
     "vendors": "Rechercher un fournisseur...",
-    "owners": "Rechercher un propriétaire...",
+    "owners": "Rechercher un emplacement...",
     "roles": "Rechercher un rôle...",
     "devices": "Rechercher un appareil par nom...",
     "assetTypes": "Rechercher un type d'actif...",
@@ -275,7 +275,7 @@
     "email": "Courriel",
     "role": "Rôle",
     "permissions": "Permissions actuelles",
-    "permissionsNote": "Les permissions affichées correspondent au propriétaire actuellement sélectionné.",
+    "permissionsNote": "Les permissions affichées correspondent à l'emplacement actuellement sélectionné.",
     "changePassword": "Changer le mot de passe",
     "passwordInstructions": "Pour changer votre mot de passe, nous enverrons un lien de réinitialisation à votre adresse courriel.",
     "sendReset": "Envoyer le courriel de réinitialisation",
@@ -321,8 +321,8 @@
     },
     "scope": {
       "label": "Portée des alertes",
-      "all": "Tous les propriétaires",
-      "thisOwner": "Ce propriétaire",
+      "all": "Tous les emplacements",
+      "thisOwner": "Cet emplacement",
       "noOwner": "Sélectionnez une entité pour filtrer les alertes"
     },
     "categories": {

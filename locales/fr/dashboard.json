@@ -37,7 +37,7 @@
       "zone": "ZONE",
       "roles": {
         "globalAdmin": "ADMINISTRATEUR_GLOBAL",
-        "globalAdminDesc": "Peut créer des propriétaires racines et gérer l'ensemble du système",
+        "globalAdminDesc": "Peut créer des clients et gérer l'ensemble du système",
         "customerAdmin": "ADMINISTRATEUR_CLIENT",
         "customerAdminDesc": "Peut gérer son niveau de hiérarchie attribué et inférieur",
         "user": "UTILISATEUR",
@@ -325,7 +325,7 @@
         "pricingModel": "Modèle de tarification",
         "defaultPlan": "Forfait par défaut",
         "planName": "Nom du forfait",
-        "defaultForOwner": "Forfait par défaut pour ce propriétaire",
+        "defaultForOwner": "Forfait par défaut pour ce client",
         "toBlankInfinity": "À (vide=∞)"
       },
       "tierColumns": {

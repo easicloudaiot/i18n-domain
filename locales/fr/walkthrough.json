@@ -44,7 +44,7 @@
     "summary": "Découvrez l'interface, les pages et chaque filtre d'actifs.",
     "concept": {
       "title": "Comment votre espace est organisé",
-      "description": "Tout vit dans une seule arborescence, ouverte depuis ce sélecteur de lieu. Chaque niveau s'appelle un propriétaire. Choisissez-en un et toute l'application, y compris les pages du menu, se concentre sur ce propriétaire :",
+      "description": "Tout vit dans une seule arborescence, ouverte depuis ce sélecteur de lieu. Chaque niveau s'appelle un emplacement. Choisissez-en un et toute l'application, y compris les pages du menu, se concentre sur cet emplacement :",
       "client": "Une entreprise ou un locataire. Le premier niveau ; tout le reste vit à l'intérieur.",
       "building": "Un site physique appartenant à un client : entrepôt, usine ou bureau.",
       "floor": "Un niveau dans un bâtiment. Un étage peut porter un plan qui montre chaque élément à sa position réelle.",
@@ -64,7 +64,7 @@
         "title": "Règles",
         "description": "Créez des règles qui surveillent un événement et déclenchent une alerte lorsqu'il se produit. Une règle appartient à l'emplacement où vous la créez."
       },
-      "settings": { "title": "Administration", "description": "La configuration du lieu choisi : propriétaires, utilisateurs, image de marque, configuration des actifs, règles, préférences et sécurité." }
+      "settings": { "title": "Administration", "description": "La configuration du lieu choisi : emplacements, utilisateurs, image de marque, configuration des actifs, règles, préférences et sécurité." }
     },
     "openAssets": {
       "title": "Ouvrez Actifs",
@@ -105,7 +105,7 @@
   "owner": {
     "title": "Configurez votre hiérarchie",
     "summary": "Construisez Client → Bâtiment → Étage → Zone.",
-    "openOwners": { "title": "Ouvrez Propriétaires", "description": "Les propriétaires s'ajoutent sous Administration › Propriétaires. Ouvrez Administration, puis Propriétaires." },
+    "openOwners": { "title": "Ouvrez Emplacements", "description": "Les emplacements s'ajoutent sous Administration › Emplacements. Ouvrez Administration, puis Emplacements." },
     "client": {
       "title": "Ajouter un client",
       "summary": "Créez une entreprise cliente de premier niveau.",

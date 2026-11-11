@@ -101,11 +101,11 @@
   "vendorIdentifications": {
     "title": "Vendor identifications",
     "optional": "optional",
-    "description": "Associate vendors with this owner and specify the owner's vendor-specific ID.",
-    "noVendors": "No vendors available. Create vendors first to associate them with owners.",
+    "description": "Associate vendors with this location and specify its vendor-specific ID.",
+    "noVendors": "No vendors available. Create vendors first to associate them with locations.",
     "allAdded": "All available vendors have been added.",
     "vendorLabel": "Vendor",
-    "ownerVendorIdLabel": "Owner vendor ID"
+    "ownerVendorIdLabel": "Vendor ID for this location"
   },
   "companyModal": {
     "createTitle": "Create new company",
@@ -131,8 +131,8 @@
     "createLabelBtn": "Create {{label}}",
     "sectionLabel": "{{label}} information",
     "industryLabel": "Industry *",
-    "deleteBlocked": "Cannot delete — has {{count}} child owner. Remove it first.",
-    "deleteBlocked_other": "Cannot delete — has {{count}} child owners. Remove them first.",
+    "deleteBlocked": "Cannot delete — it has {{count}} location inside it. Remove it first.",
+    "deleteBlocked_other": "Cannot delete — it has {{count}} locations inside it. Remove them first.",
     "deleteWarning": "This will permanently delete {{name}} and all assets, devices, and users it owns. This action cannot be undone."
   },
   "validation": {
@@ -298,11 +298,10 @@
     }
   },
   "places": {
-    "title": "Owners",
-    "subtitle": "Clients, buildings, floors and zones beneath this owner. Edit a row to change or delete it.",
+    "title": "Locations",
+    "subtitle": "Clients, buildings, floors and zones beneath this location. Edit a row to change or delete it.",
     "add": "Add {{type}}",
-    "addUser": "Add user",
     "edit": "Edit {{name}}",
-    "empty": "No owners here yet."
+    "empty": "No locations here yet."
   }
 }
