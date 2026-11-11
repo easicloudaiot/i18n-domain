@@ -14,7 +14,9 @@
     "showMore": "Afficher {{count}} de plus",
     "showLess": "Afficher moins",
     "searchIn": "Rechercher {{field}}...",
-    "enter": "Saisir {{field}}..."
+    "enter": "Saisir {{field}}...",
+    "find": "Trouver un filtre",
+    "noMatch": "Aucun filtre ne correspond à « {{query}} »"
   },
   "noData": "Aucune donnée disponible pour ce graphique",
   "exportSuccess": "Exporté au format {{format}}",

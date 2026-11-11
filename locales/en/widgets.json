@@ -14,7 +14,9 @@
     "showMore": "Show {{count}} more",
     "showLess": "Show less",
     "searchIn": "Search {{field}}...",
-    "enter": "Enter {{field}}..."
+    "enter": "Enter {{field}}...",
+    "find": "Find a filter",
+    "noMatch": "No filter matches “{{query}}”"
   },
   "noData": "No data available for chart",
   "exportSuccess": "Exported as {{format}}",
