@@ -56,5 +56,13 @@
   "activity": {
     "title": "Activité",
     "description": "Ce qui a changé ici et dans tout ce qu’il contient : renommages, modifications, garde, appareils rattachés et déplacements entre sites."
+  },
+  "unsaved": {
+    "message": "Vous avez des modifications non enregistrées",
+    "discard": "Annuler les modifications",
+    "leaveTitle": "Quitter sans enregistrer ?",
+    "leaveBody": "Les modifications de cette page n'ont pas été enregistrées. Si vous quittez maintenant, elles seront perdues.",
+    "leave": "Quitter sans enregistrer",
+    "stay": "Continuer la modification"
   }
 }

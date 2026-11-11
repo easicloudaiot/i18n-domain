@@ -56,5 +56,13 @@
   "activity": {
     "title": "Activity",
     "description": "What has changed here and in everything inside it: renames, edits, custody, devices attached, and moves between sites."
+  },
+  "unsaved": {
+    "message": "You have unsaved changes",
+    "discard": "Discard",
+    "leaveTitle": "Leave without saving?",
+    "leaveBody": "Your changes on this page have not been saved. Leaving now throws them away.",
+    "leave": "Leave without saving",
+    "stay": "Keep editing"
   }
 }
