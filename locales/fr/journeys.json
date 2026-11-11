@@ -386,7 +386,13 @@
     "subtitle": "{{asset}} · terminé le {{date}}",
     "title": "Trajet",
     "waitBefore": "Attente avant le départ",
-    "waitUnknown": "Non observée"
+    "waitUnknown": "Non observée",
+    "rank": "Par rapport aux autres"
+  },
+  "rank": {
+    "slowerThan": "Plus lent que {{percent}} % des trajets",
+    "tooFew": "Trop peu de trajets pour comparer",
+    "window": "Parmi {{total}} trajets terminés du {{from}} au {{to}}"
   },
   "runs": {
     "allTypes": "Tous les types d’actif",

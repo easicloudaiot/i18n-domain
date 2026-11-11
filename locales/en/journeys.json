@@ -384,7 +384,13 @@
     "subtitle": "{{asset}} · completed {{date}}",
     "title": "Run",
     "waitBefore": "Wait before leaving",
-    "waitUnknown": "Not seen"
+    "waitUnknown": "Not seen",
+    "rank": "Against others"
+  },
+  "rank": {
+    "slowerThan": "Slower than {{percent}}% of runs",
+    "tooFew": "Too few runs to compare",
+    "window": "Among {{total}} runs completed {{from}} – {{to}}"
   },
   "runs": {
     "allTypes": "All asset types",
