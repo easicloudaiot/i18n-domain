@@ -88,7 +88,8 @@
     "pinned": "Pinned",
     "favorites": "Favorites",
     "addFavorite": "Add to favorites",
-    "removeFavorite": "Remove from favorites"
+    "removeFavorite": "Remove from favorites",
+    "path": "Path to this place"
   },
   "find": {
     "title": "Find",

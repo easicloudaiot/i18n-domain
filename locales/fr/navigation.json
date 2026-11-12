@@ -88,7 +88,8 @@
     "pinned": "Épinglé",
     "favorites": "Favoris",
     "addFavorite": "Ajouter aux favoris",
-    "removeFavorite": "Retirer des favoris"
+    "removeFavorite": "Retirer des favoris",
+    "path": "Chemin vers ce lieu"
   },
   "find": {
     "title": "Rechercher",
