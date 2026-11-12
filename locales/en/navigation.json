@@ -17,7 +17,8 @@
     "preferences": "Client defaults",
     "security": "Sign-in & sessions",
     "roles": "Roles",
-    "activity": "Activity"
+    "activity": "Activity",
+    "user-groups": "User groups"
   },
   "sections": {
     "main": "Main",
@@ -66,7 +67,8 @@
   "adminSections": {
     "organization": "Organization",
     "configuration": "Configuration",
-    "security": "Security"
+    "security": "Security",
+    "people": "Users & access"
   },
   "shell": {
     "main": "Main",
