@@ -8,7 +8,7 @@
   },
   "asset": {
     "title": "Asset management",
-    "description": "Configure asset types, property schemas, and monitoring rules",
+    "description": "When an asset counts as in transit or missing, and which location readings are too inaccurate to show",
     "configuration": "Asset configuration",
     "configurationDescription": "Define property schemas and asset type templates for this client.",
     "propertyDefinitions": "Property definitions",
@@ -28,11 +28,11 @@
   },
   "preferences": {
     "title": "Preferences",
-    "description": "Company-wide defaults for navigation and table behavior"
+    "description": "Company-wide defaults for navigation and alert emails"
   },
   "security": {
     "title": "Security",
-    "description": "Session policy, sign-in rules, and audit controls"
+    "description": "How long an idle session stays signed in"
   },
   "inactivity": {
     "title": "Inactivity thresholds",

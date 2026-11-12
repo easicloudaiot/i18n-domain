@@ -12,6 +12,8 @@
     "places": "Emplacements",
     "branding": "Image de marque",
     "asset-setup": "Configuration des actifs",
+    "asset-types": "Types d'actifs",
+    "property-definitions": "Définitions de propriétés",
     "preferences": "Valeurs par défaut du client",
     "security": "Connexion et sessions",
     "roles": "Rôles",

@@ -12,6 +12,8 @@
     "places": "Locations",
     "branding": "Branding",
     "asset-setup": "Asset setup",
+    "asset-types": "Asset types",
+    "property-definitions": "Property definitions",
     "preferences": "Client defaults",
     "security": "Sign-in & sessions",
     "roles": "Roles",

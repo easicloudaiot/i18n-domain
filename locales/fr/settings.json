@@ -8,7 +8,7 @@
   },
   "asset": {
     "title": "Gestion des actifs",
-    "description": "Configurez les types d'actifs, les schémas de propriétés et les règles de surveillance",
+    "description": "Quand un actif est considéré en transit ou manquant, et quelles positions sont trop imprécises pour être affichées",
     "configuration": "Configuration des actifs",
     "configurationDescription": "Définissez les schémas de propriétés et les modèles de types d'actifs pour ce client.",
     "propertyDefinitions": "Définitions de propriétés",
@@ -28,11 +28,11 @@
   },
   "preferences": {
     "title": "Préférences",
-    "description": "Valeurs par défaut à l'échelle de l'entreprise pour la navigation et le comportement des tableaux"
+    "description": "Valeurs par défaut à l'échelle de l'entreprise pour la navigation et les e-mails d'alerte"
   },
   "security": {
     "title": "Sécurité",
-    "description": "Politique de session, règles de connexion et contrôles d'audit"
+    "description": "Combien de temps une session inactive reste connectée"
   },
   "inactivity": {
     "title": "Seuils d'inactivité",
