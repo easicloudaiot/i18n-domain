@@ -572,6 +572,9 @@
       "slowLongest": "Longest stop and leg",
       "longest": "Longest",
       "caption": "Each block is a stop or leg, in order, as wide as its share of the run."
-    }
+    },
+    "documentTitle": "Journey run report",
+    "summary": "Summary",
+    "page": "Page {{page}} of {{pages}}"
   }
 }

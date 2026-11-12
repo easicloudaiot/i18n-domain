@@ -574,6 +574,9 @@
       "slowLongest": "Arrêt et tronçon les plus longs",
       "longest": "Les plus longs",
       "caption": "Chaque bloc est un arrêt ou un tronçon, dans l’ordre, aussi large que sa part du trajet."
-    }
+    },
+    "documentTitle": "Rapport de trajet",
+    "summary": "Résumé",
+    "page": "Page {{page}} sur {{pages}}"
   }
 }
