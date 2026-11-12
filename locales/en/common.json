@@ -477,7 +477,8 @@
       "soFarShort": "so far",
       "timeColumn": "Time",
       "dwellColumn": "Dwell time",
-      "loadingEarlier": "Loading earlier…"
+      "loadingEarlier": "Loading earlier…",
+      "statusLane": "Status"
     }
   },
   "sort": {

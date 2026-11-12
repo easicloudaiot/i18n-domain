@@ -477,7 +477,8 @@
       "soFarShort": "jusqu’ici",
       "timeColumn": "Heure",
       "dwellColumn": "Temps de présence",
-      "loadingEarlier": "Chargement de l’historique…"
+      "loadingEarlier": "Chargement de l’historique…",
+      "statusLane": "Statut"
     }
   },
   "sort": {
