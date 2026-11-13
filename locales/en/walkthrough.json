@@ -220,7 +220,8 @@
       "title": "Search",
       "description": "Type its name or any detail. From any page, Find at the top searches too.",
       "description_named": "Type its name or any detail to search {{ownerLevel}} {{ownerName}}. From any page, Find at the top searches too."
-    }
+    },
+    "found": { "title": "There it is", "description": "Its details open here, and the map moves to where it is now." }
   },
   "createAsset": {
     "title": "Add an asset",

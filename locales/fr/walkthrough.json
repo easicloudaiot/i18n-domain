@@ -220,7 +220,8 @@
       "title": "Recherchez",
       "description": "Tapez son nom ou n'importe quel détail. Depuis n'importe quelle page, Rechercher en haut cherche aussi.",
       "description_named": "Tapez son nom ou n'importe quel détail pour chercher dans « {{ownerName}} » ({{ownerLevel}}). Depuis n'importe quelle page, Rechercher en haut cherche aussi."
-    }
+    },
+    "found": { "title": "Le voilà", "description": "Ses détails s'ouvrent ici, et la carte se place là où il se trouve maintenant." }
   },
   "createAsset": {
     "title": "Ajouter un actif",
