@@ -130,8 +130,8 @@
     "openOwners": { "title": "Ouvrez Emplacements", "description": "Ouvrez Administration, puis Emplacements." },
     "client": {
       "title": "Ajouter un client",
-      "summary": "Ajoutez une entreprise de premier niveau.",
-      "context": { "title": "Choisissez où l'ajouter", "description": "Dans le sélecteur de lieu, choisissez la plateforme, ou un client pour en ajouter un à l'intérieur." },
+      "summary": "Ajoutez un client dans un autre.",
+      "context": { "title": "Choisissez où l'ajouter", "description": "Dans le sélecteur de lieu, choisissez le client dans lequel en ajouter un. Les nouveaux clients de premier niveau s'ajoutent dans le Plan de contrôle." },
       "open": { "title": "Ajoutez un client", "description": "Ajoutez un client ici." },
       "name": { "title": "Nommez-le", "description": "Le nom de l'entreprise." },
       "industry": { "title": "Secteur", "description": "Facultatif." },

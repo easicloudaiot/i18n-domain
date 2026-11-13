@@ -130,8 +130,8 @@
     "openOwners": { "title": "Open Locations", "description": "Open Admin, then Locations." },
     "client": {
       "title": "Add a client",
-      "summary": "Add a top-level company.",
-      "context": { "title": "Pick where it goes", "description": "In the place picker, pick the platform, or a client to add one inside it." },
+      "summary": "Add a client inside another.",
+      "context": { "title": "Pick where it goes", "description": "In the place picker, pick the client to add one inside it. New top-level clients are added in the Control Plane." },
       "open": { "title": "Add a client", "description": "Add a client here." },
       "name": { "title": "Name it", "description": "The company's name." },
       "industry": { "title": "Industry", "description": "Optional." },
