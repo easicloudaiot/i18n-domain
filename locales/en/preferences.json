@@ -37,6 +37,11 @@
       "off": "Do not email",
       "effectiveOn": "You receive {{severity}} and above",
       "effectiveOff": "You receive nothing"
+    },
+    "sideMenu": {
+      "title": "Side menu",
+      "toggle": "Start with the side menu collapsed",
+      "description": "Show only icons when you open the app. You can still expand it any time."
     }
   },
   "owner": {

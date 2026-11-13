@@ -37,6 +37,11 @@
       "off": "Ne pas m'envoyer d'e-mail",
       "effectiveOn": "Vous recevez {{severity}} et plus",
       "effectiveOff": "Vous ne recevez rien"
+    },
+    "sideMenu": {
+      "title": "Menu latéral",
+      "toggle": "Ouvrir avec le menu latéral replié",
+      "description": "N'afficher que les icônes à l'ouverture de l'application. Vous pouvez toujours le déplier."
     }
   },
   "owner": {

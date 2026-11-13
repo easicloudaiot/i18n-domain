@@ -19,13 +19,13 @@
   "welcome": {
     "title": "Welcome to {{product}}",
     "titleFallback": "Welcome",
-    "description": "Let us show you around. A short guided tour covers your hierarchy, the pages available to you, and how to find and manage your assets. You can replay any tour later from Help in your profile.",
+    "description": "A short tour of your locations, your pages and how to find assets. Replay it any time from Help in your profile.",
     "begin": "Begin walkthrough",
     "skip": "Explore on my own",
     "moved": {
       "title": "What's new in {{product}}",
       "titleFallback": "What's new",
-      "description": "Things have moved. Pages now sit in a side rail, settings live under Admin, and the place you're in is at the top. Take the short tour to see where everything is.",
+      "description": "Pages are in the side menu, setup is under Admin, and your location is at the top. Take a quick tour to find everything.",
       "begin": "Show me around"
     },
     "highlights": {
@@ -41,355 +41,418 @@
   },
   "starter": {
     "title": "Get oriented",
-    "summary": "Learn the layout, the pages, and every asset filter.",
+    "summary": "The layout, the pages, and how to find assets.",
     "concept": {
       "title": "How your space is organized",
-      "description": "Everything lives in one tree, opened from this place picker. Each level is called a location. Pick one and the whole app, including the pages in the menu, focuses on that location:",
-      "client": "A company or tenant. The top level; everything else lives inside it.",
-      "building": "A physical site that belongs to a client: a warehouse, plant, or office.",
-      "floor": "A level inside a building. A floor can carry a floor map that shows items at their real position.",
-      "zone": "A named area on a floor, like 'Receiving'. The most precise place an asset can live."
+      "description": "Everything sits in one tree of locations. Pick one here, and every page shows that location and what's inside it:",
+      "client": "A company. Everything else sits inside one.",
+      "building": "A site, like a warehouse, plant or office.",
+      "floor": "A level in a building. It can have a floor map.",
+      "zone": "An area on a floor, like Receiving. The most precise location."
     },
     "topbar": {
       "title": "The header",
-      "description": "Shows where you are, with Find, alerts, EVA and your profile. What you see on every page follows the place you pick here.",
-      "description_named": "Shows where you are, with Find, alerts, EVA and your profile. Right now you're in {{ownerLevel}} {{ownerName}}: the assets, devices, and people you see belong to it."
+      "description": "Every page shows the location you picked here.",
+      "description_named": "Every page shows what's in {{ownerLevel}} {{ownerName}}, the location you picked."
     },
     "pages": {
-      "dashboard": { "title": "Dashboard", "description": "Your at-a-glance overview: asset counts by status and type, device activity, and user activity for the place you've picked." },
-      "assets": { "title": "Assets", "description": "The things you track. Search, filter, and locate them on the map or floor plan. Most day-to-day work happens here." },
-      "devices": { "title": "Devices", "description": "The hardware that reports data: trackers and repeaters. Devices are attached to assets so their data counts toward the right item." },
-      "users": { "title": "Users", "description": "The people with access. Invite users, assign roles, and control what each person can see and do at every level." },
+      "dashboard": { "title": "Dashboard", "description": "An overview of this location: assets by status and type, and device activity." },
+      "assets": { "title": "Assets", "description": "The things you track. Search, filter and find them on the map." },
+      "devices": { "title": "Devices", "description": "The trackers and repeaters that report data." },
+      "users": { "title": "Users", "description": "Who has access, and what they can do. Under Admin." },
       "rules": {
         "title": "Rules",
-        "description": "Build rules that watch for something happening and raise an alert when it does. A rule belongs to the location you create it at."
+        "description": "Alerts for when something happens. Under Admin."
       },
-      "settings": { "title": "Admin", "description": "Setting up the place you've picked: locations, users, branding, asset setup, rules, preferences and security." }
+      "settings": { "title": "Admin", "description": "Set up this location: places, people, branding, assets, rules and security." }
     },
     "openAssets": {
       "title": "Open Assets",
-      "description": "Click Assets in the menu to see them. We'll wait here until you do.",
-      "description_named": "Click Assets in the menu to see the assets in {{ownerLevel}} {{ownerName}}. We'll wait here until you do."
+      "description": "Open the Assets page.",
+      "description_named": "Open the Assets page for {{ownerLevel}} {{ownerName}}."
     },
     "search": {
       "title": "Find anything",
-      "description": "Search by name or any detail to find an asset fast.",
-      "description_named": "Search by name or any detail to quickly find an asset in {{ownerLevel}} {{ownerName}}."
+      "description": "Search by name or any detail.",
+      "description_named": "Search {{ownerLevel}} {{ownerName}} by name or any detail."
     },
     "filters": {
-      "open": { "title": "Open the filters", "description": "Click Filters to open the filter panel. It narrows the asset list and map to exactly what you need." },
-      "status": { "title": "Status", "description": "Every asset carries one of these statuses:" },
+      "open": { "title": "Open the filters", "description": "Filters narrow the list and the map." },
+      "status": { "title": "Status", "description": "Every asset has one status:" },
       "statusMeanings": {
-        "NEEDS_PROVISIONING": "No tracker attached yet.",
-        "AWAITING_TELEMETRY": "Paired with a tracker, but nothing received yet.",
-        "AT_HOME": "Sitting where it belongs.",
-        "LOANED_OUT": "Checked out to another location.",
-        "IN_TRANSIT": "On the move.",
-        "MISSING": "Not seen where expected."
+        "NEEDS_PROVISIONING": "No tracker attached.",
+        "AWAITING_TELEMETRY": "Tracker attached, nothing received yet.",
+        "AT_HOME": "At its home location.",
+        "LOANED_OUT": "At another location.",
+        "IN_TRANSIT": "On the move, or not in any building.",
+        "MISSING": "Not heard from for too long."
       },
-      "type": { "title": "Asset type", "description": "Show only one category of asset, like every forklift. Types come from the templates your team creates." },
-      "scope": { "title": "Location scope", "description": "Controls which assets appear here:" },
-      "accuracy": { "title": "Accuracy", "description": "Location readings vary in precision. Low-accuracy readings are hidden from floor plans by default; turn this on to include them." },
-      "device": { "title": "Device attachment", "description": "Filter by whether an asset has a tracker attached. Assets without a device cannot report their position." }
+      "type": { "title": "Asset type", "description": "Show one kind of asset, like forklifts." },
+      "scope": { "title": "Location scope", "description": "Which assets this location shows:" },
+      "accuracy": { "title": "Accuracy", "description": "Show readings too imprecise for the floor map. They're hidden by default." },
+      "device": { "title": "Device attachment", "description": "Show assets with or without a tracker." },
+      "apply": {
+        "title": "Back to the list",
+        "description": "Close the filters to see the results. Your filters stay on."
+      }
     },
     "table": {
       "title": "The asset list",
-      "description": "Every asset in view is listed here. Click one to open it. If there are none yet, a Next button will appear shortly so you can skip ahead.",
-      "description_named": "Every asset in {{ownerLevel}} {{ownerName}} is listed here. Click one to open it. If there are none yet, a Next button will appear shortly so you can skip ahead."
+      "description": "Click an asset to open it. No assets yet? Next appears in a moment.",
+      "description_named": "Every asset in {{ownerLevel}} {{ownerName}}. Click one to open it. No assets yet? Next appears in a moment."
     },
-    "details": { "title": "Asset details", "description": "Everything about this asset: its current status and location, its properties, and any attached devices. Edit or manage it from here." },
-    "locate": { "title": "See it on the map", "description": "The selected asset is highlighted here, on the map or floor plan, at its last known position." },
-    "history": { "title": "Where it has been", "description": "The History tab lists this asset's past locations. Click a row to replay that moment on the map." },
-    "done": { "title": "You're all set", "description": "That's the essentials. Replay this tour, or take the hands-on guides, any time from Help in your profile." }
+    "details": { "title": "Asset details", "description": "Its status, location, properties and devices. Edit it from here." },
+    "locate": { "title": "See it on the map", "description": "Where it is now, on the map or floor plan." },
+    "history": { "title": "Where it has been", "description": "Where it has been. Click a row to see that moment on the map." },
+    "done": { "title": "You're all set", "description": "Replay this tour or try the others any time from Help in your profile." },
+    "header": {
+      "find": {
+        "label": "Find",
+        "description": "Jump to any asset, device or place."
+      },
+      "alerts": {
+        "label": "Alerts",
+        "description": "What needs your attention."
+      },
+      "eva": {
+        "label": "EVA",
+        "description": "Ask questions about your data."
+      },
+      "profile": {
+        "label": "Your profile",
+        "description": "Your settings, help and these tours."
+      }
+    }
   },
   "owner": {
     "title": "Set up your hierarchy",
     "summary": "Build Client → Building → Floor → Zone.",
-    "openOwners": { "title": "Open Locations", "description": "Locations are added under Admin › Locations. Open Admin, then Locations." },
+    "openOwners": { "title": "Open Locations", "description": "Open Admin, then Locations." },
     "client": {
       "title": "Add a client",
-      "summary": "Create a top-level client company.",
-      "context": { "title": "Pick where to add it", "description": "Pick the global level or a client in the place picker. Clients are created from there." },
-      "open": { "title": "Add a client", "description": "Your space is a tree: Client → Building → Floor → Zone. Click 'Add Client'." },
-      "name": { "title": "Name it", "description": "Your company or tenant name. Required." },
-      "industry": { "title": "Industry", "description": "Optional. Just a label you can change later." },
-      "save": { "title": "Save", "description": "Click Create to save your client." },
-      "done": { "title": "Client created", "description": "Your client is ready. Pick it in the place picker, then add a building inside it." },
+      "summary": "Add a top-level company.",
+      "context": { "title": "Pick where it goes", "description": "In the place picker, pick the platform, or a client to add one inside it." },
+      "open": { "title": "Add a client", "description": "Add a client here." },
+      "name": { "title": "Name it", "description": "The company's name." },
+      "industry": { "title": "Industry", "description": "Optional." },
+      "save": { "title": "Save", "description": "Create the client." },
+      "done": { "title": "Client created", "description": "Pick it in the place picker to add buildings inside it." },
       "sidebar": { "title": "It's in the place picker", "description": "Your client now appears here. Select it, and everything you add next goes inside it." }
     },
     "building": {
       "title": "Add a building",
-      "summary": "Add a building under a client.",
-      "context": { "title": "Select a client", "description": "Choose a client in the place picker first. Buildings are created inside a client." },
-      "open": { "title": "Add a building", "description": "With the client selected, click 'Add Building' on its row." },
-      "name": { "title": "Name it", "description": "Your building's name. Required." },
-      "save": { "title": "Save", "description": "Click Create to save." },
-      "done": { "title": "Building created", "description": "Your building is saved. Select it to add floors inside it." },
+      "summary": "Add a site to a client.",
+      "context": { "title": "Pick a client", "description": "Buildings go inside a client. Pick one in the place picker." },
+      "open": { "title": "Add a building", "description": "Add a building to this client." },
+      "name": { "title": "Name it", "description": "The building's name." },
+      "save": { "title": "Save", "description": "Create the building." },
+      "done": { "title": "Building created", "description": "Pick it in the place picker to add floors." },
       "sidebar": { "title": "The tree grows", "description": "The building now sits under your client. The hierarchy fills in as you go." },
       "topbar": { "title": "Everything follows your selection", "description": "The header shows your location. Whatever you pick in the place picker decides the assets, devices, and access you see." }
     },
     "floor": {
       "title": "Add a floor",
       "summary": "Add a floor to a building.",
-      "context": { "title": "Select a building", "description": "Choose a building in the place picker first. Floors are created inside a building." },
-      "open": { "title": "Add a floor", "description": "With the building selected, click 'Add Floor' on its row." },
-      "name": { "title": "Name it", "description": "Your floor's name. Required." },
-      "save": { "title": "Save", "description": "Click Create." },
-      "done": { "title": "Floor created", "description": "Your floor is saved. Select it to add zones inside it." }
+      "context": { "title": "Pick a building", "description": "Floors go inside a building. Pick one in the place picker." },
+      "open": { "title": "Add a floor", "description": "Add a floor to this building." },
+      "name": { "title": "Name it", "description": "The floor's name." },
+      "save": { "title": "Save", "description": "Create the floor." },
+      "done": { "title": "Floor created", "description": "Pick it in the place picker to add zones." }
     },
     "zone": {
       "title": "Add a zone",
-      "summary": "Add a zone to a floor.",
-      "context": { "title": "Select a floor", "description": "Choose a floor in the place picker first. Zones are created inside a floor." },
-      "open": { "title": "Add a zone", "description": "With the floor selected, click 'Add Zone' on its row. Zones are the smallest level." },
-      "name": { "title": "Name it", "description": "Your zone's name, then complete the form." },
-      "done": { "title": "Done!", "description": "You've built a full Client → Building → Floor → Zone hierarchy." }
+      "summary": "Add an area to a floor.",
+      "context": { "title": "Pick a floor", "description": "Zones go inside a floor. Pick one in the place picker." },
+      "open": { "title": "Add a zone", "description": "Add a zone to this floor." },
+      "name": { "title": "Name it", "description": "Name the zone, then finish the form." },
+      "done": { "title": "Done", "description": "Finish the form to create the zone. That completes the tree: client, building, floor and zone." }
     }
   },
   "assetType": {
     "title": "Create an asset type",
-    "summary": "Make a reusable template for your assets.",
-    "concept": { "title": "How it fits together", "description": "Three things stack up, and this guide sets up all of them. Start at the top:" },
-    "selectOwner": { "title": "Pick a company", "description": "Asset types and their fields belong to a company. Pick a company, or anything inside it, in the place picker first." },
+    "summary": "A template for one kind of asset.",
+    "concept": { "title": "How it fits together", "description": "You'll set these up in order:" },
+    "selectOwner": { "title": "Pick a client", "description": "Asset types belong to a client. Pick one, or a location inside it." },
     "openSettings": { "title": "Fields live in Asset setup", "description": "The fields themselves are set up in Admin › Asset setup, not on the Assets page. Open Admin, then Asset setup." },
     "settingsTab": { "title": "Asset settings", "description": "Click the Assets tab. Everything you set up once for this company lives here." },
     "configCard": { "title": "Two things to set up", "description": "Property definitions are the fields you can use. Asset types are the templates that require them. Both belong to the company, so every building, floor and zone inside it shares the same ones." },
-    "openDefinitions": { "title": "Open property definitions", "description": "Click Property Definitions. This is the list of every field this company can put on an asset." },
-    "definitionsList": { "title": "Your field library", "description": "Each row is one field you can reuse on any asset type, so Serial Number is spelled and stored the same way everywhere. Click Create Definition to add one." },
-    "definitionName": { "title": "Name the field", "description": "What people see on the form, like Serial Number. The Key beside it fills in automatically and is what the system stores." },
-    "definitionValueType": { "title": "What kind of value", "description": "This decides what the field accepts and how it can be charted later. Ten types are offered; these five cover most cases:" },
-    "definitionSave": { "title": "Save the field", "description": "Click Create Definition. The field is now available to every asset type in this company." },
+    "openDefinitions": { "title": "Open Property definitions", "description": "Open Admin, then Property definitions." },
+    "definitionsList": { "title": "Your fields", "description": "Each field can be used on any asset type. Create one." },
+    "definitionName": { "title": "Name the field", "description": "What people see, like Serial Number. The key fills in by itself." },
+    "definitionValueType": { "title": "What kind of value", "description": "What the field holds:" },
+    "definitionSave": { "title": "Save the field", "description": "Create the field." },
     "definitionsDone": { "title": "Field ready", "description": "Click Close once you have the fields you need. Settings stays open behind it, and next you will build a type that uses them." },
     "openAssets": { "title": "Open Assets", "description": "Asset types are managed on the Assets page. Click Assets in the menu." },
-    "openManager": { "title": "Asset types", "description": "A type is a template for similar items, like 'Forklift'. Open the Asset Types manager here." },
-    "createType": { "title": "Create a type", "description": "Click 'Create Type' to start a new one." },
-    "name": { "title": "Name it", "description": "The category name, like 'Forklift'. Required." },
-    "color": { "title": "Color", "description": "A visual tag to spot this type. Optional." },
-    "properties": { "title": "Properties", "description": "Pick from the fields you defined in Settings. Every asset of this type is then required to fill them in, so a Forklift always carries a Serial Number." },
-    "save": { "title": "Save", "description": "Click 'Create Type' to save." },
+    "openManager": { "title": "Open Asset types", "description": "Open Admin, then Asset types." },
+    "createType": { "title": "Create a type", "description": "Start a new type." },
+    "name": { "title": "Name it", "description": "The kind of asset, like Forklift." },
+    "color": { "title": "Color", "description": "Optional. Helps you spot this type." },
+    "properties": { "title": "Properties", "description": "The fields every asset of this type must fill in." },
+    "save": { "title": "Save", "description": "Create the type." },
     "closeManager": { "title": "Close the manager", "description": "Click Close to get back to the Assets page. Your new type is already saved." },
-    "filter": { "title": "Types are also filters", "description": "Your new type doubles as a filter. On the Assets page, open Filters and use Asset type to see only assets of one kind." },
-    "openDashboard": { "title": "See what it is for", "description": "Open the Dashboard for this company. The type and the fields you just created are what its charts group by." },
-    "widgetByType": { "title": "Assets by type", "description": "This chart counts your assets by the type you gave them, so every type you create appears here on its own. A type with no assets yet stays empty until you add one." },
-    "widgetDwell": { "title": "Avg dwell and transit time", "description": "Grouped by asset type as well, but this one measures time: how long assets of each type sit in one place against how long they spend moving. Pick the period with the selector. It fills in as the trackers on your assets report." },
+    "filter": { "title": "Types are filters too", "description": "On the Assets page, filter by type to see one kind of asset." },
+    "openDashboard": { "title": "See it on the Dashboard", "description": "Open the Dashboard. Its charts group assets by type." },
+    "widgetByType": { "title": "Assets by type", "description": "How many assets of each type. A new type appears once it has assets." },
+    "widgetDwell": { "title": "Avg dwell and transit time", "description": "How long each type stays put, and how long it spends moving." },
     "valueTypes": {
-      "text": { "label": "Text", "description": "Short free text, like a serial number." },
-      "number": { "label": "Number", "description": "A figure you can compare or chart, with an optional unit." },
-      "date": { "label": "Date", "description": "A calendar date, like when it was bought." },
+      "text": { "label": "Text", "description": "Short text, like a serial number." },
+      "number": { "label": "Number", "description": "A number you can compare or chart." },
+      "date": { "label": "Date", "description": "A date, like when it was bought." },
       "dropdown": { "label": "Dropdown", "description": "One choice from a list you write." },
-      "checkbox": { "label": "Checkbox", "description": "A simple yes or no." }
+      "checkbox": { "label": "Checkbox", "description": "Yes or no." }
     },
     "flow": {
-      "definition": { "label": "Property definition", "caption": "A field defined once for the company, like Serial Number." },
-      "type": { "label": "Asset type", "caption": "A template, like Forklift, that requires some of those fields." },
-      "asset": { "label": "Asset", "caption": "One real item of that type, with its own values filled in." },
-      "widgets": { "label": "Dashboard widgets", "caption": "Charts that group your assets by type and by property." }
+      "definition": { "label": "Property definition", "caption": "A field, like Serial Number, defined once per client." },
+      "type": { "label": "Asset type", "caption": "A template, like Forklift, that requires some fields." },
+      "asset": { "label": "Asset", "caption": "One real item of that type." },
+      "widgets": { "label": "Dashboard widgets", "caption": "Charts that group your assets by type." }
     }
   },
   "createAsset": {
     "title": "Add an asset",
-    "summary": "Create one real item you track.",
-    "concept": { "title": "What an asset is", "description": "An asset is one real item you track, like a single forklift. Its type decides which fields it must have, and a device attached to it is what puts it on the map." },
-    "scoping": { "title": "Assets have a home", "description": "An asset lives wherever you've picked in the place picker: a client, building, floor, or zone. Pick the right place before you create it." },
-    "selectOwner": { "title": "Pick where it lives", "description": "Pick the client, building, floor, or zone this asset belongs to in the place picker." },
+    "summary": "Add one real item to track.",
+    "concept": { "title": "What an asset is", "description": "One real item, like a single forklift. Its type sets its fields, and a tracker puts it on the map." },
+    "scoping": { "title": "Assets have a home", "description": "A new asset belongs to the location you've picked." },
+    "selectOwner": { "title": "Pick its home", "description": "In the place picker, pick where this asset belongs." },
     "openAssets": {
       "title": "Open Assets",
-      "description": "Click Assets in the menu for the place you picked.",
-      "description_named": "Click Assets in the menu. Your new asset will be created in {{ownerLevel}} {{ownerName}}."
+      "description": "Open the Assets page.",
+      "description_named": "Open the Assets page. The asset will belong to {{ownerLevel}} {{ownerName}}."
     },
-    "create": { "title": "Add an asset", "description": "An asset is one real thing you track. Click here to open the form." },
-    "wizard": { "title": "Two steps", "description": "This form has two steps. Step 1 is the item itself, step 2 is the device attached to it. The Create button appears at the end of step 2." },
-    "name": { "title": "Name it", "description": "This item's name or ID, like 'Forklift #3'. Required." },
-    "type": { "title": "Its type", "description": "Pick a type. If it has required fields they'll appear below, and Next stays locked until they're filled." },
-    "mandatory": { "title": "Required fields", "description": "Fields marked * are required by the type. Fill them all in; the Next button unlocks once they're complete." },
-    "nextStep": { "title": "On to step 2", "description": "Click Next. Step 1 is saved as you go, and step 2 is where you attach the hardware that reports for this asset." },
-    "devicesStep": { "title": "Step 2: attach a device", "description": "A device is the hardware that reports for this asset. Whatever it reports becomes this asset's position and history. You can leave this empty and attach one later." },
-    "tracker": { "title": "For location, attach a tracker", "description": "An asset only appears on the map if a device of type Tracker is attached to it. Without one the asset still exists and is searchable, it just has no live position." },
-    "finish": { "title": "Create it", "description": "Click Create. Your asset joins the table, appears on the map once its tracker reports, and is counted in the dashboard charts." }
+    "create": { "title": "Add an asset", "description": "Open the form." },
+    "wizard": { "title": "Two steps", "description": "Step 1 is the item, step 2 is its device. Create is at the end." },
+    "name": { "title": "Name it", "description": "Its name or ID, like Forklift #3." },
+    "type": { "title": "Its type", "description": "Its type adds the fields it needs." },
+    "mandatory": { "title": "Required fields", "description": "Fill in the fields marked *. Next unlocks once they're done." },
+    "nextStep": { "title": "On to step 2", "description": "Go to step 2 to attach a device." },
+    "devicesStep": { "title": "Attach a device", "description": "What the device reports becomes this asset's location and history. You can skip this and attach one later." },
+    "tracker": { "title": "Trackers put it on the map", "description": "Only a tracker gives an asset a location:" },
+    "finish": { "title": "Create it", "description": "Create the asset. It appears on the map once its tracker reports." }
   },
   "device": {
     "title": "Add a device",
-    "summary": "Create a tracker and attach it to an asset.",
-    "concept": { "title": "What is a device?", "description": "A device is the hardware that reports data: a tracker that sends location and status, or a repeater that extends coverage. Devices power everything you see about an asset." },
-    "selectOwner": { "title": "Pick where it lives", "description": "Devices have a home, just like assets. Pick the right client, building, floor, or zone in the place picker." },
+    "summary": "Register a tracker or repeater.",
+    "concept": { "title": "What's a device?", "description": "Hardware that reports data. Trackers send location and status; repeaters extend coverage." },
+    "selectOwner": { "title": "Pick its home", "description": "In the place picker, pick where this device belongs." },
     "openDevices": {
       "title": "Open Devices",
-      "description": "Devices are managed on the Devices page. Click Devices in the menu.",
-      "description_named": "Devices are managed on the Devices page. Click Devices in the menu; your device will belong to {{ownerLevel}} {{ownerName}}."
+      "description": "Open the Devices page.",
+      "description_named": "Open the Devices page. The device will belong to {{ownerLevel}} {{ownerName}}."
     },
-    "create": { "title": "Add a device", "description": "Click here to open the device form." },
-    "name": { "title": "Name it", "description": "A recognizable name for this device. Required." },
-    "type": { "title": "Its type", "description": "Choose what this device is:" },
+    "create": { "title": "Add a device", "description": "Open the form." },
+    "name": { "title": "Name it", "description": "A name you'll recognize." },
+    "type": { "title": "Its type", "description": "What it is:" },
     "typeLegend": {
       "tracker": "Reports location and status.",
-      "repeater": "Relays signals from other devices to extend coverage."
+      "repeater": "Relays signals to extend coverage."
     },
-    "save": { "title": "Save", "description": "Click Create to register the device." },
-    "attach": { "title": "Attach it to an asset", "description": "A device on its own only reports raw data. Attach it to an asset and everything it sends is associated with that asset. Open an asset and add the device from its details." },
+    "save": { "title": "Save", "description": "Create the device." },
+    "attach": { "title": "Attach it to an asset", "description": "Attach it to an asset so its data counts for that asset. Do it from the asset's details." },
     "attachData": "location, status, history"
   },
   "settings": {
-    "context": { "title": "Select a client", "description": "Settings are configured per client. Pick a client, the company level, in the place picker first." },
+    "context": { "title": "Pick a client", "description": "These settings are per client. Pick one in the place picker." },
     "open": { "title": "Open Settings", "description": "Open Admin in the menu, then Settings. We'll wait here until you do." },
     "assets": {
-      "title": "Assets",
-      "summary": "Asset templates, inactivity rules, and accuracy.",
-      "tab": { "title": "Asset setup", "description": "Everything about how assets behave for this client. Open Admin, then Asset setup." },
+      "title": "Asset setup",
+      "summary": "When quiet assets go missing, and location accuracy.",
+      "tab": { "title": "Asset setup", "description": "Open Admin, then Asset setup." },
       "config": { "title": "Asset configuration", "description": "Property definitions are the reusable fields your asset types can require. Asset types are the templates themselves. Both are managed from here." },
-      "inactivity": { "title": "Inactivity rules", "description": "Decide when a silent asset should be marked in transit, and later missing, based on how long it has gone without an update." },
-      "accuracy": { "title": "Accuracy threshold", "description": "Set the accuracy, in meters, a location reading needs to appear on floor plans. Weaker readings are hidden unless a user opts in." }
+      "inactivity": { "title": "Inactivity", "description": "When an asset stops reporting, its status changes after the times you set:" },
+      "accuracy": { "title": "Accuracy", "description": "How precise a reading must be, in meters, to show on floor maps." },
+      "ladder": {
+        "AT_HOME": "Reporting as normal.",
+        "IN_TRANSIT": "Quiet past your first limit.",
+        "MISSING": "Quiet past your second limit."
+      }
     },
     "branding": {
       "title": "Branding",
-      "summary": "White label the platform for this client.",
-      "tab": { "title": "Branding", "description": "Make the platform look like this client's own product. Open Admin, then Branding." },
-      "whitelabel": { "title": "White labeling", "description": "Set the platform name, logo, favicon, and every color of the interface. Changes preview live before you save." },
-      "done": { "title": "Their brand, everywhere", "description": "Once saved, everyone under this client sees the platform in these colors, with this name and logo, even on the login page for their domain." }
+      "summary": "Your client's name, logo and colors.",
+      "tab": { "title": "Branding", "description": "Open Admin, then Branding." },
+      "whitelabel": { "title": "Your brand", "description": "Set the name, logo, favicon and colors. You see changes before you save." },
+      "done": { "title": "Applied everywhere", "description": "Everyone in this client sees it, including on their sign-in page." }
     },
     "preferences": {
-      "title": "Preferences",
-      "summary": "Default behaviors for everyone under this client.",
-      "tab": { "title": "Preferences", "description": "Defaults that apply to everyone under this client. Open Admin, then Preferences." },
-      "autoExpand": { "title": "Navigation behavior", "description": "Choose whether the place picker's tree starts fully expanded for users, or collapsed so they drill down themselves." }
+      "title": "Client defaults",
+      "summary": "Defaults for everyone in this client.",
+      "tab": { "title": "Client defaults", "description": "Open Admin, then Client defaults." },
+      "autoExpand": { "title": "Place picker", "description": "Choose whether its tree opens expanded or collapsed." }
     },
     "security": {
-      "title": "Security",
-      "summary": "Session timeout rules for this client.",
-      "tab": { "title": "Security", "description": "Access and session rules. Open Admin, then Security." },
-      "timeout": { "title": "Session timeout", "description": "How long a user can stay inactive before being signed out automatically. Shorter timeouts are safer on shared computers." }
+      "title": "Sign-in & sessions",
+      "summary": "How long an idle session lasts.",
+      "tab": { "title": "Sign-in & sessions", "description": "Open Admin, then Sign-in & sessions." },
+      "timeout": { "title": "Session timeout", "description": "How long someone can be idle before being signed out." }
     }
   },
   "user": {
     "create": {
       "title": "Add someone to the team",
-      "summary": "Create a user, and choose who hears from them.",
+      "summary": "Create a user and set what they can do.",
       "open": {
         "title": "Create a user",
-        "description": "Start here. The form is short: who they are, and what they may do."
+        "description": "Open the form."
       },
       "basic": {
         "title": "Who they are",
-        "description": "Name and email. The email is the account, so it has to be one they can reach: their invitation goes there."
+        "description": "Their name and email. The invitation goes to this email."
       },
       "role": {
         "title": "What they may do",
-        "description": "A role is a bundle of permissions. Pick the smallest one that covers their job, and remember roles are defined by the client that owns them, so the list changes with where you are."
+        "description": "What they can do. Pick the smallest role that fits."
       },
       "level": {
-        "title": "Where they live in the hierarchy",
-        "description": "This is the part the form does not show. A user is created at the location you were standing in, and they stay there. Create someone on Floor 2 and Floor 2 is their home: they see it and everything beneath it, and nothing above it. Moving them later means editing the account, not switching a filter, so it is worth getting right the first time."
+        "title": "Where they belong",
+        "description": "A user belongs to the location you're in now:"
       },
       "external": {
-        "title": "Letting them see elsewhere",
-        "description": "External visibility is the exception to that rule. It grants a user a view into one specific location outside their home branch, with its own role, and nothing else comes with it. Use it for a contractor who works in one building, or a manager who needs to watch a single floor in another client. Each entry is separate, and removing one takes that access away immediately."
+        "title": "Access elsewhere",
+        "description": "Add access to one more location, with its own role. Remove it any time."
       },
       "done": {
-        "title": "That is the whole flow",
-        "description": "The invitation is on its way. Until they accept it the account shows as pending, and you can resend from the row menu."
+        "title": "Done",
+        "description": "Someone you create gets an invitation, and shows as pending until they accept."
+      },
+      "save": {
+        "title": "Create the user",
+        "description": "Create them to send the invitation, or cancel to keep exploring."
       }
     },
     "openUsers": {
       "title": "Open Users",
-      "description": "Everyone you can administer at this location, and below it."
+      "description": "Open Admin, then Users."
     },
     "groups": {
       "open": {
-        "title": "Groups decide who is told",
-        "description": "A rule that raises an alert can address a group instead of everyone. Open this to see the groups at this location."
+        "title": "User groups",
+        "description": "Groups decide who gets an alert. Open Admin, then User groups."
       },
       "new": {
         "title": "Make a group",
-        "description": "Give it a name people will recognise on an alert, then add members. Membership is only intent: access is re-checked whenever anything is actually sent, so a group can never leak to someone who has since lost their access."
+        "description": "Name it and add members. Rules can send their alerts to it."
+      }
+    },
+    "access": {
+      "home": {
+        "label": "Their location",
+        "description": "They see it and everything inside it."
+      },
+      "role": {
+        "label": "Their role",
+        "description": "What they can do there."
+      },
+      "external": {
+        "label": "Access elsewhere",
+        "description": "Optional: one more location, with its own role."
       }
     }
   },
   "rule": {
     "openRules": {
       "title": "Open Rules",
-      "description": "The rules governing this location. Rules made further up or further down the hierarchy are managed where they were created."
+      "description": "Open Admin, then Rules."
     },
     "create": {
       "title": "Build a rule",
-      "summary": "Create one from scratch, then switch it on.",
+      "summary": "Create a rule and turn it on.",
       "concept": {
         "title": "What a rule does",
-        "description": "A rule watches for one kind of event, checks whether it matters, and raises an alert. You build it as a short chain of steps that runs left to right."
+        "description": "It watches for an event and raises an alert:"
       },
       "selectOwner": {
-        "title": "Rules belong to a location",
-        "description": "Pick the client, building, floor or zone this rule should govern. It only ever sees what happens there."
+        "title": "Pick a location",
+        "description": "A rule only watches the location it belongs to."
       },
       "open": {
-        "title": "Start a new rule",
-        "description": "Two things create one: a name, and the event it fires on. Everything else is built afterwards, on the canvas."
+        "title": "Start a rule",
+        "description": "Open the form."
       },
       "name": {
-        "title": "Name it for what it catches",
-        "description": "Something you will recognise in a list of alerts weeks from now, like “Pump left the building”."
+        "title": "Name it",
+        "description": "Name it for what it catches, like “Pump left the building”."
       },
       "trigger": {
-        "title": "Fires when",
-        "description": "The event that starts the chain. Only the triggers that make sense at this level of the hierarchy are listed, so the choice is narrower in a zone than at a client."
+        "title": "Trigger",
+        "description": "The event that starts it. The choices depend on the location."
       },
       "submit": {
         "title": "Create it",
-        "description": "The rule opens on its own canvas, where you finish building it."
+        "description": "Create the rule to open it on its canvas."
       },
       "canvas": {
-        "title": "The chain so far",
-        "description": "Two steps: the trigger you picked, and the alert it raises. Drag a card to move it. The buttons in the corner zoom, fit the chain to the screen, and tidy the layout."
+        "title": "The chain",
+        "description": "Your trigger and its alert. Drag cards to move them."
       },
       "insert": {
-        "title": "Add a step in between",
-        "description": "The plus on the line inserts a step there. Fetch details about the asset or device, or add a check that has to pass before the alert fires."
+        "title": "Add a step",
+        "description": "Click + on a line to add a step there."
       },
       "select": {
         "title": "Open a step",
-        "description": "Click any card to configure it."
+        "description": "Click a card to set it up."
       },
       "inspector": {
         "title": "Step settings",
-        "description": "Everything about the selected step lives here. Close the panel with its X, or press Escape, to get the whole canvas back."
+        "description": "Set up the selected step here."
       },
       "save": {
-        "title": "Nothing saves on its own",
-        "description": "Save when the chain is right. Changes take effect within about a minute, and saving restarts the rule’s memory, so a condition that is already true can raise a fresh alert soon after."
+        "title": "Save",
+        "description": "Save your changes. Nothing saves on its own."
       },
       "enable": {
-        "title": "Switch it on",
-        "description": "Back in the list, the toggle is what makes a rule live. Turn one off at any time without deleting it."
+        "title": "Turn it on",
+        "description": "In the list, the switch turns a rule on or off."
       },
       "done": {
-        "title": "That is the whole loop",
-        "description": "Trigger, optional detail, optional checks, one alert, then on. Open any rule again by clicking its row."
+        "title": "Done",
+        "description": "Open a rule any time by clicking its row."
       }
     },
     "chain": {
-      "title": "How a rule chain works",
-      "summary": "Read a chain, and see where custom properties fit.",
+      "title": "How rules work",
+      "summary": "Read a rule's chain of steps.",
       "list": {
-        "title": "One row, one chain",
-        "description": "Each rule is a short chain of steps that runs in order. The row shows what starts it and how loudly it shouts when it finishes."
+        "title": "Your rules",
+        "description": "Each row is one rule: what starts it, and how serious its alert is."
       },
       "create": {
-        "title": "Starting one",
-        "description": "A new rule begins with its trigger, because everything after it depends on what kind of thing happened."
+        "title": "New rules",
+        "description": "A new rule starts from its trigger."
       },
       "canvas": {
-        "title": "The chain, left to right",
-        "description": "A chain always starts with one trigger and ends with one alert. In between you can fetch more detail about the asset or device, and add checks that decide whether the alert fires at all. Order matters: a step can only use what an earlier step has already fetched."
+        "title": "The chain",
+        "description": "Its steps run in order:"
       },
       "inspector": {
-        "title": "Configuring a step",
-        "description": "Select any step to set it up here. Checks compare a field to a value, and the field list only offers what is actually available at that point in the chain, so you cannot write a check that could never run."
+        "title": "Set up a step",
+        "description": "Checks compare a field to a value. Only fields an earlier step fetched are offered."
       },
       "custom": {
-        "title": "Your own properties are checkable too",
-        "description": "The fields you define on an asset type show up here alongside the built-in ones. They are not automatic: a check can only read them once an earlier step in the chain has fetched that asset. Add the fetch step first, and your properties appear in the field list below it. This is why the chain is drawn in order rather than as a list of settings."
+        "title": "Your own fields",
+        "description": "Your asset type fields can be checked too, once a Details step has fetched the asset."
       },
       "done": {
-        "title": "That is the model",
-        "description": "Trigger, optional detail, optional checks, one alert. Rules never save on their own, so nothing you have looked at has changed."
+        "title": "That's it",
+        "description": "Looking around changes nothing. A rule only changes when you save it."
+      }
+    },
+    "chainSteps": {
+      "trigger": {
+        "label": "Trigger",
+        "caption": "Something happens, like an asset leaving."
+      },
+      "enrich": {
+        "label": "Details",
+        "caption": "Optional: fetch more about the asset or device."
+      },
+      "condition": {
+        "label": "Check",
+        "caption": "Optional: decide whether it matters."
+      },
+      "alert": {
+        "label": "Alert",
+        "caption": "Tell the right people."
       }
     }
   }
