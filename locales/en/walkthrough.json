@@ -208,6 +208,20 @@
       "widgets": { "label": "Dashboard widgets", "caption": "Charts that group your assets by type." }
     }
   },
+  "findAsset": {
+    "title": "Find an asset",
+    "summary": "Pick where to look, search, and see it on the map.",
+    "place": {
+      "title": "Pick where to look",
+      "description": "Assets lists what's in the location you pick here. Pick a client to see everything, or a building or floor to narrow it down.",
+      "description_named": "You're looking in {{ownerLevel}} {{ownerName}}. Pick a building or floor to narrow it down, or the client to see everything."
+    },
+    "search": {
+      "title": "Search",
+      "description": "Type its name or any detail. From any page, Find at the top searches too.",
+      "description_named": "Type its name or any detail to search {{ownerLevel}} {{ownerName}}. From any page, Find at the top searches too."
+    }
+  },
   "createAsset": {
     "title": "Add an asset",
     "summary": "Add one real item to track.",
@@ -270,7 +284,7 @@
       "title": "Branding",
       "summary": "Your client's name, logo and colors.",
       "tab": { "title": "Branding", "description": "Open Admin, then Branding." },
-      "whitelabel": { "title": "Your brand", "description": "Set the name, logo, favicon and colors. You see changes before you save." },
+      "whitelabel": { "title": "Your brand", "description": "Set the name, logo and favicon here, and the colors further down. You see changes before you save." },
       "done": { "title": "Applied everywhere", "description": "Everyone in this client sees it, including on their sign-in page." }
     },
     "preferences": {

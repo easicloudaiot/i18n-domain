@@ -208,6 +208,20 @@
       "widgets": { "label": "Widgets du tableau de bord", "caption": "Des graphiques qui regroupent vos actifs par type." }
     }
   },
+  "findAsset": {
+    "title": "Trouver un actif",
+    "summary": "Choisissez où chercher, recherchez-le et voyez-le sur la carte.",
+    "place": {
+      "title": "Choisissez où chercher",
+      "description": "Actifs liste ce qui se trouve à l'emplacement choisi ici. Choisissez un client pour tout voir, ou un bâtiment ou un étage pour restreindre.",
+      "description_named": "Vous cherchez dans « {{ownerName}} » ({{ownerLevel}}). Choisissez un bâtiment ou un étage pour restreindre, ou le client pour tout voir."
+    },
+    "search": {
+      "title": "Recherchez",
+      "description": "Tapez son nom ou n'importe quel détail. Depuis n'importe quelle page, Rechercher en haut cherche aussi.",
+      "description_named": "Tapez son nom ou n'importe quel détail pour chercher dans « {{ownerName}} » ({{ownerLevel}}). Depuis n'importe quelle page, Rechercher en haut cherche aussi."
+    }
+  },
   "createAsset": {
     "title": "Ajouter un actif",
     "summary": "Ajoutez un élément réel à suivre.",
@@ -270,7 +284,7 @@
       "title": "Image de marque",
       "summary": "Le nom, le logo et les couleurs de votre client.",
       "tab": { "title": "Image de marque", "description": "Ouvrez Administration, puis Image de marque." },
-      "whitelabel": { "title": "Votre marque", "description": "Définissez le nom, le logo, l'icône et les couleurs. Vous voyez les changements avant d'enregistrer." },
+      "whitelabel": { "title": "Votre marque", "description": "Définissez ici le nom, le logo et l'icône, et les couleurs plus bas. Vous voyez les changements avant d'enregistrer." },
       "done": { "title": "Appliquée partout", "description": "Tout le monde dans ce client la voit, y compris sur sa page de connexion." }
     },
     "preferences": {
