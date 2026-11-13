@@ -218,10 +218,11 @@
     },
     "search": {
       "title": "Search",
-      "description": "Type its name or any detail. From any page, Find at the top searches too.",
-      "description_named": "Type its name or any detail to search {{ownerLevel}} {{ownerName}}. From any page, Find at the top searches too."
+      "description": "Type its name or any detail.",
+      "description_named": "Type its name or any detail to search {{ownerLevel}} {{ownerName}}."
     },
-    "found": { "title": "There it is", "description": "Its details open here, and the map moves to where it is now." }
+    "found": { "title": "There it is", "description": "Its details open here, and the map moves to where it is now." },
+    "find": { "title": "Search from any page", "description": "Find, at the top of every page, searches assets, devices and places in the place you've picked, or in all of them. Open it from anywhere with Ctrl K (⌘ K on a Mac)." }
   },
   "createAsset": {
     "title": "Add an asset",

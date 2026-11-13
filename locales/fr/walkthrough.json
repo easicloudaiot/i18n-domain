@@ -218,10 +218,11 @@
     },
     "search": {
       "title": "Recherchez",
-      "description": "Tapez son nom ou n'importe quel détail. Depuis n'importe quelle page, Rechercher en haut cherche aussi.",
-      "description_named": "Tapez son nom ou n'importe quel détail pour chercher dans « {{ownerName}} » ({{ownerLevel}}). Depuis n'importe quelle page, Rechercher en haut cherche aussi."
+      "description": "Tapez son nom ou n'importe quel détail.",
+      "description_named": "Tapez son nom ou n'importe quel détail pour chercher dans « {{ownerName}} » ({{ownerLevel}})."
     },
-    "found": { "title": "Le voilà", "description": "Ses détails s'ouvrent ici, et la carte se place là où il se trouve maintenant." }
+    "found": { "title": "Le voilà", "description": "Ses détails s'ouvrent ici, et la carte se place là où il se trouve maintenant." },
+    "find": { "title": "Recherchez depuis n'importe quelle page", "description": "Rechercher, en haut de chaque page, cherche les actifs, appareils et lieux de l'emplacement choisi, ou de tous. Ouvrez-le de partout avec Ctrl K (⌘ K sur Mac)." }
   },
   "createAsset": {
     "title": "Ajouter un actif",
