@@ -591,7 +591,10 @@
     "widgetType": {
       "count": "Nombre",
       "breakdown": "Répartition",
-      "list": "Liste"
+      "list": "Liste",
+      "dwell": "Temps passé",
+      "traffic": "Arrivées",
+      "journey": "Parcours"
     },
     "chart": {
       "bar": "Barres",
@@ -607,7 +610,11 @@
     "autoTitle": {
       "count": "{{source}}",
       "breakdown": "{{source}} par {{groupBy}}",
-      "list": "{{source}}"
+      "list": "{{source}}",
+      "dwell_closed": "Temps passé ici",
+      "dwell_open": "Encore ici maintenant",
+      "dwell_places": "Temps passé par emplacement",
+      "traffic": "Arrivées et départs"
     },
     "visibility": {
       "PRIVATE": "Vous seul",
@@ -619,7 +626,8 @@
       "name": "Nom",
       "type": "Type",
       "status": "Statut",
-      "location": "Emplacement"
+      "location": "Emplacement",
+      "place": "Emplacement"
     },
     "widget": {
       "count": "Nombre",
@@ -627,7 +635,8 @@
       "noAccess": "Vous n'avez pas accès à ces données ici.",
       "failed": "Impossible de charger ce widget.",
       "unsupportedTitle": "Widget",
-      "unsupported": "Ce widget a été créé dans une version plus récente de l'application et ne peut pas être affiché ici."
+      "unsupported": "Ce widget a été créé dans une version plus récente de l'application et ne peut pas être affiché ici.",
+      "notHere": "Ce widget ne peut pas être affiché à ce niveau."
     },
     "new": {
       "title": "Nouveau rapport",
@@ -666,7 +675,15 @@
       "titlePlaceholder": "Nommé selon ce qu'il montre",
       "titleTooLong": "Limitez le titre à 120 caractères.",
       "size": "Largeur",
-      "preview": "Aperçu"
+      "preview": "Aperçu",
+      "window": "Période",
+      "assetTypes": "Types d'actifs (aucun = tous, jusqu'à {{max}})",
+      "tooManyTypes": "Choisissez au plus 10 types d'actifs.",
+      "measure": "Mesure",
+      "journey": "Parcours",
+      "pickJourney": "Choisissez un parcours",
+      "journeyRequired": "Choisissez un parcours.",
+      "journeyView": "Afficher"
     },
     "toast": {
       "created": "Rapport créé",
@@ -707,6 +724,43 @@
       "clearHome": "Ne plus l'ouvrir en premier",
       "setDefault": "Ouvrir celui-ci en premier, pour tout le monde ici",
       "clearDefault": "Retirer le rapport par défaut de cet emplacement"
+    },
+    "dwell": {
+      "rightNow": "Encore là en ce moment",
+      "medianHours": "Séjour typique (heures)",
+      "stays": "Séjours",
+      "typical": "Typique (p50)",
+      "badDay": "Un mauvais jour (p95)",
+      "average": "Moyenne",
+      "measure": {
+        "closed": "Séjours terminés",
+        "open": "Encore là maintenant",
+        "places": "Par emplacement"
+      }
+    },
+    "traffic": {
+      "summary": "{{window}} · {{entries}} entrées, {{leaves}} sorties",
+      "entries": "Arrivées",
+      "leaves": "Départs",
+      "firstSightings": "Vus pour la première fois"
+    },
+    "journey": {
+      "fallbackName": "Parcours",
+      "gone": "Ce parcours n'existe plus.",
+      "open": "Ouvrir le parcours",
+      "sameAsBefore": "Trajet typique inchangé par rapport à la période précédente ({{before}})",
+      "fasterThanBefore": "Trajet typique {{percent}} % plus rapide que la période précédente ({{before}})",
+      "slowerThanBefore": "Trajet typique {{percent}} % plus lent que la période précédente ({{before}})",
+      "step": "Arrêt ou tronçon",
+      "slowest": "Le plus lent",
+      "share": "Part d'un trajet",
+      "noRuns": "Aucun trajet terminé sur cette période.",
+      "view": {
+        "headline": "Résumé",
+        "steps": "Étapes",
+        "trend": "Tendance",
+        "breaks": "Abandons"
+      }
     }
   },
   "errors": {

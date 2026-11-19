@@ -591,7 +591,10 @@
     "widgetType": {
       "count": "Number",
       "breakdown": "Breakdown",
-      "list": "List"
+      "list": "List",
+      "dwell": "Time spent",
+      "traffic": "Arrivals",
+      "journey": "Journey"
     },
     "chart": {
       "bar": "Bars",
@@ -607,7 +610,11 @@
     "autoTitle": {
       "count": "{{source}}",
       "breakdown": "{{source}} by {{groupBy}}",
-      "list": "{{source}}"
+      "list": "{{source}}",
+      "dwell_closed": "Time spent here",
+      "dwell_open": "Still here now",
+      "dwell_places": "Time spent by place",
+      "traffic": "Arrivals and departures"
     },
     "visibility": {
       "PRIVATE": "Only you",
@@ -619,7 +626,8 @@
       "name": "Name",
       "type": "Type",
       "status": "Status",
-      "location": "Location"
+      "location": "Location",
+      "place": "Place"
     },
     "widget": {
       "count": "Count",
@@ -627,7 +635,8 @@
       "noAccess": "You don't have access to this data here.",
       "failed": "Couldn't load this widget.",
       "unsupportedTitle": "Widget",
-      "unsupported": "This widget was made in a newer version of the app and cannot be shown here."
+      "unsupported": "This widget was made in a newer version of the app and cannot be shown here.",
+      "notHere": "This widget can't be shown at this level."
     },
     "new": {
       "title": "New report",
@@ -666,7 +675,15 @@
       "titlePlaceholder": "Named for what it shows",
       "titleTooLong": "Keep the title to 120 characters.",
       "size": "Width",
-      "preview": "Preview"
+      "preview": "Preview",
+      "window": "Time window",
+      "assetTypes": "Asset types (none = all, up to {{max}})",
+      "tooManyTypes": "Choose at most 10 asset types.",
+      "measure": "Measure",
+      "journey": "Journey",
+      "pickJourney": "Pick a journey",
+      "journeyRequired": "Pick a journey.",
+      "journeyView": "Show"
     },
     "toast": {
       "created": "Report created",
@@ -707,6 +724,43 @@
       "clearHome": "Stop opening this first",
       "setDefault": "Open this first, for everyone here",
       "clearDefault": "Clear this place's default"
+    },
+    "dwell": {
+      "rightNow": "Still there right now",
+      "medianHours": "Typical stay (hours)",
+      "stays": "Stays",
+      "typical": "Typical (p50)",
+      "badDay": "A bad day (p95)",
+      "average": "Average",
+      "measure": {
+        "closed": "Finished stays",
+        "open": "Still there now",
+        "places": "By place"
+      }
+    },
+    "traffic": {
+      "summary": "{{window}} · {{entries}} in, {{leaves}} out",
+      "entries": "Arrivals",
+      "leaves": "Departures",
+      "firstSightings": "First seen"
+    },
+    "journey": {
+      "fallbackName": "Journey",
+      "gone": "This journey no longer exists.",
+      "open": "Open journey",
+      "sameAsBefore": "Typical run unchanged on the previous window ({{before}})",
+      "fasterThanBefore": "Typical run {{percent}}% faster than the previous window ({{before}})",
+      "slowerThanBefore": "Typical run {{percent}}% slower than the previous window ({{before}})",
+      "step": "Stop or leg",
+      "slowest": "Slowest",
+      "share": "Share of a run",
+      "noRuns": "No completed runs in this window.",
+      "view": {
+        "headline": "Headline",
+        "steps": "Steps",
+        "trend": "Trend",
+        "breaks": "Breaks"
+      }
     }
   },
   "errors": {
