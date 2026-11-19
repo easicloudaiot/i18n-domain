@@ -208,6 +208,8 @@
     "unreachable": "No longer has access here",
     "deleteConsequence": "The people in it keep their accounts and access. Any alert rule still addressing this group will reach nobody.",
     "addPeopleAction": "Add people",
-    "addedOnSave": "Added on save"
+    "addedOnSave": "Added on save",
+    "deleteUnsharesReports_one": "The report {{names}} is shared with this group; deleting the group unshares it.",
+    "deleteUnsharesReports_other": "The reports {{names}} are shared with this group; deleting the group unshares them."
   }
 }

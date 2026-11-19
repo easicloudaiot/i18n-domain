@@ -208,6 +208,8 @@
     "unreachable": "N'a plus accès ici",
     "deleteConsequence": "Ses membres conservent leur compte et leurs accès. Toute règle d'alerte qui vise encore ce groupe n'atteindra personne.",
     "addPeopleAction": "Ajouter des personnes",
-    "addedOnSave": "Ajouté à l’enregistrement"
+    "addedOnSave": "Ajouté à l’enregistrement",
+    "deleteUnsharesReports_one": "Le rapport {{names}} est partagé avec ce groupe ; supprimer le groupe annule ce partage.",
+    "deleteUnsharesReports_other": "Les rapports {{names}} sont partagés avec ce groupe ; supprimer le groupe annule ces partages."
   }
 }

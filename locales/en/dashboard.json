@@ -1,5 +1,5 @@
 {
-  "title": "Dashboard",
+  "title": "Reports",
   "noOwnerPrompt": "Pick a location to see its stats",
   "donutCountLabel_one": "asset",
   "donutCountLabel_other": "assets",
@@ -519,10 +519,10 @@
     "download": "Download",
     "loadFailed": "Couldn't load reports, retry",
     "loading": "Loading…",
-    "needOwner": "Choose a company or location in the hierarchy to generate reports.",
+    "needOwner": "Choose a company or location in the hierarchy to generate exports.",
     "noOwner": "No location selected",
-    "noRuns": "No reports yet.",
-    "recentRuns": "Recent reports",
+    "noRuns": "No exports yet.",
+    "recentRuns": "Recent exports",
     "rows_one": "{{count}} row",
     "rows_other": "{{count}} rows",
     "status": {
@@ -532,13 +532,13 @@
       "running": "Generating…",
       "starting": "Starting…"
     },
-    "title": "Reports",
+    "title": "Exports",
     "toast": {
-      "downloadFailed": "Could not download that report.",
-      "failed": "Could not start the report.",
-      "ready": "Report ready to download.",
-      "reused": "That report was already generated — opening the existing run.",
-      "started": "Report started — it'll appear below when ready."
+      "downloadFailed": "Could not download that export.",
+      "failed": "Could not start the export.",
+      "ready": "Export ready to download.",
+      "reused": "That export was already generated — opening the existing run.",
+      "started": "Export started — it'll appear below when ready."
     },
     "page": {
       "dashboard": "Dashboard",
@@ -550,5 +550,175 @@
       "billing": "Billing",
       "settings": "Settings"
     }
+  },
+  "reportPages": {
+    "overview": "Overview",
+    "barLabel": "Reports",
+    "edit": "Edit",
+    "duplicate": "Duplicate",
+    "delete": "Delete report",
+    "deleteShared": "Everyone it is shared with loses it too. This cannot be undone.",
+    "loadFailed": "This report couldn't be opened. It may have been deleted or unshared.",
+    "emptyTitle": "No widgets yet",
+    "emptyEditable": "Add a number, a chart or a list of your assets and devices.",
+    "emptyReadOnly": "Whoever made this report has not added anything to it yet.",
+    "moveEarlier": "Move earlier",
+    "moveLater": "Move later",
+    "editWidget": "Edit widget",
+    "removeWidget": "Remove widget",
+    "stale": "Someone saved this report since you started editing.",
+    "staleReload": "Discard mine and reload",
+    "staleOverwrite": "Save mine over theirs",
+    "unknownBucket": "Not set",
+    "source": {
+      "assets": "Assets",
+      "devices": "Devices"
+    },
+    "groupBy": {
+      "CUSTODY_STATUS": "Custody status",
+      "ASSET_TYPE": "Asset type",
+      "COMPANY": "Client",
+      "BUILDING": "Building",
+      "FLOOR": "Floor",
+      "ZONE": "Zone",
+      "HOME_BUILDING": "Home building",
+      "HOME_FLOOR": "Home floor",
+      "HOME_ZONE": "Home zone",
+      "STATUS": "Status",
+      "DEVICE_TYPE": "Device type",
+      "VENDOR": "Vendor"
+    },
+    "widgetType": {
+      "count": "Number",
+      "breakdown": "Breakdown",
+      "list": "List"
+    },
+    "chart": {
+      "bar": "Bars",
+      "pie": "Pie",
+      "table": "Table"
+    },
+    "size": {
+      "sm": "S",
+      "md": "M",
+      "lg": "L",
+      "full": "Full"
+    },
+    "autoTitle": {
+      "count": "{{source}}",
+      "breakdown": "{{source}} by {{groupBy}}",
+      "list": "{{source}}"
+    },
+    "visibility": {
+      "PRIVATE": "Only you",
+      "GROUPS": "Shared with groups",
+      "LOCATION": "Everyone here",
+      "inherited": "From a place above"
+    },
+    "columns": {
+      "name": "Name",
+      "type": "Type",
+      "status": "Status",
+      "location": "Location"
+    },
+    "widget": {
+      "count": "Count",
+      "empty": "Nothing matches here.",
+      "noAccess": "You don't have access to this data here.",
+      "failed": "Couldn't load this widget.",
+      "unsupportedTitle": "Widget",
+      "unsupported": "This widget was made in a newer version of the app and cannot be shown here."
+    },
+    "new": {
+      "title": "New report",
+      "duplicateTitle": "Duplicate report",
+      "subtitle": "Only you will see it until you share it.",
+      "name": "Name",
+      "namePlaceholder": "Morning check",
+      "description": "Description",
+      "create": "Create report",
+      "copyName": "{{name}} (copy)",
+      "nameRequired": "Give the report a name.",
+      "nameTooLong": "Keep the name to 120 characters.",
+      "descriptionTooLong": "Keep the description to 1000 characters."
+    },
+    "editor": {
+      "addTitle": "Add a widget",
+      "editTitle": "Edit widget",
+      "subtitle": "Pick what to count and how to show it. Everyone sees only the data they may see.",
+      "add": "Add widget",
+      "source": "Count",
+      "show": "Show as",
+      "groupBy": "Split by",
+      "limit": "Show up to",
+      "chart": "Chart",
+      "filters": "Only include",
+      "assetType": "Asset type",
+      "allAssetTypes": "Every asset type",
+      "hasDevices": "Device attached",
+      "deviceStatus": "Device status",
+      "anyStatus": "Any status",
+      "attached": "Attached to an asset",
+      "triAny": "{{label}}: either",
+      "triYes": "{{label}}: yes",
+      "triNo": "{{label}}: no",
+      "title": "Title",
+      "titlePlaceholder": "Named for what it shows",
+      "titleTooLong": "Keep the title to 120 characters.",
+      "size": "Width",
+      "preview": "Preview"
+    },
+    "toast": {
+      "created": "Report created",
+      "saved": "Report saved",
+      "saveFailed": "Could not save the report.",
+      "deleted": "Report deleted",
+      "deleteFailed": "Could not delete the report.",
+      "shared": "Sharing updated",
+      "shareFailed": "Could not change who sees the report.",
+      "defaultSet": "Default report updated",
+      "defaultFailed": "Could not change the default report."
+    },
+    "share": {
+      "button": "Share",
+      "title": "Share \"{{name}}\"",
+      "subtitle": "People only view a shared report. Each widget still shows only the data they may see.",
+      "who": "Who sees it",
+      "option": {
+        "PRIVATE": "Only me",
+        "GROUPS": "Groups",
+        "LOCATION": "Everyone here"
+      },
+      "explainPrivate": "Only you can open it.",
+      "explainGroups": "Members of the groups you choose.",
+      "explainLocation": "Everyone who can open reports at {{place}} and the places within it.",
+      "noGroups": "There are no user groups here or above. Create one in Admin › User groups.",
+      "members_one": "{{count}} member",
+      "members_other": "{{count}} members",
+      "needsGroups": "Choose at least one group.",
+      "tooManyGroups": "Choose at most {{max}} groups.",
+      "cannotNarrow": "Only a report manager here can take the report from people who have it.",
+      "cannotWiden": "You can't share this report more widely.",
+      "clearsDefault": "If this report is the default anywhere, it stops being the default."
+    },
+    "openFirst": {
+      "menu": "Which report opens first",
+      "setHome": "Open this first, for me",
+      "clearHome": "Stop opening this first",
+      "setDefault": "Open this first, for everyone here",
+      "clearDefault": "Clear this place's default"
+    }
+  },
+  "errors": {
+    "REPORT_PAGE_STALE": "Someone saved this report since you opened it. Reload to see their changes.",
+    "REPORT_PAGE_LIMIT_REACHED": "This place already has as many reports as it can keep.",
+    "REPORT_PAGE_INVALID_LAYOUT": "This report could not be saved as it is.",
+    "REPORT_PAGE_INVALID_OWNER": "Reports can be kept at a client, building or floor.",
+    "REPORT_PAGE_NOT_FOUND": "That report no longer exists, or it is no longer shared with you.",
+    "REPORT_PAGE_PERMISSION_DENIED": "You can't change this report.",
+    "REPORT_PAGE_INVALID_SHARING": "Choose between 1 and 20 groups.",
+    "REPORT_PAGE_UNKNOWN_GROUP": "One of those groups no longer exists.",
+    "REPORT_PAGE_GROUP_OUT_OF_REACH": "One of those groups belongs to another place.",
+    "REPORT_PAGE_DEFAULT_NOT_LOCATION": "Only a report shared with the whole place can be its default."
   }
 }

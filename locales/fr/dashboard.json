@@ -1,5 +1,5 @@
 {
-  "title": "Tableau de bord",
+  "title": "Rapports",
   "noOwnerPrompt": "Choisissez un emplacement pour voir ses statistiques",
   "donutCountLabel_one": "actif",
   "donutCountLabel_other": "actifs",
@@ -519,10 +519,10 @@
     "download": "Télécharger",
     "loadFailed": "Impossible de charger les rapports, réessayez",
     "loading": "Chargement…",
-    "needOwner": "Choisissez un client ou un emplacement dans la hiérarchie pour générer des rapports.",
+    "needOwner": "Choisissez un client ou un emplacement dans la hiérarchie pour générer des exportations.",
     "noOwner": "Aucun emplacement sélectionné",
-    "noRuns": "Aucun rapport pour l’instant.",
-    "recentRuns": "Rapports récents",
+    "noRuns": "Aucune exportation pour l'instant.",
+    "recentRuns": "Exportations récentes",
     "rows_one": "{{count}} ligne",
     "rows_other": "{{count}} lignes",
     "status": {
@@ -532,13 +532,13 @@
       "running": "Génération…",
       "starting": "Démarrage…"
     },
-    "title": "Rapports",
+    "title": "Exportations",
     "toast": {
-      "downloadFailed": "Impossible de télécharger ce rapport.",
-      "failed": "Impossible de lancer le rapport.",
-      "ready": "Rapport prêt à télécharger.",
-      "reused": "Ce rapport a déjà été généré — ouverture de l’exécution existante.",
-      "started": "Rapport lancé — il apparaîtra ci-dessous dès qu’il sera prêt."
+      "downloadFailed": "Impossible de télécharger cette exportation.",
+      "failed": "Impossible de lancer l'exportation.",
+      "ready": "Exportation prête à télécharger.",
+      "reused": "Cette exportation a déjà été générée — ouverture de l'exécution existante.",
+      "started": "Exportation lancée — elle apparaîtra ci-dessous une fois prête."
     },
     "page": {
       "dashboard": "Tableau de bord",
@@ -550,5 +550,175 @@
       "billing": "Facturation",
       "settings": "Paramètres"
     }
+  },
+  "reportPages": {
+    "overview": "Vue d'ensemble",
+    "barLabel": "Rapports",
+    "edit": "Modifier",
+    "duplicate": "Dupliquer",
+    "delete": "Supprimer le rapport",
+    "deleteShared": "Toutes les personnes avec qui il est partagé le perdent aussi. Cette action est irréversible.",
+    "loadFailed": "Impossible d'ouvrir ce rapport. Il a peut-être été supprimé ou n'est plus partagé.",
+    "emptyTitle": "Aucun widget pour le moment",
+    "emptyEditable": "Ajoutez un nombre, un graphique ou une liste de vos actifs et appareils.",
+    "emptyReadOnly": "La personne qui a créé ce rapport n'y a encore rien ajouté.",
+    "moveEarlier": "Déplacer avant",
+    "moveLater": "Déplacer après",
+    "editWidget": "Modifier le widget",
+    "removeWidget": "Retirer le widget",
+    "stale": "Quelqu'un a enregistré ce rapport depuis que vous avez commencé à le modifier.",
+    "staleReload": "Abandonner mes modifications et recharger",
+    "staleOverwrite": "Enregistrer les miennes par-dessus",
+    "unknownBucket": "Non défini",
+    "source": {
+      "assets": "Actifs",
+      "devices": "Appareils"
+    },
+    "groupBy": {
+      "CUSTODY_STATUS": "Statut de garde",
+      "ASSET_TYPE": "Type d'actif",
+      "COMPANY": "Client",
+      "BUILDING": "Bâtiment",
+      "FLOOR": "Étage",
+      "ZONE": "Zone",
+      "HOME_BUILDING": "Bâtiment d'attache",
+      "HOME_FLOOR": "Étage d'attache",
+      "HOME_ZONE": "Zone d'attache",
+      "STATUS": "Statut",
+      "DEVICE_TYPE": "Type d'appareil",
+      "VENDOR": "Fournisseur"
+    },
+    "widgetType": {
+      "count": "Nombre",
+      "breakdown": "Répartition",
+      "list": "Liste"
+    },
+    "chart": {
+      "bar": "Barres",
+      "pie": "Secteurs",
+      "table": "Tableau"
+    },
+    "size": {
+      "sm": "P",
+      "md": "M",
+      "lg": "G",
+      "full": "Pleine"
+    },
+    "autoTitle": {
+      "count": "{{source}}",
+      "breakdown": "{{source}} par {{groupBy}}",
+      "list": "{{source}}"
+    },
+    "visibility": {
+      "PRIVATE": "Vous seul",
+      "GROUPS": "Partagé avec des groupes",
+      "LOCATION": "Tout le monde ici",
+      "inherited": "D'un emplacement au-dessus"
+    },
+    "columns": {
+      "name": "Nom",
+      "type": "Type",
+      "status": "Statut",
+      "location": "Emplacement"
+    },
+    "widget": {
+      "count": "Nombre",
+      "empty": "Rien ne correspond ici.",
+      "noAccess": "Vous n'avez pas accès à ces données ici.",
+      "failed": "Impossible de charger ce widget.",
+      "unsupportedTitle": "Widget",
+      "unsupported": "Ce widget a été créé dans une version plus récente de l'application et ne peut pas être affiché ici."
+    },
+    "new": {
+      "title": "Nouveau rapport",
+      "duplicateTitle": "Dupliquer le rapport",
+      "subtitle": "Vous seul le verrez jusqu'à ce que vous le partagiez.",
+      "name": "Nom",
+      "namePlaceholder": "Contrôle du matin",
+      "description": "Description",
+      "create": "Créer le rapport",
+      "copyName": "{{name}} (copie)",
+      "nameRequired": "Donnez un nom au rapport.",
+      "nameTooLong": "Limitez le nom à 120 caractères.",
+      "descriptionTooLong": "Limitez la description à 1000 caractères."
+    },
+    "editor": {
+      "addTitle": "Ajouter un widget",
+      "editTitle": "Modifier le widget",
+      "subtitle": "Choisissez quoi compter et comment l'afficher. Chacun ne voit que les données auxquelles il a accès.",
+      "add": "Ajouter un widget",
+      "source": "Compter",
+      "show": "Afficher comme",
+      "groupBy": "Répartir par",
+      "limit": "Afficher jusqu'à",
+      "chart": "Graphique",
+      "filters": "Inclure seulement",
+      "assetType": "Type d'actif",
+      "allAssetTypes": "Tous les types d'actifs",
+      "hasDevices": "Appareil attaché",
+      "deviceStatus": "Statut de l'appareil",
+      "anyStatus": "Tous les statuts",
+      "attached": "Attaché à un actif",
+      "triAny": "{{label}} : peu importe",
+      "triYes": "{{label}} : oui",
+      "triNo": "{{label}} : non",
+      "title": "Titre",
+      "titlePlaceholder": "Nommé selon ce qu'il montre",
+      "titleTooLong": "Limitez le titre à 120 caractères.",
+      "size": "Largeur",
+      "preview": "Aperçu"
+    },
+    "toast": {
+      "created": "Rapport créé",
+      "saved": "Rapport enregistré",
+      "saveFailed": "Impossible d'enregistrer le rapport.",
+      "deleted": "Rapport supprimé",
+      "deleteFailed": "Impossible de supprimer le rapport.",
+      "shared": "Partage mis à jour",
+      "shareFailed": "Impossible de modifier qui voit le rapport.",
+      "defaultSet": "Rapport par défaut mis à jour",
+      "defaultFailed": "Impossible de modifier le rapport par défaut."
+    },
+    "share": {
+      "button": "Partager",
+      "title": "Partager « {{name}} »",
+      "subtitle": "Les personnes ne font que consulter un rapport partagé. Chaque widget n'affiche que les données auxquelles elles ont accès.",
+      "who": "Qui le voit",
+      "option": {
+        "PRIVATE": "Moi seul",
+        "GROUPS": "Groupes",
+        "LOCATION": "Tout le monde ici"
+      },
+      "explainPrivate": "Vous seul pouvez l'ouvrir.",
+      "explainGroups": "Les membres des groupes que vous choisissez.",
+      "explainLocation": "Toutes les personnes qui peuvent ouvrir des rapports à {{place}} et aux emplacements qu'il contient.",
+      "noGroups": "Aucun groupe d'utilisateurs ici ou au-dessus. Créez-en un dans Admin › Groupes d'utilisateurs.",
+      "members_one": "{{count}} membre",
+      "members_other": "{{count}} membres",
+      "needsGroups": "Choisissez au moins un groupe.",
+      "tooManyGroups": "Choisissez au plus {{max}} groupes.",
+      "cannotNarrow": "Seul un gestionnaire de rapports ici peut retirer le rapport aux personnes qui l'ont.",
+      "cannotWiden": "Vous ne pouvez pas partager ce rapport plus largement.",
+      "clearsDefault": "Si ce rapport est le rapport par défaut quelque part, il cesse de l'être."
+    },
+    "openFirst": {
+      "menu": "Quel rapport s'ouvre en premier",
+      "setHome": "Ouvrir celui-ci en premier, pour moi",
+      "clearHome": "Ne plus l'ouvrir en premier",
+      "setDefault": "Ouvrir celui-ci en premier, pour tout le monde ici",
+      "clearDefault": "Retirer le rapport par défaut de cet emplacement"
+    }
+  },
+  "errors": {
+    "REPORT_PAGE_STALE": "Quelqu'un a enregistré ce rapport depuis que vous l'avez ouvert. Rechargez pour voir ses modifications.",
+    "REPORT_PAGE_LIMIT_REACHED": "Cet emplacement a déjà atteint le nombre maximal de rapports.",
+    "REPORT_PAGE_INVALID_LAYOUT": "Ce rapport ne peut pas être enregistré tel quel.",
+    "REPORT_PAGE_INVALID_OWNER": "Les rapports se conservent au niveau d'un client, d'un bâtiment ou d'un étage.",
+    "REPORT_PAGE_NOT_FOUND": "Ce rapport n'existe plus, ou il n'est plus partagé avec vous.",
+    "REPORT_PAGE_PERMISSION_DENIED": "Vous ne pouvez pas modifier ce rapport.",
+    "REPORT_PAGE_INVALID_SHARING": "Choisissez entre 1 et 20 groupes.",
+    "REPORT_PAGE_UNKNOWN_GROUP": "L'un de ces groupes n'existe plus.",
+    "REPORT_PAGE_GROUP_OUT_OF_REACH": "L'un de ces groupes appartient à un autre emplacement.",
+    "REPORT_PAGE_DEFAULT_NOT_LOCATION": "Seul un rapport partagé avec tout l'emplacement peut en être le rapport par défaut."
   }
 }
