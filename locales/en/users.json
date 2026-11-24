@@ -43,7 +43,8 @@
       "created": "Created",
       "lastUpdated": "Last Updated",
       "lastLogin": "Last Login",
-      "accountStatus": "Account Status"
+      "accountStatus": "Account Status",
+      "phone": "Phone Number"
     },
     "status": {
       "active": "Active",
@@ -73,7 +74,18 @@
     "inactiveHelp": "User cannot log in. Deactivate accounts instead of deleting to preserve audit history.",
     "permissionsNone": "No permissions",
     "rolesPlatformOnly": "Showing platform roles only — your access does not reach this client’s own catalog.",
-    "deleteNotAllowed": "You need manage access to users here to delete this user."
+    "deleteNotAllowed": "You need manage access to users here to delete this user.",
+    "noPhone": "None",
+    "phonePlaceholder": "+1 416 555 0100",
+    "phoneHelp": "Optional. The call center can phone them about alerts once they agree to automated calls in their own profile.",
+    "validation": {
+      "phoneInvalid": "Include the country code, like +1 416 555 0100"
+    },
+    "callConsent": {
+      "agreed": "Agreed to automated calls on {{date}}.",
+      "notAgreed": "Hasn't agreed to automated calls. Only they can, in their own profile.",
+      "changeWithdraws": "Changing the number turns calls off until they agree again."
+    }
   },
   "fields": {
     "phone": "Phone",

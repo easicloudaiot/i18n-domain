@@ -286,7 +286,21 @@
     "defaultUser": "Utilisateur",
     "deleteAccount": "Supprimer le compte",
     "deleteAccountInstructions": "Supprimez définitivement votre compte et vos données personnelles. Les actifs, appareils et données de votre organisation ne sont pas touchés.",
-    "deleteAccountAction": "Supprimer mon compte…"
+    "deleteAccountAction": "Supprimer mon compte…",
+    "phone": {
+      "section": "Téléphone et appels automatisés",
+      "label": "Numéro de téléphone",
+      "placeholder": "+1 416 555 0100",
+      "invalid": "Incluez l'indicatif du pays, par exemple +1 416 555 0100",
+      "consentLabel": "J'accepte de recevoir des appels automatisés au sujet des alertes à ce numéro.",
+      "consentHelp": "Lorsque quelqu'un envoie une alerte au centre d'appels, celui-ci peut vous appeler.",
+      "consentNeedsPhone": "Ajoutez un numéro de téléphone pour activer les appels automatisés.",
+      "changeWithdraws": "Changer de numéro désactive les appels automatisés jusqu'à ce que vous acceptiez de nouveau.",
+      "agreedOn": "Vous avez accepté le {{date}}.",
+      "saved": "Vos paramètres de téléphone ont été enregistrés",
+      "saveFailed": "Impossible d'enregistrer vos paramètres de téléphone",
+      "loadFailed": "Impossible de charger votre numéro de téléphone."
+    }
   },
   "notifications": {
     "title": "Notifications",
@@ -351,7 +365,38 @@
     },
     "viewStock": "Voir le stock à cet emplacement",
     "undismiss": "Remettre dans mes alertes",
-    "linkedAlertNotListed": "L'alerte de votre courriel ne figure pas dans cette liste — elle est peut-être plus ancienne que les alertes affichées, ou hors de votre portée."
+    "linkedAlertNotListed": "L'alerte de votre courriel ne figure pas dans cette liste — elle est peut-être plus ancienne que les alertes affichées, ou hors de votre portée.",
+    "callCenter": {
+      "button": "Envoyer au centre d'appels",
+      "title": "Envoyer au centre d'appels",
+      "subtitle": "Cette personne recevra un seul appel automatisé au sujet de cette alerte. Pas pour les urgences.",
+      "question": "Qui le centre d'appels doit-il appeler ?",
+      "search": "Rechercher par nom",
+      "noMatches": "Personne ne correspond à cette recherche.",
+      "unnamed": "Utilisateur sans nom",
+      "reasons": {
+        "noPhone": "Aucun numéro de téléphone dans son profil",
+        "noConsent": "N'a pas accepté les appels automatisés"
+      },
+      "noneCallable": "Personne ici ne peut encore être appelé. Chacun ajoute un numéro de téléphone et accepte les appels automatisés dans son propre profil (Mon profil › Profil).",
+      "nobodyTitle": "Personne ne reçoit cette alerte",
+      "nobodyDescription": "Le centre d'appels ne peut appeler que les personnes à qui cette alerte est envoyée.",
+      "confirm": "Le centre d'appels appellera {{name}} au sujet de cette alerte.",
+      "send": "Envoyer au centre d'appels",
+      "sent": "Envoyé au centre d'appels. {{name}} sera appelé.",
+      "errors": {
+        "notAllowed": "Cette personne ne peut pas être appelée au sujet de cette alerte.",
+        "noPhone": "Cette personne n'a plus de numéro de téléphone dans son profil.",
+        "noConsent": "Cette personne n'a pas accepté les appels automatisés.",
+        "forbidden": "Vous n'avez pas la permission d'agir sur cette alerte.",
+        "notFound": "Cette alerte n'existe plus, ou vous ne pouvez plus la voir.",
+        "alreadySent": "Cette alerte a déjà été envoyée au centre d'appels pour cette personne il y a quelques minutes.",
+        "unavailable": "Le centre d'appels n'a pas pu prendre la demande. Réessayez plus tard.",
+        "timeout": "Le centre d'appels n'a pas répondu à temps. Il pourrait quand même appeler : attendez quelques minutes avant de réessayer.",
+        "notConfigured": "L'envoi au centre d'appels n'est pas disponible ici.",
+        "failed": "Impossible d'envoyer cette alerte au centre d'appels."
+      }
+    }
   },
   "changelog": {
     "title": "Activité",

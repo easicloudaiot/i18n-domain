@@ -286,7 +286,21 @@
     "defaultUser": "User",
     "deleteAccount": "Delete account",
     "deleteAccountInstructions": "Permanently delete your account and your personal data. Your organization's assets, devices and data are not affected.",
-    "deleteAccountAction": "Delete my account…"
+    "deleteAccountAction": "Delete my account…",
+    "phone": {
+      "section": "Phone and automated calls",
+      "label": "Phone number",
+      "placeholder": "+1 416 555 0100",
+      "invalid": "Include the country code, like +1 416 555 0100",
+      "consentLabel": "I agree to receive automated phone calls about alerts at this number.",
+      "consentHelp": "When someone sends an alert to the call center, it can phone you.",
+      "consentNeedsPhone": "Add a phone number to turn on automated calls.",
+      "changeWithdraws": "Changing your number turns off automated calls until you agree again.",
+      "agreedOn": "You agreed on {{date}}.",
+      "saved": "Your phone settings were saved",
+      "saveFailed": "Couldn't save your phone settings",
+      "loadFailed": "Couldn't load your phone number."
+    }
   },
   "notifications": {
     "title": "Notifications",
@@ -351,7 +365,38 @@
     },
     "viewStock": "View stock at this location",
     "undismiss": "Restore to my alerts",
-    "linkedAlertNotListed": "The alert from your email is not in this list — it may be older than the alerts shown, or outside what you can see."
+    "linkedAlertNotListed": "The alert from your email is not in this list — it may be older than the alerts shown, or outside what you can see.",
+    "callCenter": {
+      "button": "Send to call center",
+      "title": "Send to the call center",
+      "subtitle": "They'll get one automated call about this alert. Not for emergencies.",
+      "question": "Who should the call center call?",
+      "search": "Search by name",
+      "noMatches": "Nobody matches that search.",
+      "unnamed": "Unnamed user",
+      "reasons": {
+        "noPhone": "No phone number on their profile",
+        "noConsent": "Hasn't agreed to automated calls"
+      },
+      "noneCallable": "Nobody here can be called yet. People add a phone number and agree to automated calls in their own profile (My profile › Profile).",
+      "nobodyTitle": "Nobody receives this alert",
+      "nobodyDescription": "The call center can only call people this alert is sent to.",
+      "confirm": "The call center will call {{name}} about this alert.",
+      "send": "Send to call center",
+      "sent": "Sent to the call center. They'll call {{name}}.",
+      "errors": {
+        "notAllowed": "That person can't be called about this alert.",
+        "noPhone": "That person no longer has a phone number on their profile.",
+        "noConsent": "That person hasn't agreed to automated calls.",
+        "forbidden": "You don't have permission to act on this alert.",
+        "notFound": "This alert no longer exists, or you can no longer see it.",
+        "alreadySent": "This was already sent to the call center for that person in the last few minutes.",
+        "unavailable": "The call center couldn't take the request. Try again later.",
+        "timeout": "The call center didn't answer in time. It may still call, so wait a few minutes before trying again.",
+        "notConfigured": "Sending to the call center isn't available here.",
+        "failed": "Couldn't send this to the call center."
+      }
+    }
   },
   "changelog": {
     "title": "Activity",

@@ -43,7 +43,8 @@
       "created": "Créé",
       "lastUpdated": "Dernière mise à jour",
       "lastLogin": "Dernière connexion",
-      "accountStatus": "Statut du compte"
+      "accountStatus": "Statut du compte",
+      "phone": "Numéro de téléphone"
     },
     "status": {
       "active": "Actif",
@@ -73,7 +74,18 @@
     "inactiveHelp": "L'utilisateur ne peut pas se connecter. Désactivez les comptes au lieu de les supprimer pour préserver l'historique d'audit.",
     "permissionsNone": "Aucune permission",
     "rolesPlatformOnly": "Seuls les rôles de la plateforme sont affichés : vos accès ne couvrent pas le catalogue propre à ce client.",
-    "deleteNotAllowed": "Vous devez pouvoir gérer les utilisateurs ici pour supprimer cet utilisateur."
+    "deleteNotAllowed": "Vous devez pouvoir gérer les utilisateurs ici pour supprimer cet utilisateur.",
+    "noPhone": "Aucun",
+    "phonePlaceholder": "+1 416 555 0100",
+    "phoneHelp": "Facultatif. Le centre d'appels pourra appeler cette personne au sujet des alertes une fois qu'elle aura accepté les appels automatisés dans son propre profil.",
+    "validation": {
+      "phoneInvalid": "Incluez l'indicatif du pays, par exemple +1 416 555 0100"
+    },
+    "callConsent": {
+      "agreed": "A accepté les appels automatisés le {{date}}.",
+      "notAgreed": "N'a pas accepté les appels automatisés. Seule cette personne peut le faire, dans son propre profil.",
+      "changeWithdraws": "Changer le numéro désactive les appels jusqu'à ce que la personne accepte de nouveau."
+    }
   },
   "fields": {
     "phone": "Téléphone",
