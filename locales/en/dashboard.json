@@ -594,7 +594,8 @@
       "list": "List",
       "dwell": "Time spent",
       "traffic": "Arrivals",
-      "journey": "Journey"
+      "journey": "Journey",
+      "stats": "Counts"
     },
     "chart": {
       "bar": "Bars",
@@ -614,7 +615,8 @@
       "dwell_closed": "Time spent here",
       "dwell_open": "Still here now",
       "dwell_places": "Time spent by place",
-      "traffic": "Arrivals and departures"
+      "traffic": "Arrivals and departures",
+      "stats": "Assets, devices and users"
     },
     "visibility": {
       "PRIVATE": "Only you",
@@ -683,7 +685,15 @@
       "journey": "Journey",
       "pickJourney": "Pick a journey",
       "journeyRequired": "Pick a journey.",
-      "journeyView": "Show"
+      "journeyView": "Show",
+      "statsHelp": "The same counts as the Overview: assets by status, devices active and inactive, and users, for wherever the report is opened.",
+      "either": "Either",
+      "pickSubtitle": "What do you want to see? Everyone sees only the data they may see.",
+      "sectionData": "What to show",
+      "sectionDisplay": "How to show it",
+      "sectionName": "Name and width",
+      "showAs": "Show as",
+      "changeData": "Change data"
     },
     "toast": {
       "created": "Report created",
@@ -760,6 +770,19 @@
         "steps": "Steps",
         "trend": "Trend",
         "breaks": "Breaks"
+      }
+    },
+    "aboutReport": "About {{name}}",
+    "gallery": {
+      "now": "Right now",
+      "overTime": "Over time",
+      "about": {
+        "assets": "Count, split or list assets, by status, type or place.",
+        "devices": "Count, split or list trackers and repeaters, by status, type or vendor.",
+        "stats": "Assets, devices and users here, as on the Overview.",
+        "dwell": "How long assets stay here, by type or by place.",
+        "traffic": "Arrivals, departures and first sightings over a time window.",
+        "journey": "One journey's runs: headline, steps, trend or breaks."
       }
     }
   },

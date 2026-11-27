@@ -594,7 +594,8 @@
       "list": "Liste",
       "dwell": "Temps passé",
       "traffic": "Arrivées",
-      "journey": "Parcours"
+      "journey": "Parcours",
+      "stats": "Totaux"
     },
     "chart": {
       "bar": "Barres",
@@ -614,7 +615,8 @@
       "dwell_closed": "Temps passé ici",
       "dwell_open": "Encore ici maintenant",
       "dwell_places": "Temps passé par emplacement",
-      "traffic": "Arrivées et départs"
+      "traffic": "Arrivées et départs",
+      "stats": "Actifs, appareils et utilisateurs"
     },
     "visibility": {
       "PRIVATE": "Vous seul",
@@ -683,7 +685,15 @@
       "journey": "Parcours",
       "pickJourney": "Choisissez un parcours",
       "journeyRequired": "Choisissez un parcours.",
-      "journeyView": "Afficher"
+      "journeyView": "Afficher",
+      "statsHelp": "Les mêmes totaux que la vue d'ensemble : les actifs par statut, les appareils actifs et inactifs, et les utilisateurs, là où le rapport est ouvert.",
+      "either": "Peu importe",
+      "pickSubtitle": "Que voulez-vous voir ? Chacun ne voit que les données auxquelles il a accès.",
+      "sectionData": "Quoi afficher",
+      "sectionDisplay": "Comment l'afficher",
+      "sectionName": "Nom et largeur",
+      "showAs": "Afficher en",
+      "changeData": "Changer de données"
     },
     "toast": {
       "created": "Rapport créé",
@@ -760,6 +770,19 @@
         "steps": "Étapes",
         "trend": "Tendance",
         "breaks": "Abandons"
+      }
+    },
+    "aboutReport": "À propos de {{name}}",
+    "gallery": {
+      "now": "En ce moment",
+      "overTime": "Sur une période",
+      "about": {
+        "assets": "Compter, répartir ou lister les actifs, par statut, type ou emplacement.",
+        "devices": "Compter, répartir ou lister les traceurs et répéteurs, par statut, type ou fournisseur.",
+        "stats": "Les actifs, appareils et utilisateurs d'ici, comme dans la vue d'ensemble.",
+        "dwell": "Combien de temps les actifs restent ici, par type ou par emplacement.",
+        "traffic": "Arrivées, départs et premières détections sur une période.",
+        "journey": "Les trajets d'un parcours : résumé, étapes, tendance ou abandons."
       }
     }
   },
